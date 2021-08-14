@@ -1,0 +1,167 @@
+
+servant96.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L_shou_ider
+  rotate: false
+  xy: 569, 2
+  size: 156, 146
+  orig: 156, 146
+  offset: 0, 0
+  index: -1
+eyebiyan
+  rotate: false
+  xy: 1000, 554
+  size: 61, 15
+  orig: 61, 15
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 1830, 851
+  size: 95, 155
+  orig: 95, 155
+  offset: 0, 0
+  index: -1
+huzi1
+  rotate: false
+  xy: 1320, 277
+  size: 53, 37
+  orig: 53, 37
+  offset: 0, 0
+  index: -1
+kaijia1
+  rotate: false
+  xy: 1320, 316
+  size: 125, 282
+  orig: 125, 282
+  offset: 0, 0
+  index: -1
+kaijia2
+  rotate: false
+  xy: 1554, 702
+  size: 78, 225
+  orig: 78, 225
+  offset: 0, 0
+  index: -1
+kaijia3
+  rotate: true
+  xy: 1554, 612
+  size: 88, 124
+  orig: 88, 124
+  offset: 0, 0
+  index: -1
+kaijia4
+  rotate: false
+  xy: 544, 541
+  size: 454, 348
+  orig: 454, 348
+  offset: 0, 0
+  index: -1
+l_foot
+  rotate: false
+  xy: 1444, 612
+  size: 108, 315
+  orig: 108, 315
+  offset: 0, 0
+  index: -1
+l_hand
+  rotate: false
+  xy: 2, 149
+  size: 540, 857
+  orig: 540, 857
+  offset: 0, 0
+  index: -1
+l_lower_leg
+  rotate: false
+  xy: 1447, 379
+  size: 177, 231
+  orig: 177, 231
+  offset: 0, 0
+  index: -1
+maozi1
+  rotate: true
+  xy: 1282, 929
+  size: 77, 351
+  orig: 77, 351
+  offset: 0, 0
+  index: -1
+maozi2
+  rotate: true
+  xy: 2, 27
+  size: 120, 380
+  orig: 120, 380
+  offset: 0, 0
+  index: -1
+r_foot
+  rotate: false
+  xy: 1307, 600
+  size: 135, 327
+  orig: 135, 327
+  offset: 0, 0
+  index: -1
+r_hand
+  rotate: false
+  xy: 544, 891
+  size: 736, 115
+  orig: 736, 115
+  offset: 0, 0
+  index: -1
+r_lower_leg
+  rotate: true
+  xy: 1635, 843
+  size: 163, 193
+  orig: 163, 193
+  offset: 0, 0
+  index: -1
+r_shou_lder
+  rotate: false
+  xy: 384, 14
+  size: 183, 133
+  orig: 183, 133
+  offset: 0, 0
+  index: -1
+shenti1
+  rotate: true
+  xy: 1000, 571
+  size: 318, 305
+  orig: 318, 305
+  offset: 0, 0
+  index: -1
+shenti2
+  rotate: false
+  xy: 544, 150
+  size: 325, 389
+  orig: 325, 389
+  offset: 0, 0
+  index: -1
+toukui
+  rotate: false
+  xy: 727, 45
+  size: 115, 103
+  orig: 115, 103
+  offset: 0, 0
+  index: -1
+toukui2
+  rotate: false
+  xy: 1107, 135
+  size: 200, 106
+  orig: 200, 106
+  offset: 0, 0
+  index: -1
+yaodai
+  rotate: false
+  xy: 1107, 243
+  size: 211, 326
+  orig: 211, 326
+  offset: 0, 0
+  index: -1
+yifu1
+  rotate: false
+  xy: 871, 145
+  size: 234, 394
+  orig: 234, 394
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,125 @@
+
+jiarentuoyi74.png
+size: 1917,920
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ehuan1_1
+  rotate: false
+  xy: 1610, 669
+  size: 27, 50
+  orig: 27, 50
+  offset: 0, 0
+  index: -1
+hair1_1
+  rotate: false
+  xy: 1356, 63
+  size: 317, 385
+  orig: 317, 385
+  offset: 0, 0
+  index: -1
+hair1_2
+  rotate: true
+  xy: 310, 43
+  size: 115, 277
+  orig: 115, 277
+  offset: 0, 0
+  index: -1
+hair1_3
+  rotate: true
+  xy: 2, 48
+  size: 110, 306
+  orig: 110, 306
+  offset: 0, 0
+  index: -1
+hair2_1
+  rotate: false
+  xy: 589, 5
+  size: 96, 153
+  orig: 96, 153
+  offset: 0, 0
+  index: -1
+head1_1
+  rotate: false
+  xy: 2, 2
+  size: 111, 44
+  orig: 111, 44
+  offset: 0, 0
+  index: -1
+head1_2
+  rotate: true
+  xy: 731, 484
+  size: 133, 185
+  orig: 133, 185
+  offset: 0, 0
+  index: -1
+l_arm1_1
+  rotate: true
+  xy: 954, 450
+  size: 269, 654
+  orig: 269, 654
+  offset: 0, 0
+  index: -1
+l_shoulder1_1
+  rotate: true
+  xy: 1675, 20
+  size: 116, 194
+  orig: 116, 194
+  offset: 0, 0
+  index: -1
+l_upper_leg1_1
+  rotate: true
+  xy: 954, 721
+  size: 197, 748
+  orig: 197, 748
+  offset: 0, 0
+  index: -1
+r_shoulder1_1
+  rotate: true
+  xy: 731, 6
+  size: 169, 540
+  orig: 169, 540
+  offset: 0, 0
+  index: -1
+r_upper_leg1_1
+  rotate: true
+  xy: 731, 177
+  size: 271, 623
+  orig: 271, 623
+  offset: 0, 0
+  index: -1
+r_upper_leg1_2
+  rotate: true
+  xy: 2, 619
+  size: 299, 950
+  orig: 299, 950
+  offset: 0, 0
+  index: -1
+torso1_1
+  rotate: false
+  xy: 1704, 622
+  size: 211, 296
+  orig: 211, 296
+  offset: 0, 0
+  index: -1
+torso1_2
+  rotate: false
+  xy: 1675, 138
+  size: 211, 482
+  orig: 211, 482
+  offset: 0, 0
+  index: -1
+torso1_3
+  rotate: true
+  xy: 2, 160
+  size: 457, 727
+  orig: 457, 727
+  offset: 0, 0
+  index: -1
+yy1_1
+  rotate: false
+  xy: 1273, 115
+  size: 31, 60
+  orig: 31, 60
+  offset: 0, 0
+  index: -1

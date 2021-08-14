@@ -1,0 +1,167 @@
+
+servant303.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+erh1
+  rotate: false
+  xy: 1526, 277
+  size: 38, 55
+  orig: 38, 55
+  offset: 0, 0
+  index: -1
+eye
+  rotate: true
+  xy: 663, 314
+  size: 89, 30
+  orig: 89, 30
+  offset: 0, 0
+  index: -1
+hair_1
+  rotate: true
+  xy: 1441, 179
+  size: 42, 68
+  orig: 42, 68
+  offset: 0, 0
+  index: -1
+hair_2
+  rotate: false
+  xy: 1566, 284
+  size: 45, 48
+  orig: 45, 48
+  offset: 0, 0
+  index: -1
+hair_3
+  rotate: false
+  xy: 1365, 164
+  size: 74, 168
+  orig: 74, 168
+  offset: 0, 0
+  index: -1
+hair_4
+  rotate: false
+  xy: 1305, 143
+  size: 58, 189
+  orig: 58, 189
+  offset: 0, 0
+  index: -1
+hair_5
+  rotate: false
+  xy: 1239, 123
+  size: 64, 182
+  orig: 64, 182
+  offset: 0, 0
+  index: -1
+hair_da
+  rotate: false
+  xy: 391, 165
+  size: 270, 238
+  orig: 270, 238
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 1646, 538
+  size: 190, 213
+  orig: 190, 213
+  offset: 0, 0
+  index: -1
+knife
+  rotate: false
+  xy: 358, 405
+  size: 349, 617
+  orig: 349, 617
+  offset: 0, 0
+  index: -1
+l_foot
+  rotate: false
+  xy: 709, 453
+  size: 301, 569
+  orig: 301, 569
+  offset: 0, 0
+  index: -1
+l_leg
+  rotate: true
+  xy: 709, 307
+  size: 125, 594
+  orig: 125, 594
+  offset: 0, 0
+  index: -1
+l_shouder
+  rotate: false
+  xy: 1441, 223
+  size: 83, 109
+  orig: 83, 109
+  offset: 0, 0
+  index: -1
+prop_y
+  rotate: true
+  xy: 1396, 593
+  size: 135, 248
+  orig: 135, 248
+  offset: 0, 0
+  index: -1
+qint1
+  rotate: true
+  xy: 1305, 334
+  size: 98, 326
+  orig: 98, 326
+  offset: 0, 0
+  index: -1
+qunhh
+  rotate: false
+  xy: 1012, 593
+  size: 382, 429
+  orig: 382, 429
+  offset: 0, 0
+  index: -1
+qunq
+  rotate: true
+  xy: 2, 140
+  size: 198, 387
+  orig: 198, 387
+  offset: 0, 0
+  index: -1
+qunt
+  rotate: true
+  xy: 1012, 434
+  size: 157, 596
+  orig: 157, 596
+  offset: 0, 0
+  index: -1
+r_arm
+  rotate: false
+  xy: 1865, 586
+  size: 181, 436
+  orig: 181, 436
+  offset: 0, 0
+  index: -1
+r_foot
+  rotate: true
+  xy: 2, 2
+  size: 136, 522
+  orig: 136, 522
+  offset: 0, 0
+  index: -1
+r_leg
+  rotate: true
+  xy: 663, 127
+  size: 178, 574
+  orig: 178, 574
+  offset: 0, 0
+  index: -1
+shield
+  rotate: false
+  xy: 2, 340
+  size: 354, 682
+  orig: 354, 682
+  offset: 0, 0
+  index: -1
+torso
+  rotate: true
+  xy: 1396, 730
+  size: 292, 467
+  orig: 292, 467
+  offset: 0, 0
+  index: -1

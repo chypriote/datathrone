@@ -1,0 +1,243 @@
+
+servant18.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bell01
+  rotate: false
+  xy: 631, 387
+  size: 257, 83
+  orig: 257, 83
+  offset: 0, 0
+  index: -1
+body01
+  rotate: false
+  xy: 522, 639
+  size: 273, 383
+  orig: 273, 383
+  offset: 0, 0
+  index: -1
+body2
+  rotate: true
+  xy: 2, 14
+  size: 249, 323
+  orig: 249, 323
+  offset: 0, 0
+  index: -1
+face
+  rotate: true
+  xy: 167, 268
+  size: 96, 116
+  orig: 96, 116
+  offset: 0, 0
+  index: -1
+hair01
+  rotate: false
+  xy: 258, 547
+  size: 36, 77
+  orig: 36, 77
+  offset: 0, 0
+  index: -1
+hat01
+  rotate: true
+  xy: 890, 399
+  size: 71, 73
+  orig: 71, 73
+  offset: 0, 0
+  index: -1
+hat02
+  rotate: true
+  xy: 937, 42
+  size: 150, 84
+  orig: 150, 84
+  offset: 0, 0
+  index: -1
+huzi01
+  rotate: true
+  xy: 287, 449
+  size: 96, 29
+  orig: 96, 29
+  offset: 0, 0
+  index: -1
+huzi02
+  rotate: false
+  xy: 285, 297
+  size: 40, 67
+  orig: 40, 67
+  offset: 0, 0
+  index: -1
+huzi03
+  rotate: false
+  xy: 522, 379
+  size: 107, 91
+  orig: 107, 91
+  offset: 0, 0
+  index: -1
+huzi04
+  rotate: false
+  xy: 258, 784
+  size: 54, 84
+  orig: 54, 84
+  offset: 0, 0
+  index: -1
+huzi05
+  rotate: false
+  xy: 867, 36
+  size: 68, 156
+  orig: 68, 156
+  offset: 0, 0
+  index: -1
+huziq01
+  rotate: true
+  xy: 937, 2
+  size: 38, 67
+  orig: 38, 67
+  offset: 0, 0
+  index: -1
+huziq02
+  rotate: false
+  xy: 296, 556
+  size: 29, 68
+  orig: 29, 68
+  offset: 0, 0
+  index: -1
+huziq03
+  rotate: false
+  xy: 287, 390
+  size: 22, 57
+  orig: 23, 57
+  offset: 1, 0
+  index: -1
+huzir01
+  rotate: false
+  xy: 258, 626
+  size: 41, 87
+  orig: 41, 87
+  offset: 0, 0
+  index: -1
+huzir02
+  rotate: false
+  xy: 258, 715
+  size: 52, 67
+  orig: 56, 68
+  offset: 3, 0
+  index: -1
+l_hand1
+  rotate: false
+  xy: 167, 366
+  size: 118, 127
+  orig: 118, 127
+  offset: 0, 0
+  index: -1
+l_xiuzi01
+  rotate: true
+  xy: 327, 19
+  size: 173, 538
+  orig: 173, 538
+  offset: 0, 0
+  index: -1
+l_xiuzi02
+  rotate: false
+  xy: 167, 495
+  size: 89, 527
+  orig: 89, 527
+  offset: 0, 0
+  index: -1
+r_arm01
+  rotate: false
+  xy: 797, 662
+  size: 140, 360
+  orig: 140, 360
+  offset: 0, 0
+  index: -1
+r_arm02
+  rotate: true
+  xy: 522, 472
+  size: 165, 430
+  orig: 165, 430
+  offset: 0, 0
+  index: -1
+r_arm04
+  rotate: false
+  xy: 939, 649
+  size: 83, 373
+  orig: 83, 373
+  offset: 0, 0
+  index: -1
+r_hand01
+  rotate: false
+  xy: 258, 870
+  size: 60, 85
+  orig: 60, 85
+  offset: 0, 0
+  index: -1
+r_hand02
+  rotate: true
+  xy: 867, 2
+  size: 32, 46
+  orig: 32, 46
+  offset: 0, 0
+  index: -1
+r_hand03
+  rotate: false
+  xy: 954, 552
+  size: 68, 95
+  orig: 68, 95
+  offset: 0, 0
+  index: -1
+weapon01
+  rotate: false
+  xy: 2, 265
+  size: 163, 757
+  orig: 163, 757
+  offset: 0, 0
+  index: -1
+yifu001
+  rotate: false
+  xy: 327, 361
+  size: 193, 661
+  orig: 193, 661
+  offset: 0, 0
+  index: -1
+yifu002
+  rotate: true
+  xy: 258, 957
+  size: 65, 63
+  orig: 65, 63
+  offset: 0, 0
+  index: -1
+yifu003
+  rotate: true
+  xy: 327, 194
+  size: 165, 645
+  orig: 165, 645
+  offset: 0, 0
+  index: -1
+
+servant182.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+l_arm01
+  rotate: true
+  xy: 262, 11
+  size: 115, 155
+  orig: 115, 155
+  offset: 0, 0
+  index: -1
+l_arm02
+  rotate: true
+  xy: 2, 2
+  size: 124, 258
+  orig: 124, 258
+  offset: 0, 0
+  index: -1
+r_arm03
+  rotate: false
+  xy: 419, 48
+  size: 149, 78
+  orig: 149, 78
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,27 @@
+
+ui_changjingjing.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ws_glow
+  rotate: false
+  xy: 2, 52
+  size: 71, 71
+  orig: 71, 71
+  offset: 0, 0
+  index: -1
+yanjing
+  rotate: false
+  xy: 2, 12
+  size: 100, 38
+  orig: 100, 38
+  offset: 0, 0
+  index: -1
+zhizhu
+  rotate: false
+  xy: 75, 66
+  size: 50, 57
+  orig: 50, 57
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,17 @@
+{
+  "au_checkupdate": "Checking the resource bundle updating",
+  "au_update": "Loading",
+  "reserr_0": "I/O error",
+  "reserr_1_0": "Network error",
+  "reserr_1_1": "The download file could not be found and the resources may not be synchronized.",
+  "reserr_2": "File check error",
+  "reserr_3": "File unzip error",
+  "alert_title": "Error",
+  "alert_retry": "Retry",
+  "gwerr_net": "Network error",
+  "gwerr_json": "Telefile format error",
+  "prompt_title": "",
+  "prompt_content": "",
+  "prompt_ok": "",
+  "copyFiles_title": ""
+}

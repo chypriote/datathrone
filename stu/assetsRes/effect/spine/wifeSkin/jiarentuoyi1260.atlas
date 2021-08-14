@@ -1,0 +1,132 @@
+
+jiarentuoyi1260.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+biyan
+  rotate: false
+  xy: 2, 6
+  size: 110, 31
+  orig: 110, 31
+  offset: 0, 0
+  index: -1
+hair_1
+  rotate: false
+  xy: 498, 144
+  size: 172, 99
+  orig: 172, 99
+  offset: 0, 0
+  index: -1
+hair_2
+  rotate: true
+  xy: 1698, 686
+  size: 85, 216
+  orig: 85, 216
+  offset: 0, 0
+  index: -1
+hair_3
+  rotate: true
+  xy: 672, 135
+  size: 94, 228
+  orig: 94, 228
+  offset: 0, 0
+  index: -1
+hair_4
+  rotate: false
+  xy: 498, 667
+  size: 385, 355
+  orig: 385, 355
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 1488, 689
+  size: 208, 232
+  orig: 208, 232
+  offset: 0, 0
+  index: -1
+l_hand
+  rotate: true
+  xy: 498, 245
+  size: 420, 192
+  orig: 420, 192
+  offset: 0, 0
+  index: -1
+l_shoulder
+  rotate: false
+  xy: 1698, 773
+  size: 164, 165
+  orig: 164, 165
+  offset: 0, 0
+  index: -1
+l_upper_leg
+  rotate: false
+  xy: 275, 115
+  size: 221, 907
+  orig: 221, 907
+  offset: 0, 0
+  index: -1
+leikui
+  rotate: false
+  xy: 692, 231
+  size: 243, 147
+  orig: 243, 147
+  offset: 0, 0
+  index: -1
+qunzi
+  rotate: true
+  xy: 1196, 923
+  size: 99, 453
+  orig: 99, 453
+  offset: 0, 0
+  index: -1
+qunzihouaaa
+  rotate: true
+  xy: 1196, 692
+  size: 229, 290
+  orig: 229, 290
+  offset: 0, 0
+  index: -1
+r_arm
+  rotate: false
+  xy: 933, 524
+  size: 89, 197
+  orig: 89, 197
+  offset: 0, 0
+  index: -1
+r_shoulder
+  rotate: true
+  xy: 1651, 940
+  size: 82, 274
+  orig: 82, 274
+  offset: 0, 0
+  index: -1
+r_upper_leg
+  rotate: false
+  xy: 2, 39
+  size: 271, 983
+  orig: 271, 983
+  offset: 0, 0
+  index: -1
+torso_1
+  rotate: false
+  xy: 885, 723
+  size: 309, 299
+  orig: 309, 299
+  offset: 0, 0
+  index: -1
+torso_2
+  rotate: false
+  xy: 275, 2
+  size: 260, 111
+  orig: 260, 111
+  offset: 0, 0
+  index: -1
+torso_3
+  rotate: true
+  xy: 692, 380
+  size: 285, 239
+  orig: 285, 239
+  offset: 0, 0
+  index: -1

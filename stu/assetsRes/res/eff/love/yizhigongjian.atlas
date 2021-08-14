@@ -1,0 +1,27 @@
+
+yizhigongjian.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sjbs_gong
+  rotate: false
+  xy: 2, 288
+  size: 427, 725
+  orig: 427, 725
+  offset: 0, 0
+  index: -1
+sjbs_jian_1
+  rotate: false
+  xy: 2, 2
+  size: 238, 284
+  orig: 238, 284
+  offset: 0, 0
+  index: -1
+sjbs_xian
+  rotate: false
+  xy: 431, 322
+  size: 394, 691
+  orig: 394, 691
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,146 @@
+
+jiarentuoyi1211.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bozhi
+  rotate: false
+  xy: 1890, 629
+  size: 57, 98
+  orig: 57, 98
+  offset: 0, 0
+  index: -1
+bu
+  rotate: false
+  xy: 1755, 373
+  size: 24, 50
+  orig: 24, 50
+  offset: 0, 0
+  index: -1
+hair_1
+  rotate: true
+  xy: 460, 269
+  size: 62, 204
+  orig: 62, 204
+  offset: 0, 0
+  index: -1
+hair_11
+  rotate: true
+  xy: 1589, 383
+  size: 40, 164
+  orig: 40, 164
+  offset: 0, 0
+  index: -1
+hair_12
+  rotate: false
+  xy: 1451, 367
+  size: 136, 225
+  orig: 136, 225
+  offset: 0, 0
+  index: -1
+hair_2
+  rotate: false
+  xy: 1123, 264
+  size: 100, 311
+  orig: 100, 311
+  offset: 0, 0
+  index: -1
+hair_3
+  rotate: true
+  xy: 1225, 243
+  size: 101, 178
+  orig: 101, 178
+  offset: 0, 0
+  index: -1
+hair_4
+  rotate: true
+  xy: 2, 2
+  size: 163, 213
+  orig: 163, 213
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 1573, 610
+  size: 315, 396
+  orig: 315, 396
+  offset: 0, 0
+  index: -1
+l_arm
+  rotate: true
+  xy: 1781, 407
+  size: 201, 151
+  orig: 201, 151
+  offset: 0, 0
+  index: -1
+l_shoulder
+  rotate: false
+  xy: 1890, 729
+  size: 143, 277
+  orig: 143, 277
+  offset: 0, 0
+  index: -1
+l_upper_leg
+  rotate: false
+  xy: 2, 167
+  size: 196, 839
+  orig: 196, 839
+  offset: 0, 0
+  index: -1
+qunzhi
+  rotate: false
+  xy: 1189, 594
+  size: 382, 412
+  orig: 382, 412
+  offset: 0, 0
+  index: -1
+qunzhi_qian
+  rotate: false
+  xy: 751, 577
+  size: 436, 429
+  orig: 436, 429
+  offset: 0, 0
+  index: -1
+r_shoulder
+  rotate: false
+  xy: 460, 333
+  size: 289, 673
+  orig: 289, 673
+  offset: 0, 0
+  index: -1
+r_upper_leg
+  rotate: false
+  xy: 200, 246
+  size: 258, 760
+  orig: 258, 760
+  offset: 0, 0
+  index: -1
+torso
+  rotate: true
+  xy: 751, 262
+  size: 313, 370
+  orig: 313, 370
+  offset: 0, 0
+  index: -1
+torso_2
+  rotate: false
+  xy: 1225, 346
+  size: 224, 246
+  orig: 224, 246
+  offset: 0, 0
+  index: -1
+tui_yingzhi
+  rotate: false
+  xy: 1589, 425
+  size: 190, 183
+  orig: 190, 183
+  offset: 0, 0
+  index: -1
+yanpi
+  rotate: false
+  xy: 666, 290
+  size: 73, 41
+  orig: 73, 41
+  offset: 0, 0
+  index: -1

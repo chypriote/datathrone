@@ -1,0 +1,132 @@
+
+jiarentuoyi206.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hair_1
+  rotate: true
+  xy: 378, 220
+  size: 93, 466
+  orig: 93, 466
+  offset: 0, 0
+  index: -1
+hair_yingzhi
+  rotate: true
+  xy: 1381, 335
+  size: 67, 336
+  orig: 67, 336
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 1760, 397
+  size: 168, 214
+  orig: 168, 214
+  offset: 0, 0
+  index: -1
+l_erhuan
+  rotate: true
+  xy: 846, 272
+  size: 41, 141
+  orig: 41, 141
+  offset: 0, 0
+  index: -1
+l_erhuan_yingzhi
+  rotate: true
+  xy: 649, 174
+  size: 44, 109
+  orig: 44, 109
+  offset: 0, 0
+  index: -1
+l_hand
+  rotate: false
+  xy: 294, 101
+  size: 65, 85
+  orig: 65, 85
+  offset: 0, 0
+  index: -1
+l_lower_leg
+  rotate: false
+  xy: 1106, 251
+  size: 273, 433
+  orig: 273, 433
+  offset: 0, 0
+  index: -1
+l_shoulder
+  rotate: false
+  xy: 1381, 404
+  size: 377, 313
+  orig: 377, 313
+  offset: 0, 0
+  index: -1
+l_upper_leg
+  rotate: false
+  xy: 1800, 567
+  size: 240, 432
+  orig: 240, 432
+  offset: 0, 0
+  index: -1
+neikudaizhi
+  rotate: true
+  xy: 378, 158
+  size: 60, 269
+  orig: 60, 269
+  offset: 0, 0
+  index: -1
+neikudaizhi_yingzhi
+  rotate: true
+  xy: 1381, 280
+  size: 53, 288
+  orig: 53, 288
+  offset: 0, 0
+  index: -1
+r_erhuan
+  rotate: false
+  xy: 1976, 442
+  size: 34, 123
+  orig: 34, 123
+  offset: 0, 0
+  index: -1
+r_shoulder
+  rotate: true
+  xy: 2, 2
+  size: 184, 290
+  orig: 184, 290
+  offset: 0, 0
+  index: -1
+r_upper_leg
+  rotate: true
+  xy: 378, 686
+  size: 313, 827
+  orig: 313, 827
+  offset: 0, 0
+  index: -1
+torso
+  rotate: true
+  xy: 1207, 719
+  size: 280, 591
+  orig: 280, 591
+  offset: 0, 0
+  index: -1
+yanpi
+  rotate: false
+  xy: 1207, 691
+  size: 94, 26
+  orig: 94, 26
+  offset: 0, 0
+  index: -1
+yifu
+  rotate: false
+  xy: 2, 188
+  size: 374, 811
+  orig: 374, 811
+  offset: 0, 0
+  index: -1
+yifuhoumian
+  rotate: true
+  xy: 378, 315
+  size: 369, 726
+  orig: 369, 726
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,62 @@
+
+an_nvshuiman.png
+size: 809,387
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/xin_mange_00000
+  rotate: false
+  xy: 366, 225
+  size: 221, 160
+  orig: 256, 256
+  offset: 21, 50
+  index: -1
+image/xin_mange_00001
+  rotate: false
+  xy: 589, 228
+  size: 218, 157
+  orig: 256, 256
+  offset: 24, 53
+  index: -1
+image/xin_mange_00002
+  rotate: false
+  xy: 2, 7
+  size: 226, 160
+  orig: 256, 256
+  offset: 16, 52
+  index: -1
+image/xin_mange_00003
+  rotate: true
+  xy: 431, 7
+  size: 216, 160
+  orig: 256, 256
+  offset: 24, 51
+  index: -1
+image/xin_mange_00004
+  rotate: false
+  xy: 593, 66
+  size: 209, 160
+  orig: 256, 256
+  offset: 25, 51
+  index: -1
+image/xin_mange_00005
+  rotate: true
+  xy: 178, 186
+  size: 199, 186
+  orig: 256, 256
+  offset: 21, 25
+  index: -1
+image/xin_mange_00006
+  rotate: false
+  xy: 230, 2
+  size: 199, 182
+  orig: 256, 256
+  offset: 22, 28
+  index: -1
+image/xin_mange_00007
+  rotate: true
+  xy: 2, 169
+  size: 216, 174
+  orig: 256, 256
+  offset: 27, 36
+  index: -1

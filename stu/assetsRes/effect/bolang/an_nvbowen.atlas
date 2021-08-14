@@ -1,0 +1,62 @@
+
+an_nvbowen.png
+size: 220,544
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/Xin_bowen_00000
+  rotate: false
+  xy: 2, 414
+  size: 215, 63
+  orig: 220, 68
+  offset: 5, 0
+  index: -1
+image/Xin_bowen_00001
+  rotate: false
+  xy: 2, 219
+  size: 214, 63
+  orig: 220, 68
+  offset: 6, 0
+  index: -1
+image/Xin_bowen_00002
+  rotate: true
+  xy: 2, 2
+  size: 215, 62
+  orig: 220, 68
+  offset: 5, 0
+  index: -1
+image/Xin_bowen_00003
+  rotate: false
+  xy: 2, 349
+  size: 215, 63
+  orig: 220, 68
+  offset: 5, 0
+  index: -1
+image/Xin_bowen_00004
+  rotate: false
+  xy: 2, 284
+  size: 215, 63
+  orig: 220, 68
+  offset: 5, 0
+  index: -1
+image/Xin_bowen_00005
+  rotate: false
+  xy: 2, 479
+  size: 216, 63
+  orig: 220, 68
+  offset: 4, 0
+  index: -1
+image/Xin_bowen_00006
+  rotate: true
+  xy: 66, 4
+  size: 213, 61
+  orig: 220, 68
+  offset: 5, 2
+  index: -1
+image/Xin_bowen_00007
+  rotate: true
+  xy: 129, 3
+  size: 214, 60
+  orig: 220, 68
+  offset: 5, 3
+  index: -1

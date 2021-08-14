@@ -1,0 +1,286 @@
+
+servant1090.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fei  yumao  1
+  rotate: false
+  xy: 1645, 71
+  size: 98, 72
+  orig: 98, 72
+  offset: 0, 0
+  index: -1
+fei  yumao_ 2
+  rotate: true
+  xy: 2, 28
+  size: 45, 133
+  orig: 45, 133
+  offset: 0, 0
+  index: -1
+fei  yumao_3
+  rotate: true
+  xy: 2038, 253
+  size: 21, 8
+  orig: 21, 8
+  offset: 0, 0
+  index: -1
+fei  yumao_4
+  rotate: false
+  xy: 632, 2
+  size: 17, 7
+  orig: 17, 7
+  offset: 0, 0
+  index: -1
+fei  yumao_5
+  rotate: true
+  xy: 2038, 236
+  size: 15, 8
+  orig: 16, 8
+  offset: 1, 0
+  index: -1
+fei  yumao_6
+  rotate: true
+  xy: 1745, 62
+  size: 81, 51
+  orig: 81, 51
+  offset: 0, 0
+  index: -1
+fei  yumao_7
+  rotate: false
+  xy: 237, 39
+  size: 50, 34
+  orig: 51, 34
+  offset: 0, 0
+  index: -1
+fei  yumao_8
+  rotate: true
+  xy: 44, 3
+  size: 23, 29
+  orig: 23, 29
+  offset: 0, 0
+  index: -1
+hudejie_1
+  rotate: true
+  xy: 2018, 463
+  size: 47, 22
+  orig: 47, 22
+  offset: 0, 0
+  index: -1
+hudejie_2
+  rotate: false
+  xy: 137, 40
+  size: 98, 33
+  orig: 98, 33
+  offset: 0, 0
+  index: -1
+hudejie_3
+  rotate: true
+  xy: 137, 2
+  size: 36, 35
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+hudejie_4
+  rotate: false
+  xy: 1990, 295
+  size: 56, 58
+  orig: 56, 58
+  offset: 0, 0
+  index: -1
+huzi  1
+  rotate: true
+  xy: 1285, 205
+  size: 60, 27
+  orig: 60, 27
+  offset: 0, 0
+  index: -1
+huzi  2
+  rotate: true
+  xy: 1990, 268
+  size: 25, 44
+  orig: 25, 44
+  offset: 0, 0
+  index: -1
+huzi  3
+  rotate: true
+  xy: 174, 7
+  size: 31, 46
+  orig: 31, 46
+  offset: 0, 0
+  index: -1
+huzi  4
+  rotate: true
+  xy: 2, 2
+  size: 24, 40
+  orig: 24, 40
+  offset: 0, 0
+  index: -1
+huzi  5
+  rotate: false
+  xy: 2008, 93
+  size: 20, 43
+  orig: 20, 43
+  offset: 0, 0
+  index: -1
+ji
+  rotate: false
+  xy: 2, 75
+  size: 467, 435
+  orig: 467, 435
+  offset: 0, 0
+  index: -1
+ji  chibang
+  rotate: true
+  xy: 1317, 113
+  size: 166, 180
+  orig: 166, 181
+  offset: 0, 0
+  index: -1
+ji  chibang  1
+  rotate: false
+  xy: 471, 2
+  size: 159, 200
+  orig: 159, 200
+  offset: 0, 0
+  index: -1
+jiwei_1
+  rotate: false
+  xy: 1042, 177
+  size: 241, 88
+  orig: 241, 88
+  offset: 0, 0
+  index: -1
+jiwei_2
+  rotate: true
+  xy: 1499, 108
+  size: 171, 144
+  orig: 171, 144
+  offset: 0, 0
+  index: -1
+jiwei_3
+  rotate: true
+  xy: 1938, 138
+  size: 127, 98
+  orig: 127, 98
+  offset: 0, 0
+  index: -1
+jizhua
+  rotate: false
+  xy: 1804, 267
+  size: 184, 86
+  orig: 184, 86
+  offset: 0, 0
+  index: -1
+l_biyan
+  rotate: false
+  xy: 1285, 189
+  size: 25, 14
+  orig: 25, 14
+  offset: 0, 0
+  index: -1
+r_biyan
+  rotate: true
+  xy: 2036, 276
+  size: 17, 10
+  orig: 17, 10
+  offset: 0, 0
+  index: -1
+shangshen
+  rotate: true
+  xy: 1565, 282
+  size: 228, 237
+  orig: 228, 237
+  offset: 0, 0
+  index: -1
+tou
+  rotate: true
+  xy: 1790, 147
+  size: 118, 146
+  orig: 118, 146
+  offset: 0, 0
+  index: -1
+toufa  1
+  rotate: false
+  xy: 1876, 90
+  size: 60, 55
+  orig: 60, 55
+  offset: 0, 0
+  index: -1
+toufa  2
+  rotate: false
+  xy: 289, 29
+  size: 47, 44
+  orig: 47, 44
+  offset: 0, 0
+  index: -1
+toufa  3
+  rotate: false
+  xy: 1798, 62
+  size: 66, 37
+  orig: 66, 37
+  offset: 0, 0
+  index: -1
+xiashen
+  rotate: true
+  xy: 1317, 281
+  size: 229, 246
+  orig: 229, 246
+  offset: 0, 0
+  index: -1
+yiling
+  rotate: false
+  xy: 1798, 101
+  size: 76, 44
+  orig: 77, 44
+  offset: 0, 0
+  index: -1
+youda  bi
+  rotate: true
+  xy: 632, 11
+  size: 191, 133
+  orig: 191, 133
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: false
+  xy: 471, 204
+  size: 295, 306
+  orig: 295, 306
+  offset: 0, 0
+  index: -1
+youzhitou  1
+  rotate: true
+  xy: 1938, 93
+  size: 43, 68
+  orig: 43, 68
+  offset: 0, 0
+  index: -1
+zuo  dabi
+  rotate: false
+  xy: 768, 206
+  size: 272, 304
+  orig: 272, 304
+  offset: 0, 0
+  index: -1
+zuo  shou
+  rotate: false
+  xy: 1804, 355
+  size: 212, 155
+  orig: 213, 155
+  offset: 0, 0
+  index: -1
+zuo  tui
+  rotate: false
+  xy: 1042, 267
+  size: 273, 243
+  orig: 273, 243
+  offset: 0, 0
+  index: -1
+zuo  zhitou  1
+  rotate: false
+  xy: 1645, 145
+  size: 143, 135
+  orig: 143, 135
+  offset: 0, 0
+  index: -1

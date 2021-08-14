@@ -1,0 +1,146 @@
+
+servant101.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+QZ1_1
+  rotate: false
+  xy: 2, 51
+  size: 400, 459
+  orig: 402, 461
+  offset: 1, 1
+  index: -1
+biyan
+  rotate: false
+  xy: 2, 4
+  size: 99, 45
+  orig: 101, 47
+  offset: 1, 1
+  index: -1
+bozi
+  rotate: false
+  xy: 1371, 199
+  size: 74, 99
+  orig: 76, 101
+  offset: 1, 1
+  index: -1
+bozi2
+  rotate: true
+  xy: 836, 254
+  size: 58, 40
+  orig: 60, 42
+  offset: 1, 1
+  index: -1
+kaijia
+  rotate: false
+  xy: 404, 35
+  size: 352, 277
+  orig: 354, 279
+  offset: 1, 1
+  index: -1
+pifeng1
+  rotate: true
+  xy: 893, 405
+  size: 105, 478
+  orig: 107, 480
+  offset: 1, 1
+  index: -1
+pifeng2
+  rotate: true
+  xy: 1500, 145
+  size: 153, 300
+  orig: 155, 302
+  offset: 1, 1
+  index: -1
+qunzi1
+  rotate: true
+  xy: 1802, 183
+  size: 145, 186
+  orig: 147, 188
+  offset: 1, 1
+  index: -1
+qunzi3
+  rotate: true
+  xy: 758, 32
+  size: 158, 343
+  orig: 160, 345
+  offset: 1, 1
+  index: -1
+tou
+  rotate: true
+  xy: 1281, 2
+  size: 192, 217
+  orig: 194, 219
+  offset: 1, 1
+  index: -1
+toufa1
+  rotate: false
+  xy: 1990, 433
+  size: 30, 77
+  orig: 32, 79
+  offset: 1, 1
+  index: -1
+toufa2
+  rotate: false
+  xy: 758, 200
+  size: 76, 112
+  orig: 78, 114
+  offset: 1, 1
+  index: -1
+toufa3
+  rotate: true
+  xy: 1500, 14
+  size: 129, 194
+  orig: 131, 196
+  offset: 1, 1
+  index: -1
+yaodai
+  rotate: true
+  xy: 1373, 300
+  size: 210, 380
+  orig: 212, 382
+  offset: 1, 1
+  index: -1
+youshou
+  rotate: true
+  xy: 404, 314
+  size: 196, 487
+  orig: 198, 489
+  offset: 1, 1
+  index: -1
+youshoubi
+  rotate: false
+  xy: 1755, 330
+  size: 233, 180
+  orig: 235, 182
+  offset: 1, 1
+  index: -1
+youshoubi1
+  rotate: true
+  xy: 1696, 40
+  size: 103, 166
+  orig: 105, 168
+  offset: 1, 1
+  index: -1
+zuoshou
+  rotate: false
+  xy: 1271, 196
+  size: 98, 207
+  orig: 100, 209
+  offset: 1, 1
+  index: -1
+zuoshoubi
+  rotate: true
+  xy: 1103, 25
+  size: 165, 176
+  orig: 167, 178
+  offset: 1, 1
+  index: -1
+zuoshoubi1
+  rotate: true
+  xy: 893, 192
+  size: 211, 376
+  orig: 213, 378
+  offset: 1, 1
+  index: -1

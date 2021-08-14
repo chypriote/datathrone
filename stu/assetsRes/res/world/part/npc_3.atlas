@@ -1,0 +1,55 @@
+
+npc_3.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eye
+  rotate: false
+  xy: 2, 2
+  size: 56, 10
+  orig: 56, 10
+  offset: 0, 0
+  index: -1
+qunzi
+  rotate: false
+  xy: 2, 14
+  size: 268, 438
+  orig: 268, 438
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 455, 190
+  size: 218, 262
+  orig: 218, 262
+  offset: 0, 0
+  index: -1
+shou1
+  rotate: false
+  xy: 272, 89
+  size: 181, 363
+  orig: 181, 363
+  offset: 0, 0
+  index: -1
+shu2
+  rotate: true
+  xy: 675, 238
+  size: 74, 317
+  orig: 74, 317
+  offset: 0, 0
+  index: -1
+tou
+  rotate: true
+  xy: 455, 61
+  size: 127, 166
+  orig: 127, 166
+  offset: 0, 0
+  index: -1
+xiuzi
+  rotate: false
+  xy: 675, 314
+  size: 279, 138
+  orig: 279, 138
+  offset: 0, 0
+  index: -1

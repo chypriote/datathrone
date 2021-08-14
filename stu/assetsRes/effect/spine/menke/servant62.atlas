@@ -1,0 +1,495 @@
+
+servant62.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gong
+  rotate: true
+  xy: 2, 134
+  size: 1005, 208
+  orig: 1005, 208
+  offset: 0, 0
+  index: -1
+hair_1
+  rotate: false
+  xy: 1855, 1545
+  size: 178, 208
+  orig: 178, 208
+  offset: 0, 0
+  index: -1
+hair_2
+  rotate: true
+  xy: 971, 1272
+  size: 79, 357
+  orig: 79, 357
+  offset: 0, 0
+  index: -1
+hair_3
+  rotate: true
+  xy: 1981, 1862
+  size: 69, 36
+  orig: 69, 36
+  offset: 0, 0
+  index: -1
+hair_4
+  rotate: true
+  xy: 1981, 1933
+  size: 113, 56
+  orig: 113, 56
+  offset: 0, 0
+  index: -1
+l_arm
+  rotate: true
+  xy: 2, 9
+  size: 123, 265
+  orig: 123, 265
+  offset: 0, 0
+  index: -1
+l_foot
+  rotate: false
+  xy: 1186, 98
+  size: 118, 168
+  orig: 118, 168
+  offset: 0, 0
+  index: -1
+mao1
+  rotate: false
+  xy: 1306, 18
+  size: 256, 144
+  orig: 256, 144
+  offset: 0, 0
+  index: -1
+mao2
+  rotate: true
+  xy: 693, 1143
+  size: 168, 239
+  orig: 168, 239
+  offset: 0, 0
+  index: -1
+mao3
+  rotate: false
+  xy: 784, 211
+  size: 89, 49
+  orig: 89, 49
+  offset: 0, 0
+  index: -1
+mao4
+  rotate: false
+  xy: 1916, 1154
+  size: 111, 228
+  orig: 111, 228
+  offset: 0, 0
+  index: -1
+qun
+  rotate: false
+  xy: 2, 1141
+  size: 689, 905
+  orig: 689, 905
+  offset: 0, 0
+  index: -1
+r_foot
+  rotate: false
+  xy: 1900, 392
+  size: 135, 172
+  orig: 135, 172
+  offset: 0, 0
+  index: -1
+r_hand
+  rotate: false
+  xy: 693, 1332
+  size: 75, 714
+  orig: 75, 714
+  offset: 0, 0
+  index: -1
+torso
+  rotate: false
+  xy: 212, 657
+  size: 296, 482
+  orig: 296, 482
+  offset: 0, 0
+  index: -1
+wawa
+  rotate: true
+  xy: 1677, 5
+  size: 157, 214
+  orig: 157, 214
+  offset: 0, 0
+  index: -1
+waxilisha_saoguang_00000
+  rotate: false
+  xy: 976, 1755
+  size: 199, 291
+  orig: 199, 291
+  offset: 0, 0
+  index: -1
+waxilisha_saoguang_00001
+  rotate: false
+  xy: 290, 364
+  size: 199, 291
+  orig: 199, 291
+  offset: 0, 0
+  index: -1
+waxilisha_saoguang_00002
+  rotate: false
+  xy: 1177, 1755
+  size: 199, 291
+  orig: 199, 291
+  offset: 0, 0
+  index: -1
+waxilisha_saoguang_00003
+  rotate: false
+  xy: 1378, 1755
+  size: 199, 291
+  orig: 199, 291
+  offset: 0, 0
+  index: -1
+waxilisha_saoguang_00004
+  rotate: false
+  xy: 1579, 1755
+  size: 199, 291
+  orig: 199, 291
+  offset: 0, 0
+  index: -1
+waxilisha_saoguang_00005
+  rotate: false
+  xy: 1780, 1755
+  size: 199, 291
+  orig: 199, 291
+  offset: 0, 0
+  index: -1
+waxilisha_saoguang_00006
+  rotate: false
+  xy: 510, 848
+  size: 199, 291
+  orig: 199, 291
+  offset: 0, 0
+  index: -1
+waxilisha_saoguang_00007
+  rotate: false
+  xy: 770, 1313
+  size: 199, 291
+  orig: 199, 291
+  offset: 0, 0
+  index: -1
+waxilisha_saoguang_00008
+  rotate: true
+  xy: 976, 1554
+  size: 199, 291
+  orig: 199, 291
+  offset: 0, 0
+  index: -1
+waxilisha_saoguang_00009
+  rotate: true
+  xy: 1269, 1554
+  size: 199, 291
+  orig: 199, 291
+  offset: 0, 0
+  index: -1
+waxilisha_saoguang_00010
+  rotate: true
+  xy: 1562, 1554
+  size: 199, 291
+  orig: 199, 291
+  offset: 0, 0
+  index: -1
+waxilisha_saoguang_00011
+  rotate: true
+  xy: 971, 1353
+  size: 199, 291
+  orig: 199, 291
+  offset: 0, 0
+  index: -1
+waxilisha_saoguang_00012
+  rotate: true
+  xy: 1264, 1353
+  size: 199, 291
+  orig: 199, 291
+  offset: 0, 0
+  index: -1
+waxilisha_saoguang_00013
+  rotate: true
+  xy: 1557, 1353
+  size: 199, 291
+  orig: 199, 291
+  offset: 0, 0
+  index: -1
+waxilisha_saoguang_00014
+  rotate: false
+  xy: 290, 71
+  size: 199, 291
+  orig: 199, 291
+  offset: 0, 0
+  index: -1
+waxilisha_saoguang_00015
+  rotate: false
+  xy: 510, 555
+  size: 199, 291
+  orig: 199, 291
+  offset: 0, 0
+  index: -1
+waxilisha_saoguang_00016
+  rotate: false
+  xy: 491, 262
+  size: 199, 291
+  orig: 199, 291
+  offset: 0, 0
+  index: -1
+waxilisha_saoguang_00017
+  rotate: true
+  xy: 491, 61
+  size: 199, 291
+  orig: 199, 291
+  offset: 0, 0
+  index: -1
+waxilisha_saoguang_00018
+  rotate: false
+  xy: 692, 262
+  size: 199, 291
+  orig: 199, 291
+  offset: 0, 0
+  index: -1
+waxilisha_saoguang_00019
+  rotate: true
+  xy: 1330, 1152
+  size: 199, 291
+  orig: 199, 291
+  offset: 0, 0
+  index: -1
+waxilisha_saoguang_00020
+  rotate: true
+  xy: 1623, 1152
+  size: 199, 291
+  orig: 199, 291
+  offset: 0, 0
+  index: -1
+waxilisha_saoguang_00021
+  rotate: false
+  xy: 711, 850
+  size: 199, 291
+  orig: 199, 291
+  offset: 0, 0
+  index: -1
+waxilisha_saoguang_00022
+  rotate: false
+  xy: 711, 557
+  size: 199, 291
+  orig: 199, 291
+  offset: 0, 0
+  index: -1
+waxilisha_saoguang_00023
+  rotate: true
+  xy: 934, 1071
+  size: 199, 291
+  orig: 199, 291
+  offset: 0, 0
+  index: -1
+waxilisha_saoguang_00024
+  rotate: false
+  xy: 912, 778
+  size: 199, 291
+  orig: 199, 291
+  offset: 0, 0
+  index: -1
+waxilisha_saoguang_00025
+  rotate: false
+  xy: 912, 485
+  size: 199, 291
+  orig: 199, 291
+  offset: 0, 0
+  index: -1
+waxilisha_saoguang_00026
+  rotate: false
+  xy: 1113, 778
+  size: 199, 291
+  orig: 199, 291
+  offset: 0, 0
+  index: -1
+waxilisha_saoguang_00027
+  rotate: false
+  xy: 1113, 485
+  size: 199, 291
+  orig: 199, 291
+  offset: 0, 0
+  index: -1
+waxilisha_saoguang_00028
+  rotate: true
+  xy: 893, 284
+  size: 199, 291
+  orig: 199, 291
+  offset: 0, 0
+  index: -1
+waxilisha_saoguang_00029
+  rotate: false
+  xy: 1314, 859
+  size: 199, 291
+  orig: 199, 291
+  offset: 0, 0
+  index: -1
+waxilisha_saoguang_00030
+  rotate: false
+  xy: 1314, 566
+  size: 199, 291
+  orig: 199, 291
+  offset: 0, 0
+  index: -1
+waxilisha_saoguang_00031
+  rotate: false
+  xy: 1515, 859
+  size: 199, 291
+  orig: 199, 291
+  offset: 0, 0
+  index: -1
+waxilisha_saoguang_00032
+  rotate: false
+  xy: 1515, 566
+  size: 199, 291
+  orig: 199, 291
+  offset: 0, 0
+  index: -1
+waxilisha_saoguang_00033
+  rotate: false
+  xy: 1716, 859
+  size: 199, 291
+  orig: 199, 291
+  offset: 0, 0
+  index: -1
+waxilisha_saoguang_00034
+  rotate: false
+  xy: 1716, 566
+  size: 199, 291
+  orig: 199, 291
+  offset: 0, 0
+  index: -1
+waxilisha_saoguang_00035
+  rotate: true
+  xy: 1314, 365
+  size: 199, 291
+  orig: 199, 291
+  offset: 0, 0
+  index: -1
+waxilisha_saoguang_00036
+  rotate: true
+  xy: 1607, 365
+  size: 199, 291
+  orig: 199, 291
+  offset: 0, 0
+  index: -1
+waxilisha_saoguang_00037
+  rotate: true
+  xy: 1308, 164
+  size: 199, 291
+  orig: 199, 291
+  offset: 0, 0
+  index: -1
+waxilisha_saoguang_00038
+  rotate: true
+  xy: 1601, 164
+  size: 199, 291
+  orig: 199, 291
+  offset: 0, 0
+  index: -1
+waxilisha_saoguang_00039
+  rotate: true
+  xy: 893, 83
+  size: 199, 291
+  orig: 199, 291
+  offset: 0, 0
+  index: -1
+xianglian
+  rotate: false
+  xy: 1894, 156
+  size: 152, 207
+  orig: 152, 207
+  offset: 0, 0
+  index: -1
+yanpi
+  rotate: true
+  xy: 1298, 1165
+  size: 105, 29
+  orig: 105, 29
+  offset: 0, 0
+  index: -1
+yifu1
+  rotate: false
+  xy: 770, 1606
+  size: 204, 440
+  orig: 204, 440
+  offset: 0, 0
+  index: -1
+yifu2
+  rotate: false
+  xy: 1186, 268
+  size: 120, 215
+  orig: 120, 215
+  offset: 0, 0
+  index: -1
+yifu3
+  rotate: false
+  xy: 1564, 2
+  size: 111, 160
+  orig: 111, 160
+  offset: 0, 0
+  index: -1
+yingyin1
+  rotate: false
+  xy: 1227, 1081
+  size: 69, 189
+  orig: 69, 189
+  offset: 0, 0
+  index: -1
+yingyin2
+  rotate: false
+  xy: 1850, 1384
+  size: 182, 159
+  orig: 182, 159
+  offset: 0, 0
+  index: -1
+yingyin3
+  rotate: false
+  xy: 212, 159
+  size: 76, 496
+  orig: 76, 496
+  offset: 0, 0
+  index: -1
+
+servant622.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+head
+  rotate: true
+  xy: 742, 58
+  size: 154, 141
+  orig: 154, 141
+  offset: 0, 0
+  index: -1
+l_shoulder
+  rotate: false
+  xy: 447, 2
+  size: 143, 210
+  orig: 143, 210
+  offset: 0, 0
+  index: -1
+r_arm
+  rotate: false
+  xy: 292, 7
+  size: 153, 205
+  orig: 153, 205
+  offset: 0, 0
+  index: -1
+tongjian
+  rotate: true
+  xy: 2, 49
+  size: 163, 288
+  orig: 163, 288
+  offset: 0, 0
+  index: -1
+yingyin4
+  rotate: false
+  xy: 592, 30
+  size: 148, 182
+  orig: 148, 182
+  offset: 0, 0
+  index: -1

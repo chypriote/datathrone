@@ -1,0 +1,166 @@
+
+servant16034.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bozhi
+  rotate: false
+  xy: 241, 34
+  size: 333, 140
+  orig: 333, 140
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 851, 195
+  size: 140, 167
+  orig: 140, 167
+  offset: 0, 0
+  index: -1
+l_arm
+  rotate: true
+  xy: 576, 64
+  size: 110, 290
+  orig: 110, 290
+  offset: 0, 0
+  index: -1
+l_shoulder
+  rotate: false
+  xy: 705, 402
+  size: 187, 263
+  orig: 187, 263
+  offset: 0, 0
+  index: -1
+l_shouzhi_1
+  rotate: true
+  xy: 894, 405
+  size: 35, 73
+  orig: 35, 73
+  offset: 0, 0
+  index: -1
+l_shouzhi_2
+  rotate: true
+  xy: 936, 61
+  size: 40, 65
+  orig: 40, 65
+  offset: 0, 0
+  index: -1
+l_upper_leg
+  rotate: true
+  xy: 2, 363
+  size: 251, 701
+  orig: 251, 701
+  offset: 0, 0
+  index: -1
+r_upper_leg
+  rotate: true
+  xy: 241, 176
+  size: 185, 608
+  orig: 185, 608
+  offset: 0, 0
+  index: -1
+shayu
+  rotate: false
+  xy: 2, 616
+  size: 605, 406
+  orig: 605, 406
+  offset: 0, 0
+  index: -1
+shayuya
+  rotate: true
+  xy: 609, 623
+  size: 42, 73
+  orig: 42, 73
+  offset: 0, 0
+  index: -1
+shayuzui
+  rotate: true
+  xy: 936, 103
+  size: 90, 83
+  orig: 90, 83
+  offset: 0, 0
+  index: -1
+shoushipin
+  rotate: false
+  xy: 868, 80
+  size: 66, 113
+  orig: 66, 113
+  offset: 0, 0
+  index: -1
+torso
+  rotate: true
+  xy: 609, 667
+  size: 355, 409
+  orig: 355, 409
+  offset: 0, 0
+  index: -1
+ya_yingzhi
+  rotate: true
+  xy: 241, 2
+  size: 30, 57
+  orig: 30, 57
+  offset: 0, 0
+  index: -1
+yanpi
+  rotate: false
+  xy: 300, 11
+  size: 75, 21
+  orig: 75, 21
+  offset: 0, 0
+  index: -1
+yaodai
+  rotate: false
+  xy: 2, 2
+  size: 237, 359
+  orig: 237, 359
+  offset: 0, 0
+  index: -1
+yaodai_2
+  rotate: true
+  xy: 705, 364
+  size: 36, 281
+  orig: 36, 281
+  offset: 0, 0
+  index: -1
+yingzhi
+  rotate: true
+  xy: 576, 19
+  size: 43, 326
+  orig: 43, 326
+  offset: 0, 0
+  index: -1
+yuqi
+  rotate: true
+  xy: 894, 442
+  size: 223, 127
+  orig: 223, 127
+  offset: 0, 0
+  index: -1
+
+servant160342.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xianglian
+  rotate: false
+  xy: 2, 2
+  size: 202, 191
+  orig: 202, 191
+  offset: 0, 0
+  index: -1
+xianglianyingzhi
+  rotate: false
+  xy: 206, 58
+  size: 158, 101
+  orig: 158, 101
+  offset: 0, 0
+  index: -1
+yingzhi_2
+  rotate: true
+  xy: 206, 161
+  size: 32, 287
+  orig: 32, 287
+  offset: 0, 0
+  index: -1

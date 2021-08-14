@@ -1,0 +1,286 @@
+
+servant1033.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+beiqi01
+  rotate: false
+  xy: 2, 136
+  size: 635, 316
+  orig: 635, 316
+  offset: 0, 0
+  index: -1
+beiqi02
+  rotate: true
+  xy: 671, 590
+  size: 314, 571
+  orig: 315, 571
+  offset: 0, 0
+  index: -1
+bell01
+  rotate: false
+  xy: 1993, 406
+  size: 53, 292
+  orig: 53, 292
+  offset: 0, 0
+  index: -1
+bell02
+  rotate: false
+  xy: 1425, 239
+  size: 104, 92
+  orig: 104, 92
+  offset: 0, 0
+  index: -1
+body1
+  rotate: false
+  xy: 1737, 700
+  size: 288, 320
+  orig: 288, 320
+  offset: 0, 0
+  index: -1
+druss01
+  rotate: true
+  xy: 317, 35
+  size: 99, 196
+  orig: 99, 196
+  offset: 0, 0
+  index: -1
+druss02
+  rotate: true
+  xy: 671, 361
+  size: 227, 332
+  orig: 227, 332
+  offset: 0, 0
+  index: -1
+face01
+  rotate: true
+  xy: 1189, 266
+  size: 97, 126
+  orig: 97, 126
+  offset: 0, 0
+  index: -1
+hair01
+  rotate: false
+  xy: 1053, 31
+  size: 55, 56
+  orig: 55, 56
+  offset: 0, 0
+  index: -1
+hair02
+  rotate: false
+  xy: 1647, 908
+  size: 39, 34
+  orig: 39, 34
+  offset: 0, 0
+  index: -1
+hair04
+  rotate: false
+  xy: 1083, 119
+  size: 52, 82
+  orig: 52, 82
+  offset: 0, 0
+  index: -1
+hair05
+  rotate: false
+  xy: 1635, 272
+  size: 49, 50
+  orig: 49, 50
+  offset: 0, 0
+  index: -1
+hair06
+  rotate: true
+  xy: 1089, 203
+  size: 47, 85
+  orig: 47, 85
+  offset: 0, 0
+  index: -1
+hair07
+  rotate: true
+  xy: 2, 11
+  size: 35, 103
+  orig: 35, 103
+  offset: 0, 0
+  index: -1
+hair08
+  rotate: false
+  xy: 1670, 324
+  size: 53, 189
+  orig: 53, 189
+  offset: 0, 0
+  index: -1
+hair09
+  rotate: false
+  xy: 1531, 234
+  size: 102, 97
+  orig: 102, 97
+  offset: 0, 0
+  index: -1
+huzi01
+  rotate: false
+  xy: 1083, 89
+  size: 40, 28
+  orig: 40, 28
+  offset: 0, 0
+  index: -1
+huzi02
+  rotate: true
+  xy: 639, 421
+  size: 31, 18
+  orig: 31, 18
+  offset: 0, 0
+  index: -1
+l_arm01
+  rotate: true
+  xy: 1317, 264
+  size: 99, 106
+  orig: 99, 106
+  offset: 0, 0
+  index: -1
+l_arm02
+  rotate: false
+  xy: 969, 89
+  size: 112, 131
+  orig: 112, 131
+  offset: 0, 0
+  index: -1
+l_ceye01
+  rotate: false
+  xy: 1635, 324
+  size: 22, 7
+  orig: 22, 7
+  offset: 0, 0
+  index: -1
+l_finger01
+  rotate: true
+  xy: 1137, 133
+  size: 68, 44
+  orig: 68, 44
+  offset: 0, 0
+  index: -1
+l_hand1
+  rotate: true
+  xy: 969, 19
+  size: 68, 82
+  orig: 68, 82
+  offset: 0, 0
+  index: -1
+l_shoulder01
+  rotate: false
+  xy: 1459, 333
+  size: 209, 180
+  orig: 209, 180
+  offset: 0, 0
+  index: -1
+l_shoulder02
+  rotate: true
+  xy: 515, 5
+  size: 129, 114
+  orig: 129, 114
+  offset: 0, 0
+  index: -1
+leg01
+  rotate: true
+  xy: 1737, 518
+  size: 180, 254
+  orig: 180, 254
+  offset: 0, 0
+  index: -1
+neck01
+  rotate: false
+  xy: 959, 222
+  size: 128, 137
+  orig: 128, 137
+  offset: 0, 0
+  index: -1
+pifeng01
+  rotate: false
+  xy: 2, 454
+  size: 667, 566
+  orig: 667, 566
+  offset: 0, 0
+  index: -1
+pifeng02
+  rotate: false
+  xy: 1244, 515
+  size: 491, 389
+  orig: 491, 389
+  offset: 0, 0
+  index: -1
+pifeng03
+  rotate: false
+  xy: 1237, 365
+  size: 220, 148
+  orig: 220, 148
+  offset: 0, 0
+  index: -1
+qizi01
+  rotate: true
+  xy: 2, 48
+  size: 86, 313
+  orig: 86, 313
+  offset: 0, 0
+  index: -1
+qizi02
+  rotate: true
+  xy: 671, 906
+  size: 114, 974
+  orig: 114, 974
+  offset: 0, 0
+  index: -1
+r_arm01
+  rotate: true
+  xy: 639, 209
+  size: 150, 318
+  orig: 150, 318
+  offset: 0, 0
+  index: -1
+r_ceye01
+  rotate: true
+  xy: 2027, 999
+  size: 21, 11
+  orig: 21, 11
+  offset: 0, 0
+  index: -1
+r_hand
+  rotate: false
+  xy: 107, 2
+  size: 49, 44
+  orig: 49, 44
+  offset: 0, 0
+  index: -1
+r_shoulder01
+  rotate: false
+  xy: 845, 21
+  size: 122, 186
+  orig: 122, 186
+  offset: 0, 0
+  index: -1
+r_shoulder02
+  rotate: false
+  xy: 1647, 944
+  size: 81, 76
+  orig: 81, 76
+  offset: 0, 0
+  index: -1
+r_shoulder03
+  rotate: false
+  xy: 1089, 252
+  size: 98, 129
+  orig: 98, 129
+  offset: 0, 0
+  index: -1
+weapon01
+  rotate: true
+  xy: 1005, 383
+  size: 205, 230
+  orig: 205, 230
+  offset: 0, 0
+  index: -1
+weapon02
+  rotate: true
+  xy: 639, 9
+  size: 198, 204
+  orig: 198, 204
+  offset: 0, 0
+  index: -1

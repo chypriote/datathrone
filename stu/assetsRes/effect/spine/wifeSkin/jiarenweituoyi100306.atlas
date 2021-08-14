@@ -1,0 +1,139 @@
+
+jiarenweituoyi100306.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+daikou
+  rotate: true
+  xy: 1487, 87
+  size: 207, 114
+  orig: 207, 114
+  offset: 0, 0
+  index: -1
+daizi
+  rotate: true
+  xy: 691, 166
+  size: 344, 487
+  orig: 344, 487
+  offset: 0, 0
+  index: -1
+eye
+  rotate: true
+  xy: 662, 300
+  size: 31, 23
+  orig: 31, 23
+  offset: 0, 0
+  index: -1
+fa1
+  rotate: true
+  xy: 1487, 20
+  size: 65, 95
+  orig: 65, 95
+  offset: 0, 0
+  index: -1
+fa2
+  rotate: false
+  xy: 1979, 118
+  size: 45, 106
+  orig: 45, 106
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 1870, 226
+  size: 113, 157
+  orig: 113, 157
+  offset: 0, 0
+  index: -1
+l_arm
+  rotate: false
+  xy: 323, 2
+  size: 67, 94
+  orig: 67, 94
+  offset: 0, 0
+  index: -1
+l_foot
+  rotate: true
+  xy: 2, 333
+  size: 177, 687
+  orig: 177, 687
+  offset: 0, 0
+  index: -1
+l_hand
+  rotate: false
+  xy: 1180, 66
+  size: 305, 228
+  orig: 305, 228
+  offset: 0, 0
+  index: -1
+maozi
+  rotate: false
+  xy: 1810, 91
+  size: 167, 133
+  orig: 167, 133
+  offset: 0, 0
+  index: -1
+maozi1
+  rotate: true
+  xy: 1603, 61
+  size: 57, 185
+  orig: 57, 185
+  offset: 0, 0
+  index: -1
+r_arm
+  rotate: true
+  xy: 1603, 255
+  size: 84, 265
+  orig: 84, 265
+  offset: 0, 0
+  index: -1
+r_foot
+  rotate: true
+  xy: 1595, 341
+  size: 169, 432
+  orig: 169, 432
+  offset: 0, 0
+  index: -1
+r_hand
+  rotate: true
+  xy: 2, 12
+  size: 84, 319
+  orig: 84, 319
+  offset: 0, 0
+  index: -1
+r_upper_leg
+  rotate: false
+  xy: 1180, 296
+  size: 413, 214
+  orig: 413, 214
+  offset: 0, 0
+  index: -1
+shenzi
+  rotate: true
+  xy: 469, 87
+  size: 49, 196
+  orig: 49, 196
+  offset: 0, 0
+  index: -1
+tangguo
+  rotate: false
+  xy: 1603, 120
+  size: 205, 133
+  orig: 205, 133
+  offset: 0, 0
+  index: -1
+torso
+  rotate: true
+  xy: 2, 98
+  size: 233, 465
+  orig: 233, 465
+  offset: 0, 0
+  index: -1
+xiong
+  rotate: false
+  xy: 469, 138
+  size: 191, 193
+  orig: 191, 193
+  offset: 0, 0
+  index: -1

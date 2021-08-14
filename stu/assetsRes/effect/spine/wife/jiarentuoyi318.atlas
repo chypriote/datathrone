@@ -1,0 +1,202 @@
+
+jiarentuoyi318.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Fhair1
+  rotate: true
+  xy: 2, 91
+  size: 41, 322
+  orig: 41, 322
+  offset: 0, 0
+  index: -1
+Fhair2
+  rotate: false
+  xy: 1515, 1045
+  size: 29, 328
+  orig: 29, 328
+  offset: 0, 0
+  index: -1
+Fhair3
+  rotate: false
+  xy: 1957, 1659
+  size: 80, 387
+  orig: 80, 387
+  offset: 0, 0
+  index: -1
+Fhair4
+  rotate: false
+  xy: 720, 607
+  size: 79, 374
+  orig: 79, 374
+  offset: 0, 0
+  index: -1
+Fhair5
+  rotate: true
+  xy: 1592, 1402
+  size: 40, 187
+  orig: 40, 187
+  offset: 0, 0
+  index: -1
+Fhair6
+  rotate: true
+  xy: 2, 46
+  size: 43, 243
+  orig: 43, 243
+  offset: 0, 0
+  index: -1
+Fhair7
+  rotate: false
+  xy: 582, 520
+  size: 136, 461
+  orig: 136, 461
+  offset: 0, 0
+  index: -1
+Lleg
+  rotate: false
+  xy: 378, 433
+  size: 202, 531
+  orig: 202, 531
+  offset: 0, 0
+  index: -1
+Llower
+  rotate: false
+  xy: 1371, 1375
+  size: 219, 671
+  orig: 219, 671
+  offset: 0, 0
+  index: -1
+Lshouder
+  rotate: false
+  xy: 1371, 1036
+  size: 142, 337
+  orig: 142, 337
+  offset: 0, 0
+  index: -1
+Rleg
+  rotate: false
+  xy: 1162, 993
+  size: 207, 1053
+  orig: 207, 1053
+  offset: 0, 0
+  index: -1
+Rshouder
+  rotate: true
+  xy: 2, 134
+  size: 136, 360
+  orig: 136, 360
+  offset: 0, 0
+  index: -1
+Rshouderf
+  rotate: false
+  xy: 2, 2
+  size: 100, 42
+  orig: 100, 42
+  offset: 0, 0
+  index: -1
+bcloth
+  rotate: false
+  xy: 2, 966
+  size: 547, 1080
+  orig: 547, 1080
+  offset: 0, 0
+  index: -1
+bhair1
+  rotate: false
+  xy: 1000, 1091
+  size: 152, 265
+  orig: 152, 265
+  offset: 0, 0
+  index: -1
+bhair2
+  rotate: false
+  xy: 1592, 1444
+  size: 191, 202
+  orig: 191, 202
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 272
+  size: 374, 692
+  orig: 374, 692
+  offset: 0, 0
+  index: -1
+bodyshadow1
+  rotate: true
+  xy: 551, 983
+  size: 373, 447
+  orig: 373, 447
+  offset: 0, 0
+  index: -1
+cloth
+  rotate: false
+  xy: 1592, 1648
+  size: 363, 398
+  orig: 363, 398
+  offset: 0, 0
+  index: -1
+ehair1
+  rotate: true
+  xy: 1371, 1019
+  size: 15, 44
+  orig: 15, 44
+  offset: 0, 0
+  index: -1
+hand
+  rotate: false
+  xy: 551, 1358
+  size: 609, 688
+  orig: 609, 688
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 801, 770
+  size: 174, 211
+  orig: 174, 211
+  offset: 0, 0
+  index: -1
+hshadow
+  rotate: false
+  xy: 1785, 1475
+  size: 140, 171
+  orig: 140, 171
+  offset: 0, 0
+  index: -1
+hshadow1
+  rotate: true
+  xy: 378, 286
+  size: 145, 186
+  orig: 145, 186
+  offset: 0, 0
+  index: -1
+neckk1
+  rotate: false
+  xy: 801, 656
+  size: 169, 112
+  orig: 169, 112
+  offset: 0, 0
+  index: -1
+nshadow
+  rotate: false
+  xy: 1000, 990
+  size: 129, 99
+  orig: 129, 99
+  offset: 0, 0
+  index: -1
+rlegshadow
+  rotate: false
+  xy: 1546, 1169
+  size: 25, 204
+  orig: 25, 204
+  offset: 0, 0
+  index: -1
+yanpi
+  rotate: false
+  xy: 582, 470
+  size: 100, 48
+  orig: 100, 48
+  offset: 0, 0
+  index: -1

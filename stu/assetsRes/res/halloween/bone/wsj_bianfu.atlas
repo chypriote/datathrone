@@ -1,0 +1,41 @@
+
+wsj_bianfu.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bianfu/bianfu_01
+  rotate: false
+  xy: 2, 86
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+bianfu/bianfu_02
+  rotate: false
+  xy: 2, 44
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+bianfu/bianfu_03
+  rotate: false
+  xy: 2, 2
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+bianfu/bianfu_04
+  rotate: false
+  xy: 44, 86
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+bianfu/bianfu_05
+  rotate: false
+  xy: 86, 86
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1

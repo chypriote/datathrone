@@ -1,0 +1,125 @@
+
+jiarentuoyi212.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Lhand
+  rotate: true
+  xy: 2, 2
+  size: 63, 166
+  orig: 63, 166
+  offset: 0, 0
+  index: -1
+Lleg
+  rotate: false
+  xy: 2, 67
+  size: 221, 933
+  orig: 221, 933
+  offset: 0, 0
+  index: -1
+Lshouder
+  rotate: true
+  xy: 691, 221
+  size: 178, 386
+  orig: 178, 386
+  offset: 0, 0
+  index: -1
+Rleg
+  rotate: true
+  xy: 700, 401
+  size: 146, 768
+  orig: 146, 768
+  offset: 0, 0
+  index: -1
+Rshouder
+  rotate: true
+  xy: 1280, 597
+  size: 123, 479
+  orig: 123, 479
+  offset: 0, 0
+  index: -1
+erhuan
+  rotate: true
+  xy: 1079, 228
+  size: 33, 52
+  orig: 33, 52
+  offset: 0, 0
+  index: -1
+hair
+  rotate: true
+  xy: 700, 549
+  size: 451, 578
+  orig: 451, 578
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 225, 184
+  size: 464, 257
+  orig: 464, 257
+  offset: 0, 0
+  index: -1
+shouhuan5
+  rotate: false
+  xy: 1932, 942
+  size: 52, 58
+  orig: 52, 58
+  offset: 0, 0
+  index: -1
+shouhuanback
+  rotate: false
+  xy: 1267, 344
+  size: 19, 55
+  orig: 19, 55
+  offset: 0, 0
+  index: -1
+shouzhuo1
+  rotate: true
+  xy: 1280, 549
+  size: 46, 72
+  orig: 46, 72
+  offset: 0, 0
+  index: -1
+shouzhuo2
+  rotate: false
+  xy: 1761, 655
+  size: 34, 65
+  orig: 34, 65
+  offset: 0, 0
+  index: -1
+shouzhuo3
+  rotate: true
+  xy: 691, 190
+  size: 29, 61
+  orig: 29, 61
+  offset: 0, 0
+  index: -1
+shouzhuo4
+  rotate: false
+  xy: 225, 125
+  size: 53, 57
+  orig: 53, 57
+  offset: 0, 0
+  index: -1
+torso
+  rotate: true
+  xy: 1280, 722
+  size: 278, 650
+  orig: 278, 650
+  offset: 0, 0
+  index: -1
+yifu
+  rotate: false
+  xy: 225, 443
+  size: 473, 557
+  orig: 473, 557
+  offset: 0, 0
+  index: -1
+yifu2
+  rotate: true
+  xy: 1079, 263
+  size: 136, 186
+  orig: 136, 186
+  offset: 0, 0
+  index: -1

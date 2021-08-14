@@ -1,0 +1,307 @@
+
+jiarenweituoyi205.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bu1
+  rotate: true
+  xy: 1273, 351
+  size: 28, 32
+  orig: 28, 32
+  offset: 0, 0
+  index: -1
+bu2
+  rotate: true
+  xy: 1634, 613
+  size: 43, 41
+  orig: 43, 41
+  offset: 0, 0
+  index: -1
+cclzl
+  rotate: false
+  xy: 1030, 626
+  size: 188, 396
+  orig: 188, 396
+  offset: 0, 0
+  index: -1
+cclzr
+  rotate: true
+  xy: 1220, 922
+  size: 100, 468
+  orig: 100, 468
+  offset: 0, 0
+  index: -1
+ddlzr
+  rotate: true
+  xy: 142, 56
+  size: 39, 146
+  orig: 39, 146
+  offset: 0, 0
+  index: -1
+eye
+  rotate: true
+  xy: 611, 127
+  size: 91, 38
+  orig: 91, 38
+  offset: 0, 0
+  index: -1
+foot_skil
+  rotate: false
+  xy: 882, 330
+  size: 213, 233
+  orig: 213, 233
+  offset: 0, 0
+  index: -1
+footy
+  rotate: true
+  xy: 1568, 658
+  size: 187, 103
+  orig: 187, 103
+  offset: 0, 0
+  index: -1
+hair_r
+  rotate: true
+  xy: 1220, 594
+  size: 107, 211
+  orig: 107, 211
+  offset: 0, 0
+  index: -1
+hairhou
+  rotate: true
+  xy: 1220, 703
+  size: 142, 346
+  orig: 142, 346
+  offset: 0, 0
+  index: -1
+hairp
+  rotate: false
+  xy: 1030, 565
+  size: 164, 59
+  orig: 164, 59
+  offset: 0, 0
+  index: -1
+handr
+  rotate: false
+  xy: 1439, 446
+  size: 82, 150
+  orig: 82, 150
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 1097, 351
+  size: 174, 212
+  orig: 174, 212
+  offset: 0, 0
+  index: -1
+huan1r
+  rotate: true
+  xy: 1857, 670
+  size: 51, 42
+  orig: 51, 42
+  offset: 0, 0
+  index: -1
+huan2r
+  rotate: false
+  xy: 651, 127
+  size: 60, 58
+  orig: 60, 58
+  offset: 0, 0
+  index: -1
+huanl
+  rotate: true
+  xy: 1558, 608
+  size: 48, 74
+  orig: 48, 74
+  offset: 0, 0
+  index: -1
+huanl2
+  rotate: false
+  xy: 1779, 661
+  size: 76, 60
+  orig: 76, 60
+  offset: 0, 0
+  index: -1
+l_foot
+  rotate: false
+  xy: 2, 97
+  size: 283, 925
+  orig: 283, 925
+  offset: 0, 0
+  index: -1
+l_hand
+  rotate: false
+  xy: 1926, 918
+  size: 120, 104
+  orig: 120, 104
+  offset: 0, 0
+  index: -1
+l_shoulder
+  rotate: false
+  xy: 882, 565
+  size: 146, 457
+  orig: 146, 457
+  offset: 0, 0
+  index: -1
+l_shoulderprop
+  rotate: false
+  xy: 770, 144
+  size: 42, 41
+  orig: 42, 41
+  offset: 0, 0
+  index: -1
+l_shoulderprop1
+  rotate: false
+  xy: 713, 151
+  size: 55, 34
+  orig: 55, 34
+  offset: 0, 0
+  index: -1
+l_shoulderprop2
+  rotate: false
+  xy: 1906, 815
+  size: 10, 25
+  orig: 10, 25
+  offset: 0, 0
+  index: -1
+l_shoulderprop3
+  rotate: false
+  xy: 1671, 894
+  size: 14, 26
+  orig: 14, 26
+  offset: 0, 0
+  index: -1
+l_shoulderprop4
+  rotate: true
+  xy: 1122, 118
+  size: 18, 24
+  orig: 18, 24
+  offset: 0, 0
+  index: -1
+leg_lz
+  rotate: true
+  xy: 662, 187
+  size: 158, 217
+  orig: 158, 217
+  offset: 0, 0
+  index: -1
+lhair
+  rotate: true
+  xy: 1926, 857
+  size: 59, 105
+  orig: 59, 105
+  offset: 0, 0
+  index: -1
+llxd
+  rotate: false
+  xy: 2, 2
+  size: 138, 93
+  orig: 138, 93
+  offset: 0, 0
+  index: -1
+lt1
+  rotate: false
+  xy: 1196, 569
+  size: 22, 55
+  orig: 22, 55
+  offset: 0, 0
+  index: -1
+r_foot
+  rotate: true
+  xy: 287, 116
+  size: 102, 322
+  orig: 102, 322
+  offset: 0, 0
+  index: -1
+rarm
+  rotate: false
+  xy: 1362, 387
+  size: 75, 205
+  orig: 75, 205
+  offset: 0, 0
+  index: -1
+rhair
+  rotate: false
+  xy: 1273, 381
+  size: 87, 211
+  orig: 87, 211
+  offset: 0, 0
+  index: -1
+rrxd
+  rotate: false
+  xy: 1439, 373
+  size: 79, 71
+  orig: 79, 71
+  offset: 0, 0
+  index: -1
+rshoulder
+  rotate: true
+  xy: 881, 116
+  size: 212, 239
+  orig: 212, 239
+  offset: 0, 0
+  index: -1
+skil
+  rotate: false
+  xy: 1122, 138
+  size: 163, 211
+  orig: 163, 211
+  offset: 0, 0
+  index: -1
+torso
+  rotate: false
+  xy: 287, 220
+  size: 373, 802
+  orig: 373, 802
+  offset: 0, 0
+  index: -1
+xianglian
+  rotate: false
+  xy: 1433, 598
+  size: 123, 103
+  orig: 123, 103
+  offset: 0, 0
+  index: -1
+xiask
+  rotate: true
+  xy: 1220, 847
+  size: 73, 449
+  orig: 73, 449
+  offset: 0, 0
+  index: -1
+xiask2
+  rotate: true
+  xy: 142, 16
+  size: 38, 140
+  orig: 38, 140
+  offset: 0, 0
+  index: -1
+xiask_da3
+  rotate: false
+  xy: 662, 347
+  size: 218, 675
+  orig: 218, 675
+  offset: 0, 0
+  index: -1
+xiask_hou
+  rotate: false
+  xy: 1673, 673
+  size: 104, 167
+  orig: 104, 167
+  offset: 0, 0
+  index: -1
+xiaskil
+  rotate: true
+  xy: 1690, 842
+  size: 180, 234
+  orig: 180, 234
+  offset: 0, 0
+  index: -1
+xionglz
+  rotate: false
+  xy: 1779, 723
+  size: 125, 117
+  orig: 125, 117
+  offset: 0, 0
+  index: -1

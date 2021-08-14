@@ -1,0 +1,279 @@
+
+servant100309.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+biyan
+  rotate: false
+  xy: 354, 3
+  size: 83, 21
+  orig: 83, 21
+  offset: 0, 0
+  index: -1
+bu2
+  rotate: true
+  xy: 1541, 398
+  size: 27, 58
+  orig: 27, 58
+  offset: 0, 0
+  index: -1
+chiang1
+  rotate: false
+  xy: 1412, 247
+  size: 75, 94
+  orig: 75, 94
+  offset: 0, 0
+  index: -1
+chiang2
+  rotate: true
+  xy: 1886, 587
+  size: 117, 112
+  orig: 117, 112
+  offset: 0, 0
+  index: -1
+chibang
+  rotate: false
+  xy: 2, 40
+  size: 796, 980
+  orig: 796, 980
+  offset: 0, 0
+  index: -1
+gong1
+  rotate: true
+  xy: 907, 62
+  size: 457, 103
+  orig: 457, 103
+  offset: 0, 0
+  index: -1
+gong2
+  rotate: false
+  xy: 2, 26
+  size: 436, 12
+  orig: 436, 12
+  offset: 0, 0
+  index: -1
+gong3
+  rotate: false
+  xy: 2, 6
+  size: 350, 18
+  orig: 350, 18
+  offset: 0, 0
+  index: -1
+gong4
+  rotate: true
+  xy: 800, 2
+  size: 517, 105
+  orig: 517, 105
+  offset: 0, 0
+  index: -1
+hair_1
+  rotate: true
+  xy: 683, 8
+  size: 30, 104
+  orig: 30, 104
+  offset: 0, 0
+  index: -1
+hair_2
+  rotate: true
+  xy: 1094, 142
+  size: 22, 90
+  orig: 22, 90
+  offset: 0, 0
+  index: -1
+hair_3
+  rotate: true
+  xy: 1012, 62
+  size: 87, 64
+  orig: 87, 64
+  offset: 0, 0
+  index: -1
+hair_4
+  rotate: false
+  xy: 1230, 174
+  size: 173, 73
+  orig: 173, 73
+  offset: 0, 0
+  index: -1
+hair_5
+  rotate: false
+  xy: 1999, 731
+  size: 47, 109
+  orig: 47, 109
+  offset: 0, 0
+  index: -1
+hair_6
+  rotate: true
+  xy: 1230, 249
+  size: 92, 180
+  orig: 92, 180
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 1094, 348
+  size: 146, 171
+  orig: 146, 171
+  offset: 0, 0
+  index: -1
+jian_shi
+  rotate: false
+  xy: 1012, 151
+  size: 80, 368
+  orig: 80, 368
+  offset: 0, 0
+  index: -1
+jiao1
+  rotate: true
+  xy: 1251, 830
+  size: 190, 733
+  orig: 190, 733
+  offset: 0, 0
+  index: -1
+jiao2
+  rotate: true
+  xy: 1251, 696
+  size: 132, 569
+  orig: 132, 569
+  offset: 0, 0
+  index: -1
+qun1
+  rotate: true
+  xy: 1507, 427
+  size: 43, 228
+  orig: 43, 228
+  offset: 0, 0
+  index: -1
+qun10
+  rotate: true
+  xy: 1507, 472
+  size: 53, 225
+  orig: 53, 225
+  offset: 0, 0
+  index: -1
+qun11
+  rotate: false
+  xy: 1844, 511
+  size: 40, 193
+  orig: 40, 193
+  offset: 0, 0
+  index: -1
+qun12
+  rotate: false
+  xy: 907, 7
+  size: 93, 53
+  orig: 93, 53
+  offset: 0, 0
+  index: -1
+qun2
+  rotate: false
+  xy: 1986, 842
+  size: 50, 178
+  orig: 50, 178
+  offset: 0, 0
+  index: -1
+qun3
+  rotate: false
+  xy: 1420, 343
+  size: 70, 121
+  orig: 70, 121
+  offset: 0, 0
+  index: -1
+qun4
+  rotate: false
+  xy: 1780, 507
+  size: 62, 187
+  orig: 62, 187
+  offset: 0, 0
+  index: -1
+qun5
+  rotate: true
+  xy: 1251, 466
+  size: 59, 254
+  orig: 59, 254
+  offset: 0, 0
+  index: -1
+qun6
+  rotate: false
+  xy: 1094, 166
+  size: 134, 180
+  orig: 134, 180
+  offset: 0, 0
+  index: -1
+qun7
+  rotate: true
+  xy: 1405, 208
+  size: 37, 80
+  orig: 37, 80
+  offset: 0, 0
+  index: -1
+qun8
+  rotate: false
+  xy: 1734, 491
+  size: 35, 34
+  orig: 35, 34
+  offset: 0, 0
+  index: -1
+qun9
+  rotate: true
+  xy: 440, 2
+  size: 36, 241
+  orig: 36, 241
+  offset: 0, 0
+  index: -1
+shou1
+  rotate: true
+  xy: 1886, 514
+  size: 71, 100
+  orig: 71, 100
+  offset: 0, 0
+  index: -1
+shou2
+  rotate: true
+  xy: 1405, 174
+  size: 32, 63
+  orig: 32, 63
+  offset: 0, 0
+  index: -1
+shou3
+  rotate: true
+  xy: 1002, 6
+  size: 54, 79
+  orig: 54, 79
+  offset: 0, 0
+  index: -1
+shoubi
+  rotate: true
+  xy: 1251, 527
+  size: 167, 527
+  orig: 167, 527
+  offset: 0, 0
+  index: -1
+shoubi2
+  rotate: false
+  xy: 1242, 343
+  size: 176, 121
+  orig: 176, 121
+  offset: 0, 0
+  index: -1
+shoubi_bu
+  rotate: false
+  xy: 1492, 370
+  size: 47, 55
+  orig: 47, 55
+  offset: 0, 0
+  index: -1
+torso
+  rotate: false
+  xy: 800, 521
+  size: 449, 499
+  orig: 449, 499
+  offset: 0, 0
+  index: -1
+xianglian
+  rotate: true
+  xy: 1822, 706
+  size: 122, 175
+  orig: 122, 175
+  offset: 0, 0
+  index: -1

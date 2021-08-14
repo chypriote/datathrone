@@ -1,0 +1,55 @@
+
+cb_songshu_daiji.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+songshu_bi1
+  rotate: false
+  xy: 2, 36
+  size: 18, 24
+  orig: 18, 24
+  offset: 0, 0
+  index: -1
+songshu_bi2
+  rotate: false
+  xy: 22, 38
+  size: 14, 22
+  orig: 14, 22
+  offset: 0, 0
+  index: -1
+songshu_shenzi
+  rotate: false
+  xy: 44, 70
+  size: 41, 54
+  orig: 41, 54
+  offset: 0, 0
+  index: -1
+songshu_shou1
+  rotate: false
+  xy: 87, 74
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+songshu_shou2
+  rotate: false
+  xy: 2, 12
+  size: 16, 22
+  orig: 16, 22
+  offset: 0, 0
+  index: -1
+songshu_tou
+  rotate: true
+  xy: 87, 96
+  size: 28, 39
+  orig: 28, 39
+  offset: 0, 0
+  index: -1
+songshu_weiba
+  rotate: false
+  xy: 2, 62
+  size: 40, 62
+  orig: 40, 62
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,62 @@
+
+jiarentuoyi21.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shenti
+  rotate: false
+  xy: 2, 359
+  size: 306, 663
+  orig: 306, 663
+  offset: 0, 0
+  index: -1
+shou01
+  rotate: false
+  xy: 796, 912
+  size: 64, 110
+  orig: 64, 110
+  offset: 0, 0
+  index: -1
+shou02
+  rotate: false
+  xy: 2, 157
+  size: 182, 200
+  orig: 182, 200
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 310, 458
+  size: 160, 176
+  orig: 160, 176
+  offset: 0, 0
+  index: -1
+toufa
+  rotate: false
+  xy: 2, 2
+  size: 127, 153
+  orig: 127, 153
+  offset: 0, 0
+  index: -1
+yanpi
+  rotate: false
+  xy: 186, 332
+  size: 67, 25
+  orig: 67, 25
+  offset: 0, 0
+  index: -1
+yifu01
+  rotate: false
+  xy: 624, 617
+  size: 170, 405
+  orig: 170, 405
+  offset: 0, 0
+  index: -1
+yifu02
+  rotate: false
+  xy: 310, 636
+  size: 312, 386
+  orig: 312, 386
+  offset: 0, 0
+  index: -1

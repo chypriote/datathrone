@@ -1,0 +1,69 @@
+
+npc_4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eye
+  rotate: false
+  xy: 300, 119
+  size: 54, 10
+  orig: 54, 10
+  offset: 0, 0
+  index: -1
+qunzi
+  rotate: false
+  xy: 2, 112
+  size: 296, 870
+  orig: 296, 870
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 515, 587
+  size: 325, 395
+  orig: 325, 395
+  offset: 0, 0
+  index: -1
+shou1
+  rotate: false
+  xy: 623, 502
+  size: 133, 83
+  orig: 133, 83
+  offset: 0, 0
+  index: -1
+shou2
+  rotate: false
+  xy: 515, 377
+  size: 106, 208
+  orig: 106, 208
+  offset: 0, 0
+  index: -1
+shu
+  rotate: true
+  xy: 515, 202
+  size: 173, 92
+  orig: 173, 92
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 842, 844
+  size: 131, 138
+  orig: 131, 138
+  offset: 0, 0
+  index: -1
+xiuzi
+  rotate: false
+  xy: 2, 2
+  size: 295, 108
+  orig: 295, 108
+  offset: 0, 0
+  index: -1
+yingzi
+  rotate: true
+  xy: 300, 131
+  size: 851, 213
+  orig: 851, 213
+  offset: 0, 0
+  index: -1

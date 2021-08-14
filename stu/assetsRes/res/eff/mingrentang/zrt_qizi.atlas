@@ -1,0 +1,20 @@
+
+zrt_qizi.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mrt_qizi1
+  rotate: true
+  xy: 2, 2
+  size: 102, 315
+  orig: 102, 315
+  offset: 0, 0
+  index: -1
+mrt_qizi2
+  rotate: true
+  xy: 2, 106
+  size: 125, 388
+  orig: 125, 388
+  offset: 0, 0
+  index: -1

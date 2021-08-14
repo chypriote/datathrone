@@ -1,0 +1,55 @@
+
+an_nvdianji.png
+size: 641,340
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/xin_dianji_00000
+  rotate: true
+  xy: 2, 131
+  size: 207, 201
+  orig: 256, 256
+  offset: 26, 24
+  index: -1
+image/xin_dianji_00001
+  rotate: false
+  xy: 205, 152
+  size: 221, 186
+  orig: 256, 256
+  offset: 16, 22
+  index: -1
+image/xin_dianji_00002
+  rotate: false
+  xy: 428, 174
+  size: 211, 164
+  orig: 256, 256
+  offset: 14, 34
+  index: -1
+image/xin_dianji_00003
+  rotate: false
+  xy: 436, 13
+  size: 183, 159
+  orig: 256, 256
+  offset: 37, 40
+  index: -1
+image/xin_dianji_00004
+  rotate: false
+  xy: 2, 23
+  size: 165, 106
+  orig: 256, 256
+  offset: 39, 92
+  index: -1
+image/xin_dianji_00005
+  rotate: false
+  xy: 169, 25
+  size: 161, 104
+  orig: 256, 256
+  offset: 40, 93
+  index: -1
+image/xin_dianji_00006
+  rotate: true
+  xy: 332, 2
+  size: 148, 102
+  orig: 256, 256
+  offset: 52, 94
+  index: -1

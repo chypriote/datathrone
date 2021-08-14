@@ -1,0 +1,62 @@
+
+cb_shengdan.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+deng1_1
+  rotate: false
+  xy: 2, 1366
+  size: 479, 263
+  orig: 479, 263
+  offset: 0, 0
+  index: -1
+deng2_1
+  rotate: false
+  xy: 1555, 1796
+  size: 466, 223
+  orig: 466, 223
+  offset: 0, 0
+  index: -1
+deng3_1
+  rotate: true
+  xy: 2, 839
+  size: 525, 183
+  orig: 525, 183
+  offset: 0, 0
+  index: -1
+deng4_1
+  rotate: false
+  xy: 1054, 1728
+  size: 499, 291
+  orig: 499, 291
+  offset: 0, 0
+  index: -1
+lingdang1
+  rotate: false
+  xy: 2, 1863
+  size: 1050, 156
+  orig: 1050, 156
+  offset: 0, 0
+  index: -1
+lingdang2
+  rotate: false
+  xy: 2, 1746
+  size: 1050, 115
+  orig: 1050, 115
+  offset: 0, 0
+  index: -1
+lingdang3
+  rotate: false
+  xy: 2, 1631
+  size: 1050, 113
+  orig: 1050, 113
+  offset: 0, 0
+  index: -1
+ws_glow
+  rotate: false
+  xy: 1054, 1676
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,83 @@
+
+gwyz_saoguang.png
+size: 1432,464
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/gwyz_saoguang_00001
+  rotate: false
+  xy: 2, 2
+  size: 128, 460
+  orig: 128, 460
+  offset: 0, 0
+  index: -1
+images/gwyz_saoguang_00002
+  rotate: false
+  xy: 132, 2
+  size: 128, 460
+  orig: 128, 460
+  offset: 0, 0
+  index: -1
+images/gwyz_saoguang_00003
+  rotate: false
+  xy: 262, 2
+  size: 128, 460
+  orig: 128, 460
+  offset: 0, 0
+  index: -1
+images/gwyz_saoguang_00004
+  rotate: false
+  xy: 392, 2
+  size: 128, 460
+  orig: 128, 460
+  offset: 0, 0
+  index: -1
+images/gwyz_saoguang_00005
+  rotate: false
+  xy: 522, 2
+  size: 128, 460
+  orig: 128, 460
+  offset: 0, 0
+  index: -1
+images/gwyz_saoguang_00006
+  rotate: false
+  xy: 652, 2
+  size: 128, 460
+  orig: 128, 460
+  offset: 0, 0
+  index: -1
+images/gwyz_saoguang_00007
+  rotate: false
+  xy: 782, 2
+  size: 128, 460
+  orig: 128, 460
+  offset: 0, 0
+  index: -1
+images/gwyz_saoguang_00008
+  rotate: false
+  xy: 912, 2
+  size: 128, 460
+  orig: 128, 460
+  offset: 0, 0
+  index: -1
+images/gwyz_saoguang_00009
+  rotate: false
+  xy: 1042, 2
+  size: 128, 460
+  orig: 128, 460
+  offset: 0, 0
+  index: -1
+images/gwyz_saoguang_00010
+  rotate: false
+  xy: 1172, 2
+  size: 128, 460
+  orig: 128, 460
+  offset: 0, 0
+  index: -1
+images/gwyz_saoguang_00011
+  rotate: false
+  xy: 1302, 2
+  size: 128, 460
+  orig: 128, 460
+  offset: 0, 0
+  index: -1

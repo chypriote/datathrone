@@ -1,0 +1,76 @@
+
+2021fhj_caidai.png
+size: 388,155
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/piaodai_1
+  rotate: false
+  xy: 254, 11
+  size: 50, 42
+  orig: 50, 42
+  offset: 0, 0
+  index: -1
+images/piaodai_10
+  rotate: false
+  xy: 2, 42
+  size: 108, 111
+  orig: 108, 111
+  offset: 0, 0
+  index: -1
+images/piaodai_2
+  rotate: false
+  xy: 186, 5
+  size: 66, 48
+  orig: 66, 48
+  offset: 0, 0
+  index: -1
+images/piaodai_3
+  rotate: true
+  xy: 77, 9
+  size: 31, 32
+  orig: 31, 32
+  offset: 0, 0
+  index: -1
+images/piaodai_4
+  rotate: false
+  xy: 306, 2
+  size: 35, 51
+  orig: 35, 51
+  offset: 0, 0
+  index: -1
+images/piaodai_5
+  rotate: false
+  xy: 112, 4
+  size: 72, 49
+  orig: 72, 49
+  offset: 0, 0
+  index: -1
+images/piaodai_6
+  rotate: true
+  xy: 335, 72
+  size: 81, 51
+  orig: 81, 51
+  offset: 0, 0
+  index: -1
+images/piaodai_7
+  rotate: true
+  xy: 2, 10
+  size: 30, 73
+  orig: 30, 73
+  offset: 0, 0
+  index: -1
+images/piaodai_8
+  rotate: false
+  xy: 112, 55
+  size: 116, 98
+  orig: 116, 98
+  offset: 0, 0
+  index: -1
+images/piaodai_9
+  rotate: false
+  xy: 230, 55
+  size: 103, 98
+  orig: 103, 98
+  offset: 0, 0
+  index: -1

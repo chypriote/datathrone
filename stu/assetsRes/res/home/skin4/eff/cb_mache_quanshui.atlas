@@ -1,0 +1,111 @@
+
+cb_mache_quanshui.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mache
+  rotate: false
+  xy: 2, 330
+  size: 347, 143
+  orig: 347, 143
+  offset: 0, 0
+  index: -1
+quanshui/quanshui_01
+  rotate: false
+  xy: 351, 393
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+quanshui/quanshui_02
+  rotate: false
+  xy: 2, 166
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+quanshui/quanshui_03
+  rotate: false
+  xy: 84, 248
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+quanshui/quanshui_04
+  rotate: false
+  xy: 2, 84
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+quanshui/quanshui_05
+  rotate: false
+  xy: 84, 166
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+quanshui/quanshui_06
+  rotate: false
+  xy: 166, 248
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+quanshui/quanshui_07
+  rotate: false
+  xy: 2, 2
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+quanshui/quanshui_08
+  rotate: false
+  xy: 84, 84
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+quanshui/quanshui_09
+  rotate: false
+  xy: 166, 166
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+quanshui/quanshui_10
+  rotate: false
+  xy: 248, 248
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+quanshui/quanshui_11
+  rotate: false
+  xy: 84, 2
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+quanshui/quanshui_12
+  rotate: false
+  xy: 166, 84
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+quanshui/quanshui_13
+  rotate: false
+  xy: 248, 166
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+quanshui/quanshui_14
+  rotate: false
+  xy: 2, 248
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1

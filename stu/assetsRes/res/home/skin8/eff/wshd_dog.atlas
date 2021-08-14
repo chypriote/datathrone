@@ -1,0 +1,48 @@
+
+wshd_dog.png
+size: 446,104
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+27
+  rotate: false
+  xy: 410, 68
+  size: 34, 34
+  orig: 34, 34
+  offset: 0, 0
+  index: -1
+28
+  rotate: false
+  xy: 410, 60
+  size: 7, 6
+  orig: 7, 6
+  offset: 0, 0
+  index: -1
+wshd_tang1
+  rotate: false
+  xy: 2, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+wshd_tang2
+  rotate: false
+  xy: 104, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+wshd_tang3
+  rotate: false
+  xy: 206, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+zmhd_zi_00000
+  rotate: false
+  xy: 308, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1

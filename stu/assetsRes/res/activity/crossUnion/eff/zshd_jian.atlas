@@ -1,0 +1,146 @@
+
+zshd_jian.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/zshd_dg_00000
+  rotate: false
+  xy: 2, 204
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+image/zshd_dg_00001
+  rotate: false
+  xy: 2, 2
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+image/zshd_jxh_00000
+  rotate: false
+  xy: 204, 224
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+image/zshd_jxh_00001
+  rotate: false
+  xy: 204, 42
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+image/zshd_jxh_00002
+  rotate: false
+  xy: 386, 224
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+image/zshd_jxh_00003
+  rotate: false
+  xy: 386, 42
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+image/zshd_jxh_00004
+  rotate: false
+  xy: 568, 224
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+image/zshd_jxh_00005
+  rotate: false
+  xy: 568, 42
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+image/zshd_jxh_00006
+  rotate: false
+  xy: 750, 224
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+image/zshd_jxh_00007
+  rotate: false
+  xy: 750, 42
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+image/zshd_ks_00000
+  rotate: false
+  xy: 932, 254
+  size: 140, 150
+  orig: 140, 150
+  offset: 0, 0
+  index: -1
+image/zshd_ks_00001
+  rotate: false
+  xy: 932, 102
+  size: 140, 150
+  orig: 140, 150
+  offset: 0, 0
+  index: -1
+image/zshd_ks_00002
+  rotate: false
+  xy: 1074, 254
+  size: 140, 150
+  orig: 140, 150
+  offset: 0, 0
+  index: -1
+image/zshd_ks_00003
+  rotate: false
+  xy: 1074, 102
+  size: 140, 150
+  orig: 140, 150
+  offset: 0, 0
+  index: -1
+image/zshd_ks_00004
+  rotate: false
+  xy: 1216, 254
+  size: 140, 150
+  orig: 140, 150
+  offset: 0, 0
+  index: -1
+image/zshd_ks_00005
+  rotate: false
+  xy: 1216, 102
+  size: 140, 150
+  orig: 140, 150
+  offset: 0, 0
+  index: -1
+image/zshd_ks_00006
+  rotate: false
+  xy: 1358, 254
+  size: 140, 150
+  orig: 140, 150
+  offset: 0, 0
+  index: -1
+image/zshd_ks_00007
+  rotate: false
+  xy: 1358, 102
+  size: 140, 150
+  orig: 140, 150
+  offset: 0, 0
+  index: -1
+image/zshd_ks_00008
+  rotate: false
+  xy: 1500, 254
+  size: 140, 150
+  orig: 140, 150
+  offset: 0, 0
+  index: -1
+image/zshd_ks_00009
+  rotate: false
+  xy: 1500, 102
+  size: 140, 150
+  orig: 140, 150
+  offset: 0, 0
+  index: -1

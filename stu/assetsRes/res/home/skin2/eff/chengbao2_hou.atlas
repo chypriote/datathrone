@@ -1,0 +1,20 @@
+
+chengbao2_hou.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+yueliang
+  rotate: false
+  xy: 2, 2
+  size: 429, 450
+  orig: 429, 450
+  offset: 0, 0
+  index: -1
+yunceng
+  rotate: false
+  xy: 2, 454
+  size: 750, 414
+  orig: 750, 414
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,160 @@
+
+zlyh_texiao.png
+size: 1808,717
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/1
+  rotate: false
+  xy: 531, 545
+  size: 170, 170
+  orig: 170, 170
+  offset: 0, 0
+  index: -1
+image/1_00000
+  rotate: false
+  xy: 108, 625
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+image/lyou_shang
+  rotate: false
+  xy: 1068, 518
+  size: 356, 197
+  orig: 356, 197
+  offset: 0, 0
+  index: -1
+image/lyou_xia
+  rotate: false
+  xy: 1426, 518
+  size: 357, 197
+  orig: 357, 197
+  offset: 0, 0
+  index: -1
+image/lzuo_shang
+  rotate: false
+  xy: 2, 423
+  size: 356, 200
+  orig: 356, 200
+  offset: 0, 0
+  index: -1
+image/lzuo_xia
+  rotate: false
+  xy: 703, 520
+  size: 363, 195
+  orig: 363, 195
+  offset: 0, 0
+  index: -1
+image/you_shang
+  rotate: true
+  xy: 2, 627
+  size: 88, 104
+  orig: 88, 104
+  offset: 0, 0
+  index: -1
+image/you_xia
+  rotate: false
+  xy: 200, 625
+  size: 108, 90
+  orig: 108, 90
+  offset: 0, 0
+  index: -1
+image/zlyh_baodian_00002
+  rotate: false
+  xy: 360, 287
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/zlyh_baodian_00003
+  rotate: false
+  xy: 618, 262
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/zlyh_baodian_00004
+  rotate: false
+  xy: 876, 260
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/zlyh_baodian_00005
+  rotate: false
+  xy: 1134, 260
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/zlyh_baodian_00006
+  rotate: false
+  xy: 1392, 260
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/zlyh_baodian_00007
+  rotate: false
+  xy: 2, 165
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/zlyh_baodian_00008
+  rotate: false
+  xy: 260, 29
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/zlyh_baodian_00009
+  rotate: false
+  xy: 518, 4
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/zlyh_baodian_00010
+  rotate: false
+  xy: 776, 2
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/zlyh_baodian_00011
+  rotate: false
+  xy: 1034, 2
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/zlyh_baodian_00012
+  rotate: false
+  xy: 1292, 2
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/zlyh_baodian_00013
+  rotate: false
+  xy: 1550, 2
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/zuo_shang
+  rotate: true
+  xy: 424, 623
+  size: 92, 105
+  orig: 92, 105
+  offset: 0, 0
+  index: -1
+image/zuo_xia
+  rotate: false
+  xy: 310, 625
+  size: 112, 90
+  orig: 112, 90
+  offset: 0, 0
+  index: -1

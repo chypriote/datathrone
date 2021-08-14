@@ -1,0 +1,272 @@
+
+chenghao_13008.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bbbb
+  rotate: false
+  xy: 1746, 409
+  size: 149, 101
+  orig: 149, 101
+  offset: 0, 0
+  index: -1
+biyan2
+  rotate: false
+  xy: 728, 52
+  size: 47, 11
+  orig: 47, 11
+  offset: 0, 0
+  index: -1
+biyan4
+  rotate: false
+  xy: 2, 14
+  size: 51, 13
+  orig: 51, 13
+  offset: 0, 0
+  index: -1
+biyan5
+  rotate: true
+  xy: 992, 347
+  size: 51, 13
+  orig: 51, 13
+  offset: 0, 0
+  index: -1
+buiyan1
+  rotate: true
+  xy: 1259, 272
+  size: 50, 11
+  orig: 50, 11
+  offset: 0, 0
+  index: -1
+buiyan333
+  rotate: true
+  xy: 1277, 367
+  size: 50, 11
+  orig: 50, 11
+  offset: 0, 0
+  index: -1
+hopf
+  rotate: false
+  xy: 559, 8
+  size: 119, 55
+  orig: 119, 55
+  offset: 0, 0
+  index: -1
+jian
+  rotate: true
+  xy: 607, 400
+  size: 110, 402
+  orig: 110, 402
+  offset: 0, 0
+  index: -1
+pigeng
+  rotate: true
+  xy: 2, 229
+  size: 281, 603
+  orig: 281, 603
+  offset: 0, 0
+  index: -1
+qunzi
+  rotate: true
+  xy: 437, 27
+  size: 200, 120
+  orig: 200, 120
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: true
+  xy: 2, 29
+  size: 198, 433
+  orig: 198, 433
+  offset: 0, 0
+  index: -1
+tou/biyan_dongou
+  rotate: false
+  xy: 1401, 412
+  size: 48, 12
+  orig: 48, 12
+  offset: 0, 0
+  index: -1
+tou/biyan_feiyi
+  rotate: true
+  xy: 992, 293
+  size: 52, 12
+  orig: 52, 12
+  offset: 0, 0
+  index: -1
+tou/d_tou1
+  rotate: true
+  xy: 607, 198
+  size: 93, 131
+  orig: 93, 131
+  offset: 0, 0
+  index: -1
+tou/d_tou2
+  rotate: true
+  xy: 740, 198
+  size: 93, 131
+  orig: 93, 131
+  offset: 0, 0
+  index: -1
+tou/d_tou3
+  rotate: true
+  xy: 873, 198
+  size: 93, 131
+  orig: 93, 131
+  offset: 0, 0
+  index: -1
+tou/d_tou4
+  rotate: false
+  xy: 559, 65
+  size: 93, 131
+  orig: 93, 131
+  offset: 0, 0
+  index: -1
+tou/d_tou5
+  rotate: false
+  xy: 654, 65
+  size: 93, 131
+  orig: 93, 131
+  offset: 0, 0
+  index: -1
+tou/f_tou1
+  rotate: false
+  xy: 749, 65
+  size: 93, 131
+  orig: 93, 131
+  offset: 0, 0
+  index: -1
+tou/f_tou2
+  rotate: false
+  xy: 844, 65
+  size: 93, 131
+  orig: 93, 131
+  offset: 0, 0
+  index: -1
+tou/f_tou3
+  rotate: false
+  xy: 939, 65
+  size: 93, 131
+  orig: 93, 131
+  offset: 0, 0
+  index: -1
+tou/f_tou4
+  rotate: true
+  xy: 1011, 324
+  size: 93, 131
+  orig: 93, 131
+  offset: 0, 0
+  index: -1
+tou/f_tou5
+  rotate: true
+  xy: 1144, 324
+  size: 93, 131
+  orig: 93, 131
+  offset: 0, 0
+  index: -1
+tou1
+  rotate: true
+  xy: 1034, 33
+  size: 81, 110
+  orig: 81, 110
+  offset: 0, 0
+  index: -1
+tou2
+  rotate: false
+  xy: 1034, 116
+  size: 85, 118
+  orig: 85, 118
+  offset: 0, 0
+  index: -1
+tou3
+  rotate: true
+  xy: 1134, 237
+  size: 85, 123
+  orig: 85, 123
+  offset: 0, 0
+  index: -1
+tou4
+  rotate: false
+  xy: 1204, 122
+  size: 88, 113
+  orig: 88, 113
+  offset: 0, 0
+  index: -1
+tou5
+  rotate: false
+  xy: 1121, 118
+  size: 81, 116
+  orig: 81, 116
+  offset: 0, 0
+  index: -1
+youdabi
+  rotate: false
+  xy: 1294, 346
+  size: 105, 78
+  orig: 105, 78
+  offset: 0, 0
+  index: -1
+youjisnbsnsb
+  rotate: false
+  xy: 1897, 388
+  size: 143, 122
+  orig: 143, 122
+  offset: 0, 0
+  index: -1
+youtui
+  rotate: true
+  xy: 1294, 426
+  size: 84, 287
+  orig: 84, 287
+  offset: 0, 0
+  index: -1
+youxiaobi
+  rotate: false
+  xy: 1583, 429
+  size: 161, 81
+  orig: 161, 81
+  offset: 0, 0
+  index: -1
+yxbz
+  rotate: true
+  xy: 1221, 12
+  size: 108, 79
+  orig: 108, 79
+  offset: 0, 0
+  index: -1
+zuohpf
+  rotate: true
+  xy: 607, 293
+  size: 105, 383
+  orig: 105, 383
+  offset: 0, 0
+  index: -1
+zuooxiaobizzzzz
+  rotate: true
+  xy: 1146, 2
+  size: 114, 73
+  orig: 114, 73
+  offset: 0, 0
+  index: -1
+zuopijian
+  rotate: false
+  xy: 1006, 236
+  size: 126, 86
+  orig: 126, 86
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: false
+  xy: 680, 33
+  size: 46, 30
+  orig: 46, 30
+  offset: 0, 0
+  index: -1
+zuotui
+  rotate: true
+  xy: 1011, 419
+  size: 91, 281
+  orig: 91, 281
+  offset: 0, 0
+  index: -1

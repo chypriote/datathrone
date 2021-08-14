@@ -1,0 +1,27 @@
+
+zmhd_lzk.png
+size: 452,132
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/zmhd_fk0
+  rotate: true
+  xy: 2, 2
+  size: 128, 190
+  orig: 128, 190
+  offset: 0, 0
+  index: -1
+image/zmhd_fk1
+  rotate: true
+  xy: 194, 2
+  size: 128, 190
+  orig: 128, 190
+  offset: 0, 0
+  index: -1
+image/zmhd_guandian_00003
+  rotate: true
+  xy: 386, 40
+  size: 90, 64
+  orig: 90, 64
+  offset: 0, 0
+  index: -1

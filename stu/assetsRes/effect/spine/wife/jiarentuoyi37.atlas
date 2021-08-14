@@ -1,0 +1,279 @@
+
+jiarentuoyi37.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body01
+  rotate: false
+  xy: 2, 85
+  size: 264, 390
+  orig: 264, 390
+  offset: 0, 0
+  index: -1
+body02
+  rotate: false
+  xy: 410, 293
+  size: 221, 255
+  orig: 221, 255
+  offset: 0, 0
+  index: -1
+hair01
+  rotate: false
+  xy: 1448, 747
+  size: 41, 119
+  orig: 41, 119
+  offset: 0, 0
+  index: -1
+hair02
+  rotate: false
+  xy: 1399, 747
+  size: 47, 119
+  orig: 47, 119
+  offset: 0, 0
+  index: -1
+hair03
+  rotate: true
+  xy: 1848, 864
+  size: 52, 126
+  orig: 52, 126
+  offset: 0, 0
+  index: -1
+hair04
+  rotate: true
+  xy: 1045, 716
+  size: 48, 131
+  orig: 48, 131
+  offset: 0, 0
+  index: -1
+hair05
+  rotate: true
+  xy: 1491, 759
+  size: 107, 52
+  orig: 107, 52
+  offset: 0, 0
+  index: -1
+hairback
+  rotate: true
+  xy: 1045, 766
+  size: 109, 208
+  orig: 109, 208
+  offset: 0, 0
+  index: -1
+hairback001
+  rotate: true
+  xy: 1418, 868
+  size: 32, 124
+  orig: 32, 124
+  offset: 0, 0
+  index: -1
+hairback002
+  rotate: false
+  xy: 1976, 875
+  size: 31, 41
+  orig: 31, 41
+  offset: 0, 0
+  index: -1
+head01
+  rotate: true
+  xy: 822, 315
+  size: 144, 174
+  orig: 144, 174
+  offset: 0, 0
+  index: -1
+larm01
+  rotate: false
+  xy: 2, 32
+  size: 199, 51
+  orig: 199, 51
+  offset: 0, 0
+  index: -1
+larm02
+  rotate: true
+  xy: 410, 114
+  size: 177, 210
+  orig: 177, 210
+  offset: 0, 0
+  index: -1
+leye
+  rotate: true
+  xy: 1061, 536
+  size: 29, 17
+  orig: 30, 17
+  offset: 0, 0
+  index: -1
+lleg01
+  rotate: true
+  xy: 1557, 886
+  size: 136, 289
+  orig: 136, 289
+  offset: 0, 0
+  index: -1
+lxiong01
+  rotate: false
+  xy: 998, 325
+  size: 115, 134
+  orig: 115, 134
+  offset: 0, 0
+  index: -1
+lxiuzi01
+  rotate: true
+  xy: 392, 895
+  size: 127, 734
+  orig: 127, 734
+  offset: 0, 0
+  index: -1
+lxiuzi02
+  rotate: true
+  xy: 392, 690
+  size: 203, 651
+  orig: 203, 651
+  offset: 0, 0
+  index: -1
+lxiuzi03
+  rotate: false
+  xy: 268, 104
+  size: 140, 371
+  orig: 140, 371
+  offset: 0, 0
+  index: -1
+rarm01
+  rotate: false
+  xy: 1848, 918
+  size: 195, 104
+  orig: 195, 104
+  offset: 0, 0
+  index: -1
+rarm02
+  rotate: false
+  xy: 805, 567
+  size: 273, 121
+  orig: 273, 121
+  offset: 0, 0
+  index: -1
+reye
+  rotate: false
+  xy: 2009, 895
+  size: 34, 21
+  orig: 34, 21
+  offset: 0, 0
+  index: -1
+rhand01
+  rotate: false
+  xy: 268, 85
+  size: 36, 17
+  orig: 36, 17
+  offset: 0, 0
+  index: -1
+rhand02
+  rotate: false
+  xy: 203, 27
+  size: 87, 56
+  orig: 87, 56
+  offset: 0, 0
+  index: -1
+rleg01
+  rotate: false
+  xy: 633, 296
+  size: 187, 252
+  orig: 187, 252
+  offset: 0, 0
+  index: -1
+rxiong01
+  rotate: true
+  xy: 1255, 742
+  size: 133, 142
+  orig: 133, 142
+  offset: 0, 0
+  index: -1
+rxiuzi01
+  rotate: true
+  xy: 392, 550
+  size: 138, 411
+  orig: 138, 411
+  offset: 0, 0
+  index: -1
+rxiuzi02
+  rotate: false
+  xy: 1080, 583
+  size: 88, 131
+  orig: 88, 131
+  offset: 0, 0
+  index: -1
+rxiuzi03
+  rotate: true
+  xy: 1128, 877
+  size: 23, 288
+  orig: 23, 288
+  offset: 0, 0
+  index: -1
+rxiuzi04
+  rotate: true
+  xy: 1128, 902
+  size: 120, 427
+  orig: 120, 427
+  offset: 0, 0
+  index: -1
+rxiuzi05
+  rotate: true
+  xy: 410, 23
+  size: 89, 223
+  orig: 89, 223
+  offset: 0, 0
+  index: -1
+touhua01_1
+  rotate: false
+  xy: 1178, 725
+  size: 38, 39
+  orig: 38, 39
+  offset: 0, 0
+  index: -1
+touhua01_2
+  rotate: false
+  xy: 2, 2
+  size: 23, 28
+  orig: 23, 28
+  offset: 0, 0
+  index: -1
+touhua01_3
+  rotate: false
+  xy: 27, 2
+  size: 14, 28
+  orig: 14, 28
+  offset: 0, 0
+  index: -1
+touhua01_4
+  rotate: true
+  xy: 822, 305
+  size: 8, 50
+  orig: 8, 50
+  offset: 0, 0
+  index: -1
+touhua02_1
+  rotate: true
+  xy: 1218, 735
+  size: 29, 35
+  orig: 29, 35
+  offset: 0, 0
+  index: -1
+touhua02_2
+  rotate: false
+  xy: 392, 481
+  size: 10, 67
+  orig: 10, 67
+  offset: 0, 0
+  index: -1
+xz01
+  rotate: false
+  xy: 822, 461
+  size: 237, 104
+  orig: 237, 104
+  offset: 0, 0
+  index: -1
+yifubeihou01
+  rotate: false
+  xy: 2, 477
+  size: 388, 545
+  orig: 388, 545
+  offset: 0, 0
+  index: -1

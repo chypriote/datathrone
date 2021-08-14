@@ -1,0 +1,153 @@
+
+chenghao_18.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+315_maofa1
+  rotate: false
+  xy: 637, 55
+  size: 81, 54
+  orig: 81, 54
+  offset: 0, 0
+  index: -1
+315_maofa2
+  rotate: true
+  xy: 373, 4
+  size: 105, 129
+  orig: 105, 129
+  offset: 0, 0
+  index: -1
+315_pifeng
+  rotate: false
+  xy: 212, 481
+  size: 394, 536
+  orig: 394, 536
+  offset: 0, 0
+  index: -1
+315_qizi
+  rotate: false
+  xy: 2, 246
+  size: 208, 771
+  orig: 208, 771
+  offset: 0, 0
+  index: -1
+315_qunzi
+  rotate: false
+  xy: 2, 2
+  size: 93, 242
+  orig: 93, 242
+  offset: 0, 0
+  index: -1
+315_shangshoubi1
+  rotate: false
+  xy: 812, 134
+  size: 118, 170
+  orig: 118, 170
+  offset: 0, 0
+  index: -1
+315_shangshoubi2
+  rotate: true
+  xy: 199, 11
+  size: 98, 172
+  orig: 98, 172
+  offset: 0, 0
+  index: -1
+315_shenti
+  rotate: true
+  xy: 212, 274
+  size: 205, 357
+  orig: 205, 357
+  offset: 0, 0
+  index: -1
+315_shou2
+  rotate: false
+  xy: 932, 158
+  size: 58, 65
+  orig: 58, 65
+  offset: 0, 0
+  index: -1
+315_toukui
+  rotate: true
+  xy: 812, 18
+  size: 114, 162
+  orig: 114, 162
+  offset: 0, 0
+  index: -1
+315_tui1
+  rotate: true
+  xy: 571, 306
+  size: 97, 448
+  orig: 97, 448
+  offset: 0, 0
+  index: -1
+315_tui2
+  rotate: true
+  xy: 608, 405
+  size: 137, 398
+  orig: 137, 398
+  offset: 0, 0
+  index: -1
+315_wuqi
+  rotate: true
+  xy: 608, 544
+  size: 473, 382
+  orig: 473, 382
+  offset: 0, 0
+  index: -1
+315_xiashoubi1
+  rotate: false
+  xy: 97, 28
+  size: 100, 216
+  orig: 100, 216
+  offset: 0, 0
+  index: -1
+315_xiashoubi2
+  rotate: false
+  xy: 932, 225
+  size: 79, 79
+  orig: 79, 79
+  offset: 0, 0
+  index: -1
+315_yaodai
+  rotate: false
+  xy: 678, 111
+  size: 132, 193
+  orig: 132, 193
+  offset: 0, 0
+  index: -1
+315_yingzi
+  rotate: false
+  xy: 212, 111
+  size: 464, 161
+  orig: 464, 161
+  offset: 0, 0
+  index: -1
+315_zhuangshi1
+  rotate: true
+  xy: 720, 55
+  size: 54, 63
+  orig: 54, 63
+  offset: 0, 0
+  index: -1
+315_zhuangshi2
+  rotate: true
+  xy: 637, 17
+  size: 36, 67
+  orig: 36, 67
+  offset: 0, 0
+  index: -1
+biyan1
+  rotate: true
+  xy: 992, 970
+  size: 47, 7
+  orig: 47, 7
+  offset: 0, 0
+  index: -1
+tou1
+  rotate: true
+  xy: 504, 16
+  size: 93, 131
+  orig: 93, 131
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,146 @@
+
+servant25.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bozi
+  rotate: false
+  xy: 429, 97
+  size: 111, 82
+  orig: 111, 82
+  offset: 0, 0
+  index: -1
+hudejie
+  rotate: true
+  xy: 557, 241
+  size: 91, 95
+  orig: 91, 95
+  offset: 0, 0
+  index: -1
+kuzi
+  rotate: true
+  xy: 2, 111
+  size: 403, 261
+  orig: 403, 261
+  offset: 0, 0
+  index: -1
+pifeng
+  rotate: true
+  xy: 377, 533
+  size: 239, 586
+  orig: 239, 586
+  offset: 0, 0
+  index: -1
+pinfeng1
+  rotate: true
+  xy: 377, 774
+  size: 233, 617
+  orig: 233, 617
+  offset: 0, 0
+  index: -1
+qianbao
+  rotate: false
+  xy: 732, 371
+  size: 140, 160
+  orig: 140, 160
+  offset: 0, 0
+  index: -1
+shangyi
+  rotate: false
+  xy: 2, 516
+  size: 373, 491
+  orig: 373, 491
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 557, 334
+  size: 173, 197
+  orig: 173, 197
+  offset: 0, 0
+  index: -1
+weijin
+  rotate: true
+  xy: 265, 129
+  size: 144, 87
+  orig: 144, 87
+  offset: 0, 0
+  index: -1
+weijing hou1
+  rotate: false
+  xy: 965, 717
+  size: 44, 55
+  orig: 44, 55
+  offset: 0, 0
+  index: -1
+xianglian
+  rotate: false
+  xy: 2, 2
+  size: 260, 107
+  orig: 260, 107
+  offset: 0, 0
+  index: -1
+yaodai
+  rotate: true
+  xy: 874, 302
+  size: 229, 65
+  orig: 229, 65
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: false
+  xy: 265, 275
+  size: 138, 239
+  orig: 138, 239
+  offset: 0, 0
+  index: -1
+youshoubi
+  rotate: false
+  xy: 405, 299
+  size: 150, 232
+  orig: 150, 232
+  offset: 0, 0
+  index: -1
+youshoubi2
+  rotate: true
+  xy: 654, 238
+  size: 94, 67
+  orig: 94, 67
+  offset: 0, 0
+  index: -1
+youyanpi
+  rotate: true
+  xy: 965, 670
+  size: 45, 30
+  orig: 45, 30
+  offset: 0, 0
+  index: -1
+yumao
+  rotate: true
+  xy: 354, 124
+  size: 149, 73
+  orig: 149, 73
+  offset: 0, 0
+  index: -1
+yumao1
+  rotate: false
+  xy: 732, 269
+  size: 110, 100
+  orig: 110, 100
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: false
+  xy: 429, 181
+  size: 96, 116
+  orig: 96, 116
+  offset: 0, 0
+  index: -1
+zuoyanpi
+  rotate: true
+  xy: 965, 633
+  size: 35, 30
+  orig: 35, 30
+  offset: 0, 0
+  index: -1

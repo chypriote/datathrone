@@ -1,0 +1,110 @@
+
+servant08.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bao
+  rotate: true
+  xy: 829, 103
+  size: 73, 150
+  orig: 73, 150
+  offset: 0, 0
+  index: -1
+biyan
+  rotate: false
+  xy: 426, 33
+  size: 72, 17
+  orig: 73, 18
+  offset: 1, 1
+  index: -1
+dabi_L
+  rotate: false
+  xy: 620, 403
+  size: 163, 341
+  orig: 163, 341
+  offset: 0, 0
+  index: -1
+dabi_R
+  rotate: false
+  xy: 829, 765
+  size: 158, 239
+  orig: 158, 239
+  offset: 0, 0
+  index: -1
+gun
+  rotate: false
+  xy: 2, 338
+  size: 616, 666
+  orig: 616, 666
+  offset: 0, 0
+  index: -1
+shou_L
+  rotate: false
+  xy: 620, 746
+  size: 207, 258
+  orig: 208, 258
+  offset: 0, 0
+  index: -1
+shou_L2
+  rotate: false
+  xy: 829, 178
+  size: 174, 194
+  orig: 174, 194
+  offset: 0, 0
+  index: -1
+shou_R
+  rotate: true
+  xy: 829, 7
+  size: 94, 109
+  orig: 94, 109
+  offset: 0, 0
+  index: -1
+tou
+  rotate: true
+  xy: 785, 374
+  size: 162, 224
+  orig: 162, 224
+  offset: 0, 0
+  index: -1
+weibo
+  rotate: false
+  xy: 2, 2
+  size: 422, 334
+  orig: 422, 335
+  offset: 0, 0
+  index: -1
+xiashen
+  rotate: false
+  xy: 426, 52
+  size: 401, 284
+  orig: 401, 284
+  offset: 0, 0
+  index: -1
+yinying
+  rotate: false
+  xy: 785, 538
+  size: 193, 206
+  orig: 194, 206
+  offset: 0, 0
+  index: -1
+
+servant082.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shenti
+  rotate: false
+  xy: 2, 2
+  size: 418, 475
+  orig: 418, 475
+  offset: 0, 0
+  index: -1
+shou_R1
+  rotate: false
+  xy: 422, 271
+  size: 151, 206
+  orig: 152, 206
+  offset: 1, 0
+  index: -1

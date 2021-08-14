@@ -1,0 +1,388 @@
+
+zmhd_jinsekuang.png
+size: 968,968
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/zmhd_baokai/zmhd_baokai_00000
+  rotate: false
+  xy: 2, 646
+  size: 320, 320
+  orig: 320, 320
+  offset: 0, 0
+  index: -1
+image/zmhd_baokai/zmhd_baokai_00001
+  rotate: false
+  xy: 2, 324
+  size: 320, 320
+  orig: 320, 320
+  offset: 0, 0
+  index: -1
+image/zmhd_baokai/zmhd_baokai_00002
+  rotate: false
+  xy: 324, 646
+  size: 320, 320
+  orig: 320, 320
+  offset: 0, 0
+  index: -1
+image/zmhd_baokai/zmhd_baokai_00003
+  rotate: false
+  xy: 2, 2
+  size: 320, 320
+  orig: 320, 320
+  offset: 0, 0
+  index: -1
+image/zmhd_baokai/zmhd_baokai_00004
+  rotate: false
+  xy: 324, 324
+  size: 320, 320
+  orig: 320, 320
+  offset: 0, 0
+  index: -1
+image/zmhd_baokai/zmhd_baokai_00005
+  rotate: false
+  xy: 646, 646
+  size: 320, 320
+  orig: 320, 320
+  offset: 0, 0
+  index: -1
+image/zmhd_baokai/zmhd_baokai_00006
+  rotate: false
+  xy: 324, 2
+  size: 320, 320
+  orig: 320, 320
+  offset: 0, 0
+  index: -1
+image/zmhd_baokai/zmhd_baokai_00007
+  rotate: false
+  xy: 646, 324
+  size: 320, 320
+  orig: 320, 320
+  offset: 0, 0
+  index: -1
+image/zmhd_baokai/zmhd_baokai_00008
+  rotate: false
+  xy: 646, 2
+  size: 320, 320
+  orig: 320, 320
+  offset: 0, 0
+  index: -1
+
+zmhd_jinsekuang2.png
+size: 999,1020
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/zmhd_baokai/zmhd_baokai_00009
+  rotate: false
+  xy: 2, 698
+  size: 320, 320
+  orig: 320, 320
+  offset: 0, 0
+  index: -1
+image/zmhd_baokai/zmhd_baokai_00010
+  rotate: false
+  xy: 2, 376
+  size: 320, 320
+  orig: 320, 320
+  offset: 0, 0
+  index: -1
+image/zmhd_baokai/zmhd_baokai_00011
+  rotate: false
+  xy: 2, 54
+  size: 320, 320
+  orig: 320, 320
+  offset: 0, 0
+  index: -1
+image/zmhd_baokai/zmhd_baokai_00012
+  rotate: false
+  xy: 324, 698
+  size: 320, 320
+  orig: 320, 320
+  offset: 0, 0
+  index: -1
+image/zmhd_baokai/zmhd_baokai_00013
+  rotate: false
+  xy: 646, 698
+  size: 320, 320
+  orig: 320, 320
+  offset: 0, 0
+  index: -1
+image/zmhd_baokai/zmhd_baokai_00014
+  rotate: false
+  xy: 324, 376
+  size: 320, 320
+  orig: 320, 320
+  offset: 0, 0
+  index: -1
+image/zmhd_jinsekuang/zmhd_jk
+  rotate: false
+  xy: 324, 2
+  size: 263, 372
+  orig: 263, 372
+  offset: 0, 0
+  index: -1
+image/zmhd_xulijin/zmhd_jinsexuli_00000
+  rotate: false
+  xy: 589, 118
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/zmhd_xulijin/zmhd_jinsexuli_00001
+  rotate: false
+  xy: 646, 440
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/zmhd_xunhuan/zmhd_jkxh_00000
+  rotate: false
+  xy: 847, 16
+  size: 150, 210
+  orig: 150, 210
+  offset: 0, 0
+  index: -1
+image/zmhd_xunhuan/zmhd_jkxh_00019
+  rotate: false
+  xy: 847, 228
+  size: 150, 210
+  orig: 150, 210
+  offset: 0, 0
+  index: -1
+
+zmhd_jinsekuang3.png
+size: 988,988
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/zmhd_xulijin/zmhd_jinsexuli_00002
+  rotate: false
+  xy: 2, 730
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/zmhd_xulijin/zmhd_jinsexuli_00003
+  rotate: false
+  xy: 2, 472
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/zmhd_xulijin/zmhd_jinsexuli_00004
+  rotate: false
+  xy: 2, 214
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/zmhd_xulijin/zmhd_jinsexuli_00005
+  rotate: false
+  xy: 260, 730
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/zmhd_xulijin/zmhd_jinsexuli_00006
+  rotate: false
+  xy: 260, 472
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/zmhd_xulijin/zmhd_jinsexuli_00007
+  rotate: false
+  xy: 260, 214
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/zmhd_xulijin/zmhd_jinsexuli_00008
+  rotate: false
+  xy: 518, 730
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/zmhd_xulijin/zmhd_jinsexuli_00009
+  rotate: false
+  xy: 518, 472
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/zmhd_xulijin/zmhd_jinsexuli_00010
+  rotate: false
+  xy: 518, 214
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/zmhd_xunhuan/zmhd_jkxh_00001
+  rotate: false
+  xy: 2, 2
+  size: 150, 210
+  orig: 150, 210
+  offset: 0, 0
+  index: -1
+image/zmhd_xunhuan/zmhd_jkxh_00002
+  rotate: false
+  xy: 154, 2
+  size: 150, 210
+  orig: 150, 210
+  offset: 0, 0
+  index: -1
+image/zmhd_xunhuan/zmhd_jkxh_00003
+  rotate: false
+  xy: 306, 2
+  size: 150, 210
+  orig: 150, 210
+  offset: 0, 0
+  index: -1
+image/zmhd_xunhuan/zmhd_jkxh_00004
+  rotate: false
+  xy: 458, 2
+  size: 150, 210
+  orig: 150, 210
+  offset: 0, 0
+  index: -1
+image/zmhd_xunhuan/zmhd_jkxh_00005
+  rotate: false
+  xy: 610, 2
+  size: 150, 210
+  orig: 150, 210
+  offset: 0, 0
+  index: -1
+image/zmhd_xunhuan/zmhd_jkxh_00006
+  rotate: false
+  xy: 762, 2
+  size: 150, 210
+  orig: 150, 210
+  offset: 0, 0
+  index: -1
+image/zmhd_xunhuan/zmhd_jkxh_00007
+  rotate: true
+  xy: 776, 836
+  size: 150, 210
+  orig: 150, 210
+  offset: 0, 0
+  index: -1
+image/zmhd_xunhuan/zmhd_jkxh_00008
+  rotate: true
+  xy: 776, 684
+  size: 150, 210
+  orig: 150, 210
+  offset: 0, 0
+  index: -1
+image/zmhd_xunhuan/zmhd_jkxh_00009
+  rotate: true
+  xy: 776, 532
+  size: 150, 210
+  orig: 150, 210
+  offset: 0, 0
+  index: -1
+image/zmhd_xunhuan/zmhd_jkxh_00010
+  rotate: true
+  xy: 776, 380
+  size: 150, 210
+  orig: 150, 210
+  offset: 0, 0
+  index: -1
+image/zmhd_xunhuan/zmhd_jkxh_00011
+  rotate: true
+  xy: 776, 228
+  size: 150, 210
+  orig: 150, 210
+  offset: 0, 0
+  index: -1
+
+zmhd_jinsekuang4.png
+size: 974,578
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/zmhd_jinsekuang/zmhd_cunsec_00018
+  rotate: true
+  xy: 730, 24
+  size: 128, 180
+  orig: 128, 180
+  offset: 0, 0
+  index: -1
+image/zmhd_xulijin/zmhd_jinsexuli_00011
+  rotate: false
+  xy: 2, 320
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/zmhd_xulijin/zmhd_jinsexuli_00012
+  rotate: false
+  xy: 2, 62
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/zmhd_xulijin/zmhd_jinsexuli_00013
+  rotate: false
+  xy: 260, 320
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/zmhd_xulijin/zmhd_jinsexuli_00014
+  rotate: false
+  xy: 260, 62
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/zmhd_xunhuan/zmhd_jkxh_00012
+  rotate: false
+  xy: 518, 366
+  size: 150, 210
+  orig: 150, 210
+  offset: 0, 0
+  index: -1
+image/zmhd_xunhuan/zmhd_jkxh_00013
+  rotate: false
+  xy: 518, 154
+  size: 150, 210
+  orig: 150, 210
+  offset: 0, 0
+  index: -1
+image/zmhd_xunhuan/zmhd_jkxh_00014
+  rotate: false
+  xy: 670, 366
+  size: 150, 210
+  orig: 150, 210
+  offset: 0, 0
+  index: -1
+image/zmhd_xunhuan/zmhd_jkxh_00015
+  rotate: false
+  xy: 670, 154
+  size: 150, 210
+  orig: 150, 210
+  offset: 0, 0
+  index: -1
+image/zmhd_xunhuan/zmhd_jkxh_00016
+  rotate: false
+  xy: 822, 366
+  size: 150, 210
+  orig: 150, 210
+  offset: 0, 0
+  index: -1
+image/zmhd_xunhuan/zmhd_jkxh_00017
+  rotate: false
+  xy: 822, 154
+  size: 150, 210
+  orig: 150, 210
+  offset: 0, 0
+  index: -1
+image/zmhd_xunhuan/zmhd_jkxh_00018
+  rotate: true
+  xy: 518, 2
+  size: 150, 210
+  orig: 150, 210
+  offset: 0, 0
+  index: -1

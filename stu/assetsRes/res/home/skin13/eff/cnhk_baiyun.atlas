@@ -1,0 +1,76 @@
+
+cnhk_baiyun.png
+size: 1999,375
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+10
+  rotate: false
+  xy: 1535, 160
+  size: 337, 105
+  orig: 337, 105
+  offset: 0, 0
+  index: -1
+11
+  rotate: false
+  xy: 98, 9
+  size: 67, 16
+  orig: 67, 16
+  offset: 0, 0
+  index: -1
+12
+  rotate: false
+  xy: 1535, 2
+  size: 183, 43
+  orig: 183, 43
+  offset: 0, 0
+  index: -1
+2
+  rotate: true
+  xy: 1874, 3
+  size: 262, 82
+  orig: 262, 82
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 2, 27
+  size: 1531, 346
+  orig: 1531, 346
+  offset: 0, 0
+  index: -1
+5
+  rotate: true
+  xy: 1958, 39
+  size: 226, 39
+  orig: 226, 39
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 2, 5
+  size: 94, 20
+  orig: 94, 20
+  offset: 0, 0
+  index: -1
+7
+  rotate: false
+  xy: 1535, 47
+  size: 236, 44
+  orig: 236, 44
+  offset: 0, 0
+  index: -1
+8
+  rotate: false
+  xy: 1535, 93
+  size: 290, 65
+  orig: 290, 65
+  offset: 0, 0
+  index: -1
+9
+  rotate: false
+  xy: 1535, 267
+  size: 447, 106
+  orig: 447, 106
+  offset: 0, 0
+  index: -1

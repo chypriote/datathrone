@@ -1,0 +1,20 @@
+
+jiaren_menlian.png
+size: 1454,717
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jr_chuanglianj_1
+  rotate: false
+  xy: 2, 2
+  size: 750, 335
+  orig: 750, 335
+  offset: 0, 0
+  index: -1
+jr_chuanglianj_2
+  rotate: true
+  xy: 2, 339
+  size: 376, 1450
+  orig: 376, 1450
+  offset: 0, 0
+  index: -1

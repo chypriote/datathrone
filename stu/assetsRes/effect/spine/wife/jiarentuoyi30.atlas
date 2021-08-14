@@ -1,0 +1,167 @@
+
+jiarentuoyi30.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+biyan
+  rotate: false
+  xy: 186, 63
+  size: 85, 37
+  orig: 87, 39
+  offset: 1, 1
+  index: -1
+erhuan
+  rotate: false
+  xy: 286, 418
+  size: 12, 45
+  orig: 14, 47
+  offset: 1, 1
+  index: -1
+jianbang
+  rotate: false
+  xy: 422, 100
+  size: 85, 121
+  orig: 87, 123
+  offset: 1, 1
+  index: -1
+lian
+  rotate: false
+  xy: 286, 222
+  size: 121, 159
+  orig: 123, 161
+  offset: 1, 1
+  index: -1
+qunzi2
+  rotate: false
+  xy: 846, 450
+  size: 131, 210
+  orig: 133, 212
+  offset: 1, 1
+  index: -1
+shenti
+  rotate: false
+  xy: 2, 465
+  size: 300, 542
+  orig: 302, 544
+  offset: 1, 1
+  index: -1
+shenzi
+  rotate: false
+  xy: 912, 772
+  size: 24, 109
+  orig: 26, 111
+  offset: 1, 1
+  index: -1
+shou1
+  rotate: true
+  xy: 943, 901
+  size: 106, 61
+  orig: 108, 63
+  offset: 1, 1
+  index: -1
+shou2
+  rotate: true
+  xy: 628, 883
+  size: 124, 313
+  orig: 126, 315
+  offset: 1, 1
+  index: -1
+shoubi
+  rotate: true
+  xy: 628, 662
+  size: 94, 276
+  orig: 94, 276
+  offset: 0, 0
+  index: -1
+shouyinzi
+  rotate: true
+  xy: 2, 2
+  size: 40, 125
+  orig: 42, 127
+  offset: 1, 1
+  index: -1
+toufa1
+  rotate: false
+  xy: 304, 594
+  size: 148, 413
+  orig: 150, 415
+  offset: 1, 1
+  index: -1
+toufa2
+  rotate: false
+  xy: 454, 724
+  size: 172, 283
+  orig: 174, 285
+  offset: 1, 1
+  index: -1
+toufa3
+  rotate: false
+  xy: 540, 503
+  size: 60, 88
+  orig: 62, 90
+  offset: 1, 1
+  index: -1
+toufa4
+  rotate: true
+  xy: 286, 115
+  size: 105, 134
+  orig: 107, 136
+  offset: 1, 1
+  index: -1
+toufa5
+  rotate: true
+  xy: 628, 758
+  size: 123, 282
+  orig: 125, 284
+  offset: 1, 1
+  index: -1
+toufa6
+  rotate: true
+  xy: 409, 223
+  size: 158, 87
+  orig: 160, 89
+  offset: 1, 1
+  index: -1
+tui
+  rotate: true
+  xy: 454, 593
+  size: 129, 168
+  orig: 131, 170
+  offset: 1, 1
+  index: -1
+tui1
+  rotate: true
+  xy: 624, 455
+  size: 205, 220
+  orig: 207, 222
+  offset: 1, 1
+  index: -1
+xiong
+  rotate: true
+  xy: 304, 383
+  size: 209, 129
+  orig: 211, 131
+  offset: 1, 1
+  index: -1
+xiuzi1
+  rotate: false
+  xy: 435, 421
+  size: 103, 170
+  orig: 105, 172
+  offset: 1, 1
+  index: -1
+xiuzi2
+  rotate: false
+  xy: 186, 102
+  size: 98, 361
+  orig: 100, 363
+  offset: 1, 1
+  index: -1
+xiuzia
+  rotate: false
+  xy: 2, 44
+  size: 182, 419
+  orig: 182, 419
+  offset: 0, 0
+  index: -1

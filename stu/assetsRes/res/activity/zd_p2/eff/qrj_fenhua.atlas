@@ -1,0 +1,195 @@
+
+qrj_fenhua.png
+size: 1900,277
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/glow2
+  rotate: false
+  xy: 1640, 22
+  size: 71, 71
+  orig: 71, 71
+  offset: 0, 0
+  index: -1
+images/h_00000
+  rotate: false
+  xy: 1779, 68
+  size: 50, 25
+  orig: 50, 25
+  offset: 0, 0
+  index: -1
+images/h_00001
+  rotate: true
+  xy: 1831, 43
+  size: 50, 25
+  orig: 50, 25
+  offset: 0, 0
+  index: -1
+images/h_00002
+  rotate: true
+  xy: 1779, 16
+  size: 50, 25
+  orig: 50, 25
+  offset: 0, 0
+  index: -1
+images/h_00003
+  rotate: false
+  xy: 1713, 2
+  size: 50, 25
+  orig: 50, 25
+  offset: 0, 0
+  index: -1
+images/h_00004
+  rotate: true
+  xy: 1858, 43
+  size: 50, 25
+  orig: 50, 25
+  offset: 0, 0
+  index: -1
+images/qingrenjie_gs_00000
+  rotate: true
+  xy: 2, 147
+  size: 128, 180
+  orig: 128, 180
+  offset: 0, 0
+  index: -1
+images/qingrenjie_gs_00001
+  rotate: true
+  xy: 184, 147
+  size: 128, 180
+  orig: 128, 180
+  offset: 0, 0
+  index: -1
+images/qingrenjie_gs_00002
+  rotate: true
+  xy: 366, 147
+  size: 128, 180
+  orig: 128, 180
+  offset: 0, 0
+  index: -1
+images/qingrenjie_gs_00003
+  rotate: true
+  xy: 548, 147
+  size: 128, 180
+  orig: 128, 180
+  offset: 0, 0
+  index: -1
+images/qingrenjie_gs_00004
+  rotate: true
+  xy: 730, 147
+  size: 128, 180
+  orig: 128, 180
+  offset: 0, 0
+  index: -1
+images/qingrenjie_gs_00005
+  rotate: true
+  xy: 912, 147
+  size: 128, 180
+  orig: 128, 180
+  offset: 0, 0
+  index: -1
+images/qingrenjie_gs_00006
+  rotate: true
+  xy: 1094, 147
+  size: 128, 180
+  orig: 128, 180
+  offset: 0, 0
+  index: -1
+images/qingrenjie_gs_00007
+  rotate: true
+  xy: 1276, 147
+  size: 128, 180
+  orig: 128, 180
+  offset: 0, 0
+  index: -1
+images/qingrenjie_gs_00008
+  rotate: true
+  xy: 1458, 147
+  size: 128, 180
+  orig: 128, 180
+  offset: 0, 0
+  index: -1
+images/qingrenjie_gs_00009
+  rotate: false
+  xy: 1640, 95
+  size: 128, 180
+  orig: 128, 180
+  offset: 0, 0
+  index: -1
+images/qingrenjie_gs_00010
+  rotate: false
+  xy: 1770, 95
+  size: 128, 180
+  orig: 128, 180
+  offset: 0, 0
+  index: -1
+images/qingrenjie_gs_00011
+  rotate: true
+  xy: 2, 17
+  size: 128, 180
+  orig: 128, 180
+  offset: 0, 0
+  index: -1
+images/qingrenjie_gs_00012
+  rotate: true
+  xy: 184, 17
+  size: 128, 180
+  orig: 128, 180
+  offset: 0, 0
+  index: -1
+images/qingrenjie_gs_00013
+  rotate: true
+  xy: 366, 17
+  size: 128, 180
+  orig: 128, 180
+  offset: 0, 0
+  index: -1
+images/qingrenjie_gs_00014
+  rotate: true
+  xy: 548, 17
+  size: 128, 180
+  orig: 128, 180
+  offset: 0, 0
+  index: -1
+images/qingrenjie_gs_00015
+  rotate: true
+  xy: 730, 17
+  size: 128, 180
+  orig: 128, 180
+  offset: 0, 0
+  index: -1
+images/qingrenjie_gs_00016
+  rotate: true
+  xy: 912, 17
+  size: 128, 180
+  orig: 128, 180
+  offset: 0, 0
+  index: -1
+images/qingrenjie_gs_00017
+  rotate: true
+  xy: 1094, 17
+  size: 128, 180
+  orig: 128, 180
+  offset: 0, 0
+  index: -1
+images/qingrenjie_gs_00018
+  rotate: true
+  xy: 1276, 17
+  size: 128, 180
+  orig: 128, 180
+  offset: 0, 0
+  index: -1
+images/qingrenjie_gs_00019
+  rotate: true
+  xy: 1458, 17
+  size: 128, 180
+  orig: 128, 180
+  offset: 0, 0
+  index: -1
+images/qiuri_guangdian_00002
+  rotate: false
+  xy: 1713, 29
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1

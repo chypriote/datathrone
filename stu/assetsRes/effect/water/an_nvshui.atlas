@@ -1,0 +1,62 @@
+
+an_nvshui.png
+size: 1510,194
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/Xin_shui_00000
+  rotate: true
+  xy: 2, 2
+  size: 190, 186
+  orig: 200, 200
+  offset: 5, 5
+  index: -1
+image/Xin_shui_00001
+  rotate: true
+  xy: 190, 2
+  size: 190, 186
+  orig: 200, 200
+  offset: 5, 5
+  index: -1
+image/Xin_shui_00002
+  rotate: true
+  xy: 378, 2
+  size: 190, 186
+  orig: 200, 200
+  offset: 5, 5
+  index: -1
+image/Xin_shui_00003
+  rotate: true
+  xy: 566, 2
+  size: 190, 186
+  orig: 200, 200
+  offset: 5, 5
+  index: -1
+image/Xin_shui_00004
+  rotate: true
+  xy: 754, 2
+  size: 190, 186
+  orig: 200, 200
+  offset: 5, 5
+  index: -1
+image/Xin_shui_00005
+  rotate: true
+  xy: 942, 2
+  size: 190, 186
+  orig: 200, 200
+  offset: 5, 5
+  index: -1
+image/Xin_shui_00006
+  rotate: true
+  xy: 1130, 2
+  size: 190, 186
+  orig: 200, 200
+  offset: 5, 5
+  index: -1
+image/Xin_shui_00007
+  rotate: false
+  xy: 1318, 6
+  size: 190, 186
+  orig: 200, 200
+  offset: 5, 5
+  index: -1

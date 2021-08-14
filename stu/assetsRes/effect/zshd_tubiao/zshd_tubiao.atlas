@@ -1,0 +1,34 @@
+
+zshd_tubiao.png
+size: 262,87
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/bj_zhengshou_xiangqing_dachen_left_button
+  rotate: false
+  xy: 216, 22
+  size: 44, 63
+  orig: 44, 63
+  offset: 0, 0
+  index: -1
+image/bj_zhengshou_xiangqing_shengxing_left_icon
+  rotate: false
+  xy: 2, 2
+  size: 88, 83
+  orig: 88, 83
+  offset: 0, 0
+  index: -1
+image/bj_zhengshou_xiangqing_shengxing_right_button
+  rotate: true
+  xy: 92, 15
+  size: 70, 60
+  orig: 70, 60
+  offset: 0, 0
+  index: -1
+image/bj_zhengshou_xiangqing_shengxing_right_icon
+  rotate: true
+  xy: 154, 15
+  size: 70, 60
+  orig: 70, 60
+  offset: 0, 0
+  index: -1

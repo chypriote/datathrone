@@ -1,0 +1,2428 @@
+local UITools=require("zeromvc.ui.UITools")
+local PanelUI=require("gameui.PanelUI")
+local TabFM = require "gameui.TabFM"
+local ThingIconUI=require("gameui.ThingIcon")
+local RichLabel=require "game.friend.richlabel.RichLabel"
+local StudioItem = require("zeromvc.base.StudioItem")
+local ITEM_SCALE_MAX=0.5
+local ITEM_SCALE_MIN=0.42
+local get = nil
+local uget = nil
+
+local zs_height_1 = -800 --珍兽背景总高度
+local zs_height_3 = 826 --珍兽名字底图高度 --有珍兽
+local zs_height_4 = -826 --珍兽名字底图高度 --没珍兽
+local zs_height_5 = 780 ----珍兽容器总高度 --没珍兽
+local zs_height_6 = 400 ----珍兽容器总高度 --有珍兽
+return function (__Class)
+
+
+
+function __Class:using(servantProxy,playerProxy,markProxy,governmentProxy,equipProxy,activityProxy,dressProxy)
+    local stu=PanelUI:new("servant.servantDetailView")
+    -- stu:offset(0,display.height)
+    self.stu = stu
+    get = handler(stu,stu.getChild)
+    uget = UITools.getChild
+    self.awardProxy = self.zero:getProxy("game.popup.AwardProxy")
+    self.detailId = servantProxy.detailId
+    self.servantProxy = servantProxy
+    self.playerProxy = playerProxy
+    self.markProxy = markProxy
+    self.equipProxy = equipProxy
+    self.activityProxy = activityProxy
+    self.dressProxy = dressProxy
+    self.lockProxy = self.zero:getProxy("game.funcPreview.FuncPreviewProxy")
+    self.bagProxy = self.zero:getProxy("game.bag.BagProxy")
+    self:bindProxy(self.bagProxy)
+    self.wifeProxy = self.zero:getProxy("game.wife.WifeProxy")
+    self.gobalSwitchProxy = self.zero:getProxy("game.switch.GobalSwitchProxy")
+    self.guideProxy=self.zero:getProxy("game.guide.GuideProxy")
+    self.timeProxy = self.zero:getProxy("game.time.TimeProxy")
+    self.warHorseProxy=self.zero:getProxy("game.warHorse.WarHorseProxy")
+    self.equipExProxy = self.zero:getProxy("game.equipEx.EquipExProxy")
+    self:bindProxy(self.warHorseProxy)
+    self:bindProxy(self.equipExProxy)
+    
+    self.listView=stu:getChild("box1","listViewBg","listView")
+    self.listView:setScrollBarEnabled(false)
+    self.listView2=stu:getChild("box3","listView2")
+    self.listView7=stu:getChild("box7","listView7")
+    self.listView9=stu:getChild("box9","ListView")
+    self.listView5 = stu:getChild("box5","listView")
+    self.skinScrollView = stu:getChild("box10","scrollView")
+    self.listView2:setScrollBarEnabled(false)
+    self.listView7:setScrollBarEnabled(false)
+    self.stu:getChild("star"):hide()
+    self.current = self.args[1] or 1
+    self.servantVo = self.servantProxy:getServantById(self.detailId)
+    self.isInitTabMenu = false
+    self.isInitWifeSkillList = false
+    self.itemIdArr = {61,62,63,64}
+    self.itemStarArr = {84,85,86,147,148,149,134}
+    self.skinInfo = nil
+    self.skinItem = nil
+    self.skinId = nil -- 当前显示的骨骼动画的皮肤id（非皮肤为0）
+    self.defaultSkinId = nil -- 跳转皮肤页面时所选择的皮肤id
+    if self.current == 6 then
+        self.defaultSkinId = self.args[2]
+    end
+    self.curId = nil
+    self.listViewBg = stu:getChild("box1","listViewBg")
+    self.listViewBg:setVisible(false)
+    self.btnOrder = {"gBtnAttr","gBtnZz","gBtnDy","gBtnGh","gBtnSkin","gBtnJr"}
+    self.stu:getChild("gBottom","btnPanal","gBtnAttr","Text_choose"):setString(lang("title2_54"))--详情
+    --UICommon.setMaxWidthForText(self.stu:getChild("gBottom","btnPanal","gBtnAttr","Text_choose"),150)
+    self.stu:getChild("gBottom","btnPanal","gBtnZz","Text_choose"):setString(lang("title2_55"))--品质技能
+    --UICommon.setMaxWidthForText(self.stu:getChild("gBottom","btnPanal","gBtnZz","Text_choose"),150)
+    self.stu:getChild("gBottom","btnPanal","gBtnJr","Text_choose"):setString(lang("title2_56"))--竞技场技能
+    --UICommon.setMaxWidthForText(self.stu:getChild("gBottom","btnPanal","gBtnJr","Text_choose"),150)
+    self.stu:getChild("gBottom","btnPanal","gBtnDy","Text_choose"):setString(lang("title2_57"))--羁绊技能
+    --UICommon.setMaxWidthForText(self.stu:getChild("gBottom","btnPanal","gBtnDy","Text_choose"),150)
+    self.stu:getChild("gBottom","btnPanal","gBtnGh","Text_choose"):setString(lang("title2_58"))--光环
+    --UICommon.setMaxWidthForText(self.stu:getChild("gBottom","btnPanal","gBtnGh","Text_choose"),150)
+    self.stu:getChild("gBottom","btnPanal","gBtnSkin","Text_choose"):setString(lang("gouCity.shopBtn2"))--皮肤
+    --UICommon.setMaxWidthForText(self.stu:getChild("gBottom","btnPanal","gBtnSkin","Text_choose"),150)
+    --美女一键升级
+    self.canLevelUp = true
+    self.isOneKey = false
+    local function checkBoxHd(stu,event,sender,clickType)
+        if clickType == 0 then
+            self.isOneKey = true
+        else
+            self.isOneKey = false
+        end
+    end
+    stu:addEvent("checkBox",checkBoxHd)
+    self.stu:getChild("box9","CheckBox_1","txt_oneKey"):setString(lang("book.xunlian"))
+    self.tenLvUpKey = tostring(self.playerProxy.user.uid .. "servant.lvupState")
+    self.lvUpState = cc.UserDefault:getInstance():getBoolForKey(self.tenLvUpKey,false)
+    self.stu:getChild("page1","CheckBox"):setSelected(self.lvUpState)
+    self.isOpenLevelExpand = self.activityProxy:getCommonArea("levelExpand")
+    --英雄背景图（依据英雄特长）
+    local tc = 5
+    if self.servantVo.spec[1]<=4 and self.servantVo.spec[2]==nil  then
+       tc=self.servantVo.spec[1]
+    end
+    UICommon.loadExternalTexture(self.stu:getChild("Image_1"),"assetsRes/res/hero/bg/"..tc..".jpg")
+
+    -----星座
+    if self.servantVo.constellation ~= nil then
+        self.stu:getChild("star"):show()
+        UICommon.loadExternalTexture(self.stu:getChild("Image_1"),"assetsRes/res/hero/constellationBg/bg.png")
+        UICommon.loadExternalTexture(self.stu:getChild("star"),"assetsRes/res/hero/constellationBg/"..self.servantVo.constellation..".png")
+    end
+   
+    --英雄名字背景
+    local honor = self.servantVo.nobilityConf.id
+    UICommon.loadExternalTexture(self.stu:getChild("heroNameBg","Image_12"),"assetsRes/res/hero/jw/"..honor..".png")
+    self.infoBtn = self.stu:getChild("box2","infoBtn")
+    self.classBtn = self.stu:getChild("box2","classBtn")
+    --英雄名字背景
+    local function helpHd(...)
+        self.zero:command("game.help.HelpCommand.showHelp","servant")
+    end
+    stu:addEvent("helpEvent",helpHd)
+    --佳人信息
+    self.wifeSkillProxy = {}
+    self.allWifeSkill = {}
+    for k,v in pairs(self.wifeProxy.wifeSortList) do
+        self.wifeSkillProxy[k] = v.skill
+    end
+    for k,v in pairs(self.wifeProxy.flanceeSortList) do
+        self.allWifeSkill[k] = v.wname
+    end
+    for k,v in pairs(self.wifeProxy.wifeList) do
+        self.allWifeSkill[k] = v.wname
+    end
+    --佳人信息
+
+    --是否引导
+    if self.guideProxy.isGuiding then
+        self.stu:getChild("box2","itemBtn"):setTouchEnabled(false)
+    else
+        -- self.stu:getChild("page1","CheckBox"):setTouchEnabled(true)
+        self.stu:getChild("box2","itemBtn"):setTouchEnabled(true)
+    end
+    local function onGotoWifeBtn(...)
+        self:clearBubbleTime()
+        UICommon.clearRes(self)
+        local servantVo = self.servantVo
+        self.zero:show("game.wife.WifeListView",1,servantVo.wid)
+        self:hideWidget()
+        self:hideSelf() -- 该界面关闭会停止音效，为防止佳人音效中断，故放到前面 
+        self.zero:command("game.wife.WifeCommand.wifeInfo",servantVo.wid)
+        self.zero:command("game.wife.WifeCommand.skill",servantVo.id)   
+    end
+    self.stu:getChild("box9","gotoWifeBtn"):addClickEventListener(onGotoWifeBtn)
+
+    local function onRankBtn(...)
+        local level = self.isOpenLevelExpand == true and 500 or 400
+        local senior = self.isOpenLevelExpand == true and 9 or 7
+        if self.servantVo.level >= level then
+            self.zero:command(GameKey.TIP,lang("servent.levelLimit"))
+            return;
+        elseif self.servantVo.level < level and self.servantVo.senior >= senior then
+            return
+        end
+        self.zero:show("game.servant.ServantAdvance","hideBtn")
+    end
+    self.stu:getChild("rankBtn"):addClickEventListener(onRankBtn)          ------升阶
+
+    local function closeBgHd(...)
+        self.listViewBg:setVisible(false)
+        UICommon.clearRes(self)
+    end
+    self.listViewBg:setVisible(false):addClickEventListener(closeBgHd)
+
+    local function closeHd(...)
+        self.zero:command("game.guide.GuideCommand.goStep")
+        self:clearBubbleTime()
+        UICommon.clearRes(self)
+        self:hideWidget()
+        self:hideSelf()
+        self.servantVo = nil
+        self.zero:show("game.servant.ServantView")
+        self:command("ServantCommand.refreshServant")
+    end
+    stu:addEvent("close",closeHd)
+
+    local function upSarvantExpHd(...)
+        self.zero:show("game.bag.UseMoreForTourney")
+    end
+    stu:addEvent("upExp",upSarvantExpHd)
+
+    stu:addEvent("attrEvent",function ( ... )
+        self.current = 1
+        self:upSkillList()
+    end)
+
+    local btnList1 = get("btnList1")
+    local btnList2 = get("btnList2")
+    local btnList = nil
+    if self.activityProxy:getCommonArea("openEquipEx") == true then
+        btnList1:setVisible(false)
+        btnList = btnList2
+
+        stu:addEvent("openEquipEx",function ( ... )
+            local equipLv = self.gobalSwitchProxy:getSwitch("openEquipExLevel") or 0
+            if self.equipExProxy:isOpenEquipEx() then
+                self.zero:command("game.equipEx.EquipExCommand.openEquipEx", self.servantProxy.detailId)
+            else
+                self.zero:command(GameKey.TIP,lang("home.unlock.skin.new.notify", equipLv)) 
+            end
+        end)
+        local btnEquipExTxt = uget(btnList,"btnEquipEx","txt")
+        btnEquipExTxt:setString(lang("equipEx.title"))
+        UICommon.shrinkFontSize(btnEquipExTxt)
+        local isEquipExRed = self.equipExProxy:isRed(self.detailId)
+        uget(btnList, "btnEquipEx", "imgRed"):setVisible(isEquipExRed)
+    else
+        btnList2:setVisible(false)
+        btnList = btnList1
+    end
+    self.btnList = btnList
+    btnList:setVisible(true)
+    stu:addEvent("openEquip",function ( ... )
+        local mType = self.servantVo.sex == 1 and "hero" or "wife_hero"
+        self.zero:command("game.equip.EquipCommand.openEquip",self.detailId,mType)
+    end)
+    local btnEquipTxt = uget(btnList,"btnEquip","txt")
+    btnEquipTxt:setString(lang("equip.equipBtn"))
+    UICommon.shrinkFontSize(btnEquipTxt)
+    uget(btnList,"btnEquip"):setVisible(self.equipProxy:isOpenEquip())
+
+    local function useHd(...)
+        local params={...}
+        local sender=params[3]
+        if sender.status==1 then
+            self.zero:command("game.dress.DressCommand.heroDress",self.servantVo.id,0)
+        elseif sender.status==2 then
+            self.zero:command("game.dress.DressCommand.heroDress",self.servantVo.id,self.skinInfo.id)
+        elseif sender.status==3 then
+            if self.skinInfo~=nil then
+                self.zero:command("game.dress.DressCommand.useSkinItem",{btnType='use',dresstype=1,skinVo=self.skinInfo})
+            end
+        end
+    end
+    self.stu:addEvent("use",useHd)
+
+    local function lvupHd(...)
+        if self.skinInfo~=nil then
+            self.zero:command("game.dress.DressCommand.useSkinItem",{btnType='use',dresstype=1,skinVo=self.skinInfo})
+        end
+    end
+    self.stu:addEvent("lvup",lvupHd)
+
+    self.stu:getChild("node_eff"):setVisible(false)
+    stu:addEvent("pkSkill",function ( ... )
+        self.listViewBg:setVisible(true)
+        self:upPkSkill(self.servantVo.pkskill)
+    end)
+    self:eventCommand(stu,"info","ServantCommand.info")
+    stu:addEvent("lvUp",function ( ... )
+        self:command("ServantCommand.lvUp",self.servantVo.level,self.canLevelUp)
+    end)
+    -- self:eventCommand(stu,"lvUp","ServantCommand.lvUp",self.servantVo.level,self.canLevelUp)
+    self:eventCommand(stu,"item","ServantCommand.item")
+
+
+    local function judgeHd( ... )
+        local level = self.isOpenLevelExpand == true and 500 or 400
+        if self.servantVo.level == level then
+            self.zero:command(GameKey.TIP,lang("servent.levelLimit"))  --门客已满级
+        else
+            self:command("ServantCommand.showAdvance")         ------升阶
+        end
+    end 
+    stu:addEvent("advancement",judgeHd)
+
+
+    local function  classEventHd( ... )
+        if self.servantVo.class_level >= 5 then
+            self.zero:command(GameKey.TIP,lang("class.maxClass"))  --门客已满阶
+        else
+            self.zero:show("game.servant.ServantClassView",self.detailId,self.servantVo)        ------升阶页面
+        end
+    end 
+    stu:addEvent("classEvent",classEventHd)
+
+    self.guideShuoming =nil
+    self:addLimitGiftBtnEnter()
+    self:upServantList()
+    self.isUpServantList = false;
+    self:upUser()
+
+
+    self.stu:getChild("page1","CheckBox"):addEventListener(function(sender, eventType)
+        king:command("sound","general/dianj.mp3")
+        if eventType == 0 then
+            self.zero:command(GameKey.TIP,lang("servant.upTenTip"))
+            self.lvUpState = true
+            self.zero:command("game.guide.GuideCommand.goStep")
+        else
+            self.lvUpState = false
+        end
+        self:upCheckBox()
+        -- self.zero:command("game.guide.GuideCommand.goTaskStep")
+        self.zero:command("game.mainTask.MainTaskCommand.endGuideAndSave")
+    end)
+    self.stu:getChild("FileNode_1","title"):setString(lang("title2_49"))
+    UICommon.showResData(self,stu:getChild("FileNode_2"))
+    UICommon.resMainPos(stu:getChild("FileNode_2"),stu:getChild("FileNode_1"))
+    self.bShowScorll = false;--是否收回显示
+    self.bScorllLock = false;--移动中不能点击
+    self.isLoadAddServantList = false;--是否添加了门客
+    self.isShowServantList = false;
+    self.clickScorll = self.stu:getChild("scollBg","ScrollView_17")
+    self.scollBg = self.stu:getChild("scollBg")
+    self.posY = self.scollBg:getContentSize().height
+    self.scollBg:setPositionY(-self.posY)
+    local function fullScreenEvtHd(...)
+        if self.isShowZhenShow == true then return end; --显示珍兽就不能点击
+        if self.bScorllLock == true then return end;
+        self.bScorllLock = true;
+        if self.isLoadAddServantList == false then
+            self:addServantList();
+            self.isLoadAddServantList = true;
+        end
+        if self.bShowScorll == false then
+            self.bShowScorll = true
+        else
+            self.bShowScorll = false
+        end
+        self.scollBg:show()
+        if self.bShowScorll == true and self.isUpServantList == true then
+            self:updateClickScorll()
+            self.isUpServantList = false;
+        end
+        if self.bShowScorll == true then
+            local act1 = cc.EaseSineIn:create(cc.MoveTo:create(0.2, cc.p(0,0)))
+            local call = cc.CallFunc:create(function()
+                self.bScorllLock = false
+            end)
+            self.scollBg:runAction(cc.Sequence:create(act1,call))
+            self.isShowServantList = true;
+        else
+            local act2 = cc.EaseSineIn:create(cc.MoveTo:create(0.2,cc.p(0,-self.posY)))
+            local call = cc.CallFunc:create(function()
+                self.bScorllLock = false
+                self.scollBg:hide()
+                self.isShowServantList = false;
+            end)
+            self.scollBg:runAction(cc.Sequence:create(act2,call))
+        end
+    end
+    stu:addEvent("fullScreenEvt",fullScreenEvtHd)
+
+    self:setBubble()
+    self:setPage3()
+    self:runNobilityEff()
+    self.stu:getChild("box5","ImageTitle","TextTitle"):setString(lang("title2_58"))
+
+
+    --------------------这里是珍兽的 ---------------------
+    self.horse = self.warHorseProxy:getNowHorseByServantId(self.detailId)
+    local zsFace = uget(btnList,"zhenShowImage","zsFace")
+    local plv = self.playerProxy.user.level
+    if plv < 5 then
+        uget(btnList,"zhenShowBtn"):hide()
+        uget(btnList,"zhenShowText"):hide()
+        uget(btnList,"zhenShowImage"):hide()
+    else
+        uget(btnList,"zhenShowBtn"):show()
+        uget(btnList,"zhenShowText"):show()
+        uget(btnList,"zhenShowImage"):show()
+    end
+    if self.horse and plv >= 5 then
+        zsFace:loadTexture("assetsRes/res/zhanma/zsHead/"..self.horse.id..".png")
+        zsFace:setScale(0.8)
+    elseif not self.horse and plv >= 5 then
+        zsFace:loadTexture("assetsRes/res/zhanma/bj_zhenshou_touxiangkuang_3.png")
+        zsFace:setScale(1)
+    end
+
+    --点击珍兽
+    self.ZSShowScorll = false;--是否收回显示
+    self.ZSScorllLock = false;--移动中不能点击
+    self.isShowZhenShow = false;--是否显示珍兽了
+    get("zhenShowBg","Image_175","Text_76"):setString(lang("zs.bangding"))
+    uget(btnList,"zhenShowText"):setString(lang("zs.servantBtn"))
+    local zhenShowBg = get("zhenShowBg")
+    self.horse = self.warHorseProxy:getNowHorseByServantId(self.detailId)
+    if self.horse then
+        self:setZsInfo()
+        if self.horse.n then
+            UICommon.createStar(get("zhenShowBg","animalItem","starNow"),self.horse.n,true,get("zhenShowStat"),20,true)
+        end
+    end
+    self.zhenShowPosY = zs_height_1
+    zhenShowBg:setPositionY(self.zhenShowPosY)
+    self:setAnimalItemSatte()
+    zhenShowBg:hide()
+    self.isLoadZhenShowList = false;--是否添加了珍兽列表
+    local function testZhenShow(nilBtn,endCall)
+        if self.isShowServantList == true then --收回门客列表
+            fullScreenEvtHd()
+        end
+        if self.ZSScorllLock == true then return end;
+        self.ZSScorllLock = true;
+        if self.ZSShowScorll == false then
+            self.ZSShowScorll = true
+        else
+            self.ZSShowScorll = false
+        end
+        if self.isLoadZhenShowList == false then
+            self:addZhenShouList()
+            self.isLoadZhenShowList = true;
+        end
+        zhenShowBg:show()
+        if self.ZSShowScorll == true then
+            local act1 = cc.EaseSineIn:create(cc.MoveTo:create(0.2, cc.p(0,0)))
+            local call = cc.CallFunc:create(function()
+                self.ZSScorllLock = false
+                if endCall ~= nil then
+                    endCall()
+                end
+            end)
+            zhenShowBg:runAction(cc.Sequence:create(act1,call))
+            self.isShowZhenShow = true;
+        else
+            local act2 = cc.EaseSineIn:create(cc.MoveTo:create(0.2,cc.p(0,zs_height_1 - 77)))
+            local call = cc.CallFunc:create(function()
+                self.ZSScorllLock = false
+                if endCall ~= nil then
+                    endCall()
+                end
+            end)
+            self.isShowZhenShow = false;
+            zhenShowBg:runAction(cc.Sequence:create(act2,call))
+        end
+    end
+    UICommon.changeBtnStateImage(uget(btnList,"zhenShowBtn"),uget(btnList,"zhenShowImage"),testZhenShow)
+    self.testZhenShow = testZhenShow
+
+
+    ---------解绑珍兽
+    self.stu:addEvent("change",function (...)
+        local function useHorse1()
+            self.zero:command("game.warHorse.WarHorseCommand.useHorse",0,self.horse.id)
+            -- closeHd()
+        end     
+
+        if self.horse.h > 0 then
+            if (self.horse.st +86400*self.horse.cd <self.timeProxy:getTime()) and (self.horse.st +86400*self.horse.cd <self.timeProxy:getTime()) then
+                -- print("0钻石")
+                self.zero:command("game.bag.BagCommand.thingSure1",1,lang("warHorse.zmjc"),0,useHorse1,nil,true)     ---book.buyDesk   
+            else
+                local zuanshi = math.ceil((86400-self.timeProxy:getTime()+self.horse.st)/60/6)
+                self.zero:command("game.bag.BagCommand.thingSure1",1,lang("warHorse.zmjc"),zuanshi,useHorse1,nil,true)
+                -- print(zuanshi,"钻石")
+            end
+        end
+    end)
+    --------------------这里是珍兽的 ---------------------
+
+    
+    local function gohomeHd(...)
+        self.zero:command("game.set.SetCommand.closeAllShowHome")
+            self.zero:command("game.guide.GuideCommand.goStep")
+            self.zero:command("game.guide.GuideCommand.goTaskStep")
+    end
+    stu:addEvent("gohome",gohomeHd)
+
+
+    ---------------------皮肤界面 start-------------------
+    local servantDressConf = self.dressProxy:getServantDressConf()
+    local totalSkinLength = servantDressConf[self.servantVo.heroid] ~= nil and #servantDressConf[self.servantVo.heroid] or 0
+    stu:getChild("box10", "dressImg", "txt"):setString(lang("dress.equipped"))
+    stu:getChild("box10", "Text_1"):setString(lang("dress.have.skin.nums"))
+    stu:getChild("box10", "lvup","Text_0"):setString(lang("servant.lvUp"))
+    stu:getChild("box10", "Text_1_1"):setString("/"..totalSkinLength)
+    ---------------------皮肤界面 end---------------------
+    return stu
+end
+
+-- 设置门客骨骼动画（同个骨骼动画不再重新设置）
+function __Class:setMenKeDongHuaTEM(img, vo)
+    local skinId = 0
+    if vo.skinVO ~= nil then
+        skinId = vo.skinVO.id
+    end
+    if self.skinId == skinId then
+        return
+    end
+    self.skinId = skinId
+    UICommon.setMenKeDongHuaTEM(img, vo)
+end
+
+function __Class:setAnimalItemSatte()
+    local zhenShowBg = get("zhenShowBg")
+    local animalItem = get("zhenShowBg","animalItem")
+    local Image_175 = get("zhenShowBg","Image_175")
+    local ScrollView_17 = get("zhenShowBg","ScrollView_17")
+    if self.horse ~= nil then
+        animalItem:show()
+        zhenShowBg:setContentSize(750,math.abs(zs_height_1))
+        Image_175:setPositionY(math.abs(zs_height_3))
+        ScrollView_17:setContentSize(750,math.abs(zs_height_6))
+    else
+        animalItem:hide()
+        zhenShowBg:setContentSize(750,math.abs(zs_height_1))
+        Image_175:setPositionY(math.abs(zs_height_4))
+        ScrollView_17:setContentSize(750,math.abs(zs_height_5))
+    end
+end
+--重置珍兽状态
+function __Class:resetZhenShowState( ... )
+    local zhenShowBg = get("zhenShowBg")
+    self.zhenShowPosY = zs_height_1
+    zhenShowBg:setPositionY(self.zhenShowPosY)
+    self.isLoadZhenShowList = false
+    self:setAnimalItemSatte()
+    self.testZhenShow()
+end
+---刷新绑定和解绑珍兽（暂时先这样，明天再改）
+function __Class:zsTouBtn( ... )
+    self.horse = self.warHorseProxy:getNowHorseByServantId(self.detailId)
+    local zsFace = uget(self.btnList,"zhenShowImage","zsFace")
+    if self.horse and self.playerProxy.user.level >= 5 then
+        print(self.horse.id,"珍兽id=============")
+        zsFace:loadTexture("assetsRes/res/zhanma/zsHead/"..self.horse.id..".png")
+        zsFace:setScale(0.8)
+    elseif not self.horse and self.playerProxy.user.level >= 5 then
+        zsFace:loadTexture("assetsRes/res/zhanma/bj_zhenshou_touxiangkuang_3.png")
+        zsFace:setScale(1)
+    end
+    local function endCall( ... )
+        self:resetZhenShowState()
+    end
+    self.testZhenShow(nil,endCall)
+
+    if self.horse then
+        self:setZsInfo()
+        if self.horse.n then
+            UICommon.createStar(get("zhenShowBg","animalItem","starNow"),self.horse.n,true,get("zhenShowStat"),20,true)
+        end
+    end
+end
+--设置珍兽信息
+function __Class:setZsInfo( ... )
+    local animalItem = get("zhenShowBg","animalItem")
+    uget(animalItem,"lv_Num"):setString(self.horse.lv)
+    uget(animalItem,"power_Num"):setString(self.horse.allSL)
+    uget(animalItem,"e1Num"):setString(self.horse.sl.e1)
+    uget(animalItem,"e2Num"):setString(self.horse.sl.e2)
+    uget(animalItem,"e3Num"):setString(self.horse.sl.e3)
+    uget(animalItem,"e4Num"):setString(self.horse.sl.e4)
+
+    uget(animalItem,"lv"):setString(lang("servant.dj"))
+    uget(animalItem,"star"):setString(lang("zs.xingji"))
+    uget(animalItem,"e1"):setString(lang("wife.attr1").." :")
+    uget(animalItem,"e2"):setString(lang("wife.attr2").." :")
+    uget(animalItem,"e3"):setString(lang("wife.attr3").." :")
+    uget(animalItem,"e4"):setString(lang("wife.attr4").." :")
+    uget(animalItem,"power"):setString(lang("dress.total_attr").." :")
+    --名字
+    local zsName = get("zhenShowBg","animalItem","name")
+    zsName:setString(tools.setLangForConf(self.horse.name))
+    --图片
+    local zsImg = get("zhenShowBg","animalItem","zsPanel","Image_half")
+    zsImg:ignoreContentAdaptWithSize(true)
+    if self.horse.id == 6201 or self.horse.id == 6002 or self.horse.id == 6101 or self.horse.id == 6202 or self.horse.id == 6203
+     or self.horse.id == 6205 or self.horse.id == 6204  or self.horse.id == 6206 or self.horse.id == 6207 or self.horse.id == 6208 then
+        UICommon.loadExternalTexture(zsImg,"assetsRes/res/zhanma/zsliebiao/" .. self.horse.id .. "copy.png")
+        if self.horse.id == 6203 then
+            zsImg:setPositionX(135)
+        end
+    else
+        UICommon.loadExternalTexture(zsImg,"assetsRes/res/zhanma/zsliebiao/"..self.horse.id..".png")
+    end    
+end
+--爵位特效
+function __Class:runNobilityEff( ... )
+    local juewei_eff = self.stu:getChild("heroNameBg","juewei_eff")
+    local ani = juewei_eff:getChildByTag(335):getAnimation()
+    local t,call
+    local function onSetMovementEvent(armature,movementType,movementID)
+        if movementType == 1 then
+            armature:setVisible(false)
+            t = cc.DelayTime:create(3)
+            call = cc.CallFunc:create(function( ... )
+                armature:setVisible(true)
+                armature:getAnimation():playWithIndex(0,-1,0)
+            end)
+            armature:runAction(cc.Sequence:create(t,call))
+        end
+    end
+    ani:setMovementEventCallFunc(onSetMovementEvent)
+    ani:playWithIndex(0,-1,0)
+    ani:setSpeedScale(0.6)
+end
+
+function __Class:used()
+    self.servantProxy.taskServantLevel = 0
+    self.servantProxy.isShowAllEff = false
+    self:clearBubbleTime()
+    self:closeMSchedule()
+    self.limitGiftBtnEnter = nil
+    self.servantVo = nil
+    cc.UserDefault:getInstance():setBoolForKey(self.tenLvUpKey,self.lvUpState)
+end
+
+function __Class:setBubble()
+    self.bubble = self.stu:getChild("Image_1_0");
+    local sph = display.height - Config.LIUHAI - Config.LIUDI - 1334
+    if sph > 130 then
+        sph = 130
+    end
+    self.bubble:setPositionY(1157 + sph)
+    self.stu:getChild("Image_1_0","Text_1"):setString(lang("servantview.clickshowhero"))
+    UICommon.setMaxWidthForText2(self.stu:getChild("Image_1_0","Text_1"),250)
+    UICommon.repeatUpAndDown(self.bubble,2,10)
+    self.bubble:setVisible(false)
+    self.checkBubbleNum = 0
+    self.bubbleState = false--是否显示气泡
+    self.bubbleTime = 10
+    self:clearBubbleTime()
+    self.checkBubbleId = cc.Director:getInstance():getScheduler():scheduleScriptFunc(handler(self,self.checkBubble),1,false)
+end
+
+function __Class:clearBubbleTime( ... )
+    if self.checkBubbleId then
+        cc.Director:getInstance():getScheduler():unscheduleScriptEntry(self.checkBubbleId)
+        self.checkBubbleId = nil
+    end
+end
+
+--添加英雄属性光环效果
+function __Class:addGhEffect(vo)
+    local forcetip = self.stu:getChild("box2","forcetip")  --武力
+    local poltip = self.stu:getChild("box2","poltip")      --智力
+    local braintip = self.stu:getChild("box2","braintip")  --政治
+    local charmtip = self.stu:getChild("box2","charmtip")  --魅力
+    local t = {forcetip,poltip,braintip,charmtip}
+    local function isShowEff(isShow)
+        for i,val in pairs(t) do
+            UITools.getChild(val,"eff"):setVisible(isShow)
+        end
+    end
+    isShowEff(false)
+    local eff = nil
+    if vo.spec ~= nil then
+        for i,val in pairs(t) do
+            eff = UITools.getChild(val,"eff")
+            if vo.spec[1] ~= nil and vo.spec[1] == i then
+                eff:setVisible(true)
+            end
+            if vo.spec[2] ~= nil and vo.spec[2] == i then
+                eff:setVisible(true)
+            end
+            if vo.spec[1] ~= nil and vo.spec[1] >= 5 or vo.spec[2] ~= nil and  vo.spec[2] >= 5 then
+                isShowEff(true)
+                break;
+            end
+        end
+    end
+end
+
+--检测气泡
+function __Class:checkBubble( ... )
+    self.checkBubbleNum = self.checkBubbleNum + 1
+    if self.checkBubbleNum >= self.bubbleTime then
+        if self.bubbleState == true then
+            self.bubble:setVisible(false)
+            self.bubbleState = false;
+            self.bubbleTime = 10
+        else
+            self.bubble:setVisible(true)
+            self.bubbleState = true;
+            self.bubbleTime = 5
+        end
+         self.checkBubbleNum = 0
+    end
+end
+
+function __Class:getWifeIdByHeroId( id )
+    for k,v in pairs(self.wifeSkillProxy) do
+        if v[1].heroid[1] == id or v[1].heroid[2] == id then
+            return v
+        end
+    end
+    return -1
+end
+
+function __Class:getNameById(id)
+    for k,v in ipairs(self.allWifeSkill) do
+        if id==k then
+            return v
+        end
+    end
+    return ""
+end
+--下拉的滚动门客Item
+function __Class:setServantItem(item,v)
+    item:setScale(0.9)
+    local Image_tc1 = UITools.getChild(item,"Image_tc1")
+    local Image_tc2 = UITools.getChild(item,"Image_tc2")
+    if v.spec[1]>4 then 
+        Image_tc1:setVisible(false)
+        Image_tc2:setVisible(false)
+    elseif v.spec[2]==nil  then
+        Image_tc1:loadTexture(self:getTeChangCopy(v.spec[1]))
+        Image_tc2:setVisible(false)
+    else 
+        Image_tc1:loadTexture(self:getTeChangCopy(v.spec[1]))
+        Image_tc2:loadTexture(self:getTeChangCopy(v.spec[2]))
+    end
+    UITools.getChild(item,"Node_info","Image_jueweibg"):loadTexture(self:getJueWeiBg(v.nobilityConf.id))
+    UITools.getChild(item,"Node_info","txt_zz"):hide()
+    UITools.getChild(item,"Image_2"):hide()
+    UITools.getChild(item,"book"):show()
+    UITools.getChild(item,"book","txt_zz","Image_zizhibg"):loadTexture("assetsRes/res/hero/siyecao.png",0)
+    UITools.getChild(item,"book","txt_zz"):setString(lang("parseNum",v.totalZz))
+
+
+    UITools.getChild(item,"Node_info","txt_lv"):setString(v.level)
+    UICommon.NewsetServantIcon(UITools.getChild(item,"ManPanel","Image_half"),v,self.servantProxy:getSkinInfo(v).conf)
+    UITools.getChild(item,"Node_info","txt_name"):setString(self.servantProxy:getSkinInfo(v).name .. v.name)
+
+    local Button_2 = UITools.getChild(item,"Button_2")
+    local node_eff = UITools.getChild(item,"node_eff")
+    UITools.getChild(item,"Node_info","txt_attri"):setVisible(false)
+    Button_2:setVisible(true)
+    Button_2.heroid = v.heroid
+    node_eff:setVisible(false)
+   
+    if self.servantVo.id==v.id then
+        node_eff:setVisible(true)
+    end
+     
+    Button_2:addTouchEventListener(function(sender, eventType)
+        if eventType == ccui.TouchEventType.ended then
+            self.scollBg:setPositionY(0)
+            local act2 = cc.EaseSineIn:create(cc.MoveTo:create(0.2,cc.p(0,-self.posY)))
+            local call = cc.CallFunc:create(function()
+                self.bScorllLock = false;
+                self.bShowScorll = false
+            end)
+            self.scollBg:runAction(cc.Sequence:create(act2,call))
+
+            self:clearBubbleTime()
+            UICommon.clearRes(self)
+            self:hideWidget()
+            self:hideSelf()
+            self.servantVo = nil
+            Button_2:setVisible(false)
+            self:command("ServantCommand.refreshServant")
+            self.awardProxy:setNewHero(sender.heroid,0)
+            self:command("ServantCommand.showServantDetail",sender.heroid)
+        end
+    end)
+    UITools.getChild(item,"star"):ignoreContentAdaptWithSize(true)
+    UITools.getChild(item,"star"):loadTexture("assetsRes/res/hero/star/"..self.servantProxy:getHeroStar(v.heroid)..".png",0)
+    UITools.getChild(item,"imgBg"):loadTexture("assetsRes/res/hero/kapai/"..v.class_level..".png",0)
+end
+
+--下拉的滚动的珍兽Item
+function __Class:setZSItem(item,v)
+    v.haveList = self.warHorseProxy.haveList
+    local unclock = UITools.getChild(item,"unlock")                 ---锁节点
+    local openBtn = UITools.getChild(item,"unlock","openBtn")       ---解锁按钮
+    local nums=self.bagProxy:getItemCountById(v.call.id)            --玩家拥有的解锁道具数量
+    unclock:setVisible(not v.have)
+    -- UITools.getChild(item,"start0"):setVisible(not v.have)
+
+    local function touchEventHd(sender,eventType)
+        if eventType == ccui.TouchEventType.began then
+            UICommon.ScaleSmall(sender)
+        elseif eventType == ccui.TouchEventType.moved then
+            UICommon.ScaleRecover(sender)
+        elseif eventType == ccui.TouchEventType.ended then
+            UICommon.ScaleRecover(sender)
+            -- self:hideSelf()
+            -- self.warHorseProxy.serviewCut = v.id
+            -- print(v.id,v.h,self.detailId,"v.id===============")
+            self.zero:show("game.warHorse.WarHorseBDView",v.id,v.h,self.detailId)
+        elseif eventType == ccui.TouchEventType.canceled then
+            UICommon.ScaleRecover(sender)
+        end
+    end
+    item:setSwallowTouches(false)
+    if v.have then
+        item:addTouchEventListener(touchEventHd)
+    end
+    UITools.getChild(item,"zsPanel","Image_half"):ignoreContentAdaptWithSize(true)
+    if v.have then
+        item:addTouchEventListener(touchEventHd)
+        UICommon.loadExternalTexture(UITools.getChild(item,"zsPanel","Image_half"),"assetsRes/res/zhanma/zsliebiao/"..v.id..".png")
+        
+        if self.warHorseProxy:getArea() then
+            UITools.getChild(item,"Node_info","txt_zz"):hide()
+        else
+            UITools.getChild(item,"Node_info","txt_zz"):show()
+        end
+            UITools.getChild(item,"Node_info","txt_lv"):show()
+            UITools.getChild(item,"Node_info","txt_lv"):setString(v.lv)               --等级
+    else
+        UITools.getChild(item,"Node_info","txt_zz"):show()
+        if self.warHorseProxy:getArea() then
+            UITools.getChild(item,"Node_info","txt_lv"):hide()
+        else
+            UITools.getChild(item,"Node_info","txt_lv"):show()
+        end
+        UITools.getChild(item,"Node_info","txt_zz"):setString(v.allAptitude)
+        UICommon.loadExternalTexture(UITools.getChild(item,"zsPanel","Image_half"),"assetsRes/res/zhanma/zsliebiao/unlock_"..v.id..".png")
+    end
+
+    UITools.getChild(item,"Node_info","txt_name"):setString(tools.setLangForConf(v.name))         ---名字
+    
+    
+    
+    UITools.getChild(unclock,"num"):setString(lang("parseNum",nums).."/"..lang("parseNum",v.call.count))
+    -- UITools.getChild(unclock,"coin"):loadTexture("assetsRes/res/package/itemicon/"..v.id..".png")
+    -- UITools.getChild(item,"Node_info","txt_pinzhi"):setString(v.quality)    --品质
+    UITools.getChild(item,"Node_info","pinzhi"):loadTexture("assetsRes/res/zhanma/pinzhi0"..v.quality..".png")
+    UITools.getChild(item,"Node_info","txt_lv"):setString(v.lv)               --等级
+    UITools.getChild(item,"servant"):hide()
+    UICommon.shrinkFontSize(UITools.getChild(item,"Node_info","txt_name"))
+    for i,p in pairs(v.haveList) do
+        if v.id == p.id then
+            -- UICommon.createStar(UITools.getChild(item,"starNow"),p.n,false,UITools.getChild(item,"starImage"),20)
+            for i=p.n,1,-1 do
+                UITools.getChild(item,"starImage_"..i):show()
+            end
+        end
+    end
+
+    if v.h and v.h ~= 0 then
+        UITools.getChild(item,"servant"):show()
+        UITools.getChild(item,"servant","tou"):loadTexture(UICommon.getServantHalfIconUrl2(v.h))
+    end
+    openBtn:addClickEventListener(function(sender)                       -----解锁马匹
+        -- print(v.id,"v.id解锁马匹==================")
+        self.zero:command("game.warHorse.WarHorseCommand.unLockHorse",v.id)
+    end)
+    local per = nums>=v.call.count and 100 or nums/v.call.count*100
+    self:addProcess(UITools.getChild(item,"unlock","pro"),per)
+
+    local Image_tc1 = UITools.getChild(item,"Image_tc1")
+    local Image_tc2 = UITools.getChild(item,"Image_tc2")
+    Image_tc1:show()
+    Image_tc2:show()
+    if v.spec[2]==nil  then
+        Image_tc1:loadTexture(self:getTeChang(v.spec[1]))
+        Image_tc2:hide()
+    else 
+        Image_tc1:loadTexture(self:getTeChang(v.spec[1]))
+        Image_tc2:loadTexture(self:getTeChang(v.spec[2]))
+    end
+    UITools.getChild(item,"Node_info","txt_zz"):setString(v.allAptitude)
+end
+
+
+
+
+
+function __Class:addProcess(node,per)
+    local to1 = cc.ProgressTo:create(1,per)  --持续时间和目标百分比
+    local pro = cc.ProgressTimer:create(cc.Sprite:create("assetsRes/res/zhanma/jindutiao_zhengshou_liebiao_kapai_2.png"))
+    pro:setType(0)
+    pro:move(0,0)
+    pro:setReverseDirection(true)  ---逆时针方向
+    node:addChild(pro)
+    pro:runAction(to1)
+end
+
+function __Class:hideWidget( ... )
+    local t = nil
+    for i = 1,20 do
+        t = self.stu:getChild("box" .. i)
+        if t ~= nil then
+            t:hide()
+        end
+    end
+end
+
+function __Class:addServantList()
+    self.clickScorll:removeAllChildren()
+    local pool = UICommon.getScrollNodePos(self.clickScorll,#self.servantProxy.servantSortList,230,380,1,3,7,10,true)
+    self.clickScorll:setInnerContainerSize(cc.size(self.clickScorll:getContentSize().width,pool.scrollHeight))
+    UICommon.delayedLoadList(self.clickScorll,self.servantProxy.servantSortList,
+        pool,"servant/servantClassItem",handler(self,self.setServantItem),1,1)
+    self.clickScorll:scrollToPercentVertical(0,0,true)
+    UICommon.checkScrollGroup(self.stu,self.clickScorll,false,true,#self.servantProxy.servantSortList)
+end
+
+function __Class:addZhenShouList()
+    local scorll = get("zhenShowBg","ScrollView_17")
+    self.zero:command("game.warHorse.WarHorseCommand.sortByProperty")
+    scorll:removeAllChildren()
+    if #self.warHorseProxy.horseList == 0 or next(self.warHorseProxy.horseList) == nil then
+        return
+    end
+    local pool = UICommon.getScrollNodePos(scorll,#self.warHorseProxy.horseList,240,330,1,3,7,10,true)
+    scorll:setInnerContainerSize(cc.size(scorll:getContentSize().width,pool.scrollHeight))
+     if self.warHorseProxy:getArea() then
+        UICommon.delayedLoadList(scorll,self.warHorseProxy.horseList,
+            pool,"zhanma/zhanMaItem",handler(self,self.setZSItem),1,1)
+    else
+        UICommon.delayedLoadList(scorll,self.warHorseProxy.horseList,
+            pool,"zhanma/zhanMaItemOld",handler(self,self.setZSItem),1,1)
+    end
+    scorll:scrollToPercentVertical(0,0,true)
+end
+
+function __Class:updateClickScorll( ... )
+    local item = nil
+    local num = 1
+    local childPool = self.clickScorll:getChildren()
+    if #childPool > 0 and #self.servantProxy.servantSortList > 0 then
+        for k,v in pairs(self.servantProxy.servantSortList) do
+            item = childPool[num]
+            if item ~= nil then
+                self:setServantItem(item,v)
+            end
+            num = num + 1
+        end
+    end
+end
+
+-- function __Class:upSkinBg()
+--     UICommon.setServantBackgroundImg(self.stu:getChild("Image_1"),self.servantVo)
+-- end
+
+function __Class:hidePromoteEff( ... )
+    self.stu:getChild("page1","upEff"):setVisible(false)
+end
+
+function __Class:upServantList()
+    self.isUpServantList = true
+    local servantTemp = self.servantVo
+    local checkBox = self.stu:getChild("page1","CheckBox")
+    -- checkBox:setSelected(self.servantProxy:getTenLvUp())
+    self.servantVo = self.servantProxy:getServantById(self.detailId)
+    local heroidxx=self.servantVo.heroid or self.servantVo.id;
+    self.servantVo.heroid = heroidxx
+    local roleImgPath=UICommon.getServantFullIconUrl(heroidxx)
+    self.stu:getChild("page1","Text_19"):setString(lang("servant.zongshiz") .. self.servantVo.rTotalZz)
+    self.pic = roleImgPath
+    local sRole = self.stu:getChild("gCenter","gServantRole","Image_2")
+    if self.curId ~= self.detailId then
+        self:setMenKeDongHuaTEM(sRole,self.servantVo)
+        self.curId = self.detailId
+    end
+
+    local sph = display.height - Config.LIUHAI - Config.LIUDI - 1334
+    local spy = -490 + sph
+    if spy > -360 then
+        spy = -360
+    end
+    sRole:setPositionY(spy)
+
+    local txtName = self.stu:getChild("heroNameBg","txtName")
+
+    txtName:setString(self.servantProxy:getSkinInfo(self.servantVo).name .. self.servantVo.name)
+    UICommon.setMaxWidthForText(txtName,300)
+    local txtLv = self.stu:getChild("page1","txtLv")
+    txtLv:setString(lang("servant.txtLv").." "..self.servantVo.level)
+    if self.servantVo.level == 100 or self.servantVo.level == 150 or self.servantVo.level == 200
+     or self.servantVo.level == 250 or self.servantVo.level == 300 or self.servantVo.level == 350
+     or (self.servantVo.level == 400 and self.isOpenLevelExpand == true) or (self.servantVo.level == 450 and self.isOpenLevelExpand == true) then
+        self.stu:getChild("page1","upEff"):setVisible(true)
+    else
+        self.stu:getChild("page1","upEff"):setVisible(false)
+    end
+    local Image_52 = self.stu:getChild("page1","Image_52")
+    Image_52:ignoreContentAdaptWithSize(false)
+    Image_52:setContentSize(cc.size(txtLv:getContentSize().width + 52,43)) 
+    self.stu:getChild("box2","txtAttr"):setString(lang("servant.zongshuxin")..lang("parseNum",self.servantVo.totalEp))
+    UICommon.setMaxWidthForText(self.stu:getChild("box2","txtAttr"),310)
+    self.stu:getChild("box2","txtForce"):setString(lang("parseNum",self.servantVo.aep.e1))      --武力
+    self.stu:getChild("box2","txtPolitical"):setString(lang("parseNum",self.servantVo.aep.e2))  --智力   出错没测到会被人锤。。。
+    self.stu:getChild("box2","txtBrains"):setString(lang("parseNum",self.servantVo.aep.e3))     --政治
+    self.stu:getChild("box2","txtCharm"):setString(lang("parseNum",self.servantVo.aep.e4))      --魅力
+    self.stu:getChild("box2","itemBtn","Text_58"):setString(lang("bag.use"))
+    UICommon.shrinkFontSize(self.stu:getChild("box2","itemBtn","Text_58"))
+
+    self.stu:getChild("box2","txtForce_info"):setString(lang("servant.txtForce"))
+    self.stu:getChild("box2","txtBrains_info"):setString(lang("servant.txtPolitical"))
+    self.stu:getChild("box2","txtPolitical_info"):setString(lang("servant.txtBrains"))
+    self.stu:getChild("box2","txtCharm_info"):setString(lang("servant.txtCharm"))
+
+    self:addGhEffect(self.servantVo)
+
+    local txtAttr = self.stu:getChild("box2","txtAttr")
+    local Image_15 = self.stu:getChild("box2","Image_15")
+    Image_15:setContentSize(cc.size(txtAttr:getContentSize().width + 126,36))
+    self.classBtn:setPositionX(Image_15:getPositionX()+Image_15:getContentSize().width/2+10)
+    -- self.infoBtn:setPositionX(Image_15:getPositionX()-Image_15:getContentSize().width/2-20)
+    local checkText = self.stu:getChild("page1","checkText")
+    self.needCoin = self.servantVo.heroLvUpConf.cost-self.servantVo.exp,self.playerProxy.user.coin
+    checkText:setString(lang("servant.checkText"))
+    self.stu:getChild("page1","CheckBox"):setPositionX(checkText:getPositionX() - checkText:getContentSize().width - 30)
+    
+
+    local loadingBar = self.stu:getChild("page1","LoadingBar")
+    local perc
+    if servantTemp then
+        perc = math.floor(servantTemp.exp*100/servantTemp.heroLvUpConf.cost)
+    else
+        perc = math.floor(self.servantVo.exp*100/self.servantVo.heroLvUpConf.cost)
+    end
+
+    loadingBar:setPercent(perc)
+    local percNew = math.floor(self.servantVo.exp*100/self.servantVo.heroLvUpConf.cost)
+    if self.servantVo.senior > 1 then
+        self.stu:getChild("Image_senior"):setVisible(true)
+        UICommon.loadExternalTexture(self.stu:getChild("Image_senior"),UICommon.getServantHonorIconUrl(self.servantVo.senior))
+    else
+        self.stu:getChild("Image_senior"):setVisible(false)
+    end
+
+    self.stu:getChild("page1","btnGet","btnName"):setString(lang("book.shengji"))
+    self.stu:getChild("page1","btnTba","btnName"):setString(lang("book.shengji"))
+
+    self.stu:getChild("page1","Text_24"):setString(math.floor(loadingBar:getPercent()) .. "/100")
+    if self.servantVo.level < self.servantVo.nobilityConf.max_level then
+        self.stu:getChild("page1","btnGet"):setVisible(false)
+        self.stu:getChild("page1","btnTba"):setVisible(true)
+    else
+        self.stu:getChild("page1","btnGet"):setVisible(true)
+        self.stu:getChild("page1","btnTba"):setVisible(false)
+    end
+
+    local servantDressConf = self.dressProxy:getServantDressConf()
+    local totalSkinLength = servantDressConf[self.servantVo.heroid] ~= nil and #servantDressConf[self.servantVo.heroid] or 0
+    self.stu:getChild("gBottom","btnPanal","gBtnGh"):setVisible(next(self.servantVo.ghskill) ~= nil)
+    self.stu:getChild("gBottom","btnPanal","gBtnDy"):setVisible(self.servantVo.wid > 0)
+    self.stu:getChild("gBottom","btnPanal","gBtnSkin"):setVisible(totalSkinLength > 0)
+    self:resetPos()
+
+    nodeDelayCall(self.stu,function ()
+        self:upSkillList()
+    end,0)
+    local upTime = 2.5
+    if self.servantProxy:getTenLvUp() then
+        upTime = 5
+    end
+    if servantTemp and servantTemp.level ~= self.servantVo.level then -- 升级
+        UICommon.loadingTo(loadingBar,percNew,upTime,false,function ()
+            self.stu:getChild("node_eff"):setVisible(true)
+            self.stu:getChild("node_eff"):getChildByTag(551):setVisible(true)
+            self.stu:getChild("node_eff"):getChildByTag(551):getAnimation():play("mk_shengji",-1,0)
+            self.stu:getChild("page1","Text_24"):setString(math.floor(loadingBar:getPercent()) .. "/100")
+        end)
+        self.zero:command("game.servant.servantLvUp")
+    elseif servantTemp and servantTemp.exp < self.servantVo.exp then -- 增加经验但没升级
+        UICommon.loadingTo(loadingBar,percNew,upTime,false,function()
+            self.stu:getChild("page1","Text_24"):setString(math.floor(loadingBar:getPercent()) .. "/100")
+        end)
+    end
+
+    local level = self.isOpenLevelExpand == true and 500 or 400
+    if tonumber(self.servantVo.level) == level then
+        loadingBar:unscheduleUpdate()
+        self:setMaxData()
+    end
+    self.stu:getChild("box2","upNode"):hide()
+    -- dump(self.servantVo.heroLvUpConf,"==self.servantVo.heroLvUpConf==")
+    local itemCost = self.servantVo.heroLvUpConf.itemCost
+    if itemCost and self.servantVo.senior >=8 and self.isOpenLevelExpand == true then
+        local item = self.bagProxy:getThingById(itemCost.id)
+        self.stu:getChild("box2","upNode"):show()
+        self.stu:getChild("box2","upNode","costNum"):setString(item.count)
+        UICommon.loadExternalTexture(self.stu:getChild("box2","upNode","costIcon"),UICommon.getIconUrl(item.id))
+    end
+    self:upSpNewRed() -- 新增的红点规则
+    --升级按钮的红点
+    self.stu:getChild("page1","imgRedTba"):setVisible(self.markProxy:getVal("servant",self.detailId,"advancement")>0)
+    --gBtnJr=第三页的红点
+    self.stu:getChild("gBottom","btnPanal","gBtnJr","imgRed"):setVisible(self.markProxy:getVal("servant",self.detailId,"pkSkill")>0)
+    --gBtnAttr=第一页的红点
+    self.stu:getChild("gBottom","btnPanal","gBtnAttr","imgRed"):setVisible(false)
+    --gBtnSkin=第六页的红点
+    self.stu:getChild("gBottom","btnPanal","gBtnSkin","imgRed"):setVisible(self.servantProxy:isSkinRed(self.detailId))
+    if self.markProxy:getVal("servant",self.detailId,"pkSkill")>0 or self.markProxy:getVal("servant",self.detailId,"advancement")>0 then
+        self.stu:getChild("gBottom","btnPanal","gBtnAttr","imgRed"):setVisible(true)
+    end
+
+    self:upJrSkillTabRed()
+    self:upGhSkillTabRed()
+
+    self:checkUpLvTen()
+    self:upTabMenu()
+    self:upLimitGiftBtnEnter()
+end
+
+--佳人技能红点
+function __Class:upJrSkillTabRed()
+    local isJrRed = false --是否红点
+
+    local servantVo = self.servantVo or {}
+    local wid = servantVo.wid or 0
+    local wife = self.wifeProxy:getWifeById(wid)
+
+    if wife then
+        for i,v in ipairs(wife.skill) do
+            if wife.exp > v.exp and v.level > 0 and v.level < 100 then
+                isJrRed = true
+                break
+            end
+        end
+    end
+    
+    self.stu:getChild("gBottom","btnPanal","gBtnDy","imgRed"):setVisible(isJrRed)
+end
+
+--光环红点
+function __Class:upGhSkillTabRed()
+    local isGhRed = false --是否红点
+    local isNoUpSkillMax = true --是否不可升级技能满级（默认满级，只有英雄id 33~41 需要判断）
+
+    local heroId = self.detailId or 0
+
+    local servantVo = self.servantVo or {}
+    local ghskill = servantVo.ghskill or {}
+    
+    if heroId >= 33 and heroId <= 41 then
+        isNoUpSkillMax = false
+        for i,v in ipairs(ghskill) do
+            if v.up == 0 and v.level >= v.maxLevel then
+                isNoUpSkillMax = true
+                break
+            end
+        end
+    end
+
+    if isNoUpSkillMax then
+        for i,v in ipairs(ghskill) do
+            if v.level < v.maxLevel and v.up == 1 and v.upItem ~= nil and v.upItem[1] ~= nil then
+                local prop = self.bagProxy:getThingById(v.upItem[1].id)
+                if prop.count >= v.upItem[1].count then
+                    isGhRed = true
+                    break
+                end
+            end
+        end
+    end
+
+    self.stu:getChild("gBottom","btnPanal","gBtnGh","imgRed"):setVisible(isGhRed)   ---第四页红点
+end
+
+function __Class:upTabMenu( ... )
+    local guang = self.stu:getChild("box2","classBtn","getArmature")
+    guang:hide()
+    self.need = self.servantProxy:getIfHeroClass(self.detailId)
+    if self.need == nil then
+        self.classBtn:hide()
+    else
+        self.classBtn:show()
+        if self.servantVo.class_level < 5 then
+            self.classItemData = self.servantProxy:getItemData(self.detailId,self.servantVo.class_level)
+            self.MyItemNum = self.bagProxy:getItemCountById(self.classItemData.id)
+            self.needItemNum = self.classItemData.count
+            if self.MyItemNum >= self.needItemNum then
+                guang:show()
+            end
+        end
+    end
+    
+    if self.isInitTabMenu then return end
+    self.isInitTabMenu = true
+    
+    local itemSize = self.stu:getChild("gBottom","btnPanal","gBtnAttr"):getContentSize()
+
+    --丹药
+    --分配显示的按钮--
+    local gBottom = self.stu:getChild("gBottom")
+    local gBottomSize = gBottom:getContentSize()
+    --分配显示的按钮--
+    local tab=TabFM:new()
+    tab:addBtn(self.stu:getChild("gBottom","btnPanal","gBtnAttr"),self.listView)
+    tab:addBtn(self.stu:getChild("gBottom","btnPanal","gBtnZz"),self.listView)
+    tab:addBtn(self.stu:getChild("gBottom","btnPanal","gBtnJr"),self.listView)
+    tab:addBtn(self.stu:getChild("gBottom","btnPanal","gBtnDy"),self.listView)
+    tab:addBtn(self.stu:getChild("gBottom","btnPanal","gBtnGh"),self.listView)
+    tab:addBtn(self.stu:getChild("gBottom","btnPanal","gBtnSkin"),self.listView)
+    -- end
+    if self.servantVo.wid==0 then
+        self.stu:getChild("gBottom","btnPanal","gBtnDy"):setVisible(false)
+    end
+    self.page1 = self.stu:getChild("page1")
+    self.infoBtn:setVisible(true)
+
+    local gBtnAttr_Text = self.stu:getChild("gBottom","btnPanal","gBtnAttr","Text_choose")
+    local gBtnZz_Text = self.stu:getChild("gBottom","btnPanal","gBtnZz","Text_choose")
+    local gBtnJr_Text = self.stu:getChild("gBottom","btnPanal","gBtnJr","Text_choose")
+    local gBtnDy_Text = self.stu:getChild("gBottom","btnPanal","gBtnDy","Text_choose")
+    local gBtnGh_Text = self.stu:getChild("gBottom","btnPanal","gBtnGh","Text_choose")
+    local gBtnSkin_Text = self.stu:getChild("gBottom","btnPanal","gBtnSkin","Text_choose")
+
+    local c1 = cc.c3b(173,169,164)
+    local c2 = cc.c3b(255,239,212)
+    tab:addEvent("cut",function (sender,type,id)
+        if self.current == 6 and id ~= 6 then
+            -- 从皮肤界面切换到别的界面的时候，还原角色骨骼动画
+            local sRole = self.stu:getChild("gCenter","gServantRole","Image_2")
+            self:setMenKeDongHuaTEM(sRole, self.servantVo)
+            self.defaultSkinId = nil
+        end
+        self.current = id
+        gBtnAttr_Text:setColor(c1)
+        gBtnZz_Text:setColor(c1)
+        gBtnJr_Text:setColor(c1)
+        gBtnDy_Text:setColor(c1)
+        gBtnGh_Text:setColor(c1)
+        gBtnSkin_Text:setColor(c1)
+        if id == 1 then
+            gBtnAttr_Text:setColor(c2)
+        elseif id == 2 then
+            gBtnZz_Text:setColor(c2)
+        elseif id == 3 then
+            gBtnJr_Text:setColor(c2)
+        elseif id == 4 then
+            gBtnDy_Text:setColor(c2)
+        elseif id == 5 then
+            gBtnGh_Text:setColor(c2)
+        else
+            gBtnSkin_Text:setColor(c2)
+        end
+        self:upSkillList()
+        if id ~= 1 then
+            self.page1:setVisible(false)
+        else
+            self.page1:setVisible(true)
+        end
+        self.zero:command("game.guide.GuideCommand.goTaskStep")
+    end)
+    local btn = tab.btns[self.current]
+    local pos = btn:getPositionX() + btn:getContentSize().width
+    if pos > 750 then
+        self.stu:getChild("gBottom","btnPanal"):jumpToRight()
+    end
+    tab:cut(self.current)
+    self.tab = tab
+end
+
+function __Class:upSkillList()
+    -- print(self.current,"erreerr*********************************")
+    if not self.isInitTabMenu then return end
+    print("current===",self.current)
+    self.listView:removeAllChildren(false)
+    -- UICommon.setServantImg(self.stu:getChild("gCenter","gServantRole","Image_2"),self.servantVo)
+    -- UICommon.setServantBackgroundImg(self.stu:getChild("Image_1"),self.servantVo)
+
+    self.stu:getChild("box2"):setVisible(false)
+    self.stu:getChild("box3"):setVisible(false)
+    self.stu:getChild("box5"):setVisible(false)
+    self.stu:getChild("box7"):setVisible(false)
+    self.stu:getChild("box9"):setVisible(false)
+    self.stu:getChild("box10"):setVisible(false)
+
+    if self.current == 1 then -- 详情 
+        self.stu:getChild("box2"):setVisible(true)
+        -- self.listView2:setVisible(false)
+        -- self.stu:getChild("box1","attrPanel"):setVisible(true)
+        -- self:upEpSkill(self.servantVo.epskill)
+    elseif self.current == 2 then  -- 资质技能
+        self.stu:getChild("box3"):setVisible(true)
+        local epskill = clone(self.servantVo.epskill)
+        self:addUnlockSkill(self.servantVo.id, epskill)
+        self:upEpSkill(epskill)
+    elseif self.current == 3 then  -- 竞技场技能 
+        self.stu:getChild("box7"):setVisible(true)
+        self:upPkSkill(self.servantVo.pkskill)
+    elseif self.current == 4 then  -- 羁绊技能
+        self.stu:getChild("box9"):setVisible(true)
+        self:upJrSkill(self.servantVo)
+        self:upJrSkillTabRed()
+        --self:UpWifeSkillList()
+    elseif self.current == 5 then  -- 光环
+        self.stu:getChild("box5"):setVisible(true)
+        self:upGhSkill(self.servantVo.ghskill)
+        self:upGhSkillTabRed()
+    elseif self.current == 6 then  -- 皮肤
+        self.stu:getChild("box10"):setVisible(true)
+        self:upDress()
+    end
+    self.stu:getChild("box1"):setVisible(not (self.current == 4))
+end
+
+function __Class:upEpSkill(vo)
+    local Text_35 = self.stu:getChild("box3","Text_35")
+    Text_35:setString(lang("mk_zongzz") .. self.servantVo.rTotalZz)
+    local Image_53 = self.stu:getChild("box3","Image_53")
+    Image_53:setPositionX(Text_35:getPositionX() - Text_35:getContentSize().width/2 - 30)
+    self.stu:getChild("box3","Text_37"):setString(lang("mk_skill.info"))
+    self.listView2:removeAllChildren()
+    if vo then
+        for i,v in ipairs(vo) do
+            local item = require("servant/aptitudeItem").create()
+            self:setEpItem(item,v,i)
+            item.box:removeSelf(false)
+            self.listView2:addChild(item.box)
+        end
+    end
+    tools.layoutBox(self.listView2,348,139)
+end
+
+function __Class:setEpItem(item,v,i)
+    if v.level > 0 then
+        local skillIsFull=self.servantProxy:getSingleEpSkillIsFull(self.servantVo,v) ---------技能是否满级
+        local count = self.bagProxy:getItemCountById(self.itemIdArr[v.ep])           ---------技能书数量
+        local count1 = self.bagProxy:getItemCountById(self.itemStarArr[v.star])      ---------星星技能书对应数量
+        local addLv=self.governmentProxy:getSkillLv(v.id)
+        local _lv=v.level+addLv
+        -- UITools.getChild(item.box,"txt_num"):setString(UICommon.getHeroPropertyText(v.ep) .. v.star * _lv)
+        -- UICommon.setMaxWidthForText(UITools.getChild(item.box,"txt_num"),180)
+        UITools.getChild(item.box,"txt_lv"):setString(v.name .. " lv:".._lv) 
+        local isMaxLv = true
+        if self.servantProxy:getEpSkillIsFull(self.servantVo)~=true and skillIsFull ~= true  then
+            -- 满级    和  当前爵位能达到 最大等级
+            isMaxLv = false
+        end
+        --获取到对应等级的书籍，数量大于1，并且这个技能的等级不是最高级，红点也需要显示、
+        UITools.getChild(item.box,"imgRed"):setVisible(count >= 1 and skillIsFull~=true or self.servantVo.zzexp >= v.exp and isMaxLv~=true or count1 >=1 and isMaxLv~=true )
+    else
+        UITools.getChild(item.box,"txt_lv"):setString(v.name)
+        local lock = UITools.getChild(item.box,"lock")
+        local tips = UITools.getChild(lock,"tips")
+        lock:show()
+        tips:setString(lang("epskill.unlock", v.skinName))
+        UICommon.shrinkFontSize(tips)
+    end
+    UICommon.setMaxWidthForText(UITools.getChild(item.box,"txt_lv"),280)
+    UITools.getChild(item.box,"txt_num1"):setString(UICommon.getHeroPropertyText(v.ep) .. "+" .. v.star .. "/"..lang("title2_51"))
+    UICommon.setMaxWidthForText(UITools.getChild(item.box,"txt_num1"),220)
+    UICommon.loadExternalTexture(UITools.getChild(item.box,"Image_icon"),self:getJiNeng(v.ep))
+    local function touchEventHd(sender,eventType)
+        if eventType == ccui.TouchEventType.ended then
+            if v.level > 0 then
+                self:command("ServantCommand.upZzSkill",i,v.sid)
+                self.zero:command("game.guide.GuideCommand.goTaskStep")
+            else
+                self.defaultSkinId = v.skinId
+                self.stu:getChild("gBottom","btnPanal"):scrollToRight(0.2, false)
+                self.tab:cut(6)
+            end
+        end
+    end
+    item.box:addTouchEventListener(touchEventHd)
+    local starNode = UITools.getChild(item.box,"starNode")
+    starNode:removeAllChildren();
+    UICommon.addStart(starNode,v.star,16,26,4,0.85)
+end
+
+function __Class:upPkSkill(vo)
+    local num = #vo
+    local height = math.max(380, num * 190)
+    self.listView7:removeAllChildren()
+    --self.listView7:setInnerContainerSize(cc.size(695, 700))
+    self.listView7:setInnerContainerSize(cc.size(730, height))  --设置滚动区域
+    for i,v in ipairs(vo) do
+        local item=require("servant/skillItem").create()
+        self:setPkItem(item,v)
+        item.box:removeSelf(false)
+        self.listView7:addChild(item.box)
+    end
+    tools.layoutBox(self.listView7,730,114)
+end
+
+--将未激活皮肤的技能添加进资质技能表
+function __Class:addUnlockSkill(heroid, epskill)
+    local skillMap = {}
+    for i, v in ipairs(epskill) do
+        skillMap[v.id] = true
+    end
+    local skinList = self.dressProxy:getServantDressesByHid(heroid)
+    for i1, v1 in ipairs(skinList) do
+        local skills = v1.skills or {}
+        for i2, v2 in ipairs(skills) do
+            if not skillMap[v2.id] then
+                local skill = {
+                    id = v2.id, 
+                    level = 0, 
+                    skinId = v1.id,
+                    skinName = v1.name
+                }
+                local epSkillConf = self.servantProxy:getEpSkill(v2.id)
+                table.merge(skill, epSkillConf)
+                table.insert(epskill, skill)
+            end
+        end
+    end
+end
+
+function __Class:setPage3()
+    local box7 = self.stu:getChild("box7")
+    UITools.getChild(box7,"info1"):setString(lang("ski.info1"))
+    UITools.getChild(box7,"info2"):setString(lang("ski.info2"))
+    UITools.getChild(box7,"text_exp"):setString(self.servantVo.pkexp)
+    local  function onBtn()
+        self.zero:show("game.book.BookView")
+    end
+    UITools.getChild(box7,"btn"):addClickEventListener(onBtn);
+end
+
+function __Class:upJrSkill(heroData)
+    local wife = self.wifeProxy:getWifeById(self.servantVo.wid)
+    local wifeText = self.stu:getChild("box9","wifeText")
+    local noWifeInfo = self.stu:getChild("box9","noWifeInfo")
+    local di = self.stu:getChild("box9","di")
+    local hand = self.stu:getChild("box9","hand")
+    self.currentWifeVO = self.wifeProxy.wifeList[self.wifeProxy:getIntrigantWife(self.detailId)] or {}
+    self.stu:getChild("box9","TextNumJY"):setString(self.currentWifeVO.exp)
+    local handdi = self.stu:getChild("box9","handdi")
+    local gotoWifeBtn = self.stu:getChild("box9","gotoWifeBtn")
+    local wifeExp = self.stu:getChild("box9","Image_jy")
+    self.listView9:removeAllChildren()
+    wifeText:move(196.74,405.26)
+    local function moveHand( ... )
+        self.stu:getChild("box9","CheckBox_1"):setVisible(false)
+        wifeText:move(360.73,405.26)
+        hand:loadTexture(UICommon.getWifeHeadIconUrl(self.wifeProxy:getIntrigantWife(self.detailId)))
+        noWifeInfo:setVisible(true)
+        di:setVisible(false)
+        hand:setVisible(true)
+        handdi:setVisible(true)
+        gotoWifeBtn:setVisible(false)
+        wifeExp:setVisible(false)
+        self.listView9:setVisible(false)
+        local size = wifeText.Rich:getContentSize()
+        local x = wifeText:getPositionX()
+        if size.width > 450 then
+            wifeText:setPositionX(wifeText:getPositionX() - 55)
+            wifeText.Rich:ignoreContentAdaptWithSize(false)
+            wifeText.Rich:setContentSize(cc.size(450,80))
+            x = wifeText:getPositionX()
+            size = wifeText.Rich:getContentSize()
+        end
+        hand:setPositionX(x + size.width / 2 + 55)
+        handdi:setPositionX(x + size.width / 2 + 55)
+    end
+    local function resetHand( ... )
+        self.stu:getChild("box9","CheckBox_1"):setVisible(true)
+        hand:loadTexture(UICommon.getWifeHeadIconUrl(wife.wid))
+        noWifeInfo:setVisible(false)
+        di:setVisible(true)
+        hand:setVisible(true)
+        handdi:setVisible(true)
+        gotoWifeBtn:setVisible(true)
+        wifeExp:setVisible(true)
+        hand:move(63.74,403.50)
+        handdi:move(63.74,403.77)
+        wifeText:setString(wife.wname)
+
+        UICommon.setMaxWidthForText2(wifeText,250,1)
+        local tw = wifeText:getContentSize().width
+        local lx = 196.74 - wifeText:getContentSize().width/2 * wifeText:getScaleX()
+        if lx < 112 then
+            wifeText:setPositionX(196.74 + (112 - lx))
+        end
+
+        self.listView9:setVisible(true)
+    end
+    if wife == nil then
+        local wifeVo = self.wifeProxy:getWife(self.wifeProxy:getIntrigantWife(self.detailId))
+        if wifeVo == nil then
+            Config.CUR_ERROR = "self.detailId==" .. tostring(self.detailId)
+        end
+        local rich = {
+            {str = self.servantVo.name,size = 28,color = cc.c3b(137,85,25)},
+            {str = lang("servant.noWifeTop","",""),size = 28,color = cc.c3b(22,22,22)},
+            {str = " " .. wifeVo.wname,size = 28,color = cc.c3b(137,85,25)},
+        }
+
+        UICommon.addRichElement(wifeText,rich)
+        moveHand()
+        UITools.getChild(noWifeInfo,"t1"):setString(lang("servant.noWifeTip"))
+        UITools.getChild(noWifeInfo,"btnNoWife","txt"):setString(lang("servant.btnNoWife"))
+        UITools.getChild(noWifeInfo,"btnNoWife"):addClickEventListener(function ( ... )
+        if self.lockProxy:getIsLockByID(6) then
+            self.zero:command(GameKey.TIP,lang("wife_lock"))
+        else
+            local noWifeId = self.servantVo.wid
+            self:clearBubbleTime()
+            self:hideWidget()
+            self:hideSelf()
+            self.zero:hide("game.servant.ServantView")
+            self.zero:command("showHomePage",1)
+            self.zero:show("game.wife.WifeListView",2,noWifeId)
+        end 
+        end)
+        return
+    end
+    resetHand()
+    for i,v in ipairs(wife.skill) do
+        local item=require("servant/skillItem1").create()
+        self:setJrItem(item,v)
+        item.box:removeSelf(false)
+        self.listView9:addChild(item.box)
+    end
+    tools.layoutBox(self.listView9,710,100)
+end  
+
+function __Class:setJrItem(item,v)
+    UITools.getChild(item.box,"btnUpG"):setVisible(true)
+    UITools.getChild(item.box,"Image_8"):setVisible(true)
+    UICommon.loadExternalTexture(UITools.getChild(item.box,"Image_8"),self:getShuXin(v.epid[1]))
+    local Image_icon = UITools.getChild(item.box,"Image_icon")
+    if v.epid[2]~=nil then
+        UICommon.loadExternalTexture(UITools.getChild(item.box,"Image_9"),self:getShuXin(v.epid[2]))  
+    else
+        UITools.getChild(item.box,"Image_9"):setVisible(false)
+    end
+
+    UITools.getChild(item.box,"txt_name"):setString(tools.setLangForConf(v.wsname))
+    UICommon.setMaxWidthForText(UITools.getChild(item.box,"txt_name"),195)
+    UITools.getChild(item.box,"txt_upNeed1"):setString("EXP: "..v.exp)
+    -- UITools.getChild(item.box,"txt_max"):setString(lang("go.upgrade"))
+    UITools.getChild(item.box,"txt_max"):setString("")
+    UICommon.loadExternalTexture(Image_icon,UICommon.getBellePropertyIcon(v.epid[1]))
+    if v.type==1 then
+        local cur = v.level*v.base
+        local max = 100*v.base
+        UITools.getChild(item.box,"txt_nowState1"):setString("+"..v.level*v.base)
+        if  cur < max then
+            UITools.getChild(item.box,"txt_upState1"):setString("+"..v.level*v.base+v.base)
+        else
+            local size = UITools.getChild(item.box,"txt_nowState1"):getContentSize()
+            local posX = UITools.getChild(item.box,"txt_nowState1"):getPositionX()
+            UITools.getChild(item.box,"Image_3"):setVisible(false)
+            UITools.getChild(item.box,"txt_upState1"):setString("("..lang("pkSkill_condition_7")..")")
+            UITools.getChild(item.box,"txt_upState1"):setPositionX(posX+10)
+        end
+    else 
+        local cur = v.level*v.base
+        local max = 200*v.base
+        UITools.getChild(item.box,"txt_nowState1"):setString("+"..(v.level*v.base/100).."%")
+        if  cur < max then
+            UITools.getChild(item.box,"txt_upState1"):setString("+"..((v.level*v.base+v.base)/100).."%")
+        else
+            local size = UITools.getChild(item.box,"txt_nowState1"):getContentSize()
+            local posX = UITools.getChild(item.box,"txt_nowState1"):getPositionX()
+            UITools.getChild(item.box,"Image_3"):setVisible(false)
+            UITools.getChild(item.box,"txt_upState1"):setString("("..lang("pkSkill_condition_7")..")")
+            UITools.getChild(item.box,"txt_upState1"):setPositionX(posX + 10)
+        end
+    end
+    if v.level==0 then
+        if v.type==1 then
+            UITools.getChild(item.box,"txt_nowState1"):setString("+"..v.base)
+        else 
+            UITools.getChild(item.box,"txt_nowState1"):setString("+"..(v.base/100).."%")
+        end
+        UITools.getChild(item.box,"txt_upState1"):setVisible(false)
+        UITools.getChild(item.box,"Image_3"):setVisible(false)
+        UITools.getChild(item.box,"btnUpG"):setVisible(false)
+        UITools.getChild(item.box,"txt_max"):setString(lang("wife.skillupgrade"))
+        UITools.getChild(item.box,"txt_upNeed1"):setString(lang("Intimacy.servant")..v.love)
+        UICommon.loadExternalTexture(UITools.getChild(item.box,"Image_1"),"assetsRes/res/hero/bj_yingxiong_jineng_he.png")
+        local Image_2 = UITools.getChild(item.box,"Image_2")
+        Image_2:setVisible(true)
+        UICommon.buttonClickEnabled(Image_2,false)
+        UICommon.buttonClickEnabled(Image_icon,false)
+    end
+
+    UITools.getChild(item.box,"btnUpG"):addClickEventListener(function(sender)
+        if self.isOneKey then
+            self.zero:command("game.wife.WifeCommand.oneKeySkillLvUp",v.id,self.wifeProxy:getIntrigantWife(self.detailId))
+        else
+            self.zero:command("game.wife.WifeCommand.skillLvUp",v.id,self.wifeProxy:getIntrigantWife(self.detailId))
+        end
+    end) 
+end
+
+function __Class:setPkItem(item,v)
+    UICommon.loadExternalTexture(UITools.getChild(item.box,"Image_icon"),UICommon.getServantSkillIconUrl(v.id))
+    UITools.getChild(item.box,"txt_name"):setString(lang(v.name))
+    --UICommon.setMaxWidthForText(UITools.getChild(item.box,"txt_name"),195)
+    UITools.getChild(item.box,"txt_lv"):setString(lang("servant.lv")..v.level)
+    UITools.getChild(item.box,"btnUpG","txt_upG"):setString(lang("servant.lvUp"))
+    UITools.getChild(item.box,"txt_nowState1"):setString(((v.base + v.upgrade * v.level)/100).."%")
+    UITools.getChild(item.box,"txt_upState1"):setString(((v.base + v.upgrade * (v.level+1))/100).."%")
+    UITools.getChild(item.box,"jineng"):setString(lang("servant.lvUp"))
+    -- UITools.getChild(item.box,"txt_upNeed1"):setString("EXP:"..v.exp.."/"..self.servantVo.pkexp)
+    UITools.getChild(item.box,"txt_upNeed1"):setString("EXP: -"..v.exp)
+    UITools.getChild(item.box,"Image_8"):setVisible(false)
+    UITools.getChild(item.box,"Image_9"):setVisible(false)
+    if v.type == 1 then
+        UITools.getChild(item.box,"jineng"):setString(lang("pkSkill_name_1"))  
+        UITools.getChild(item.box,"txt_name"):setString(lang("Ferocity"))
+    else
+        UITools.getChild(item.box,"jineng"):setString(lang("pkSkill_name_2")) 
+        UITools.getChild(item.box,"txt_name"):setString(lang("Brutality"))
+    end
+    UICommon.setMaxWidthForText(UITools.getChild(item.box,"txt_name"),500)
+    if v.level < v.maxLevel then
+        UITools.getChild(item.box,"btnUpG"):setVisible(true)
+        UITools.getChild(item.box,"txt_max"):setVisible(false)
+    else
+        UITools.getChild(item.box,"txt_upState1"):setVisible(false)
+        UITools.getChild(item.box,"txt_upNeed1"):setPositionY(UITools.getChild(item.box,"txt_upNeed1"):getPositionY())
+        UITools.getChild(item.box,"txt_upNeed1"):setString("MAX")
+        UITools.getChild(item.box,"btnUpG"):setVisible(false)
+        UITools.getChild(item.box,"txt_max"):setVisible(true)
+    end
+    if v.exp>self.servantVo.pkexp then
+        UITools.getChild(item.box,"btnUpG"):setVisible(false)
+        UITools.getChild(item.box,"txt_max"):setVisible(true)
+        UITools.getChild(item.box,"txt_max"):setString(lang("Insufficient.EXP"))
+    end
+    UITools.getChild(item.box,"btnUpG"):addClickEventListener(function(sender)
+        self:command("ServantCommand.upPkForHero",v,self.servantVo.pkexp)
+    end)
+
+    -- 计算左对齐
+    local curX = 115
+    local nt = UITools.getChild(item.box,"txt_nowState1")
+    local nt_size = nt:getContentSize()
+    nt:setPositionX(curX + nt_size.width*nt:getAnchorPoint().x)
+
+    curX = curX + nt_size.width + 6
+    local sp = UITools.getChild(item.box,"Image_3")
+    local sp_size = sp:getContentSize()
+    sp:setPositionX(curX + sp_size.width*sp:getAnchorPoint().x)
+
+    curX = curX + sp_size.width + 6
+    local ut = UITools.getChild(item.box,"txt_upState1")
+    local ut_size = ut:getContentSize()
+    ut:setPositionX(curX + ut_size.width*ut:getAnchorPoint().x)
+
+    local txt_lv = UITools.getChild(item.box,"txt_lv")
+    local txt_upNeed1 = UITools.getChild(item.box,"txt_upNeed1")
+    txt_lv:setPositionX(txt_upNeed1:getPositionX() - txt_upNeed1:getContentSize().width - (txt_lv:getContentSize().width / 2) - 20)
+end
+
+function __Class:upGhSkill(vo)
+    self.listView5:removeAllChildren()
+    local th = 0
+    local ghItems = {}
+    for i,v in ipairs(vo) do
+        local item=require("servant/wuhuGhItemneibu").create()
+        item.box:removeSelf(false)
+        local boxs=self:setGhItem(item,v)
+        self.listView5:addChild(item.box)
+        table.insert(ghItems, item.box)
+        th = th + boxs.height
+    end
+    local lh = self.listView5:getContentSize().height
+    local rh = math.max(lh,th)
+    self.listView5:setInnerContainerSize({width = 710, height = rh})
+    self.listView5:setBounceEnabled(rh > lh)
+    self.listView5:setScrollBarEnabled(rh > lh)
+    for i,item in ipairs(ghItems) do
+        local ch = item:getContentSize().height
+        rh = rh - ch
+        item:setPosition(355,rh+ch/2)
+    end
+end
+
+function __Class:setGhItem(item,v)
+    local bg = UITools.getChild(item.box,"bg")
+    local m1 = UITools.getChild(item.box,"Image_icon")
+    local m2 = UITools.getChild(item.box,"btnUpG")
+    local m3 = UITools.getChild(item.box,"getArmature")
+    local n1 = UITools.getChild(item.box,"txt_name")
+    local n2 = UITools.getChild(item.box,"TextLv")
+    local ts = {}
+    for i=1,3 do
+        ts[i] = UITools.getChild(n1,"Text"..i)
+    end
+    for i=4,6 do
+        ts[i] = UITools.getChild(n1,"ScrollView_"..i-3)
+        ts[i].t = UITools.getChild(ts[i],"Text")
+    end
+
+    UICommon.loadExternalTexture(m1,UICommon.getServantSkillIconUrl(v.id))
+    m1:setScale(1.3)
+
+    n1:setString(v.name)
+    n2:setString(lang("servant.dj")..v.level)
+    n2:setPositionX(n1:getContentSize().width+n1:getPositionX()+20)
+
+    ts[1]:setString(lang("servant.currentghlv"))
+    ts[2]:setString(lang("servant.upgradeghlv"))
+    ts[3]:setString(lang("servant.upgradeghcost"))
+
+    local mLevel = v.level or 0
+    local curVal = (v.base + v.upgrade * mLevel)/100
+    local nextVal = (v.base + v.upgrade * (mLevel+1))/100
+    if v.id == 52 and mLevel <= 0 then
+        curVal = 0
+    end
+    ts[4].t:setString(v.comm..curVal.."%")
+    -- UICommon.setMaxWidthForText(ts[4].t,320)
+    ts[5].t:setString(v.comm..nextVal.."%")
+    if v.level < v.maxLevel then
+        if next(v.upItem) ~= nil then
+            self.prop = self.bagProxy:getThingById(v.upItem[1].id)
+            ts[6].t:setString(string.format(v.condition, self.prop.count))
+        else
+            ts[6].t:setString(string.format(v.condition, v.level+1))
+        end
+    else
+        ts[6].t:setString("("..lang("pkSkill_condition_7")..")")
+    end
+
+    local max_x = 488
+    for i=1,6 do
+        ts[i].s = ts[i]:getContentSize()
+        ts[i].x = ts[i]:getPositionX()
+        ts[i].y = ts[i]:getPositionY()
+        ts[i].spx = ts[i].x + ts[i].s.width + 10
+    end
+
+    local th = 0
+    for i=1,3 do
+        local mi = i+3
+        local ct = ts[i]
+        local mt = ts[mi]
+        local ms = mt.t:getString()
+        local mw = max_x - ct.spx
+        ct:setPosition(ct.x,ct.y-th)
+        mt:setPosition(ct.spx,ct.y-th)
+        mt.t:setContentSize(mw,0)
+        local h1 = UICommon.testHeight(mt.t)
+        local h2 = h1
+        if h1 > 68 then
+            h1 = 68
+            mt:setTouchEnabled(true)
+            mt:setScrollBarEnabled(true)
+        else
+            mt:setTouchEnabled(false)
+            mt:setScrollBarEnabled(false)
+        end
+        mt.t:setContentSize(mw,h2)
+        mt:setContentSize(mw,h1)
+        mt:setInnerContainerSize(cc.size(mw, h2))
+        mt.t:setPositionY(h2)
+        local spy = h1 - mt.s.height
+        th = th + spy
+    end
+
+    local Armature1 = item.box:getChildByTag(124)
+    if v.level < v.maxLevel then
+        if v.up == 1 then
+            UITools.getChild(item.box,"btnUpG"):setVisible(true)
+            Armature1:setVisible(true)
+        else
+            UITools.getChild(item.box,"btnUpG"):setVisible(false)
+            Armature1:setVisible(false)
+        end
+    else
+        UITools.getChild(item.box,"btnUpG"):setVisible(false)
+        ts[2]:hide()
+        ts[5]:hide()
+        local t2y =ts[2]:getPositionY()
+        local t5y =ts[5]:getPositionY()
+        local t6y =ts[6]:getPositionY()
+        ts[3]:setPositionY(t2y)
+        ts[6]:setPositionY(t5y)
+        th = th - t5y + t6y
+        Armature1:setVisible(false)
+    end
+
+    UITools.getChild(item.box,"btnUpG"):addClickEventListener(function(sender)
+        self.zero:show("game.servant.UpLevelView",v.id,v.upItem)
+    end)
+    if v.maxLevel == 1 then
+        ts[2]:setVisible(false)
+        ts[5]:setVisible(false)
+        local t2y =ts[2]:getPositionY()
+        local t5y =ts[5]:getPositionY()
+        local t6y =ts[6]:getPositionY()
+        ts[3]:setPositionY(t2y)
+        ts[6]:setPositionY(t5y)
+        th = th - t5y + t6y
+    end
+    m1:setPositionY(m1:getPositionY()+th/2)
+    m2:setPositionY(m2:getPositionY()+th/2)
+    m3:setPositionY(m3:getPositionY()+th/2)
+    n1:setPositionY(n1:getPositionY()+th)
+    n2:setPositionY(n2:getPositionY()+th)
+    local bgs = bg:getContentSize()
+    bgs.height = bgs.height+th
+    local boxs = item.box:getContentSize()
+    boxs.height = boxs.height+th
+    bg:setContentSize(bgs.width,bgs.height)
+    item.box:setContentSize(boxs.width,boxs.height)
+    return boxs
+end
+
+function __Class:setPowderItem(item,v)
+    local thingUI=ThingIconUI:new(v)
+    thingUI:setScale(0.9)
+    thingUI:pickShow(self.zero)
+    UITools.getChild(item,"thingNode"):addChild(thingUI)
+    UITools.getChild(item,"name"):setString(v.name)
+    UITools.getChild(item,"effect"):setString(lang("bag.xiaoguo")..v.explain)
+    UITools.getChild(item,"btnUse","txt_use"):setString(lang("bag.use"))
+    UITools.getChild(item,"btnUse"):addClickEventListener(function(sender)
+        self.zero:command("game.bag.BagCommand.pick",v)
+        self.zero:command("game.bag.BagCommand.useForHero",self.servantVo)
+    end)
+end
+
+function __Class:UpWifeSkillList( ... )
+    self.stu:getChild("box3","zzbg"):setVisible(false)
+    if self.isInitWifeSkillList then return end
+    self.isInitWifeSkillList = true
+    local wife = self.wifeProxy:getWifeById(self.servantVo.wid)
+    if wife == nil then
+        wife = self.wifeProxy:getWife(self.servantVo.wid)
+        wife.skill = self.wifeProxy:getWifeSkillsByWifeId(self.servantVo.wid)
+    end
+
+    local listView = self.stu:getChild("box5","listView")
+    listView:removeAllChildren()
+    listView:setScrollBarEnabled(false)
+    for i,v in ipairs(wife.skill) do
+        local item=require("servant/wifeSkillItem").create()
+        self:setWifeSkillItem(item.box,v)
+        item.box:removeSelf(false)
+        listView:addChild(item.box)
+        local function  wifeSkillHd(sender,eventType)
+            if eventType == ccui.TouchEventType.ended then
+                -- print("妻子ID == ",self.servantVo.wid)
+                self.zero:command("game.wife.WifeCommand.wifeInfo",self.servantVo.wid)
+                -- self:command("WifeCommand.wifeInfo",self.servantVo.wid)
+            end
+        end
+        item.box:addTouchEventListener(wifeSkillHd)
+    end
+end
+
+function __Class:setWifeSkillItem(item,v)
+    local maxLv = 0
+    if v.type == 1 then
+        maxLv = self.gobalSwitchProxy:getSwitch("wifeSkillLevalMax1") and self.gobalSwitchProxy:getSwitch("wifeSkillLevalMax1") or 300
+    else
+        maxLv = self.gobalSwitchProxy:getSwitch("wifeSkillLevalMax2") and self.gobalSwitchProxy:getSwitch("wifeSkillLevalMax2") or 200
+    end
+    local txt2 = RichLabel.new {fontName = UICommon.getTTFName(),fontSize = 24,}
+    txt2:setAnchorPoint(0,0.5)
+    UITools.getChild(item,"txt2"):removeAllChildren()
+    txt2:removeSelf(false)
+    UITools.getChild(item,"txt2"):addChild(txt2)
+    local txt3 = RichLabel.new {fontName = UICommon.getTTFName(),fontSize = 24,}
+    txt3:setAnchorPoint(0,0.5)
+    UITools.getChild(item,"txt3"):removeAllChildren()
+    txt3:removeSelf(false)
+    UITools.getChild(item,"txt3"):addChild(txt3)
+    if v.level and v.level > 0 then
+        txt2:setString(UICommon.formatRichText("#D"..lang("wife.nowState")..self:getEpStr(v,v.level)))
+        if v.level < maxLv then
+            UITools.getChild(item,"txt1"):setString(v.wsid.."."..v.wsname..lang("wife.lv",v.level))
+            txt3:setString(UICommon.formatRichText("#D"..lang("wife.upState")..self:getEpStr(v,v.level+1)))
+        else
+            UITools.getChild(item,"txt1"):setString(v.wsid.."."..v.wsname.."(Max)")
+        end
+    else
+        UITools.getChild(item,"txt1"):setString(v.wsid.."."..v.wsname)
+        txt2:setString(UICommon.formatRichText("#D"..lang("wife.unLockState")..self:getEpStr(v,1)))
+        txt3:setString(UICommon.formatRichText("#G"..lang("wife.unLockCondition",v.love)))
+    end
+end
+
+function __Class:getEpStr(v,level)
+    local epid = v.epid
+    local etype = v.type
+    local base = v.base
+    local str = self.servantVo.name
+    local numStr = ""
+    for i,v in ipairs(epid) do
+        if i > 1 then
+            str = str .. "、"
+        end
+        str = str..lang("wife.attr"..v)
+    end
+    str = str .. lang("wife.attr")
+    if etype == 1 then
+        numStr = ""..base * level
+    elseif etype == 2 then
+        numStr = (base/100) * level.."%"
+    end
+    return str.."#E"..numStr
+end
+
+-- 更新皮肤界面
+function __Class:upDress()
+    self:updateSkinNum()
+    self:initSkinList()
+    self:scrollToIndex()
+end
+
+-- 更新皮肤拥有数量
+function __Class:updateSkinNum()
+    local dressListByHid = self.servantProxy.servantDress.dressListByHid
+    local hasSkinLength = dressListByHid[self.servantVo.heroid] ~= nil and table.nums(dressListByHid[self.servantVo.heroid].list) or 0
+    local text1 = self.stu:getChild("box10", "Text_1")
+    local text2 = self.stu:getChild("box10", "Text_1_0")
+    local text3 = self.stu:getChild("box10", "Text_1_1")
+    text2:setString(hasSkinLength)
+    local pool = {}
+    table.insert(pool,text2)
+    table.insert(pool,text3)
+    UICommon.ControlAlign(text1,pool,5)
+end
+
+-- 穿戴/升级/激活皮肤的回调 
+function __Class:updateRoleData( ... )
+    self.stu:getChild("gBottom","btnPanal","gBtnSkin","imgRed"):setVisible(self.servantProxy:isSkinRed(self.detailId))
+    self:updateSkinNum()
+    self:updateSkinStatus()
+end
+
+-- 更新皮肤列表 
+function __Class:initSkinList( ... )
+    self.skinScrollView:removeAllChildren(false)
+    self.skinScrollView:jumpToLeft()
+    self.skinItem = nil
+    local list = self.dressProxy:getServantDressesByHid(self.servantVo.heroid)
+    table.insert(list,1,self.servantProxy:getClassicSkinVO(self.servantVo))
+    self.servantListdata = list
+    local dressItem = require("servant.dressSelectItem").create()
+    itemWidth = dressItem.box:getContentSize().width*ITEM_SCALE_MAX
+    self.skinScrollView:setInnerContainerSize(cc.size(750 + (#list - 1)*itemWidth, self.skinScrollView:getContentSize().height))
+    for i, v in ipairs(list) do
+        local stu = require("servant.dressSelectItem").create()
+        item = stu.box
+        item:removeSelf()
+        self:setDressItem(item,v)
+        item:setPositionX(375 + itemWidth*(i - 1))
+        item:addClickEventListener(function(sender, eventType)
+            local senderIndex = sender:getTag()
+            local curIndex = self.skinItem:getTag()
+            if senderIndex ~= curIndex then
+                local per = self:getScrollPercent(senderIndex)
+                local delay = math.abs(senderIndex - curIndex)*0.3
+                self.skinScrollView:scrollToPercentHorizontal(per,delay,true)
+            end
+        end)
+        self.skinScrollView:addChild(item, 0, i)
+    end
+    self.skinScrollViewInnerPosX = self.skinScrollView:getInnerContainerPosition().x-itemWidth/2
+    local function scrollViewEvent(sender, evenType)
+        local x = sender:getInnerContainerPosition().x - itemWidth/2
+        local mdis = math.abs(x-self.skinScrollViewInnerPosX)
+        self.skinScrollViewInnerPosX = x
+        if mdis > 4 or mdis == 0 then
+            local index = math.floor(math.abs(x)/itemWidth) + 1
+            local item = sender:getChildByTag(index)
+            if item ~= nil and (self.skinItem == nil or self.skinItem ~= item) then
+                if self.skinItem then
+                    transition.scaleTo(self.skinItem,{scale = ITEM_SCALE_MIN, time = 0.2})
+                    transition.scaleTo(item,{scale = ITEM_SCALE_MAX, time = 0.2})
+                else
+                    item:setScale(ITEM_SCALE_MAX)
+                end
+                self.skinItem = item
+                self:updataCurrentSkinInfo(item.skinInfo,index)
+            end
+        end
+    end
+    self.skinScrollView:addEventListener(scrollViewEvent)
+end
+
+-- 设置皮肤项 
+function __Class:setDressItem(item,v)
+    item.skinInfo = v
+    item:setScale(ITEM_SCALE_MIN)
+    local role = UITools.getChild(item,"rolePanel","man_role")
+    local rolePath=v.isDefault==true and UICommon.getServantFullIconUrl(v.heroid) or UICommon.getServantfullDressImgUrl(v.id)
+    UICommon.loadExternalTexture(role,rolePath);
+    local name=v.isDefault==true and v.hname or v.name
+    local dressName = UITools.getChild(item,"lbDressName")
+    dressName:setString(name);
+    UICommon.shrinkFontSize(dressName)
+end
+
+-- 滚动到选择的皮肤
+function __Class:scrollToIndex()
+    local senderIndex = clone(self.servantProxy:getCurrentDressedData(self.servantVo.heroid))
+    if self.defaultSkinId ~= nil then
+        senderIndex = {hid = self.servantVo.heroid, id = self.defaultSkinId}
+    end
+    local index = 1
+    for i,v in ipairs(self.servantListdata) do
+        if v and senderIndex and v.id == senderIndex.id then
+            index = i 
+        end
+    end
+    local curIndex = 1
+    if senderIndex ~= curIndex then
+        local per = self:getScrollPercent(index, curIndex)
+        if per == 0 then
+            self.skinScrollView:scrollToPercentHorizontal(per,0,true)
+        else
+            self.skinScrollView:jumpToPercentHorizontal(per)
+        end
+    end
+end
+
+-- 获取滚动条百分比
+function __Class:getScrollPercent(index)
+    local dressItem = require("servant.dressSelectItem").create()
+    local itemWidth = dressItem.box:getContentSize().width*ITEM_SCALE_MAX
+    local width1 = self.skinScrollView:getContentSize().width
+    local width2 = self.skinScrollView:getInnerContainerSize().width
+    local per = (index - 1)*itemWidth/(width2 - width1)*100
+    return per
+end
+
+-- 更新当前皮肤信息
+function __Class:updataCurrentSkinInfo(skinInfo,index)
+    if self.servantVo == nil or skinInfo == nil or next(skinInfo) == nil then
+        return
+    end
+    self.skinInfo = skinInfo
+
+    --加成
+    local effScrollView = self.stu:getChild("box10","effScrollView")
+    local effTxt = UITools.getChild(effScrollView,"effTxt")
+    local size = effScrollView:getContentSize()
+    effTxt:setString(lang('dress.effect_title',skinInfo.intro))
+    local newHeight = UICommon.testHeight(effTxt)
+    local height = newHeight > size.height and newHeight or size.height
+    effTxt:setContentSize(size.width, height)
+    effTxt:setPositionY(height)
+    effScrollView:setInnerContainerSize(cc.size(size.width,height))
+    effScrollView:setTouchEnabled(newHeight > size.height)
+
+    --获得途径
+    local source = self.stu:getChild("box10","source")
+    if skinInfo.get ~= nil then
+        source:setString(lang(skinInfo.get))
+    else
+        if skinInfo.isDefault == true then
+            source:setString(lang(""))
+        else
+            source:setString(lang("get_active"))
+        end
+    end
+    UICommon.shrinkFontSize(source)
+    -- 稀有度（1稀有 2史诗 3传说 4限定） 
+    local rare = self.stu:getChild("box10", "rare")
+    if skinInfo.step ~= nil then
+        rare:setVisible(true)
+        UITools.getChild(rare,"txt"):setString(lang("dress.quality" .. skinInfo.step))
+        UITools.getChild(rare,"tiao"):loadTexture("assetsRes/res/dress/ui/tiao" .. skinInfo.step .. ".png")
+    else
+        rare:setVisible(false)
+    end
+
+    self:updateSkinStatus()
+
+    -- 皮肤骨骼动画 
+    local sRole = self.stu:getChild("gCenter","gServantRole","Image_2")
+    local servantVo = clone(self.servantVo)
+    if skinInfo.isDefault == true then
+        servantVo.skinVO = nil
+    else
+        servantVo.skinVO = self.dressProxy:getServantDressByDid(skinInfo.id)
+    end
+    self:setMenKeDongHuaTEM(sRole, servantVo)
+end
+
+--更新皮肤穿戴状态和按钮状态 
+function __Class:updateSkinStatus()
+    local skinInfo = self.skinInfo
+    local useBtn = self.stu:getChild("box10","use")
+    local lvupBtn = self.stu:getChild("box10","lvup")
+    local useBtnTitle = UITools.getChild(useBtn,"Text_0")
+    local dressImg = self.stu:getChild("box10", "dressImg")
+    useBtnTitle:setString(lang('dress.btnUse'))
+    UICommon.buttonClickEnabled(useBtn,true)
+    useBtn:setVisible(true)
+    lvupBtn:setVisible(false)
+    dressImg:setVisible(false)
+    if skinInfo.isDefault==true then
+        if self.servantVo.skinVO==nil then
+            dressImg:setVisible(true)
+            useBtn:setVisible(false)
+        else
+            useBtn:setVisible(true)
+            useBtnTitle:setString(lang('dress.btnDress'))
+            useBtn.status=1 --穿戴默认
+        end
+    else
+        local currentDressVO = self.servantProxy:getCurrentDressedSkin(self.servantVo.id)
+        local showDressVO = self.servantProxy:getServantDressByWid(self.servantVo.id,skinInfo.id)
+        local skinItemNum = self.bagProxy:getItemCountById(tonumber(skinInfo.itemid))
+        local isHasItem = skinItemNum > 0
+        local isHasThisSkin=showDressVO~=nil --是否拥有该皮肤
+        if isHasThisSkin then
+            local unDressed=showDressVO.id==skinInfo.id or currentDressVO==nil
+            useBtn:setVisible(unDressed)
+            local useTitle=unDressed and lang('dress.btnDress') or lang('dress.btnUse')
+            useBtnTitle:setString(useTitle)
+            if unDressed then
+                useBtn.status=2 --穿戴当前皮肤
+                UITools.getChild(useBtn, "imgRed"):setVisible(false)
+            end
+            lvupBtn:setVisible(true)
+            UITools.getChild(lvupBtn, "imgRed"):setVisible(isHasItem)
+            if currentDressVO~=nil then --如果当前显示的皮肤跟穿戴皮肤一致，不显示使用按钮，显示“已穿戴”
+                useBtn:setVisible(not (currentDressVO.id==skinInfo.id))
+                dressImg:setVisible(currentDressVO.id==skinInfo.id)
+            end
+        else
+            UICommon.buttonClickEnabled(useBtn,isHasItem==true)
+            UITools.getChild(useBtn, "imgRed"):setVisible(isHasItem)
+            if isHasItem==true then
+                useBtn.status=3 --使用当前皮肤道具
+            end
+        end
+    end
+    UICommon.setMaxWidthForText(useBtnTitle,180)
+    useBtn:setPositionX(lvupBtn:isVisible() and 445 or 645)
+end
+
+function __Class:alterUpText( ... )
+    local txtValue = self.stu:getChild("page1","txtValue")
+    local t = {txtValue}
+    for i,val in pairs(t) do
+        val:setTextColor(cc.c3b(255,0,0))
+        UICommon.repeatScale(val)
+    end
+end
+
+function __Class:resetUpText( ... )
+    local txtValue = self.stu:getChild("page1","txtValue")
+    local t = {txtValue}
+    for i,val in pairs(t) do
+        val:setTextColor(cc.c3b(236,211,175))
+        val:stopAllActions()
+        val:setScale(1)
+    end
+    local imgRes = self.stu:getChild("page1","imgRes")
+    txtValue:move(384.57,169.09)
+    imgRes:setPositionX(txtValue:getPositionX()+txtValue:getContentSize().width+25)
+end
+
+function __Class:upUser()
+    local coin = self.playerProxy.user.coin
+    local txtValue = self.stu:getChild("page1","txtValue")
+    txtValue:setString(lang("parseNum",self.playerProxy.user.coin) .." / " .. lang("parseNum",self.needCoin))
+    local imgRes = self.stu:getChild("page1","imgRes")
+    imgRes:setPositionX(txtValue:getPositionX()+txtValue:getContentSize().width+25)
+    local honor = self.servantVo.nobilityConf.id
+    UICommon.loadExternalTexture(self.stu:getChild("heroNameBg","Image_12"),"assetsRes/res/hero/jw/"..honor..".png")
+    local level = self.isOpenLevelExpand == true and 500 or 400
+    if self.servantVo.level == level then
+        self:setMaxData()
+    end
+end
+
+function __Class:servantUpCoin()
+    local coin = self.playerProxy.user.coin
+    if coin < self.needCoin then
+        self:alterUpText()
+        -- self.zero:command(GameKey.TIP,lang("tip_nogold"))
+    else
+        self:resetUpText()
+    end
+    local itemCost = self.servantVo.heroLvUpConf.itemCost
+    local cost = self.needItem
+    -- print(" ===cost=需要花费=",cost)
+    if itemCost then
+        local bagNum = self.bagProxy:getThingById(itemCost.id).count
+        -- if bagNum < cost then
+        self.stu:getChild("box2","upNode","costNum"):setTextColor(bagNum >= cost and cc.c3b(50,197,5) or cc.c3b(208,38,35))
+    end
+end
+
+          
+function __Class:setMaxData( ... )
+    self.stu:getChild("page1","LoadingBar"):setPercent(100)
+    self.stu:getChild("page1","txtValue"):setString("MAX / MAX")
+    local imgRes = self.stu:getChild("page1","imgRes")
+    imgRes:setPositionX(self.stu:getChild("page1","txtValue"):getPositionX()+self.stu:getChild("page1","txtValue"):getContentSize().width+25)
+    self.stu:getChild("page1","Text_24"):setString("100/100")
+    self.stu:getChild("gBottom","btnPanal","gBtnAttr","imgRed"):setVisible(false)
+end
+
+function __Class:upSpNewRed()
+    local commonCount = 0
+    local starCount = 0
+    local Book  = false
+    local skillIsFull = true
+    for k,v in pairs(self.servantVo.epskill) do
+        starCount = self.bagProxy:getItemCountById(self.itemStarArr[v.star])
+        commonCount = self.bagProxy:getItemCountById(self.itemIdArr[v.ep])
+        skillIsFull = self.servantProxy:getSingleEpSkillIsFull(self.servantVo,v)
+        if skillIsFull ~= true and commonCount >=1  or skillIsFull ~= true and starCount >=1 then
+            Book = true
+            break
+        end
+    end
+    local exp = false
+    for k,v in pairs(self.servantVo.epskill) do
+        if self.servantVo.zzexp > v.exp then
+            exp = true
+            break
+        end
+    end
+    local isMaxLv = true
+    if self.servantProxy:getEpSkillIsFull(self.servantVo)~=true and skillIsFull ~= true  then
+        -- 满级    和  当前爵位能达到 最大等级
+        isMaxLv = false
+    end
+    --gBtnZz第二页的红点
+    self.stu:getChild("gBottom","btnPanal","gBtnZz","imgRed"):setVisible(isMaxLv ~= true and exp  or Book )
+end
+
+-- 连升10级
+function __Class:checkUpLvTen( ... )
+    local upLvTen = self.gobalSwitchProxy:getSwitch("upLvTen")
+    local checkBox = self.stu:getChild("page1","CheckBox")
+    if not upLvTen then 
+        checkBox:setVisible(false) 
+        return 
+    end
+    self:upCheckBox()
+end
+
+function __Class:upCheckBox()
+    local checkBox = self.stu:getChild("page1","CheckBox")
+    local cost = 0
+    local costItemCost = 0
+    local itemCost = self.servantVo.heroLvUpConf.itemCost
+    local count = 0
+    if itemCost then
+        count = self.bagProxy:getThingById(itemCost.id).count
+    end
+    if checkBox:isSelected() then
+        cost = self.servantVo.heroLvUpConf.tenCost
+        -- self.stu:getChild("page1","checkText"):setString(lang("servant.upTenLv"))
+        if itemCost then
+            costItemCost = self.servantVo.heroLvUpConf.tenItemCost
+        end
+
+        self:command("ServantCommand.setTenLvUp",true)
+    else
+        cost = self.servantVo.heroLvUpConf.cost
+        self:command("ServantCommand.setTenLvUp",false)
+        if itemCost then
+            costItemCost = itemCost.count
+        end
+    end
+    self.needCoin = cost-self.servantVo.exp
+    self.needItem = costItemCost
+    self.stu:getChild("page1","txtValue"):setString(lang("parseNum",self.playerProxy.user.coin) .." / " .. lang("parseNum",self.needCoin))
+    local imgRes = self.stu:getChild("page1","imgRes")
+    imgRes:setPositionX(self.stu:getChild("page1","txtValue"):getPositionX()+self.stu:getChild("page1","txtValue"):getContentSize().width+25)
+    self.stu:getChild("box2","upNode","costNum"):setString(lang("parseNum",count))
+    self.stu:getChild("box2","upNode","costNeed"):setString("/" .. lang("parseNum",costItemCost))
+    local size = self.stu:getChild("box2","upNode","costNeed"):getContentSize()
+    local s_size = self.stu:getChild("box2","upNode","costNum"):getContentSize()
+    local posX = self.stu:getChild("box2","upNode","costNeed"):getPositionX()
+    self.stu:getChild("box2","upNode","costNum"):setPositionX(posX - size.width -1)
+    self.stu:getChild("box2","upNode","costNum"):setTextColor(count >= costItemCost and cc.c3b(50,197,5) or cc.c3b(208,38,35))
+    if itemCost then
+        self.canLevelUp = count >= costItemCost and self.playerProxy.user.coin > self.needCoin
+    end
+    self.stu:getChild("box2","upNode","Image_8"):setContentSize(size.width + s_size.width + 32,27)
+    local level = self.isOpenLevelExpand == true and 500 or 400
+    if self.servantVo.level == level then
+        self:setMaxData()
+    end
+end
+
+function __Class:getJueWeiBg( id )
+    return "assetsRes/res/hero/hengfu/"..id..".png"
+end
+function __Class:getTeChang( id )
+    return "assetsRes/res/hero/tc/"..id..".png"
+end
+function __Class:getTeChangCopy( id )
+    return "assetsRes/res/hero/classTc/"..id..".png"
+end
+function __Class:getJiNeng( id )
+    return "assetsRes/res/hero/jn/"..id..".png"
+end
+
+function __Class:getShuXin( id )
+    return "assetsRes/res/hero/sx/"..id..".png"
+end
+function __Class:getIsYinDaoGuo(id)
+    local str = cc.UserDefault:getInstance():getStringForKey("guide_shuoming1")
+    if str == nil or str == "" then
+      return false
+    end
+    self.guideShuoming  = json.decode(str)
+    if self.guideShuoming  and #self.guideShuoming>0 then
+        for i,v in ipairs(self.guideShuoming) do
+            if v.id==id and self.playerProxy.user.uid==v.uid then
+                return true
+            end
+        end
+    else
+        return false
+    end
+    return false
+end
+
+function __Class:setYinDaoLe(idd)
+    if self.guideShuoming==nil then
+        self.guideShuoming = {}
+    end 
+
+    table.insert(self.guideShuoming,{id = idd,uid=self.playerProxy.user.uid})
+    cc.UserDefault:getInstance():setStringForKey("guide_shuoming1",json.encode(self.guideShuoming))
+end
+
+function __Class:updatePage3( ... )
+    self:setPage3()
+end
+
+--打开装备页面隐藏
+function __Class:upOpenEquip()
+    self.stu:setVisible(false)
+end
+--关闭装备页面显示
+function __Class:upCloseEquip()
+    self.stu:setVisible(true)
+end
+
+--限时礼包相关代码
+function __Class:openMSchedule()
+    if self.mScheduleId then
+        return
+    end
+    self.mScheduleId = cc.Director:getInstance():getScheduler():scheduleScriptFunc(function ( ... )
+        self:upLimitGiftBtnEnter()
+    end,1, false)
+end
+function __Class:closeMSchedule()
+    if self.mScheduleId then
+        cc.Director:getInstance():getScheduler():unscheduleScriptEntry(self.mScheduleId)
+        self.mScheduleId = nil
+    end
+end
+function __Class:addLimitGiftBtnEnter()
+    self.limitGiftBtnEnter = nil
+    local ph = display.height - Config.LIUHAI - Config.LIUDI
+    self.limitGiftBtnEnter = self:createNewActivityBtn()
+    self.limitGiftBtnEnter:setPosition(65,ph - 350)
+    self.stu:addChild(self.limitGiftBtnEnter)
+    self:openMSchedule()
+end
+function __Class:createNewActivityBtn()
+    local item = require("activity/actItem").create().box
+    item:removeSelf(false)
+
+    UITools.getChild(item,"imgRed"):setVisible(false)
+    UITools.getChild(item,"btn"):loadTextureNormal(UICommon.getActivityIconUrl(1064),0)
+
+    local btnTitle = UITools.getChild(item,"title")
+    btnTitle:setString(lang("limitGift.title"))
+    btnTitle:setTextVerticalAlignment(2)
+    btnTitle:setAnchorPoint(0.5,0)
+    btnTitle:setPositionY(18)
+
+    UITools.getChild(item,"btn"):addClickEventListener(function(sender)
+        if self.guideProxy.isGuiding or not item.mDc then
+            return
+        end
+        self.zero:show("game.activity.LimitGiftView",item.mDc)
+    end)
+    return item
+end
+function __Class:upLimitGiftBtnEnter()
+    local btnEnter = self.limitGiftBtnEnter
+    if btnEnter == nil or tolua.isnull(btnEnter) == true then
+        return
+    end
+    local timeStr,dc = self.activityProxy:getLimitGiftTimeByData(1,self.detailId)
+    if not timeStr then
+        btnEnter:setVisible(false)
+        return
+    end
+    btnEnter:setVisible(true)
+    btnEnter.mDc = dc
+
+    local timeTxt = UITools.getChild(btnEnter,"time")
+    local guang = UITools.getChild(btnEnter,"guang")
+    guang:setVisible(true)
+    timeTxt:setVisible(true)
+    timeTxt:setString(timeStr)
+end
+
+function __Class:refreshAttribute()
+    local box7 = self.stu:getChild("box7")
+    UITools.getChild(box7,"text_exp"):setString(self.servantVo.pkexp)
+end
+
+function __Class:checkAllRed( ... )
+    
+end
+function __Class:resetPos( ... )
+    local panal = self.stu:getChild("gBottom","btnPanal")
+    local num = 0
+    for i, v in ipairs(self.btnOrder) do
+        local item = UITools.getChild(panal, v)
+        if item:isVisible() then
+            num = num + 1
+        end
+    end
+    panal:setTouchEnabled(num > 4)
+    local space = num == 4 and 10 or 0
+    local x = space
+    for i, v in ipairs(self.btnOrder) do
+        local item = UITools.getChild(panal, v)
+        if item:isVisible() then
+            item:setPositionX(x)
+            x = x + item:getContentSize().width + space
+        end
+    end
+    local height = panal:getInnerContainerSize().height
+    panal:setInnerContainerSize(cc.size(x, height))
+end
+function __Class:upEquipExRed()
+    local isEquipExRed = self.equipExProxy:isRed(self.detailId)
+    get("btnList2", "btnEquipEx", "imgRed"):setVisible(isEquipExRed)
+end
+end

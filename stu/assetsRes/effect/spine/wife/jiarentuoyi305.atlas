@@ -1,0 +1,174 @@
+
+jiarentuoyi305.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hair1
+  rotate: true
+  xy: 977, 601
+  size: 173, 256
+  orig: 173, 256
+  offset: 0, 0
+  index: -1
+hair2
+  rotate: true
+  xy: 1590, 883
+  size: 133, 384
+  orig: 133, 384
+  offset: 0, 0
+  index: -1
+hair3
+  rotate: true
+  xy: 354, 301
+  size: 30, 91
+  orig: 30, 91
+  offset: 0, 0
+  index: -1
+hair4
+  rotate: false
+  xy: 205, 2
+  size: 136, 296
+  orig: 136, 296
+  offset: 0, 0
+  index: -1
+hair5
+  rotate: false
+  xy: 667, 433
+  size: 83, 163
+  orig: 83, 163
+  offset: 0, 0
+  index: -1
+hair6
+  rotate: false
+  xy: 1507, 578
+  size: 63, 197
+  orig: 63, 197
+  offset: 0, 0
+  index: -1
+hair7
+  rotate: false
+  xy: 923, 587
+  size: 21, 66
+  orig: 21, 66
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 1309, 777
+  size: 279, 239
+  orig: 279, 239
+  offset: 0, 0
+  index: -1
+hua
+  rotate: false
+  xy: 977, 776
+  size: 330, 240
+  orig: 330, 240
+  offset: 0, 0
+  index: -1
+l_arm
+  rotate: true
+  xy: 1235, 583
+  size: 191, 91
+  orig: 191, 91
+  offset: 0, 0
+  index: -1
+l_hand
+  rotate: true
+  xy: 752, 443
+  size: 153, 89
+  orig: 153, 89
+  offset: 0, 0
+  index: -1
+l_shoulder
+  rotate: false
+  xy: 1441, 583
+  size: 64, 192
+  orig: 64, 192
+  offset: 0, 0
+  index: -1
+l_upperr_leg
+  rotate: false
+  xy: 205, 300
+  size: 147, 716
+  orig: 147, 716
+  offset: 0, 0
+  index: -1
+pelvis
+  rotate: false
+  xy: 667, 317
+  size: 81, 114
+  orig: 81, 114
+  offset: 0, 0
+  index: -1
+qun
+  rotate: false
+  xy: 354, 333
+  size: 311, 280
+  orig: 311, 280
+  offset: 0, 0
+  index: -1
+r_arm
+  rotate: true
+  xy: 1590, 784
+  size: 97, 342
+  orig: 97, 342
+  offset: 0, 0
+  index: -1
+r_shoulder
+  rotate: false
+  xy: 1328, 587
+  size: 111, 188
+  orig: 111, 188
+  offset: 0, 0
+  index: -1
+r_upperr_leg
+  rotate: false
+  xy: 2, 5
+  size: 201, 1011
+  orig: 201, 1011
+  offset: 0, 0
+  index: -1
+shoujing
+  rotate: false
+  xy: 676, 598
+  size: 170, 55
+  orig: 170, 55
+  offset: 0, 0
+  index: -1
+shouyy
+  rotate: false
+  xy: 848, 581
+  size: 73, 72
+  orig: 73, 72
+  offset: 0, 0
+  index: -1
+torso
+  rotate: false
+  xy: 676, 655
+  size: 299, 361
+  orig: 299, 361
+  offset: 0, 0
+  index: -1
+xianglian
+  rotate: true
+  xy: 1976, 922
+  size: 94, 48
+  orig: 94, 48
+  offset: 0, 0
+  index: -1
+yanpi
+  rotate: true
+  xy: 1934, 785
+  size: 96, 30
+  orig: 96, 30
+  offset: 0, 0
+  index: -1
+yaojing
+  rotate: false
+  xy: 354, 615
+  size: 320, 401
+  orig: 320, 401
+  offset: 0, 0
+  index: -1

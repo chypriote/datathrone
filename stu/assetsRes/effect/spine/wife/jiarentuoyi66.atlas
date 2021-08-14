@@ -1,0 +1,223 @@
+
+jiarentuoyi66.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eye_1
+  rotate: true
+  xy: 193, 196
+  size: 102, 25
+  orig: 102, 25
+  offset: 0, 0
+  index: -1
+eye_2
+  rotate: true
+  xy: 459, 451
+  size: 106, 28
+  orig: 106, 28
+  offset: 0, 0
+  index: -1
+hair_1
+  rotate: false
+  xy: 2, 14
+  size: 131, 75
+  orig: 131, 75
+  offset: 0, 0
+  index: -1
+hair_2
+  rotate: true
+  xy: 956, 1065
+  size: 14, 47
+  orig: 14, 47
+  offset: 0, 0
+  index: -1
+hair_3
+  rotate: true
+  xy: 1535, 1714
+  size: 112, 204
+  orig: 112, 204
+  offset: 0, 0
+  index: -1
+hair_4
+  rotate: false
+  xy: 822, 1063
+  size: 132, 245
+  orig: 132, 245
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 2, 91
+  size: 189, 207
+  orig: 189, 207
+  offset: 0, 0
+  index: -1
+l_arm_1
+  rotate: false
+  xy: 1741, 1722
+  size: 145, 159
+  orig: 145, 159
+  offset: 0, 0
+  index: -1
+l_arm_2
+  rotate: false
+  xy: 716, 1005
+  size: 104, 300
+  orig: 104, 300
+  offset: 0, 0
+  index: -1
+l_leg
+  rotate: false
+  xy: 2, 300
+  size: 218, 1005
+  orig: 218, 1005
+  offset: 0, 0
+  index: -1
+l_shoulder
+  rotate: false
+  xy: 641, 608
+  size: 81, 259
+  orig: 81, 259
+  offset: 0, 0
+  index: -1
+piaodai_1
+  rotate: false
+  xy: 1081, 1256
+  size: 19, 52
+  orig: 19, 52
+  offset: 0, 0
+  index: -1
+piaodai_1000
+  rotate: true
+  xy: 956, 1081
+  size: 227, 123
+  orig: 227, 123
+  offset: 0, 0
+  index: -1
+piaodai_1002
+  rotate: true
+  xy: 222, 302
+  size: 14, 60
+  orig: 14, 60
+  offset: 0, 0
+  index: -1
+piaodai_1003
+  rotate: true
+  xy: 822, 1049
+  size: 12, 60
+  orig: 12, 60
+  offset: 0, 0
+  index: -1
+piaodai_1005
+  rotate: true
+  xy: 501, 559
+  size: 9, 62
+  orig: 9, 62
+  offset: 0, 0
+  index: -1
+piaodai_1006
+  rotate: true
+  xy: 1098, 1310
+  size: 9, 66
+  orig: 9, 66
+  offset: 0, 0
+  index: -1
+piaodai_1007
+  rotate: true
+  xy: 2, 2
+  size: 10, 66
+  orig: 10, 66
+  offset: 0, 0
+  index: -1
+piaodai_101
+  rotate: false
+  xy: 2, 1307
+  size: 791, 739
+  orig: 791, 739
+  offset: 0, 0
+  index: -1
+piaodai_3
+  rotate: true
+  xy: 501, 869
+  size: 436, 213
+  orig: 436, 213
+  offset: 0, 0
+  index: -1
+piaodai_41
+  rotate: false
+  xy: 1098, 1321
+  size: 114, 402
+  orig: 114, 402
+  offset: 0, 0
+  index: -1
+piaodai_51
+  rotate: false
+  xy: 1214, 1329
+  size: 120, 394
+  orig: 120, 394
+  offset: 0, 0
+  index: -1
+piaodai_61
+  rotate: true
+  xy: 222, 559
+  size: 746, 277
+  orig: 746, 277
+  offset: 0, 0
+  index: -1
+piaodai_7
+  rotate: true
+  xy: 795, 1725
+  size: 101, 738
+  orig: 101, 738
+  offset: 0, 0
+  index: -1
+piaodai_8
+  rotate: true
+  xy: 1736, 1883
+  size: 163, 307
+  orig: 163, 307
+  offset: 0, 0
+  index: -1
+piaodai_900
+  rotate: true
+  xy: 1336, 1337
+  size: 386, 124
+  orig: 386, 124
+  offset: 0, 0
+  index: -1
+r_arm
+  rotate: false
+  xy: 501, 570
+  size: 138, 297
+  orig: 138, 297
+  offset: 0, 0
+  index: -1
+r_hand
+  rotate: false
+  xy: 716, 945
+  size: 102, 58
+  orig: 102, 58
+  offset: 0, 0
+  index: -1
+r_leg
+  rotate: true
+  xy: 795, 1828
+  size: 218, 939
+  orig: 218, 939
+  offset: 0, 0
+  index: -1
+torso_1
+  rotate: false
+  xy: 795, 1310
+  size: 301, 413
+  orig: 301, 413
+  offset: 0, 0
+  index: -1
+torso_2
+  rotate: false
+  xy: 222, 318
+  size: 235, 239
+  orig: 235, 239
+  offset: 0, 0
+  index: -1

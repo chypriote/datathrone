@@ -1,0 +1,139 @@
+
+jiarenweituoyi13.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+daizi
+  rotate: true
+  xy: 341, 4
+  size: 15, 128
+  orig: 15, 128
+  offset: 0, 0
+  index: -1
+lian
+  rotate: true
+  xy: 807, 81
+  size: 154, 174
+  orig: 154, 174
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 2, 369
+  size: 321, 648
+  orig: 321, 648
+  offset: 0, 0
+  index: -1
+toufa01
+  rotate: false
+  xy: 922, 679
+  size: 76, 338
+  orig: 76, 338
+  offset: 0, 0
+  index: -1
+toufa02
+  rotate: true
+  xy: 341, 21
+  size: 88, 250
+  orig: 88, 250
+  offset: 0, 0
+  index: -1
+toufa03
+  rotate: true
+  xy: 597, 118
+  size: 54, 197
+  orig: 54, 197
+  offset: 0, 0
+  index: -1
+toufa04
+  rotate: true
+  xy: 922, 551
+  size: 32, 91
+  orig: 32, 91
+  offset: 0, 0
+  index: -1
+toufa05
+  rotate: false
+  xy: 914, 237
+  size: 63, 262
+  orig: 63, 262
+  offset: 0, 0
+  index: -1
+toufa06
+  rotate: false
+  xy: 531, 144
+  size: 64, 292
+  orig: 64, 292
+  offset: 0, 0
+  index: -1
+yanpi
+  rotate: false
+  xy: 922, 526
+  size: 92, 23
+  orig: 92, 23
+  offset: 0, 0
+  index: -1
+youshabu
+  rotate: false
+  xy: 325, 438
+  size: 248, 579
+  orig: 248, 579
+  offset: 0, 0
+  index: -1
+youshou01
+  rotate: false
+  xy: 922, 585
+  size: 87, 92
+  orig: 87, 92
+  offset: 0, 0
+  index: -1
+youshou02
+  rotate: false
+  xy: 2, 10
+  size: 180, 357
+  orig: 180, 357
+  offset: 0, 0
+  index: -1
+youshou03
+  rotate: false
+  xy: 341, 111
+  size: 188, 325
+  orig: 188, 325
+  offset: 0, 0
+  index: -1
+zuoshabu
+  rotate: false
+  xy: 575, 453
+  size: 210, 564
+  orig: 210, 564
+  offset: 0, 0
+  index: -1
+zuoshou01
+  rotate: false
+  xy: 597, 174
+  size: 208, 277
+  orig: 208, 277
+  offset: 0, 0
+  index: -1
+zuoshou02
+  rotate: false
+  xy: 787, 501
+  size: 133, 516
+  orig: 133, 516
+  offset: 0, 0
+  index: -1
+zuoshou03
+  rotate: false
+  xy: 807, 241
+  size: 105, 258
+  orig: 105, 258
+  offset: 0, 0
+  index: -1
+zuoshou04
+  rotate: false
+  xy: 184, 2
+  size: 155, 365
+  orig: 155, 365
+  offset: 0, 0
+  index: -1

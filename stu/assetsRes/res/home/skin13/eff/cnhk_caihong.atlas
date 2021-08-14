@@ -1,0 +1,41 @@
+
+cnhk_caihong.png
+size: 1983,1834
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+13
+  rotate: false
+  xy: 2, 1024
+  size: 1081, 808
+  orig: 1081, 808
+  offset: 0, 0
+  index: -1
+cjnc_caihong_00001
+  rotate: true
+  xy: 1567, 251
+  size: 499, 414
+  orig: 499, 414
+  offset: 0, 0
+  index: -1
+cjnc_caihong_00002
+  rotate: false
+  xy: 812, 2
+  size: 753, 748
+  orig: 753, 748
+  offset: 0, 0
+  index: -1
+cjnc_caihong_00003
+  rotate: true
+  xy: 2, 40
+  size: 982, 808
+  orig: 982, 808
+  offset: 0, 0
+  index: -1
+cjnc_caihong_00004
+  rotate: true
+  xy: 1085, 752
+  size: 1080, 808
+  orig: 1080, 808
+  offset: 0, 0
+  index: -1

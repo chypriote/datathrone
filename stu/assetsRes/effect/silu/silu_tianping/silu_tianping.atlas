@@ -1,0 +1,146 @@
+
+silu_tianping.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+icon_jinbi
+  rotate: false
+  xy: 269, 596
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+icon_jinbi_xingxing_1
+  rotate: false
+  xy: 2, 2
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+jj_tianping1/jj_tianping1_1
+  rotate: false
+  xy: 816, 720
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+jj_tianping1/jj_tianping1_10
+  rotate: false
+  xy: 1740, 520
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+jj_tianping1/jj_tianping1_11
+  rotate: false
+  xy: 118, 34
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+jj_tianping1/jj_tianping1_12
+  rotate: true
+  xy: 518, 328
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+jj_tianping1/jj_tianping1_2
+  rotate: false
+  xy: 1124, 720
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+jj_tianping1/jj_tianping1_3
+  rotate: false
+  xy: 1432, 720
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+jj_tianping1/jj_tianping1_4
+  rotate: false
+  xy: 1740, 720
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+jj_tianping1/jj_tianping1_5
+  rotate: true
+  xy: 118, 234
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+jj_tianping1/jj_tianping1_6
+  rotate: true
+  xy: 318, 328
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+jj_tianping1/jj_tianping1_7
+  rotate: false
+  xy: 816, 520
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+jj_tianping1/jj_tianping1_8
+  rotate: false
+  xy: 1124, 520
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+jj_tianping1/jj_tianping1_9
+  rotate: false
+  xy: 1432, 520
+  size: 306, 198
+  orig: 306, 198
+  offset: 0, 0
+  index: -1
+tianping_1
+  rotate: false
+  xy: 2, 542
+  size: 265, 376
+  orig: 265, 376
+  offset: 0, 0
+  index: -1
+tianping_2
+  rotate: true
+  xy: 2, 54
+  size: 486, 114
+  orig: 486, 114
+  offset: 0, 0
+  index: -1
+tianping_3
+  rotate: false
+  xy: 542, 639
+  size: 272, 279
+  orig: 272, 279
+  offset: 0, 0
+  index: -1
+tianping_4
+  rotate: false
+  xy: 269, 636
+  size: 271, 282
+  orig: 271, 282
+  offset: 0, 0
+  index: -1
+tianping_5
+  rotate: false
+  xy: 718, 295
+  size: 261, 223
+  orig: 261, 223
+  offset: 0, 0
+  index: -1
+tianping_6
+  rotate: false
+  xy: 426, 93
+  size: 262, 233
+  orig: 262, 233
+  offset: 0, 0
+  index: -1

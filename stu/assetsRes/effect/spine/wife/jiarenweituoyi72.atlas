@@ -1,0 +1,139 @@
+
+jiarenweituoyi72.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+daizi
+  rotate: true
+  xy: 1696, 599
+  size: 422, 167
+  orig: 422, 167
+  offset: 0, 0
+  index: -1
+daizihou
+  rotate: false
+  xy: 1964, 914
+  size: 82, 107
+  orig: 82, 107
+  offset: 0, 0
+  index: -1
+eye
+  rotate: false
+  xy: 2, 44
+  size: 104, 23
+  orig: 104, 23
+  offset: 0, 0
+  index: -1
+hair_1
+  rotate: true
+  xy: 931, 66
+  size: 178, 230
+  orig: 178, 230
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 1831, 354
+  size: 131, 209
+  orig: 131, 209
+  offset: 0, 0
+  index: -1
+l_arm
+  rotate: false
+  xy: 1522, 418
+  size: 172, 603
+  orig: 172, 603
+  offset: 0, 0
+  index: -1
+l_hand
+  rotate: true
+  xy: 1414, 8
+  size: 129, 111
+  orig: 129, 111
+  offset: 0, 0
+  index: -1
+l_shoulder
+  rotate: false
+  xy: 1163, 70
+  size: 249, 222
+  orig: 249, 222
+  offset: 0, 0
+  index: -1
+paiodaihou_1
+  rotate: false
+  xy: 1527, 2
+  size: 97, 414
+  orig: 97, 414
+  offset: 0, 0
+  index: -1
+piaodaihou_2
+  rotate: false
+  xy: 1865, 565
+  size: 97, 456
+  orig: 97, 456
+  offset: 0, 0
+  index: -1
+qunzi
+  rotate: false
+  xy: 2, 69
+  size: 927, 952
+  orig: 927, 952
+  offset: 0, 0
+  index: -1
+r_hand
+  rotate: false
+  xy: 1429, 385
+  size: 68, 158
+  orig: 68, 158
+  offset: 0, 0
+  index: -1
+r_shoulder
+  rotate: false
+  xy: 931, 246
+  size: 186, 775
+  orig: 186, 775
+  offset: 0, 0
+  index: -1
+torso_1
+  rotate: false
+  xy: 1119, 545
+  size: 401, 476
+  orig: 401, 476
+  offset: 0, 0
+  index: -1
+torso_2
+  rotate: true
+  xy: 1119, 294
+  size: 249, 308
+  orig: 249, 308
+  offset: 0, 0
+  index: -1
+xianglian
+  rotate: true
+  xy: 1414, 139
+  size: 153, 111
+  orig: 153, 111
+  offset: 0, 0
+  index: -1
+yiingzi_3
+  rotate: true
+  xy: 1696, 373
+  size: 224, 133
+  orig: 224, 133
+  offset: 0, 0
+  index: -1
+yingzi_1
+  rotate: false
+  xy: 1119, 273
+  size: 24, 19
+  orig: 24, 19
+  offset: 0, 0
+  index: -1
+yingzi_2
+  rotate: false
+  xy: 1499, 521
+  size: 21, 22
+  orig: 21, 22
+  offset: 0, 0
+  index: -1

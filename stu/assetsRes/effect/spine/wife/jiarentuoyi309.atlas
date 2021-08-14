@@ -1,0 +1,174 @@
+
+jiarentuoyi309.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Larm
+  rotate: false
+  xy: 1850, 178
+  size: 84, 220
+  orig: 84, 220
+  offset: 0, 0
+  index: -1
+Larm1
+  rotate: false
+  xy: 1981, 483
+  size: 61, 27
+  orig: 61, 27
+  offset: 0, 0
+  index: -1
+Lfoot
+  rotate: false
+  xy: 1523, 14
+  size: 119, 162
+  orig: 119, 162
+  offset: 0, 0
+  index: -1
+Lhand
+  rotate: false
+  xy: 1936, 114
+  size: 66, 150
+  orig: 66, 150
+  offset: 0, 0
+  index: -1
+Lleg
+  rotate: true
+  xy: 2, 121
+  size: 200, 886
+  orig: 200, 886
+  offset: 0, 0
+  index: -1
+Lshouder
+  rotate: true
+  xy: 321, 35
+  size: 84, 260
+  orig: 84, 260
+  offset: 0, 0
+  index: -1
+Rarm1
+  rotate: true
+  xy: 880, 2
+  size: 53, 30
+  orig: 53, 30
+  offset: 0, 0
+  index: -1
+Rfoot
+  rotate: false
+  xy: 1644, 45
+  size: 107, 147
+  orig: 107, 147
+  offset: 0, 0
+  index: -1
+Rhand1
+  rotate: true
+  xy: 1644, 2
+  size: 41, 133
+  orig: 41, 133
+  offset: 0, 0
+  index: -1
+Rleg
+  rotate: true
+  xy: 2, 323
+  size: 187, 923
+  orig: 187, 923
+  offset: 0, 0
+  index: -1
+Rshouder
+  rotate: true
+  xy: 890, 57
+  size: 119, 631
+  orig: 119, 631
+  offset: 0, 0
+  index: -1
+backhair
+  rotate: true
+  xy: 2, 2
+  size: 45, 87
+  orig: 45, 87
+  offset: 0, 0
+  index: -1
+backhair1
+  rotate: true
+  xy: 583, 6
+  size: 113, 256
+  orig: 113, 256
+  offset: 0, 0
+  index: -1
+backhair2
+  rotate: true
+  xy: 1616, 400
+  size: 110, 363
+  orig: 110, 363
+  offset: 0, 0
+  index: -1
+backhair3
+  rotate: true
+  xy: 1753, 49
+  size: 63, 249
+  orig: 63, 249
+  offset: 0, 0
+  index: -1
+ershi
+  rotate: true
+  xy: 91, 20
+  size: 27, 54
+  orig: 27, 54
+  offset: 0, 0
+  index: -1
+fonthair1
+  rotate: true
+  xy: 2, 49
+  size: 70, 317
+  orig: 70, 317
+  offset: 0, 0
+  index: -1
+fonthair2
+  rotate: false
+  xy: 841, 11
+  size: 37, 108
+  orig: 37, 108
+  offset: 0, 0
+  index: -1
+hair1
+  rotate: false
+  xy: 1753, 114
+  size: 27, 78
+  orig: 27, 78
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 1616, 194
+  size: 204, 232
+  orig: 204, 232
+  offset: 0, 0
+  index: -1
+hudiejie
+  rotate: false
+  xy: 2004, 229
+  size: 39, 35
+  orig: 39, 35
+  offset: 0, 0
+  index: -1
+torso
+  rotate: true
+  xy: 927, 178
+  size: 332, 687
+  orig: 332, 687
+  offset: 0, 0
+  index: -1
+xianglian
+  rotate: true
+  xy: 1936, 266
+  size: 132, 110
+  orig: 132, 110
+  offset: 0, 0
+  index: -1
+yanpi
+  rotate: true
+  xy: 890, 215
+  size: 106, 28
+  orig: 106, 28
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,132 @@
+
+lzn_saoguang.png
+size: 664,206
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/biaozhi
+  rotate: false
+  xy: 2, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+images/bj22
+  rotate: false
+  xy: 2, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+images/lzn_saoguang_00002
+  rotate: false
+  xy: 104, 104
+  size: 68, 100
+  orig: 68, 100
+  offset: 0, 0
+  index: -1
+images/lzn_saoguang_00003
+  rotate: false
+  xy: 104, 2
+  size: 68, 100
+  orig: 68, 100
+  offset: 0, 0
+  index: -1
+images/lzn_saoguang_00004
+  rotate: false
+  xy: 174, 104
+  size: 68, 100
+  orig: 68, 100
+  offset: 0, 0
+  index: -1
+images/lzn_saoguang_00005
+  rotate: false
+  xy: 174, 2
+  size: 68, 100
+  orig: 68, 100
+  offset: 0, 0
+  index: -1
+images/lzn_saoguang_00006
+  rotate: false
+  xy: 244, 104
+  size: 68, 100
+  orig: 68, 100
+  offset: 0, 0
+  index: -1
+images/lzn_saoguang_00007
+  rotate: false
+  xy: 244, 2
+  size: 68, 100
+  orig: 68, 100
+  offset: 0, 0
+  index: -1
+images/lzn_saoguang_00008
+  rotate: false
+  xy: 314, 104
+  size: 68, 100
+  orig: 68, 100
+  offset: 0, 0
+  index: -1
+images/lzn_saoguang_00009
+  rotate: false
+  xy: 314, 2
+  size: 68, 100
+  orig: 68, 100
+  offset: 0, 0
+  index: -1
+images/lzn_saoguang_00010
+  rotate: false
+  xy: 384, 104
+  size: 68, 100
+  orig: 68, 100
+  offset: 0, 0
+  index: -1
+images/lzn_saoguang_00011
+  rotate: false
+  xy: 384, 2
+  size: 68, 100
+  orig: 68, 100
+  offset: 0, 0
+  index: -1
+images/lzn_saoguang_00012
+  rotate: false
+  xy: 454, 104
+  size: 68, 100
+  orig: 68, 100
+  offset: 0, 0
+  index: -1
+images/lzn_saoguang_00013
+  rotate: false
+  xy: 454, 2
+  size: 68, 100
+  orig: 68, 100
+  offset: 0, 0
+  index: -1
+images/lzn_saoguang_00014
+  rotate: false
+  xy: 524, 104
+  size: 68, 100
+  orig: 68, 100
+  offset: 0, 0
+  index: -1
+images/lzn_saoguang_00015
+  rotate: false
+  xy: 524, 2
+  size: 68, 100
+  orig: 68, 100
+  offset: 0, 0
+  index: -1
+images/lzn_saoguang_00016
+  rotate: false
+  xy: 594, 104
+  size: 68, 100
+  orig: 68, 100
+  offset: 0, 0
+  index: -1
+images/lzn_saoguang_00017
+  rotate: false
+  xy: 594, 2
+  size: 68, 100
+  orig: 68, 100
+  offset: 0, 0
+  index: -1

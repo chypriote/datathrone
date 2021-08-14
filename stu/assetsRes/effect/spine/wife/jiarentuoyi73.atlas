@@ -1,0 +1,139 @@
+
+jiarentuoyi73.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+biyan
+  rotate: false
+  xy: 966, 2
+  size: 96, 32
+  orig: 96, 32
+  offset: 0, 0
+  index: -1
+haor_1
+  rotate: false
+  xy: 1087, 740
+  size: 50, 110
+  orig: 50, 110
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 920, 443
+  size: 230, 256
+  orig: 230, 256
+  offset: 0, 0
+  index: -1
+l_arm
+  rotate: false
+  xy: 966, 143
+  size: 141, 298
+  orig: 141, 298
+  offset: 0, 0
+  index: -1
+l_upper_leg
+  rotate: true
+  xy: 393, 521
+  size: 178, 525
+  orig: 178, 525
+  offset: 0, 0
+  index: -1
+qunzihou
+  rotate: false
+  xy: 2, 305
+  size: 389, 717
+  orig: 389, 717
+  offset: 0, 0
+  index: -1
+r_arm
+  rotate: true
+  xy: 730, 23
+  size: 327, 234
+  orig: 327, 234
+  offset: 0, 0
+  index: -1
+r_foot
+  rotate: false
+  xy: 1109, 158
+  size: 79, 283
+  orig: 79, 283
+  offset: 0, 0
+  index: -1
+r_upper_leg
+  rotate: true
+  xy: 393, 852
+  size: 170, 779
+  orig: 170, 779
+  offset: 0, 0
+  index: -1
+torso
+  rotate: false
+  xy: 2, 3
+  size: 339, 300
+  orig: 339, 300
+  offset: 0, 0
+  index: -1
+torso_1
+  rotate: true
+  xy: 393, 48
+  size: 302, 335
+  orig: 302, 335
+  offset: 0, 0
+  index: -1
+toushi
+  rotate: true
+  xy: 966, 36
+  size: 105, 189
+  orig: 105, 189
+  offset: 0, 0
+  index: -1
+toushi1
+  rotate: true
+  xy: 1174, 859
+  size: 29, 122
+  orig: 29, 122
+  offset: 0, 0
+  index: -1
+toushi2
+  rotate: false
+  xy: 377, 239
+  size: 12, 64
+  orig: 12, 64
+  offset: 0, 0
+  index: -1
+yaoshi
+  rotate: false
+  xy: 343, 58
+  size: 32, 245
+  orig: 32, 245
+  offset: 0, 0
+  index: -1
+youxiu
+  rotate: true
+  xy: 1174, 890
+  size: 132, 675
+  orig: 132, 675
+  offset: 0, 0
+  index: -1
+youxiu1
+  rotate: true
+  xy: 393, 352
+  size: 167, 516
+  orig: 167, 516
+  offset: 0, 0
+  index: -1
+zuoxiu
+  rotate: true
+  xy: 393, 701
+  size: 149, 692
+  orig: 149, 692
+  offset: 0, 0
+  index: -1
+zuoxiu1
+  rotate: true
+  xy: 1851, 776
+  size: 246, 182
+  orig: 246, 182
+  offset: 0, 0
+  index: -1

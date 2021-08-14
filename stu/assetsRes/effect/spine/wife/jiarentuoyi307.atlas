@@ -1,0 +1,146 @@
+
+jiarentuoyi307.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eye
+  rotate: false
+  xy: 716, 4
+  size: 86, 33
+  orig: 86, 33
+  offset: 0, 0
+  index: -1
+hair_1
+  rotate: true
+  xy: 1348, 145
+  size: 44, 139
+  orig: 44, 139
+  offset: 0, 0
+  index: -1
+hair_2
+  rotate: false
+  xy: 886, 96
+  size: 60, 280
+  orig: 60, 280
+  offset: 0, 0
+  index: -1
+hair_3
+  rotate: true
+  xy: 1564, 203
+  size: 18, 100
+  orig: 18, 100
+  offset: 0, 0
+  index: -1
+hair_4
+  rotate: false
+  xy: 2025, 423
+  size: 16, 80
+  orig: 16, 80
+  offset: 0, 0
+  index: -1
+hair_5
+  rotate: true
+  xy: 948, 109
+  size: 80, 225
+  orig: 80, 225
+  offset: 0, 0
+  index: -1
+hair_6
+  rotate: true
+  xy: 586, 2
+  size: 35, 128
+  orig: 35, 128
+  offset: 0, 0
+  index: -1
+hair_7
+  rotate: true
+  xy: 586, 39
+  size: 86, 214
+  orig: 86, 214
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 1564, 223
+  size: 280, 352
+  orig: 280, 352
+  offset: 0, 0
+  index: -1
+hideijie2
+  rotate: false
+  xy: 859, 46
+  size: 56, 48
+  orig: 56, 48
+  offset: 0, 0
+  index: -1
+hudeijie1
+  rotate: false
+  xy: 802, 41
+  size: 55, 77
+  orig: 55, 77
+  offset: 0, 0
+  index: -1
+hudeijie3
+  rotate: false
+  xy: 1489, 139
+  size: 60, 50
+  orig: 60, 50
+  offset: 0, 0
+  index: -1
+l_arm
+  rotate: true
+  xy: 803, 120
+  size: 256, 81
+  orig: 256, 81
+  offset: 0, 0
+  index: -1
+l_foot
+  rotate: true
+  xy: 2, 378
+  size: 125, 967
+  orig: 125, 967
+  offset: 0, 0
+  index: -1
+l_hand
+  rotate: true
+  xy: 917, 53
+  size: 41, 27
+  orig: 41, 27
+  offset: 0, 0
+  index: -1
+l_shou_lder
+  rotate: false
+  xy: 1918, 195
+  size: 105, 308
+  orig: 105, 308
+  offset: 0, 0
+  index: -1
+r_foot
+  rotate: true
+  xy: 2, 127
+  size: 249, 799
+  orig: 249, 799
+  offset: 0, 0
+  index: -1
+r_hand
+  rotate: true
+  xy: 2, 4
+  size: 121, 582
+  orig: 121, 582
+  offset: 0, 0
+  index: -1
+torso
+  rotate: true
+  xy: 971, 191
+  size: 312, 591
+  orig: 312, 591
+  offset: 0, 0
+  index: -1
+yingzi
+  rotate: true
+  xy: 1175, 125
+  size: 64, 171
+  orig: 64, 171
+  offset: 0, 0
+  index: -1

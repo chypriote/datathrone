@@ -1,0 +1,477 @@
+
+wshd_neicheng.png
+size: 2048,2045
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+12
+  rotate: false
+  xy: 1738, 942
+  size: 64, 68
+  orig: 64, 68
+  offset: 0, 0
+  index: -1
+14
+  rotate: true
+  xy: 749, 15
+  size: 87, 114
+  orig: 87, 114
+  offset: 0, 0
+  index: -1
+15
+  rotate: false
+  xy: 865, 36
+  size: 72, 66
+  orig: 72, 66
+  offset: 0, 0
+  index: -1
+16
+  rotate: true
+  xy: 652, 12
+  size: 90, 95
+  orig: 90, 95
+  offset: 0, 0
+  index: -1
+17
+  rotate: false
+  xy: 1970, 1201
+  size: 73, 91
+  orig: 73, 91
+  offset: 0, 0
+  index: -1
+18
+  rotate: true
+  xy: 1868, 123
+  size: 49, 133
+  orig: 49, 133
+  offset: 0, 0
+  index: -1
+19
+  rotate: true
+  xy: 1970, 1294
+  size: 133, 76
+  orig: 133, 76
+  offset: 0, 0
+  index: -1
+20
+  rotate: false
+  xy: 1868, 174
+  size: 115, 132
+  orig: 115, 132
+  offset: 0, 0
+  index: -1
+21
+  rotate: false
+  xy: 1896, 1136
+  size: 20, 10
+  orig: 20, 10
+  offset: 0, 0
+  index: -1
+211
+  rotate: false
+  xy: 1806, 1135
+  size: 20, 11
+  orig: 20, 11
+  offset: 0, 0
+  index: -1
+212
+  rotate: false
+  xy: 1738, 1133
+  size: 21, 13
+  orig: 21, 13
+  offset: 0, 0
+  index: -1
+213
+  rotate: false
+  xy: 1918, 1136
+  size: 20, 10
+  orig: 20, 10
+  offset: 0, 0
+  index: -1
+218
+  rotate: false
+  xy: 1918, 1136
+  size: 20, 10
+  orig: 20, 10
+  offset: 0, 0
+  index: -1
+214
+  rotate: false
+  xy: 1898, 1418
+  size: 20, 9
+  orig: 20, 9
+  offset: 0, 0
+  index: -1
+215
+  rotate: false
+  xy: 1898, 1418
+  size: 20, 9
+  orig: 20, 9
+  offset: 0, 0
+  index: -1
+216
+  rotate: false
+  xy: 1850, 1136
+  size: 21, 10
+  orig: 21, 10
+  offset: 0, 0
+  index: -1
+223
+  rotate: false
+  xy: 1850, 1136
+  size: 21, 10
+  orig: 21, 10
+  offset: 0, 0
+  index: -1
+217
+  rotate: false
+  xy: 1828, 1135
+  size: 20, 11
+  orig: 20, 11
+  offset: 0, 0
+  index: -1
+219
+  rotate: false
+  xy: 1784, 1134
+  size: 20, 12
+  orig: 20, 12
+  offset: 0, 0
+  index: -1
+22
+  rotate: false
+  xy: 1990, 20
+  size: 45, 101
+  orig: 45, 101
+  offset: 0, 0
+  index: -1
+220
+  rotate: false
+  xy: 1873, 1136
+  size: 21, 10
+  orig: 21, 10
+  offset: 0, 0
+  index: -1
+221
+  rotate: false
+  xy: 1873, 1136
+  size: 21, 10
+  orig: 21, 10
+  offset: 0, 0
+  index: -1
+222
+  rotate: false
+  xy: 1761, 1134
+  size: 21, 12
+  orig: 21, 12
+  offset: 0, 0
+  index: -1
+25
+  rotate: false
+  xy: 2, 747
+  size: 1502, 1296
+  orig: 1502, 1296
+  offset: 0, 0
+  index: -1
+26
+  rotate: false
+  xy: 1506, 1012
+  size: 296, 114
+  orig: 296, 114
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 2, 104
+  size: 1304, 641
+  orig: 1304, 641
+  offset: 0, 0
+  index: -1
+wa_lazu_00000
+  rotate: false
+  xy: 1738, 876
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+wshd_ch1_00000
+  rotate: true
+  xy: 1898, 1429
+  size: 150, 128
+  orig: 150, 128
+  offset: 0, 0
+  index: -1
+wshd_ch2_00000
+  rotate: false
+  xy: 1308, 8
+  size: 160, 100
+  orig: 160, 100
+  offset: 0, 0
+  index: -1
+wshd_huo/wshd_huo _00000
+  rotate: true
+  xy: 1470, 8
+  size: 100, 128
+  orig: 100, 128
+  offset: 0, 0
+  index: -1
+wshd_huo/wshd_huo _00001
+  rotate: true
+  xy: 1600, 8
+  size: 100, 128
+  orig: 100, 128
+  offset: 0, 0
+  index: -1
+wshd_huo/wshd_huo _00002
+  rotate: true
+  xy: 1730, 8
+  size: 100, 128
+  orig: 100, 128
+  offset: 0, 0
+  index: -1
+wshd_huo/wshd_huo _00003
+  rotate: true
+  xy: 1860, 8
+  size: 100, 128
+  orig: 100, 128
+  offset: 0, 0
+  index: -1
+wshd_huo/wshd_huo _00004
+  rotate: false
+  xy: 1934, 1006
+  size: 100, 128
+  orig: 100, 128
+  offset: 0, 0
+  index: -1
+wshd_huo/wshd_huo _00005
+  rotate: true
+  xy: 2, 2
+  size: 100, 128
+  orig: 100, 128
+  offset: 0, 0
+  index: -1
+wshd_huo/wshd_huo _00006
+  rotate: true
+  xy: 132, 2
+  size: 100, 128
+  orig: 100, 128
+  offset: 0, 0
+  index: -1
+wshd_huo/wshd_huo _00007
+  rotate: true
+  xy: 262, 2
+  size: 100, 128
+  orig: 100, 128
+  offset: 0, 0
+  index: -1
+wshd_huo/wshd_huo _00008
+  rotate: true
+  xy: 392, 2
+  size: 100, 128
+  orig: 100, 128
+  offset: 0, 0
+  index: -1
+wshd_huo/wshd_huo _00009
+  rotate: true
+  xy: 522, 2
+  size: 100, 128
+  orig: 100, 128
+  offset: 0, 0
+  index: -1
+wshd_mapyan_00000
+  rotate: false
+  xy: 1738, 810
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+wshd_shuyan_00000
+  rotate: false
+  xy: 939, 38
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+wshd_smoke/wshd_smoke_00000
+  rotate: false
+  xy: 1738, 1278
+  size: 230, 128
+  orig: 230, 128
+  offset: 0, 0
+  index: -1
+wshd_smoke/wshd_smoke_00001
+  rotate: false
+  xy: 1738, 1148
+  size: 230, 128
+  orig: 230, 128
+  offset: 0, 0
+  index: -1
+wshd_smoke/wshd_smoke_00002
+  rotate: true
+  xy: 1804, 902
+  size: 230, 128
+  orig: 230, 128
+  offset: 0, 0
+  index: -1
+wshd_smoke/wshd_smoke_00003
+  rotate: false
+  xy: 1506, 882
+  size: 230, 128
+  orig: 230, 128
+  offset: 0, 0
+  index: -1
+wshd_smoke/wshd_smoke_00004
+  rotate: false
+  xy: 1506, 752
+  size: 230, 128
+  orig: 230, 128
+  offset: 0, 0
+  index: -1
+wshd_smoke/wshd_smoke_00005
+  rotate: false
+  xy: 1804, 772
+  size: 230, 128
+  orig: 230, 128
+  offset: 0, 0
+  index: -1
+wshd_smoke/wshd_smoke_00006
+  rotate: true
+  xy: 1898, 1813
+  size: 230, 128
+  orig: 230, 128
+  offset: 0, 0
+  index: -1
+wshd_smoke/wshd_smoke_00007
+  rotate: true
+  xy: 1898, 1581
+  size: 230, 128
+  orig: 230, 128
+  offset: 0, 0
+  index: -1
+wshd_smoke/wshd_smoke_00008
+  rotate: true
+  xy: 1868, 540
+  size: 230, 128
+  orig: 230, 128
+  offset: 0, 0
+  index: -1
+wshd_smoke/wshd_smoke_00009
+  rotate: true
+  xy: 1868, 308
+  size: 230, 128
+  orig: 230, 128
+  offset: 0, 0
+  index: -1
+wshd_yanwu/wshd_yanwu_00000
+  rotate: false
+  xy: 1506, 1128
+  size: 230, 278
+  orig: 230, 278
+  offset: 0, 0
+  index: -1
+wshd_yanwu/wshd_yanwu_00001
+  rotate: false
+  xy: 1506, 1408
+  size: 390, 635
+  orig: 390, 635
+  offset: 0, 0
+  index: -1
+wshd_yanwu/wshd_yanwu_00002
+  rotate: false
+  xy: 1308, 110
+  size: 558, 635
+  orig: 558, 635
+  offset: 0, 0
+  index: -1
+wsje_nanguan_00000
+  rotate: false
+  xy: 1934, 904
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+
+wshd_neicheng2.png
+size: 2022,1348
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+30
+  rotate: false
+  xy: 2, 760
+  size: 1500, 586
+  orig: 1500, 586
+  offset: 0, 0
+  index: -1
+33
+  rotate: true
+  xy: 1169, 2
+  size: 756, 851
+  orig: 756, 851
+  offset: 0, 0
+  index: -1
+wshd_yanwu/wshd_yanwu_00003
+  rotate: false
+  xy: 2, 123
+  size: 1165, 635
+  orig: 1165, 635
+  offset: 0, 0
+  index: -1
+
+wshd_neicheng3.png
+size: 1504,1489
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+31
+  rotate: false
+  xy: 2, 2
+  size: 1500, 1485
+  orig: 1500, 1485
+  offset: 0, 0
+  index: -1
+
+wshd_neicheng4.png
+size: 1504,1562
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+wshd_yanwu/wshd_yanwu_00004
+  rotate: false
+  xy: 2, 782
+  size: 1323, 778
+  orig: 1323, 778
+  offset: 0, 0
+  index: -1
+wshd_yanwu/wshd_yanwu_00005
+  rotate: false
+  xy: 2, 2
+  size: 1500, 778
+  orig: 1500, 778
+  offset: 0, 0
+  index: -1
+
+wshd_neicheng5.png
+size: 1504,1363
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+111
+  rotate: false
+  xy: 2, 2
+  size: 1500, 1359
+  orig: 1500, 1359
+  offset: 0, 0
+  index: -1
+
+wshd_neicheng6.png
+size: 1504,1104
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+32
+  rotate: false
+  xy: 2, 2
+  size: 1500, 1100
+  orig: 1500, 1100
+  offset: 0, 0
+  index: -1

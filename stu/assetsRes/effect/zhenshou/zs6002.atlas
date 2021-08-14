@@ -1,0 +1,83 @@
+
+zs6002.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/1
+  rotate: true
+  xy: 959, 460
+  size: 48, 63
+  orig: 48, 63
+  offset: 0, 0
+  index: -1
+image/10
+  rotate: false
+  xy: 369, 174
+  size: 96, 245
+  orig: 96, 245
+  offset: 0, 0
+  index: -1
+image/11
+  rotate: false
+  xy: 2, 421
+  size: 530, 87
+  orig: 530, 87
+  offset: 0, 0
+  index: -1
+image/2
+  rotate: false
+  xy: 192, 64
+  size: 58, 18
+  orig: 58, 18
+  offset: 0, 0
+  index: -1
+image/3
+  rotate: false
+  xy: 815, 398
+  size: 142, 110
+  orig: 142, 110
+  offset: 0, 0
+  index: -1
+image/4
+  rotate: false
+  xy: 304, 146
+  size: 36, 52
+  orig: 36, 52
+  offset: 0, 0
+  index: -1
+image/5
+  rotate: true
+  xy: 2, 84
+  size: 114, 300
+  orig: 114, 300
+  offset: 0, 0
+  index: -1
+image/6
+  rotate: true
+  xy: 534, 396
+  size: 112, 279
+  orig: 112, 279
+  offset: 0, 0
+  index: -1
+image/7
+  rotate: false
+  xy: 2, 200
+  size: 365, 219
+  orig: 365, 219
+  offset: 0, 0
+  index: -1
+image/8
+  rotate: false
+  xy: 467, 180
+  size: 94, 214
+  orig: 94, 214
+  offset: 0, 0
+  index: -1
+image/9
+  rotate: true
+  xy: 2, 2
+  size: 80, 188
+  orig: 80, 188
+  offset: 0, 0
+  index: -1

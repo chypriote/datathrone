@@ -1,0 +1,313 @@
+
+servant17.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body1
+  rotate: true
+  xy: 377, 255
+  size: 300, 366
+  orig: 300, 366
+  offset: 0, 0
+  index: -1
+clothes01
+  rotate: false
+  xy: 2, 431
+  size: 373, 591
+  orig: 373, 591
+  offset: 0, 0
+  index: -1
+clothes02
+  rotate: false
+  xy: 767, 765
+  size: 253, 257
+  orig: 253, 257
+  offset: 0, 0
+  index: -1
+clothes03
+  rotate: false
+  xy: 377, 557
+  size: 388, 465
+  orig: 388, 465
+  offset: 0, 0
+  index: -1
+clothes04
+  rotate: true
+  xy: 324, 9
+  size: 140, 339
+  orig: 140, 339
+  offset: 0, 0
+  index: -1
+clothes05
+  rotate: false
+  xy: 906, 44
+  size: 84, 165
+  orig: 84, 165
+  offset: 0, 0
+  index: -1
+clothes06
+  rotate: true
+  xy: 665, 2
+  size: 147, 166
+  orig: 147, 166
+  offset: 0, 0
+  index: -1
+clothes09
+  rotate: false
+  xy: 745, 168
+  size: 122, 331
+  orig: 122, 331
+  offset: 0, 0
+  index: -1
+clothes10
+  rotate: true
+  xy: 202, 2
+  size: 59, 70
+  orig: 59, 70
+  offset: 0, 0
+  index: -1
+clothes12
+  rotate: true
+  xy: 2, 2
+  size: 59, 111
+  orig: 59, 111
+  offset: 0, 0
+  index: -1
+druss001
+  rotate: true
+  xy: 324, 151
+  size: 102, 385
+  orig: 102, 385
+  offset: 0, 0
+  index: -1
+druss002
+  rotate: false
+  xy: 2, 63
+  size: 320, 366
+  orig: 320, 366
+  offset: 0, 0
+  index: -1
+druss003
+  rotate: false
+  xy: 869, 211
+  size: 73, 288
+  orig: 73, 288
+  offset: 0, 0
+  index: -1
+hat1
+  rotate: true
+  xy: 944, 320
+  size: 179, 78
+  orig: 179, 78
+  offset: 0, 0
+  index: -1
+hat4
+  rotate: false
+  xy: 833, 4
+  size: 71, 162
+  orig: 71, 162
+  offset: 0, 0
+  index: -1
+l_book1
+  rotate: false
+  xy: 767, 501
+  size: 224, 262
+  orig: 224, 262
+  offset: 0, 0
+  index: -1
+l_hand1
+  rotate: true
+  xy: 944, 214
+  size: 104, 73
+  orig: 104, 73
+  offset: 0, 0
+  index: -1
+l_hand_fg01
+  rotate: true
+  xy: 906, 3
+  size: 39, 74
+  orig: 39, 74
+  offset: 0, 0
+  index: -1
+l_hand_fg02
+  rotate: true
+  xy: 115, 2
+  size: 59, 85
+  orig: 59, 85
+  offset: 0, 0
+  index: -1
+leye01
+  rotate: true
+  xy: 869, 168
+  size: 41, 33
+  orig: 41, 33
+  offset: 0, 0
+  index: -1
+mouth1
+  rotate: true
+  xy: 354, 295
+  size: 41, 21
+  orig: 41, 21
+  offset: 0, 0
+  index: -1
+nose
+  rotate: false
+  xy: 274, 3
+  size: 28, 58
+  orig: 28, 58
+  offset: 0, 0
+  index: -1
+r_hand_fg01
+  rotate: true
+  xy: 993, 708
+  size: 55, 23
+  orig: 55, 23
+  offset: 0, 0
+  index: -1
+r_hand_fg02
+  rotate: true
+  xy: 324, 265
+  size: 71, 28
+  orig: 71, 28
+  offset: 0, 0
+  index: -1
+r_hand_fg04
+  rotate: false
+  xy: 711, 167
+  size: 28, 86
+  orig: 28, 86
+  offset: 0, 0
+  index: -1
+r_hand_fg05
+  rotate: false
+  xy: 324, 338
+  size: 31, 91
+  orig: 31, 91
+  offset: 0, 0
+  index: -1
+reye01
+  rotate: true
+  xy: 982, 8
+  size: 34, 32
+  orig: 34, 32
+  offset: 0, 0
+  index: -1
+
+servant172.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+clothes07
+  rotate: true
+  xy: 283, 348
+  size: 156, 176
+  orig: 156, 176
+  offset: 0, 0
+  index: -1
+clothes08
+  rotate: true
+  xy: 461, 373
+  size: 131, 167
+  orig: 131, 167
+  offset: 0, 0
+  index: -1
+clothes11
+  rotate: false
+  xy: 97, 103
+  size: 118, 129
+  orig: 118, 129
+  offset: 0, 0
+  index: -1
+clothes13
+  rotate: true
+  xy: 90, 234
+  size: 105, 158
+  orig: 105, 158
+  offset: 0, 0
+  index: -1
+face1
+  rotate: true
+  xy: 790, 403
+  size: 101, 146
+  orig: 101, 146
+  offset: 0, 0
+  index: -1
+hat2
+  rotate: true
+  xy: 2, 86
+  size: 141, 93
+  orig: 141, 93
+  offset: 0, 0
+  index: -1
+hat3
+  rotate: true
+  xy: 630, 338
+  size: 68, 147
+  orig: 68, 147
+  offset: 0, 0
+  index: -1
+l_arm02
+  rotate: true
+  xy: 779, 299
+  size: 102, 137
+  orig: 102, 137
+  offset: 0, 0
+  index: -1
+l_arm1
+  rotate: false
+  xy: 90, 341
+  size: 191, 163
+  orig: 191, 163
+  offset: 0, 0
+  index: -1
+l_hand_fg03
+  rotate: false
+  xy: 135, 22
+  size: 77, 79
+  orig: 77, 79
+  offset: 0, 0
+  index: -1
+l_hand_fg04
+  rotate: false
+  xy: 918, 289
+  size: 72, 67
+  orig: 72, 67
+  offset: 0, 0
+  index: -1
+lingzi01
+  rotate: true
+  xy: 2, 2
+  size: 82, 131
+  orig: 82, 131
+  offset: 0, 0
+  index: -1
+lingzi02
+  rotate: false
+  xy: 938, 358
+  size: 84, 146
+  orig: 84, 146
+  offset: 0, 0
+  index: -1
+r_arm01
+  rotate: false
+  xy: 2, 229
+  size: 86, 275
+  orig: 86, 275
+  offset: 0, 0
+  index: -1
+r_arm02
+  rotate: false
+  xy: 630, 408
+  size: 158, 96
+  orig: 158, 96
+  offset: 0, 0
+  index: -1
+r_hand_fg03
+  rotate: true
+  xy: 217, 172
+  size: 60, 52
+  orig: 60, 52
+  offset: 0, 0
+  index: -1

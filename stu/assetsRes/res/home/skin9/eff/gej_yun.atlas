@@ -1,0 +1,125 @@
+
+gej_yun.png
+size: 1957,1645
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+38
+  rotate: false
+  xy: 2, 1101
+  size: 1520, 118
+  orig: 1520, 118
+  offset: 0, 0
+  index: -1
+39
+  rotate: false
+  xy: 2, 1221
+  size: 1700, 237
+  orig: 1700, 237
+  offset: 0, 0
+  index: -1
+40
+  rotate: false
+  xy: 1524, 1200
+  size: 130, 19
+  orig: 130, 19
+  offset: 0, 0
+  index: -1
+41
+  rotate: false
+  xy: 1524, 1178
+  size: 110, 20
+  orig: 110, 20
+  offset: 0, 0
+  index: -1
+42
+  rotate: true
+  xy: 1704, 2
+  size: 1456, 172
+  orig: 1456, 172
+  offset: 0, 0
+  index: -1
+43
+  rotate: false
+  xy: 2, 1460
+  size: 1953, 183
+  orig: 1953, 183
+  offset: 0, 0
+  index: -1
+44
+  rotate: true
+  xy: 1909, 169
+  size: 119, 26
+  orig: 119, 26
+  offset: 0, 0
+  index: -1
+45
+  rotate: true
+  xy: 1878, 706
+  size: 251, 58
+  orig: 251, 58
+  offset: 0, 0
+  index: -1
+46
+  rotate: true
+  xy: 1878, 959
+  size: 499, 74
+  orig: 499, 74
+  offset: 0, 0
+  index: -1
+47
+  rotate: true
+  xy: 1938, 828
+  size: 129, 15
+  orig: 129, 15
+  offset: 0, 0
+  index: -1
+48
+  rotate: true
+  xy: 1878, 320
+  size: 384, 38
+  orig: 384, 38
+  offset: 0, 0
+  index: -1
+49
+  rotate: true
+  xy: 1878, 96
+  size: 192, 29
+  orig: 192, 29
+  offset: 0, 0
+  index: -1
+50
+  rotate: true
+  xy: 1932, 46
+  size: 121, 21
+  orig: 121, 21
+  offset: 0, 0
+  index: -1
+51
+  rotate: true
+  xy: 1506, 955
+  size: 144, 20
+  orig: 144, 20
+  offset: 0, 0
+  index: -1
+52
+  rotate: true
+  xy: 1909, 17
+  size: 150, 21
+  orig: 150, 21
+  offset: 0, 0
+  index: -1
+53
+  rotate: true
+  xy: 1918, 290
+  size: 414, 34
+  orig: 414, 34
+  offset: 0, 0
+  index: -1
+54
+  rotate: false
+  xy: 2, 96
+  size: 1502, 1003
+  orig: 1502, 1003
+  offset: 0, 0
+  index: -1

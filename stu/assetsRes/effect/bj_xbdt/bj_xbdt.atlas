@@ -1,0 +1,186 @@
+
+bj_xbdt.png
+size: 776,776
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/cj_xbdt 2/cj_xbdt 2_00000
+  rotate: false
+  xy: 2, 518
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/cj_xbdt 2/cj_xbdt 2_00001
+  rotate: false
+  xy: 2, 260
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/cj_xbdt 2/cj_xbdt 2_00002
+  rotate: false
+  xy: 260, 518
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/cj_xbdt 2/cj_xbdt 2_00003
+  rotate: false
+  xy: 2, 2
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/cj_xbdt 2/cj_xbdt 2_00004
+  rotate: false
+  xy: 260, 260
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/cj_xbdt 2/cj_xbdt 2_00005
+  rotate: false
+  xy: 518, 518
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/cj_xbdt 2/cj_xbdt 2_00006
+  rotate: false
+  xy: 260, 2
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/cj_xbdt 2/cj_xbdt 2_00007
+  rotate: false
+  xy: 518, 260
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/cj_xbdt 2/cj_xbdt 2_00008
+  rotate: false
+  xy: 518, 2
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+
+bj_xbdt2.png
+size: 776,776
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/cj_xbdt 2/cj_xbdt 2_00009
+  rotate: false
+  xy: 2, 518
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/cj_xbdt 2/cj_xbdt 2_00010
+  rotate: false
+  xy: 2, 260
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/cj_xbdt 2/cj_xbdt 2_00011
+  rotate: false
+  xy: 260, 518
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/cj_xbdt/cj_xbdt_00000
+  rotate: false
+  xy: 2, 2
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/cj_xbdt/cj_xbdt_00001
+  rotate: false
+  xy: 260, 260
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/cj_xbdt/cj_xbdt_00002
+  rotate: false
+  xy: 518, 518
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/cj_xbdt/cj_xbdt_00003
+  rotate: false
+  xy: 260, 2
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/cj_xbdt/cj_xbdt_00004
+  rotate: false
+  xy: 518, 260
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/cj_xbdt/cj_xbdt_00005
+  rotate: false
+  xy: 518, 2
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+
+bj_xbdt3.png
+size: 776,518
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/cj_xbdt/cj_xbdt_00006
+  rotate: false
+  xy: 2, 260
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/cj_xbdt/cj_xbdt_00007
+  rotate: false
+  xy: 2, 2
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/cj_xbdt/cj_xbdt_00008
+  rotate: false
+  xy: 260, 260
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/cj_xbdt/cj_xbdt_00009
+  rotate: false
+  xy: 260, 2
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/cj_xbdt/cj_xbdt_00010
+  rotate: false
+  xy: 518, 260
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+image/cj_xbdt/cj_xbdt_00011
+  rotate: false
+  xy: 518, 2
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1

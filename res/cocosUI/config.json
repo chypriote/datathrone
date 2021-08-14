@@ -1,0 +1,18 @@
+{
+  "designWidth": 750,
+  "designHeight": 1334,
+  "policy": 4,
+  "otherPolicy": 2,
+  "showUpInitMsg": true,
+  "showUpInitBar": true,
+  "showUpMB": true,
+  "showUpMB": true,
+  "showUpPrompt": false,
+  "showUpMsg": true,
+  "showUpBar": true,
+  "showUpBarEffect": true,
+  "showUpEffect": true,
+  "showCopy": true,
+  "showCopyBarEffect": true,
+  "showCopyEffect": true
+}

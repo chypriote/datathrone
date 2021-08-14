@@ -1,0 +1,362 @@
+{
+"skeleton": { "hash": "r6/B0GTrHSqdCrLg1jOb3n1nioQ", "spine": "3.6.53", "width": 88, "height": 83.58, "images": "" },
+"bones": [
+	{ "name": "tubiao" },
+	{ "name": "you", "parent": "tubiao" },
+	{ "name": "you2", "parent": "tubiao" },
+	{ "name": "zuo", "parent": "tubiao", "scaleX": -1 }
+],
+"slots": [
+	{
+		"name": "image/bj_zhengshou_xiangqing_dachen_left_button2",
+		"bone": "zuo",
+		"color": "ffffff00",
+		"attachment": "image/bj_zhengshou_xiangqing_dachen_left_button"
+	},
+	{
+		"name": "image/bj_zhengshou_xiangqing_dachen_left_button",
+		"bone": "zuo",
+		"color": "ffffff00",
+		"attachment": "image/bj_zhengshou_xiangqing_dachen_left_button",
+		"blend": "additive"
+	},
+	{
+		"name": "image/bj_zhengshou_xiangqing_shengxing_left_icon2",
+		"bone": "you",
+		"color": "ffffff00",
+		"attachment": "image/bj_zhengshou_xiangqing_shengxing_left_icon"
+	},
+	{
+		"name": "image/bj_zhengshou_xiangqing_shengxing_left_icon",
+		"bone": "you",
+		"color": "ffffff00",
+		"attachment": "image/bj_zhengshou_xiangqing_shengxing_left_icon",
+		"blend": "additive"
+	},
+	{
+		"name": "image/bj_zhengshou_xiangqing_shengxing_right_button",
+		"bone": "you2",
+		"color": "ffffff00",
+		"attachment": "image/bj_zhengshou_xiangqing_shengxing_right_button"
+	},
+	{
+		"name": "image/bj_zhengshou_xiangqing_shengxing_right_icon2",
+		"bone": "you2",
+		"color": "ffffff00",
+		"attachment": "image/bj_zhengshou_xiangqing_shengxing_right_icon"
+	},
+	{
+		"name": "image/bj_zhengshou_xiangqing_shengxing_right_icon",
+		"bone": "you2",
+		"color": "ffffff00",
+		"attachment": "image/bj_zhengshou_xiangqing_shengxing_right_icon",
+		"blend": "additive"
+	}
+],
+"skins": {
+	"default": {
+		"image/bj_zhengshou_xiangqing_dachen_left_button": {
+			"image/bj_zhengshou_xiangqing_dachen_left_button": { "width": 44, "height": 63 }
+		},
+		"image/bj_zhengshou_xiangqing_dachen_left_button2": {
+			"image/bj_zhengshou_xiangqing_dachen_left_button": { "width": 44, "height": 63 }
+		},
+		"image/bj_zhengshou_xiangqing_shengxing_left_icon": {
+			"image/bj_zhengshou_xiangqing_shengxing_left_icon": { "x": 4.33, "y": -10.58, "width": 88, "height": 83 }
+		},
+		"image/bj_zhengshou_xiangqing_shengxing_left_icon2": {
+			"image/bj_zhengshou_xiangqing_shengxing_left_icon": { "x": 4.33, "y": -10.58, "width": 88, "height": 83 }
+		},
+		"image/bj_zhengshou_xiangqing_shengxing_right_button": {
+			"image/bj_zhengshou_xiangqing_shengxing_right_button": { "width": 70, "height": 60 }
+		},
+		"image/bj_zhengshou_xiangqing_shengxing_right_icon": {
+			"image/bj_zhengshou_xiangqing_shengxing_right_icon": { "x": -0.17, "y": -0.76, "width": 70, "height": 60 }
+		},
+		"image/bj_zhengshou_xiangqing_shengxing_right_icon2": {
+			"image/bj_zhengshou_xiangqing_shengxing_right_icon": { "x": -0.17, "y": -0.76, "width": 70, "height": 60 }
+		}
+	}
+},
+"animations": {
+	"zmhd_zj": {
+		"slots": {
+			"image/bj_zhengshou_xiangqing_dachen_left_button": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"image/bj_zhengshou_xiangqing_dachen_left_button2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"image/bj_zhengshou_xiangqing_shengxing_left_icon": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"image/bj_zhengshou_xiangqing_shengxing_left_icon2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"image/bj_zhengshou_xiangqing_shengxing_right_button": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"image/bj_zhengshou_xiangqing_shengxing_right_icon": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff00" },
+					{ "time": 1, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"you": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"zuo": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"tubiao": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"you2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.2, "y": 1.2 },
+					{ "time": 0.5, "x": 1, "y": 1 },
+					{ "time": 1, "x": 1.2, "y": 1.2 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"zshd_lb": {
+		"slots": {
+			"image/bj_zhengshou_xiangqing_dachen_left_button": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff00" },
+					{ "time": 1, "color": "ffffffff" }
+				]
+			},
+			"image/bj_zhengshou_xiangqing_dachen_left_button2": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"image/bj_zhengshou_xiangqing_shengxing_left_icon": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"image/bj_zhengshou_xiangqing_shengxing_left_icon2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"image/bj_zhengshou_xiangqing_shengxing_right_button": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"image/bj_zhengshou_xiangqing_shengxing_right_icon": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"image/bj_zhengshou_xiangqing_shengxing_right_icon2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"zuo": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.2, "y": 1.2 },
+					{ "time": 0.5, "x": 1, "y": 1 },
+					{ "time": 1, "x": 1.2, "y": 1.2 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			},
+			"you2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"you": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"zshd_lb2": {
+		"slots": {
+			"image/bj_zhengshou_xiangqing_dachen_left_button": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"image/bj_zhengshou_xiangqing_dachen_left_button2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"image/bj_zhengshou_xiangqing_shengxing_left_icon": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff00" },
+					{ "time": 1, "color": "ffffffff" }
+				]
+			},
+			"image/bj_zhengshou_xiangqing_shengxing_left_icon2": {
+				"color": [
+					{ "time": 0, "color": "ffffffff" }
+				]
+			},
+			"image/bj_zhengshou_xiangqing_shengxing_right_button": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"image/bj_zhengshou_xiangqing_shengxing_right_icon": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			},
+			"image/bj_zhengshou_xiangqing_shengxing_right_icon2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"you": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.2, "y": 1.2 },
+					{ "time": 0.5, "x": 1, "y": 1 },
+					{ "time": 1, "x": 1.2, "y": 1.2 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				]
+			},
+			"you2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"zuo": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,41 @@
+
+lingdang.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hudejie_1
+  rotate: false
+  xy: 0, 15
+  size: 86, 38
+  orig: 86, 38
+  offset: 0, 0
+  index: -1
+hudejie_2
+  rotate: false
+  xy: 0, 134
+  size: 123, 72
+  orig: 123, 72
+  offset: 0, 0
+  index: -1
+lingdang_1
+  rotate: false
+  xy: 123, 139
+  size: 83, 67
+  orig: 83, 67
+  offset: 0, 0
+  index: -1
+lingdang_2
+  rotate: false
+  xy: 89, 107
+  size: 27, 27
+  orig: 27, 27
+  offset: 0, 0
+  index: -1
+lingdang_3
+  rotate: false
+  xy: 0, 53
+  size: 89, 81
+  orig: 89, 81
+  offset: 0, 0
+  index: -1

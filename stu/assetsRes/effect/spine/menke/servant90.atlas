@@ -1,0 +1,159 @@
+
+servant90.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dao
+  rotate: false
+  xy: 2, 320
+  size: 368, 698
+  orig: 368, 698
+  offset: 0, 0
+  index: -1
+huzi   4
+  rotate: false
+  xy: 448, 468
+  size: 40, 34
+  orig: 40, 34
+  offset: 0, 0
+  index: -1
+huzi  1
+  rotate: false
+  xy: 372, 334
+  size: 34, 57
+  orig: 34, 57
+  offset: 0, 0
+  index: -1
+huzi  2
+  rotate: true
+  xy: 868, 230
+  size: 27, 45
+  orig: 27, 45
+  offset: 0, 0
+  index: -1
+huzi  3
+  rotate: false
+  xy: 408, 351
+  size: 30, 40
+  orig: 30, 40
+  offset: 0, 0
+  index: -1
+kuzi
+  rotate: false
+  xy: 564, 229
+  size: 302, 309
+  orig: 302, 309
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 372, 540
+  size: 386, 478
+  orig: 386, 478
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 868, 259
+  size: 138, 168
+  orig: 138, 169
+  offset: 0, 1
+  index: -1
+toufa
+  rotate: false
+  xy: 440, 390
+  size: 62, 65
+  orig: 62, 65
+  offset: 0, 0
+  index: -1
+toufa  2
+  rotate: true
+  xy: 372, 393
+  size: 62, 66
+  orig: 62, 66
+  offset: 0, 0
+  index: -1
+toufa  3
+  rotate: false
+  xy: 372, 457
+  size: 74, 81
+  orig: 74, 81
+  offset: 0, 0
+  index: -1
+touifa   1
+  rotate: true
+  xy: 760, 542
+  size: 66, 80
+  orig: 66, 80
+  offset: 0, 0
+  index: -1
+tui
+  rotate: false
+  xy: 834, 2
+  size: 169, 225
+  orig: 170, 226
+  offset: 1, 0
+  index: -1
+yanjing
+  rotate: false
+  xy: 915, 237
+  size: 65, 20
+  orig: 66, 20
+  offset: 1, 0
+  index: -1
+yaodai
+  rotate: false
+  xy: 760, 744
+  size: 245, 274
+  orig: 245, 274
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: true
+  xy: 2, 2
+  size: 316, 560
+  orig: 317, 560
+  offset: 1, 0
+  index: -1
+youshou  1
+  rotate: true
+  xy: 564, 19
+  size: 208, 268
+  orig: 208, 268
+  offset: 0, 0
+  index: -1
+zui
+  rotate: false
+  xy: 448, 504
+  size: 57, 34
+  orig: 57, 34
+  offset: 0, 0
+  index: -1
+zuoquan
+  rotate: true
+  xy: 760, 610
+  size: 132, 86
+  orig: 132, 86
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: true
+  xy: 868, 429
+  size: 313, 151
+  orig: 313, 151
+  offset: 0, 0
+  index: -1
+
+servant902.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+zuoshou   1
+  rotate: false
+  xy: 2, 2
+  size: 159, 225
+  orig: 160, 225
+  offset: 1, 0
+  index: -1

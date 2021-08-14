@@ -1,0 +1,265 @@
+
+guanfu_12.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+12_dun
+  rotate: false
+  xy: 818, 701
+  size: 239, 291
+  orig: 239, 291
+  offset: 0, 0
+  index: -1
+12_huangguang
+  rotate: true
+  xy: 1059, 720
+  size: 121, 166
+  orig: 121, 166
+  offset: 0, 0
+  index: -1
+12_jianjia1
+  rotate: false
+  xy: 1631, 811
+  size: 159, 181
+  orig: 159, 181
+  offset: 0, 0
+  index: -1
+12_jianjia2_1
+  rotate: false
+  xy: 1792, 841
+  size: 112, 151
+  orig: 112, 151
+  offset: 0, 0
+  index: -1
+12_jianjia2_2
+  rotate: false
+  xy: 978, 473
+  size: 52, 72
+  orig: 52, 72
+  offset: 0, 0
+  index: -1
+12_jianqiao
+  rotate: false
+  xy: 1816, 724
+  size: 80, 115
+  orig: 80, 115
+  offset: 0, 0
+  index: -1
+12_pidai
+  rotate: false
+  xy: 678, 533
+  size: 141, 114
+  orig: 141, 114
+  offset: 0, 0
+  index: -1
+12_pifeng
+  rotate: false
+  xy: 2, 594
+  size: 366, 398
+  orig: 366, 398
+  offset: 0, 0
+  index: -1
+12_pijian
+  rotate: false
+  xy: 1059, 843
+  size: 363, 149
+  orig: 363, 149
+  offset: 0, 0
+  index: -1
+12_pijian1
+  rotate: false
+  xy: 878, 442
+  size: 98, 103
+  orig: 98, 103
+  offset: 0, 0
+  index: -1
+12_qunzi
+  rotate: true
+  xy: 2, 18
+  size: 229, 216
+  orig: 229, 216
+  offset: 0, 0
+  index: -1
+12_shangshoubi1
+  rotate: true
+  xy: 1047, 519
+  size: 97, 127
+  orig: 97, 127
+  offset: 0, 0
+  index: -1
+12_shangshoubi2
+  rotate: false
+  xy: 805, 419
+  size: 71, 112
+  orig: 71, 112
+  offset: 0, 0
+  index: -1
+12_shenti
+  rotate: false
+  xy: 2, 249
+  size: 222, 343
+  orig: 222, 343
+  offset: 0, 0
+  index: -1
+12_shenti_dongou
+  rotate: false
+  xy: 370, 649
+  size: 222, 343
+  orig: 222, 343
+  offset: 0, 0
+  index: -1
+12_shenti_feiyi
+  rotate: false
+  xy: 594, 649
+  size: 222, 343
+  orig: 222, 343
+  offset: 0, 0
+  index: -1
+12_wuqi
+  rotate: true
+  xy: 1424, 811
+  size: 181, 205
+  orig: 181, 205
+  offset: 0, 0
+  index: -1
+12_xiashoubi2
+  rotate: false
+  xy: 226, 410
+  size: 115, 182
+  orig: 115, 182
+  offset: 0, 0
+  index: -1
+12_zhuangshi
+  rotate: true
+  xy: 1032, 461
+  size: 56, 57
+  orig: 56, 57
+  offset: 0, 0
+  index: -1
+tou/d_tou1
+  rotate: false
+  xy: 226, 256
+  size: 111, 152
+  orig: 111, 152
+  offset: 0, 0
+  index: -1
+tou/d_tou2
+  rotate: true
+  xy: 1227, 730
+  size: 111, 152
+  orig: 111, 152
+  offset: 0, 0
+  index: -1
+tou/d_tou3
+  rotate: false
+  xy: 1906, 840
+  size: 111, 152
+  orig: 111, 152
+  offset: 0, 0
+  index: -1
+tou/d_tou4
+  rotate: true
+  xy: 370, 536
+  size: 111, 152
+  orig: 111, 152
+  offset: 0, 0
+  index: -1
+tou/d_tou5
+  rotate: true
+  xy: 524, 536
+  size: 111, 152
+  orig: 111, 152
+  offset: 0, 0
+  index: -1
+tou/d_yanpi
+  rotate: true
+  xy: 343, 536
+  size: 56, 14
+  orig: 56, 14
+  offset: 0, 0
+  index: -1
+tou/f_tou1
+  rotate: true
+  xy: 343, 423
+  size: 111, 152
+  orig: 111, 152
+  offset: 0, 0
+  index: -1
+tou/f_tou2
+  rotate: true
+  xy: 497, 423
+  size: 111, 152
+  orig: 111, 152
+  offset: 0, 0
+  index: -1
+tou/f_tou3
+  rotate: true
+  xy: 651, 420
+  size: 111, 152
+  orig: 111, 152
+  offset: 0, 0
+  index: -1
+tou/f_tou4
+  rotate: false
+  xy: 821, 547
+  size: 111, 152
+  orig: 111, 152
+  offset: 0, 0
+  index: -1
+tou/f_tou5
+  rotate: false
+  xy: 934, 547
+  size: 111, 152
+  orig: 111, 152
+  offset: 0, 0
+  index: -1
+tou/f_yanpi
+  rotate: false
+  xy: 2, 2
+  size: 60, 14
+  orig: 60, 14
+  offset: 0, 0
+  index: -1
+tou/tou_3
+  rotate: true
+  xy: 1381, 709
+  size: 100, 143
+  orig: 100, 143
+  offset: 0, 0
+  index: -1
+tou/tou_4
+  rotate: true
+  xy: 1526, 709
+  size: 100, 143
+  orig: 100, 143
+  offset: 0, 0
+  index: -1
+tou/tou_5
+  rotate: true
+  xy: 1671, 709
+  size: 100, 143
+  orig: 100, 143
+  offset: 0, 0
+  index: -1
+tou/tou_6
+  rotate: true
+  xy: 1898, 738
+  size: 100, 143
+  orig: 100, 143
+  offset: 0, 0
+  index: -1
+tou/tou_7
+  rotate: true
+  xy: 1059, 618
+  size: 100, 143
+  orig: 100, 143
+  offset: 0, 0
+  index: -1
+tou/yanpi
+  rotate: false
+  xy: 343, 410
+  size: 57, 11
+  orig: 57, 11
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,146 @@
+
+jiarentuoyi303.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L_arm
+  rotate: false
+  xy: 1213, 544
+  size: 143, 454
+  orig: 143, 454
+  offset: 0, 0
+  index: -1
+L_armyinying
+  rotate: true
+  xy: 2003, 930
+  size: 68, 42
+  orig: 68, 42
+  offset: 0, 0
+  index: -1
+L_hand
+  rotate: false
+  xy: 1536, 635
+  size: 77, 167
+  orig: 77, 167
+  offset: 0, 0
+  index: -1
+L_shoulder
+  rotate: false
+  xy: 879, 119
+  size: 97, 254
+  orig: 97, 254
+  offset: 0, 0
+  index: -1
+R_arm
+  rotate: false
+  xy: 1358, 804
+  size: 244, 194
+  orig: 244, 194
+  offset: 0, 0
+  index: -1
+biyan
+  rotate: false
+  xy: 2, 2
+  size: 81, 42
+  orig: 81, 42
+  offset: 0, 0
+  index: -1
+erhuan
+  rotate: false
+  xy: 1536, 588
+  size: 36, 45
+  orig: 36, 45
+  offset: 0, 0
+  index: -1
+foot
+  rotate: false
+  xy: 1815, 878
+  size: 186, 120
+  orig: 186, 120
+  offset: 0, 0
+  index: -1
+hair_1
+  rotate: true
+  xy: 951, 378
+  size: 30, 65
+  orig: 30, 65
+  offset: 0, 0
+  index: -1
+hair_2
+  rotate: true
+  xy: 879, 76
+  size: 41, 80
+  orig: 41, 80
+  offset: 0, 0
+  index: -1
+hair_3
+  rotate: false
+  xy: 1358, 578
+  size: 176, 224
+  orig: 176, 224
+  offset: 0, 0
+  index: -1
+hair_4
+  rotate: true
+  xy: 1213, 422
+  size: 120, 174
+  orig: 120, 174
+  offset: 0, 0
+  index: -1
+hair_5
+  rotate: false
+  xy: 668, 60
+  size: 209, 313
+  orig: 209, 313
+  offset: 0, 0
+  index: -1
+hair_6
+  rotate: true
+  xy: 1815, 838
+  size: 38, 74
+  orig: 38, 74
+  offset: 0, 0
+  index: -1
+hair_7
+  rotate: true
+  xy: 1358, 546
+  size: 30, 54
+  orig: 30, 54
+  offset: 0, 0
+  index: -1
+hair_8
+  rotate: false
+  xy: 85, 3
+  size: 24, 41
+  orig: 24, 41
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 1604, 816
+  size: 182, 209
+  orig: 182, 209
+  offset: 0, 0
+  index: -1
+leg
+  rotate: false
+  xy: 2, 46
+  size: 664, 952
+  orig: 664, 952
+  offset: 0, 0
+  index: -1
+pipao
+  rotate: false
+  xy: 668, 375
+  size: 281, 623
+  orig: 281, 623
+  offset: 0, 0
+  index: -1
+terso
+  rotate: false
+  xy: 951, 410
+  size: 260, 588
+  orig: 260, 588
+  offset: 0, 0
+  index: -1

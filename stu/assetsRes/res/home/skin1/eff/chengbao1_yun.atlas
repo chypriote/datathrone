@@ -1,0 +1,69 @@
+
+chengbao1_yun.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+yun1
+  rotate: false
+  xy: 1386, 1175
+  size: 138, 34
+  orig: 138, 34
+  offset: 0, 0
+  index: -1
+yun2
+  rotate: false
+  xy: 1063, 840
+  size: 198, 46
+  orig: 198, 46
+  offset: 0, 0
+  index: -1
+yun3
+  rotate: false
+  xy: 1063, 888
+  size: 321, 321
+  orig: 321, 321
+  offset: 0, 0
+  index: -1
+yun4
+  rotate: false
+  xy: 2, 2
+  size: 376, 263
+  orig: 376, 263
+  offset: 0, 0
+  index: -1
+yun5
+  rotate: false
+  xy: 2, 674
+  size: 1059, 535
+  orig: 1059, 535
+  offset: 0, 0
+  index: -1
+yun6
+  rotate: false
+  xy: 2, 1211
+  size: 1800, 826
+  orig: 1800, 826
+  offset: 0, 0
+  index: -1
+yun7
+  rotate: true
+  xy: 1804, 1775
+  size: 262, 231
+  orig: 262, 231
+  offset: 0, 0
+  index: -1
+yun8
+  rotate: false
+  xy: 2, 267
+  size: 453, 405
+  orig: 453, 405
+  offset: 0, 0
+  index: -1
+yun9
+  rotate: false
+  xy: 457, 625
+  size: 206, 47
+  orig: 206, 47
+  offset: 0, 0
+  index: -1

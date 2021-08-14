@@ -1,0 +1,272 @@
+
+jiarenweituoyi07.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Left_upper arm
+  rotate: false
+  xy: 811, 757
+  size: 153, 265
+  orig: 153, 265
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 259
+  size: 254, 386
+  orig: 254, 386
+  offset: 0, 0
+  index: -1
+body0
+  rotate: false
+  xy: 576, 506
+  size: 133, 147
+  orig: 133, 147
+  offset: 0, 0
+  index: -1
+body00
+  rotate: false
+  xy: 799, 543
+  size: 121, 110
+  orig: 121, 110
+  offset: 0, 0
+  index: -1
+eyes
+  rotate: true
+  xy: 966, 760
+  size: 78, 32
+  orig: 78, 32
+  offset: 0, 0
+  index: -1
+face
+  rotate: false
+  xy: 396, 470
+  size: 178, 183
+  orig: 178, 183
+  offset: 0, 0
+  index: -1
+face00
+  rotate: false
+  xy: 966, 917
+  size: 41, 105
+  orig: 41, 105
+  offset: 0, 0
+  index: -1
+front_bowknot
+  rotate: true
+  xy: 711, 521
+  size: 133, 86
+  orig: 133, 86
+  offset: 0, 0
+  index: -1
+front_hair
+  rotate: true
+  xy: 526, 267
+  size: 43, 86
+  orig: 43, 86
+  offset: 0, 0
+  index: -1
+front_hair1
+  rotate: false
+  xy: 799, 480
+  size: 68, 61
+  orig: 68, 61
+  offset: 0, 0
+  index: -1
+head00
+  rotate: false
+  xy: 258, 441
+  size: 136, 204
+  orig: 136, 204
+  offset: 0, 0
+  index: -1
+head000
+  rotate: true
+  xy: 811, 655
+  size: 100, 170
+  orig: 100, 170
+  offset: 0, 0
+  index: -1
+head0000
+  rotate: true
+  xy: 415, 257
+  size: 53, 109
+  orig: 53, 109
+  offset: 0, 0
+  index: -1
+head20
+  rotate: false
+  xy: 251, 77
+  size: 116, 178
+  orig: 116, 178
+  offset: 0, 0
+  index: -1
+left_arm
+  rotate: false
+  xy: 2, 13
+  size: 184, 244
+  orig: 184, 244
+  offset: 0, 0
+  index: -1
+left_arm1
+  rotate: false
+  xy: 415, 312
+  size: 146, 156
+  orig: 146, 156
+  offset: 0, 0
+  index: -1
+left_bowknot
+  rotate: true
+  xy: 966, 840
+  size: 75, 38
+  orig: 75, 38
+  offset: 0, 0
+  index: -1
+left_figer1
+  rotate: false
+  xy: 989, 502
+  size: 23, 34
+  orig: 23, 34
+  offset: 0, 0
+  index: -1
+left_figer2
+  rotate: false
+  xy: 983, 669
+  size: 29, 40
+  orig: 29, 40
+  offset: 0, 0
+  index: -1
+left_figer3
+  rotate: true
+  xy: 614, 280
+  size: 30, 59
+  orig: 30, 59
+  offset: 0, 0
+  index: -1
+left_figer4
+  rotate: false
+  xy: 869, 497
+  size: 49, 44
+  orig: 49, 44
+  offset: 0, 0
+  index: -1
+left_figer5
+  rotate: true
+  xy: 188, 4
+  size: 48, 51
+  orig: 48, 51
+  offset: 0, 0
+  index: -1
+left_hand
+  rotate: false
+  xy: 920, 478
+  size: 67, 58
+  orig: 67, 58
+  offset: 0, 0
+  index: -1
+left_skirt
+  rotate: false
+  xy: 922, 538
+  size: 97, 115
+  orig: 97, 115
+  offset: 0, 0
+  index: -1
+left_skirt1
+  rotate: false
+  xy: 599, 656
+  size: 210, 366
+  orig: 210, 366
+  offset: 0, 0
+  index: -1
+necklace
+  rotate: false
+  xy: 563, 312
+  size: 128, 103
+  orig: 128, 103
+  offset: 0, 0
+  index: -1
+quanzi8
+  rotate: false
+  xy: 349, 655
+  size: 248, 367
+  orig: 248, 367
+  offset: 0, 0
+  index: -1
+right_arm0
+  rotate: false
+  xy: 188, 54
+  size: 61, 203
+  orig: 61, 203
+  offset: 0, 0
+  index: -1
+right_arm00
+  rotate: true
+  xy: 576, 417
+  size: 87, 130
+  orig: 87, 130
+  offset: 0, 0
+  index: -1
+right_arm000
+  rotate: false
+  xy: 465, 84
+  size: 104, 171
+  orig: 104, 171
+  offset: 0, 0
+  index: -1
+right_bowknot
+  rotate: true
+  xy: 571, 66
+  size: 93, 74
+  orig: 93, 74
+  offset: 0, 0
+  index: -1
+right_hair
+  rotate: false
+  xy: 983, 711
+  size: 39, 47
+  orig: 39, 47
+  offset: 0, 0
+  index: -1
+right_hair1
+  rotate: false
+  xy: 571, 161
+  size: 72, 104
+  orig: 72, 104
+  offset: 0, 0
+  index: -1
+right_hair2
+  rotate: true
+  xy: 335, 6
+  size: 59, 119
+  orig: 59, 119
+  offset: 0, 0
+  index: -1
+right_hand
+  rotate: true
+  xy: 251, 2
+  size: 73, 82
+  orig: 73, 82
+  offset: 0, 0
+  index: -1
+right_skirt
+  rotate: true
+  xy: 258, 257
+  size: 182, 155
+  orig: 182, 155
+  offset: 0, 0
+  index: -1
+right_upper arm
+  rotate: false
+  xy: 369, 67
+  size: 94, 188
+  orig: 94, 188
+  offset: 0, 0
+  index: -1
+yifu
+  rotate: false
+  xy: 2, 647
+  size: 345, 375
+  orig: 345, 375
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,111 @@
+
+chenghao_19.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+biyan1
+  rotate: false
+  xy: 1624, 363
+  size: 47, 7
+  orig: 47, 7
+  offset: 0, 0
+  index: -1
+cy315_datui
+  rotate: true
+  xy: 784, 261
+  size: 243, 464
+  orig: 243, 464
+  offset: 0, 0
+  index: -1
+cy315_dun
+  rotate: true
+  xy: 1250, 322
+  size: 182, 372
+  orig: 182, 372
+  offset: 0, 0
+  index: -1
+cy315_jianjia1
+  rotate: false
+  xy: 1066, 151
+  size: 152, 108
+  orig: 152, 108
+  offset: 0, 0
+  index: -1
+cy315_jianjia2
+  rotate: true
+  xy: 1250, 256
+  size: 64, 95
+  orig: 64, 95
+  offset: 0, 0
+  index: -1
+cy315_shangshoubi2
+  rotate: false
+  xy: 482, 6
+  size: 74, 90
+  orig: 74, 90
+  offset: 0, 0
+  index: -1
+cy315_shangxiabi1
+  rotate: true
+  xy: 135, 6
+  size: 90, 125
+  orig: 90, 125
+  offset: 0, 0
+  index: -1
+cy315_shenti
+  rotate: true
+  xy: 784, 85
+  size: 174, 280
+  orig: 174, 280
+  offset: 0, 0
+  index: -1
+cy315_toukui
+  rotate: true
+  xy: 1066, 41
+  size: 108, 144
+  orig: 108, 144
+  offset: 0, 0
+  index: -1
+cy315_wuqi1
+  rotate: true
+  xy: 2, 98
+  size: 56, 579
+  orig: 56, 579
+  offset: 0, 0
+  index: -1
+cy315_wuqi2
+  rotate: true
+  xy: 2, 156
+  size: 348, 780
+  orig: 348, 780
+  offset: 0, 0
+  index: -1
+cy315_xiashoubi2
+  rotate: false
+  xy: 376, 2
+  size: 104, 94
+  orig: 104, 94
+  offset: 0, 0
+  index: -1
+cy315_yaodai
+  rotate: true
+  xy: 262, 9
+  size: 87, 112
+  orig: 87, 112
+  offset: 0, 0
+  index: -1
+cy315_yingzi
+  rotate: false
+  xy: 1624, 372
+  size: 388, 132
+  orig: 388, 132
+  offset: 0, 0
+  index: -1
+tou1
+  rotate: true
+  xy: 2, 3
+  size: 93, 131
+  orig: 93, 131
+  offset: 0, 0
+  index: -1

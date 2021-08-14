@@ -1,0 +1,279 @@
+
+guanfu_18.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+18_biyan
+  rotate: false
+  xy: 666, 459
+  size: 47, 9
+  orig: 47, 9
+  offset: 0, 0
+  index: -1
+18_dunpai
+  rotate: false
+  xy: 2, 283
+  size: 246, 328
+  orig: 246, 328
+  offset: 0, 0
+  index: -1
+18_dunpai_yingzhi
+  rotate: false
+  xy: 982, 931
+  size: 38, 91
+  orig: 38, 91
+  offset: 0, 0
+  index: -1
+18_head_1
+  rotate: true
+  xy: 440, 218
+  size: 80, 109
+  orig: 80, 109
+  offset: 0, 0
+  index: -1
+18_head_2
+  rotate: false
+  xy: 448, 5
+  size: 84, 116
+  orig: 84, 116
+  offset: 0, 0
+  index: -1
+18_head_3
+  rotate: true
+  xy: 551, 146
+  size: 83, 122
+  orig: 83, 122
+  offset: 0, 0
+  index: -1
+18_head_4
+  rotate: false
+  xy: 448, 566
+  size: 87, 111
+  orig: 87, 111
+  offset: 0, 0
+  index: -1
+18_head_5
+  rotate: false
+  xy: 684, 210
+  size: 80, 114
+  orig: 80, 114
+  offset: 0, 0
+  index: -1
+18_jian
+  rotate: false
+  xy: 2, 613
+  size: 370, 409
+  orig: 370, 409
+  offset: 0, 0
+  index: -1
+18_l_jian
+  rotate: false
+  xy: 173, 47
+  size: 44, 51
+  orig: 44, 51
+  offset: 0, 0
+  index: -1
+18_l_jianjia
+  rotate: true
+  xy: 233, 107
+  size: 126, 177
+  orig: 126, 177
+  offset: 0, 0
+  index: -1
+18_l_shoulder
+  rotate: false
+  xy: 537, 718
+  size: 123, 304
+  orig: 123, 304
+  offset: 0, 0
+  index: -1
+18_l_shouzhi
+  rotate: false
+  xy: 799, 515
+  size: 26, 48
+  orig: 26, 48
+  offset: 0, 0
+  index: -1
+18_l_shouzhi_2
+  rotate: false
+  xy: 173, 9
+  size: 44, 36
+  orig: 44, 36
+  offset: 0, 0
+  index: -1
+18_maozhi
+  rotate: false
+  xy: 675, 120
+  size: 99, 88
+  orig: 99, 88
+  offset: 0, 0
+  index: -1
+18_pifeng
+  rotate: false
+  xy: 374, 679
+  size: 161, 343
+  orig: 161, 343
+  offset: 0, 0
+  index: -1
+18_qiandang
+  rotate: false
+  xy: 537, 554
+  size: 123, 162
+  orig: 123, 162
+  offset: 0, 0
+  index: -1
+18_qiandang_2
+  rotate: true
+  xy: 233, 2
+  size: 103, 80
+  orig: 103, 80
+  offset: 0, 0
+  index: -1
+18_qunzhi
+  rotate: false
+  xy: 2, 100
+  size: 229, 181
+  orig: 229, 181
+  offset: 0, 0
+  index: -1
+18_r_jian
+  rotate: false
+  xy: 374, 617
+  size: 68, 60
+  orig: 68, 60
+  offset: 0, 0
+  index: -1
+18_r_jianjia
+  rotate: false
+  xy: 852, 840
+  size: 128, 182
+  orig: 128, 182
+  offset: 0, 0
+  index: -1
+18_r_shoulder
+  rotate: true
+  xy: 2, 8
+  size: 90, 169
+  orig: 90, 169
+  offset: 0, 0
+  index: -1
+18_torso_1
+  rotate: false
+  xy: 662, 836
+  size: 188, 186
+  orig: 188, 186
+  offset: 0, 0
+  index: -1
+18_torso_11
+  rotate: true
+  xy: 250, 423
+  size: 188, 186
+  orig: 188, 186
+  offset: 0, 0
+  index: -1
+18_torso_111
+  rotate: false
+  xy: 250, 235
+  size: 188, 186
+  orig: 188, 186
+  offset: 0, 0
+  index: -1
+18_torso_2
+  rotate: true
+  xy: 662, 652
+  size: 182, 183
+  orig: 182, 183
+  offset: 0, 0
+  index: -1
+18_yaodai
+  rotate: false
+  xy: 662, 565
+  size: 166, 85
+  orig: 166, 85
+  offset: 0, 0
+  index: -1
+tou/biyan_dongou
+  rotate: true
+  xy: 830, 602
+  size: 48, 12
+  orig: 48, 12
+  offset: 0, 0
+  index: -1
+tou/biyan_feiyi
+  rotate: true
+  xy: 219, 46
+  size: 52, 12
+  orig: 52, 12
+  offset: 0, 0
+  index: -1
+tou/d_tou1
+  rotate: true
+  xy: 315, 12
+  size: 93, 131
+  orig: 93, 131
+  offset: 0, 0
+  index: -1
+tou/d_tou2
+  rotate: false
+  xy: 438, 433
+  size: 93, 131
+  orig: 93, 131
+  offset: 0, 0
+  index: -1
+tou/d_tou3
+  rotate: true
+  xy: 533, 459
+  size: 93, 131
+  orig: 93, 131
+  offset: 0, 0
+  index: -1
+tou/d_tou4
+  rotate: true
+  xy: 666, 470
+  size: 93, 131
+  orig: 93, 131
+  offset: 0, 0
+  index: -1
+tou/d_tou5
+  rotate: false
+  xy: 440, 300
+  size: 93, 131
+  orig: 93, 131
+  offset: 0, 0
+  index: -1
+tou/f_tou1
+  rotate: false
+  xy: 535, 326
+  size: 93, 131
+  orig: 93, 131
+  offset: 0, 0
+  index: -1
+tou/f_tou2
+  rotate: false
+  xy: 630, 326
+  size: 93, 131
+  orig: 93, 131
+  offset: 0, 0
+  index: -1
+tou/f_tou3
+  rotate: false
+  xy: 725, 337
+  size: 93, 131
+  orig: 93, 131
+  offset: 0, 0
+  index: -1
+tou/f_tou4
+  rotate: true
+  xy: 551, 231
+  size: 93, 131
+  orig: 93, 131
+  offset: 0, 0
+  index: -1
+tou/f_tou5
+  rotate: true
+  xy: 412, 123
+  size: 93, 131
+  orig: 93, 131
+  offset: 0, 0
+  index: -1

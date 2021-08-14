@@ -1,0 +1,20 @@
+
+dilao_men.png
+size: 1380,1628
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/men
+  rotate: false
+  xy: 754, 2
+  size: 624, 1624
+  orig: 624, 1624
+  offset: 0, 0
+  index: -1
+images/menkuang
+  rotate: false
+  xy: 2, 2
+  size: 750, 1624
+  orig: 750, 1624
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,139 @@
+
+zmhd_ckdianji.png
+size: 912,392
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/zmhd_dianji/zmhd_dianji_00001
+  rotate: false
+  xy: 2, 132
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+image/zmhd_dianji/zmhd_dianji_00002
+  rotate: false
+  xy: 132, 262
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+image/zmhd_dianji/zmhd_dianji_00003
+  rotate: false
+  xy: 2, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+image/zmhd_dianji/zmhd_dianji_00004
+  rotate: false
+  xy: 132, 132
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+image/zmhd_dianji/zmhd_dianji_00005
+  rotate: false
+  xy: 262, 262
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+image/zmhd_dianji/zmhd_dianji_00006
+  rotate: false
+  xy: 132, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+image/zmhd_dianji/zmhd_dianji_00007
+  rotate: false
+  xy: 262, 132
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+image/zmhd_dianji/zmhd_dianji_00008
+  rotate: false
+  xy: 392, 262
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+image/zmhd_dianji/zmhd_dianji_00009
+  rotate: false
+  xy: 262, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+image/zmhd_dianji/zmhd_dianji_00010
+  rotate: false
+  xy: 392, 132
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+image/zmhd_dianji/zmhd_dianji_00011
+  rotate: false
+  xy: 522, 262
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+image/zmhd_dianji/zmhd_dianji_00012
+  rotate: false
+  xy: 392, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+image/zmhd_dianji/zmhd_dianji_00013
+  rotate: false
+  xy: 522, 132
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+image/zmhd_dianji/zmhd_dianji_00014
+  rotate: false
+  xy: 652, 262
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+image/zmhd_dianji/zmhd_dianji_00015
+  rotate: false
+  xy: 782, 262
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+image/zmhd_dianji/zmhd_dianji_00016
+  rotate: false
+  xy: 522, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+image/zmhd_dianji/zmhd_dianji_00017
+  rotate: false
+  xy: 652, 132
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+image/zmhd_dianji/zmhd_dianji_00018
+  rotate: false
+  xy: 782, 132
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+image/zmhd_dianji/zmhd_dianji_00019
+  rotate: false
+  xy: 2, 262
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1

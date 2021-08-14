@@ -1,0 +1,20 @@
+
+zmtc_chuanglian.png
+size: 1287,454
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/cn_shang
+  rotate: false
+  xy: 2, 2
+  size: 750, 167
+  orig: 750, 167
+  offset: 0, 0
+  index: -1
+images/cn_xia
+  rotate: true
+  xy: 2, 171
+  size: 281, 1283
+  orig: 281, 1283
+  offset: 0, 0
+  index: -1

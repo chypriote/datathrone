@@ -1,0 +1,146 @@
+
+servant32.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+head
+  rotate: true
+  xy: 1392, 15
+  size: 119, 151
+  orig: 119, 151
+  offset: 0, 0
+  index: -1
+jian
+  rotate: true
+  xy: 543, 351
+  size: 213, 886
+  orig: 213, 886
+  offset: 0, 0
+  index: -1
+jian_yingzhi
+  rotate: true
+  xy: 2, 13
+  size: 88, 322
+  orig: 88, 322
+  offset: 0, 0
+  index: -1
+l_arm
+  rotate: false
+  xy: 1731, 16
+  size: 148, 140
+  orig: 148, 140
+  offset: 0, 0
+  index: -1
+l_upper_leg
+  rotate: false
+  xy: 1849, 158
+  size: 189, 570
+  orig: 189, 570
+  offset: 0, 0
+  index: -1
+maozhibu
+  rotate: false
+  xy: 1266, 14
+  size: 124, 161
+  orig: 124, 161
+  offset: 0, 0
+  index: -1
+pifeng_hou
+  rotate: true
+  xy: 543, 566
+  size: 456, 942
+  orig: 456, 942
+  offset: 0, 0
+  index: -1
+pifeng_qian
+  rotate: false
+  xy: 2, 103
+  size: 539, 919
+  orig: 539, 919
+  offset: 0, 0
+  index: -1
+qunzhi
+  rotate: false
+  xy: 1487, 396
+  size: 360, 332
+  orig: 360, 332
+  offset: 0, 0
+  index: -1
+qunzhihongbu_l
+  rotate: true
+  xy: 1589, 92
+  size: 202, 140
+  orig: 202, 140
+  offset: 0, 0
+  index: -1
+qunzhihongbuy_r
+  rotate: false
+  xy: 1392, 136
+  size: 195, 158
+  orig: 195, 158
+  offset: 0, 0
+  index: -1
+r_arm
+  rotate: true
+  xy: 1134, 2
+  size: 173, 130
+  orig: 173, 130
+  offset: 0, 0
+  index: -1
+r_jianbang
+  rotate: true
+  xy: 1178, 177
+  size: 172, 205
+  orig: 172, 205
+  offset: 0, 0
+  index: -1
+r_shoulder
+  rotate: false
+  xy: 992, 13
+  size: 140, 175
+  orig: 140, 175
+  offset: 0, 0
+  index: -1
+r_upper_leg
+  rotate: true
+  xy: 543, 190
+  size: 159, 633
+  orig: 159, 633
+  offset: 0, 0
+  index: -1
+shenyiyingzhi
+  rotate: true
+  xy: 543, 2
+  size: 186, 189
+  orig: 186, 189
+  offset: 0, 0
+  index: -1
+torso
+  rotate: true
+  xy: 1487, 730
+  size: 292, 498
+  orig: 292, 498
+  offset: 0, 0
+  index: -1
+toukui
+  rotate: true
+  xy: 734, 4
+  size: 184, 256
+  orig: 184, 256
+  offset: 0, 0
+  index: -1
+yanpi
+  rotate: true
+  xy: 1987, 930
+  size: 92, 18
+  orig: 92, 18
+  offset: 0, 0
+  index: -1
+yaodai
+  rotate: false
+  xy: 1431, 296
+  size: 299, 98
+  orig: 299, 98
+  offset: 0, 0
+  index: -1

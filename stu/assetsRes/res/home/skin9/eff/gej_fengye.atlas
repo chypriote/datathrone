@@ -1,0 +1,20 @@
+
+gej_fengye.png
+size: 200,105
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+icon_fengye 2_00000
+  rotate: false
+  xy: 2, 10
+  size: 101, 93
+  orig: 101, 93
+  offset: 0, 0
+  index: -1
+icon_fengye_00000
+  rotate: true
+  xy: 105, 2
+  size: 101, 93
+  orig: 101, 93
+  offset: 0, 0
+  index: -1

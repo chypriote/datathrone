@@ -1,0 +1,167 @@
+
+jiarentuoyi16.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+biyan
+  rotate: false
+  xy: 347, 404
+  size: 81, 32
+  orig: 81, 32
+  offset: 0, 0
+  index: -1
+fa
+  rotate: true
+  xy: 2, 2
+  size: 58, 255
+  orig: 58, 255
+  offset: 0, 0
+  index: -1
+fa1
+  rotate: false
+  xy: 261, 576
+  size: 207, 212
+  orig: 207, 212
+  offset: 0, 0
+  index: -1
+fa2
+  rotate: false
+  xy: 225, 438
+  size: 13, 14
+  orig: 13, 14
+  offset: 0, 0
+  index: -1
+fa3
+  rotate: true
+  xy: 521, 797
+  size: 103, 266
+  orig: 103, 266
+  offset: 0, 0
+  index: -1
+heidai
+  rotate: false
+  xy: 677, 628
+  size: 100, 167
+  orig: 100, 167
+  offset: 0, 0
+  index: -1
+shen
+  rotate: false
+  xy: 2, 454
+  size: 257, 566
+  orig: 257, 566
+  offset: 0, 0
+  index: -1
+shou
+  rotate: true
+  xy: 793, 949
+  size: 71, 200
+  orig: 71, 200
+  offset: 0, 0
+  index: -1
+shou10
+  rotate: false
+  xy: 470, 574
+  size: 57, 214
+  orig: 57, 214
+  offset: 0, 0
+  index: -1
+shou11
+  rotate: true
+  xy: 521, 902
+  size: 118, 270
+  orig: 118, 274
+  offset: 0, 4
+  index: -1
+shou2
+  rotate: true
+  xy: 529, 591
+  size: 52, 95
+  orig: 52, 95
+  offset: 0, 0
+  index: -1
+shou3
+  rotate: true
+  xy: 225, 170
+  size: 60, 50
+  orig: 60, 50
+  offset: 0, 0
+  index: -1
+shou4
+  rotate: true
+  xy: 389, 348
+  size: 54, 39
+  orig: 54, 39
+  offset: 0, 0
+  index: -1
+shou5
+  rotate: false
+  xy: 225, 232
+  size: 48, 82
+  orig: 48, 82
+  offset: 0, 0
+  index: -1
+shou6
+  rotate: false
+  xy: 529, 645
+  size: 146, 150
+  orig: 146, 150
+  offset: 0, 0
+  index: -1
+shou7
+  rotate: true
+  xy: 793, 912
+  size: 35, 82
+  orig: 35, 82
+  offset: 0, 0
+  index: -1
+shou8
+  rotate: false
+  xy: 275, 267
+  size: 66, 47
+  orig: 66, 47
+  offset: 0, 0
+  index: -1
+shou9
+  rotate: false
+  xy: 347, 329
+  size: 40, 73
+  orig: 40, 73
+  offset: 0, 0
+  index: -1
+tou
+  rotate: true
+  xy: 261, 438
+  size: 136, 185
+  orig: 136, 185
+  offset: 0, 0
+  index: -1
+tui01
+  rotate: false
+  xy: 2, 174
+  size: 221, 278
+  orig: 221, 278
+  offset: 0, 0
+  index: -1
+tui1
+  rotate: true
+  xy: 2, 62
+  size: 110, 220
+  orig: 110, 220
+  offset: 0, 0
+  index: -1
+weijin
+  rotate: false
+  xy: 225, 316
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+xiongzhao
+  rotate: false
+  xy: 261, 790
+  size: 258, 230
+  orig: 258, 230
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,132 @@
+
+servant100317.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+biyan
+  rotate: false
+  xy: 912, 2
+  size: 93, 28
+  orig: 93, 28
+  offset: 0, 0
+  index: -1
+daizi1
+  rotate: false
+  xy: 1436, 486
+  size: 348, 214
+  orig: 348, 214
+  offset: 0, 0
+  index: -1
+daizi2
+  rotate: true
+  xy: 582, 156
+  size: 32, 489
+  orig: 32, 489
+  offset: 0, 0
+  index: -1
+daizi3
+  rotate: true
+  xy: 1436, 433
+  size: 51, 197
+  orig: 51, 197
+  offset: 0, 0
+  index: -1
+shangshen
+  rotate: false
+  xy: 582, 372
+  size: 435, 650
+  orig: 435, 650
+  offset: 0, 0
+  index: -1
+tou
+  rotate: true
+  xy: 359, 6
+  size: 140, 203
+  orig: 140, 203
+  offset: 0, 0
+  index: -1
+youbi
+  rotate: true
+  xy: 582, 190
+  size: 180, 427
+  orig: 180, 427
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: true
+  xy: 1019, 412
+  size: 288, 415
+  orig: 288, 415
+  offset: 0, 0
+  index: -1
+youtui
+  rotate: false
+  xy: 359, 148
+  size: 221, 874
+  orig: 221, 874
+  offset: 0, 0
+  index: -1
+yuyiyou
+  rotate: true
+  xy: 1019, 858
+  size: 164, 830
+  orig: 164, 830
+  offset: 0, 0
+  index: -1
+yuyiyouyinyin
+  rotate: false
+  xy: 1019, 377
+  size: 89, 33
+  orig: 89, 33
+  offset: 0, 0
+  index: -1
+yuyizuo
+  rotate: true
+  xy: 1019, 702
+  size: 154, 820
+  orig: 154, 820
+  offset: 0, 0
+  index: -1
+yuyizuoyinyin
+  rotate: true
+  xy: 1786, 571
+  size: 129, 46
+  orig: 129, 46
+  offset: 0, 0
+  index: -1
+zuodabi
+  rotate: true
+  xy: 582, 2
+  size: 152, 328
+  orig: 152, 328
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: false
+  xy: 912, 32
+  size: 115, 122
+  orig: 115, 122
+  offset: 0, 0
+  index: -1
+zuotui
+  rotate: false
+  xy: 2, 30
+  size: 355, 992
+  orig: 355, 992
+  offset: 0, 0
+  index: -1
+zuotuiqianyin
+  rotate: false
+  xy: 1635, 430
+  size: 120, 54
+  orig: 120, 54
+  offset: 0, 0
+  index: -1
+zuoxiaobi
+  rotate: true
+  xy: 1851, 904
+  size: 118, 184
+  orig: 118, 184
+  offset: 0, 0
+  index: -1

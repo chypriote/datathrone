@@ -1,0 +1,48 @@
+
+dilao_npc.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+muban
+  rotate: false
+  xy: 2, 258
+  size: 685, 705
+  orig: 685, 705
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 689, 332
+  size: 390, 631
+  orig: 390, 631
+  offset: 0, 0
+  index: -1
+tou1
+  rotate: false
+  xy: 1081, 802
+  size: 172, 161
+  orig: 172, 161
+  offset: 0, 0
+  index: -1
+tou2
+  rotate: false
+  xy: 2, 95
+  size: 172, 161
+  orig: 172, 161
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: false
+  xy: 2, 2
+  size: 61, 91
+  orig: 61, 91
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: true
+  xy: 689, 262
+  size: 68, 90
+  orig: 68, 90
+  offset: 0, 0
+  index: -1

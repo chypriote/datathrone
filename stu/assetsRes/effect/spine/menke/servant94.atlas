@@ -1,0 +1,285 @@
+
+servant94.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+head
+  rotate: true
+  xy: 172, 19
+  size: 128, 147
+  orig: 128, 147
+  offset: 0, 0
+  index: -1
+jian
+  rotate: false
+  xy: 804, 909
+  size: 210, 113
+  orig: 210, 113
+  offset: 0, 0
+  index: -1
+jianbang1
+  rotate: true
+  xy: 321, 5
+  size: 32, 54
+  orig: 32, 54
+  offset: 0, 0
+  index: -1
+jianbang2
+  rotate: true
+  xy: 888, 814
+  size: 43, 39
+  orig: 43, 39
+  offset: 0, 0
+  index: -1
+jianjia1
+  rotate: false
+  xy: 433, 8
+  size: 124, 192
+  orig: 124, 192
+  offset: 0, 0
+  index: -1
+jianjia2
+  rotate: true
+  xy: 559, 65
+  size: 135, 58
+  orig: 135, 58
+  offset: 0, 0
+  index: -1
+kuzi1
+  rotate: true
+  xy: 507, 649
+  size: 202, 379
+  orig: 202, 379
+  offset: 0, 0
+  index: -1
+kuzi3
+  rotate: true
+  xy: 277, 853
+  size: 169, 525
+  orig: 169, 525
+  offset: 0, 0
+  index: -1
+kuzi4
+  rotate: false
+  xy: 2, 443
+  size: 273, 579
+  orig: 273, 579
+  offset: 0, 0
+  index: -1
+kuzi5
+  rotate: true
+  xy: 277, 467
+  size: 156, 357
+  orig: 156, 357
+  offset: 0, 0
+  index: -1
+kuzi7
+  rotate: false
+  xy: 636, 279
+  size: 189, 368
+  orig: 189, 368
+  offset: 0, 0
+  index: -1
+l_hand
+  rotate: false
+  xy: 334, 78
+  size: 97, 387
+  orig: 97, 387
+  offset: 0, 0
+  index: -1
+l_lower_leg
+  rotate: true
+  xy: 619, 159
+  size: 118, 354
+  orig: 118, 354
+  offset: 0, 0
+  index: -1
+l_upper_leg
+  rotate: true
+  xy: 619, 18
+  size: 139, 222
+  orig: 139, 222
+  offset: 0, 0
+  index: -1
+maozi3
+  rotate: false
+  xy: 277, 625
+  size: 228, 226
+  orig: 228, 226
+  offset: 0, 0
+  index: -1
+r_upper_leg
+  rotate: true
+  xy: 2, 2
+  size: 145, 168
+  orig: 145, 168
+  offset: 0, 0
+  index: -1
+torso
+  rotate: false
+  xy: 2, 149
+  size: 330, 292
+  orig: 330, 292
+  offset: 0, 0
+  index: -1
+xiezi1
+  rotate: true
+  xy: 321, 39
+  size: 37, 99
+  orig: 37, 99
+  offset: 0, 0
+  index: -1
+xiezi2
+  rotate: true
+  xy: 843, 36
+  size: 121, 170
+  orig: 121, 170
+  offset: 0, 0
+  index: -1
+xiezi3
+  rotate: true
+  xy: 804, 859
+  size: 48, 132
+  orig: 48, 132
+  offset: 0, 0
+  index: -1
+yanpi
+  rotate: false
+  xy: 507, 634
+  size: 69, 13
+  orig: 69, 13
+  offset: 0, 0
+  index: -1
+yaodai
+  rotate: true
+  xy: 433, 202
+  size: 263, 184
+  orig: 263, 184
+  offset: 0, 0
+  index: -1
+yifu1
+  rotate: false
+  xy: 938, 669
+  size: 79, 238
+  orig: 79, 238
+  offset: 0, 0
+  index: -1
+yifu2
+  rotate: false
+  xy: 827, 308
+  size: 149, 339
+  orig: 149, 339
+  offset: 0, 0
+  index: -1
+
+servant942.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bao
+  rotate: true
+  xy: 563, 150
+  size: 219, 91
+  orig: 219, 91
+  offset: 0, 0
+  index: -1
+baozi1
+  rotate: false
+  xy: 921, 242
+  size: 94, 111
+  orig: 94, 111
+  offset: 0, 0
+  index: -1
+jianbang3
+  rotate: false
+  xy: 311, 2
+  size: 186, 117
+  orig: 186, 117
+  offset: 0, 0
+  index: -1
+jianbang4
+  rotate: true
+  xy: 921, 161
+  size: 79, 82
+  orig: 79, 82
+  offset: 0, 0
+  index: -1
+kuzi2
+  rotate: false
+  xy: 119, 52
+  size: 133, 308
+  orig: 133, 308
+  offset: 0, 0
+  index: -1
+kuzi6
+  rotate: false
+  xy: 2, 10
+  size: 115, 350
+  orig: 115, 350
+  offset: 0, 0
+  index: -1
+l_arm
+  rotate: false
+  xy: 426, 143
+  size: 135, 226
+  orig: 135, 226
+  offset: 0, 0
+  index: -1
+l_shou_lder
+  rotate: true
+  xy: 666, 367
+  size: 116, 265
+  orig: 116, 265
+  offset: 0, 0
+  index: -1
+maozi2
+  rotate: false
+  xy: 933, 355
+  size: 89, 128
+  orig: 89, 128
+  offset: 0, 0
+  index: -1
+pidai1
+  rotate: false
+  xy: 254, 46
+  size: 55, 314
+  orig: 55, 314
+  offset: 0, 0
+  index: -1
+pidai2
+  rotate: true
+  xy: 311, 121
+  size: 239, 113
+  orig: 239, 113
+  offset: 0, 0
+  index: -1
+r_arm
+  rotate: false
+  xy: 2, 362
+  size: 352, 121
+  orig: 352, 121
+  offset: 0, 0
+  index: -1
+r_foot
+  rotate: true
+  xy: 356, 371
+  size: 112, 308
+  orig: 112, 308
+  offset: 0, 0
+  index: -1
+r_shou_lder
+  rotate: true
+  xy: 815, 181
+  size: 184, 104
+  orig: 184, 104
+  offset: 0, 0
+  index: -1
+xiezi4
+  rotate: false
+  xy: 656, 179
+  size: 157, 186
+  orig: 157, 186
+  offset: 0, 0
+  index: -1

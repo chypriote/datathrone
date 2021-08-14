@@ -1,0 +1,166 @@
+
+jiarentuoyi100306.png
+size: 1024,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bozhi
+  rotate: false
+  xy: 844, 1355
+  size: 160, 192
+  orig: 160, 192
+  offset: 0, 0
+  index: -1
+hair
+  rotate: true
+  xy: 2, 7
+  size: 195, 180
+  orig: 195, 180
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 184, 2
+  size: 137, 201
+  orig: 137, 201
+  offset: 0, 0
+  index: -1
+jie_1
+  rotate: true
+  xy: 713, 573
+  size: 71, 215
+  orig: 71, 215
+  offset: 0, 0
+  index: -1
+jie_2
+  rotate: true
+  xy: 844, 1238
+  size: 14, 63
+  orig: 14, 63
+  offset: 0, 0
+  index: -1
+jie_3
+  rotate: true
+  xy: 387, 61
+  size: 78, 126
+  orig: 78, 126
+  offset: 0, 0
+  index: -1
+jie_4
+  rotate: true
+  xy: 874, 188
+  size: 176, 70
+  orig: 176, 70
+  offset: 0, 0
+  index: -1
+l_upper_leg
+  rotate: false
+  xy: 487, 543
+  size: 224, 693
+  orig: 224, 693
+  offset: 0, 0
+  index: -1
+maozhi_2
+  rotate: false
+  xy: 197, 141
+  size: 316, 264
+  orig: 316, 264
+  offset: 0, 0
+  index: -1
+r_hand
+  rotate: false
+  xy: 874, 366
+  size: 104, 205
+  orig: 104, 205
+  offset: 0, 0
+  index: -1
+r_upper_leg
+  rotate: false
+  xy: 2, 204
+  size: 193, 980
+  orig: 193, 980
+  offset: 0, 0
+  index: -1
+torso
+  rotate: false
+  xy: 515, 3
+  size: 357, 538
+  orig: 357, 538
+  offset: 0, 0
+  index: -1
+yanpi
+  rotate: false
+  xy: 387, 9
+  size: 118, 50
+  orig: 118, 50
+  offset: 0, 0
+  index: -1
+yifu_1
+  rotate: true
+  xy: 469, 1238
+  size: 790, 373
+  orig: 790, 373
+  offset: 0, 0
+  index: -1
+yifu_2
+  rotate: false
+  xy: 844, 1549
+  size: 170, 479
+  orig: 170, 479
+  offset: 0, 0
+  index: -1
+yifu_3
+  rotate: false
+  xy: 713, 646
+  size: 258, 590
+  orig: 258, 590
+  offset: 0, 0
+  index: -1
+yifu_4
+  rotate: false
+  xy: 197, 407
+  size: 288, 777
+  orig: 288, 777
+  offset: 0, 0
+  index: -1
+yifu_5
+  rotate: false
+  xy: 2, 1186
+  size: 465, 842
+  orig: 465, 842
+  offset: 0, 0
+  index: -1
+ying_2
+  rotate: false
+  xy: 973, 1195
+  size: 49, 158
+  orig: 49, 158
+  offset: 0, 0
+  index: -1
+ying_3
+  rotate: true
+  xy: 844, 1254
+  size: 99, 125
+  orig: 99, 125
+  offset: 0, 0
+  index: -1
+
+jiarentuoyi1003062.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+maozhi_1
+  rotate: true
+  xy: 2, 5
+  size: 161, 324
+  orig: 161, 324
+  offset: 0, 0
+  index: -1
+ying_1
+  rotate: true
+  xy: 328, 2
+  size: 164, 168
+  orig: 164, 168
+  offset: 0, 0
+  index: -1

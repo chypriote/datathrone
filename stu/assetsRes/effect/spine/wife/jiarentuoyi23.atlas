@@ -1,0 +1,237 @@
+
+jiarentuoyi23.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+meifu1
+  rotate: false
+  xy: 1026, 664
+  size: 215, 358
+  orig: 215, 358
+  offset: 0, 0
+  index: -1
+meifu10
+  rotate: false
+  xy: 768, 633
+  size: 256, 389
+  orig: 256, 389
+  offset: 0, 0
+  index: -1
+meifu102
+  rotate: true
+  xy: 1956, 903
+  size: 32, 47
+  orig: 32, 47
+  offset: 0, 0
+  index: -1
+meifu103
+  rotate: true
+  xy: 1981, 937
+  size: 85, 41
+  orig: 85, 41
+  offset: 0, 0
+  index: -1
+meifu104
+  rotate: false
+  xy: 1716, 852
+  size: 43, 76
+  orig: 43, 76
+  offset: 0, 0
+  index: -1
+meifu105
+  rotate: true
+  xy: 963, 531
+  size: 100, 60
+  orig: 100, 60
+  offset: 0, 0
+  index: -1
+meifu106
+  rotate: false
+  xy: 1825, 880
+  size: 59, 55
+  orig: 59, 55
+  offset: 0, 0
+  index: -1
+meifu11
+  rotate: false
+  xy: 2, 26
+  size: 160, 295
+  orig: 160, 295
+  offset: 0, 0
+  index: -1
+meifu12
+  rotate: false
+  xy: 273, 133
+  size: 74, 188
+  orig: 74, 188
+  offset: 0, 0
+  index: -1
+meifu13
+  rotate: false
+  xy: 2, 323
+  size: 330, 699
+  orig: 330, 699
+  offset: 0, 0
+  index: -1
+meifu16
+  rotate: false
+  xy: 709, 363
+  size: 47, 101
+  orig: 47, 101
+  offset: 0, 0
+  index: -1
+meifu17
+  rotate: false
+  xy: 1243, 676
+  size: 91, 346
+  orig: 91, 346
+  offset: 0, 0
+  index: -1
+meifu18
+  rotate: true
+  xy: 768, 488
+  size: 143, 193
+  orig: 143, 193
+  offset: 0, 0
+  index: -1
+meifu19
+  rotate: false
+  xy: 1026, 636
+  size: 85, 26
+  orig: 85, 26
+  offset: 0, 0
+  index: -1
+meifu20
+  rotate: true
+  xy: 1446, 853
+  size: 75, 268
+  orig: 75, 268
+  offset: 0, 0
+  index: -1
+meifu21
+  rotate: false
+  xy: 1761, 882
+  size: 62, 53
+  orig: 62, 53
+  offset: 0, 0
+  index: -1
+meifu2_1
+  rotate: true
+  xy: 334, 348
+  size: 116, 373
+  orig: 116, 373
+  offset: 0, 0
+  index: -1
+meifu2_2
+  rotate: false
+  xy: 334, 466
+  size: 432, 556
+  orig: 432, 556
+  offset: 0, 0
+  index: -1
+meifu3
+  rotate: true
+  xy: 1446, 757
+  size: 94, 205
+  orig: 94, 205
+  offset: 0, 0
+  index: -1
+meifu32
+  rotate: false
+  xy: 1653, 769
+  size: 39, 82
+  orig: 39, 82
+  offset: 0, 0
+  index: -1
+meifu33
+  rotate: true
+  xy: 1557, 722
+  size: 33, 75
+  orig: 33, 75
+  offset: 0, 0
+  index: -1
+meifu4
+  rotate: true
+  xy: 1446, 930
+  size: 92, 311
+  orig: 92, 311
+  offset: 0, 0
+  index: -1
+meifu42
+  rotate: true
+  xy: 1336, 683
+  size: 28, 82
+  orig: 28, 82
+  offset: 0, 0
+  index: -1
+meifu43
+  rotate: true
+  xy: 1886, 895
+  size: 40, 68
+  orig: 40, 68
+  offset: 0, 0
+  index: -1
+meifu44
+  rotate: true
+  xy: 334, 323
+  size: 23, 61
+  orig: 23, 61
+  offset: 0, 0
+  index: -1
+meifu5
+  rotate: true
+  xy: 1446, 719
+  size: 36, 109
+  orig: 36, 109
+  offset: 0, 0
+  index: -1
+meifu6_0
+  rotate: false
+  xy: 164, 46
+  size: 107, 275
+  orig: 107, 275
+  offset: 0, 0
+  index: -1
+meifu6_1
+  rotate: false
+  xy: 1761, 852
+  size: 61, 28
+  orig: 61, 28
+  offset: 0, 0
+  index: -1
+meifu6_2
+  rotate: false
+  xy: 1113, 639
+  size: 43, 23
+  orig: 43, 23
+  offset: 0, 0
+  index: -1
+meifu6_3
+  rotate: false
+  xy: 963, 506
+  size: 58, 23
+  orig: 58, 23
+  offset: 0, 0
+  index: -1
+meifu7
+  rotate: false
+  xy: 273, 2
+  size: 94, 129
+  orig: 94, 129
+  offset: 0, 0
+  index: -1
+meifu8
+  rotate: false
+  xy: 1336, 713
+  size: 108, 309
+  orig: 108, 309
+  offset: 0, 0
+  index: -1
+meifu9
+  rotate: true
+  xy: 1759, 937
+  size: 85, 220
+  orig: 85, 220
+  offset: 0, 0
+  index: -1

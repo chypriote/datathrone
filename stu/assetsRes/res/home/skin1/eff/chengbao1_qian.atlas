@@ -1,0 +1,230 @@
+
+chengbao1_qian.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+caocong1
+  rotate: false
+  xy: 530, 1543
+  size: 220, 120
+  orig: 220, 120
+  offset: 0, 0
+  index: -1
+caocong2
+  rotate: false
+  xy: 530, 1665
+  size: 618, 352
+  orig: 618, 352
+  offset: 0, 0
+  index: -1
+caocong3
+  rotate: false
+  xy: 2, 1076
+  size: 526, 465
+  orig: 526, 465
+  offset: 0, 0
+  index: -1
+caocong4
+  rotate: false
+  xy: 2, 1543
+  size: 526, 474
+  orig: 526, 474
+  offset: 0, 0
+  index: -1
+caocong5
+  rotate: true
+  xy: 2, 477
+  size: 597, 352
+  orig: 597, 352
+  offset: 0, 0
+  index: -1
+caoduo1
+  rotate: false
+  xy: 2, 239
+  size: 90, 236
+  orig: 90, 236
+  offset: 0, 0
+  index: -1
+caoduo10
+  rotate: true
+  xy: 1433, 1804
+  size: 77, 60
+  orig: 77, 60
+  offset: 0, 0
+  index: -1
+caoduo2
+  rotate: false
+  xy: 94, 295
+  size: 114, 180
+  orig: 114, 180
+  offset: 0, 0
+  index: -1
+caoduo3
+  rotate: false
+  xy: 1343, 1756
+  size: 88, 125
+  orig: 88, 125
+  offset: 0, 0
+  index: -1
+caoduo4
+  rotate: true
+  xy: 752, 1547
+  size: 116, 195
+  orig: 116, 195
+  offset: 0, 0
+  index: -1
+caoduo5
+  rotate: false
+  xy: 1343, 1691
+  size: 76, 63
+  orig: 76, 63
+  offset: 0, 0
+  index: -1
+caoduo6
+  rotate: false
+  xy: 356, 845
+  size: 88, 229
+  orig: 88, 229
+  offset: 0, 0
+  index: -1
+caoduo7
+  rotate: false
+  xy: 1150, 1684
+  size: 119, 181
+  orig: 119, 181
+  offset: 0, 0
+  index: -1
+caoduo8
+  rotate: false
+  xy: 356, 524
+  size: 84, 117
+  orig: 84, 117
+  offset: 0, 0
+  index: -1
+caoduo9
+  rotate: false
+  xy: 530, 1347
+  size: 119, 194
+  orig: 119, 194
+  offset: 0, 0
+  index: -1
+huacong
+  rotate: true
+  xy: 1332, 1883
+  size: 134, 163
+  orig: 134, 163
+  offset: 0, 0
+  index: -1
+ma
+  rotate: false
+  xy: 1901, 1901
+  size: 118, 116
+  orig: 118, 116
+  offset: 0, 0
+  index: -1
+mache
+  rotate: false
+  xy: 1150, 1867
+  size: 180, 150
+  orig: 180, 150
+  offset: 0, 0
+  index: -1
+penquan/penquanj_01
+  rotate: true
+  xy: 2, 37
+  size: 200, 70
+  orig: 200, 70
+  offset: 0, 0
+  index: -1
+penquan/penquanj_02
+  rotate: true
+  xy: 356, 643
+  size: 200, 70
+  orig: 200, 70
+  offset: 0, 0
+  index: -1
+penquan/penquanj_03
+  rotate: true
+  xy: 446, 874
+  size: 200, 70
+  orig: 200, 70
+  offset: 0, 0
+  index: -1
+penquan/penquanj_04
+  rotate: true
+  xy: 530, 1145
+  size: 200, 70
+  orig: 200, 70
+  offset: 0, 0
+  index: -1
+penquan/penquanj_05
+  rotate: false
+  xy: 1497, 1947
+  size: 200, 70
+  orig: 200, 70
+  offset: 0, 0
+  index: -1
+penquan/penquanj_06
+  rotate: false
+  xy: 1699, 1947
+  size: 200, 70
+  orig: 200, 70
+  offset: 0, 0
+  index: -1
+penquan/penquanj_07
+  rotate: false
+  xy: 949, 1593
+  size: 200, 70
+  orig: 200, 70
+  offset: 0, 0
+  index: -1
+penquan/penquanj_08
+  rotate: true
+  xy: 651, 1341
+  size: 200, 70
+  orig: 200, 70
+  offset: 0, 0
+  index: -1
+penquan/penquanj_09
+  rotate: false
+  xy: 1497, 1875
+  size: 200, 70
+  orig: 200, 70
+  offset: 0, 0
+  index: -1
+penquan/penquanj_10
+  rotate: false
+  xy: 1699, 1875
+  size: 200, 70
+  orig: 200, 70
+  offset: 0, 0
+  index: -1
+penquan/penquanj_11
+  rotate: true
+  xy: 210, 275
+  size: 200, 70
+  orig: 200, 70
+  offset: 0, 0
+  index: -1
+penquan/penquanj_12
+  rotate: true
+  xy: 282, 275
+  size: 200, 70
+  orig: 200, 70
+  offset: 0, 0
+  index: -1
+penquan/penquanj_13
+  rotate: false
+  xy: 949, 1521
+  size: 200, 70
+  orig: 200, 70
+  offset: 0, 0
+  index: -1
+penquan/penquanj_14
+  rotate: true
+  xy: 1271, 1665
+  size: 200, 70
+  orig: 200, 70
+  offset: 0, 0
+  index: -1

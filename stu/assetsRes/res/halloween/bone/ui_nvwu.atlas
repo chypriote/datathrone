@@ -1,0 +1,13 @@
+
+ui_nvwu.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+nvwu
+  rotate: false
+  xy: 2, 25
+  size: 94, 69
+  orig: 94, 69
+  offset: 0, 0
+  index: -1

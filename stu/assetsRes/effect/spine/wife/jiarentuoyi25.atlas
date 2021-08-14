@@ -1,0 +1,349 @@
+
+jiarentuoyi25.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+daizhi1_1
+  rotate: true
+  xy: 845, 756
+  size: 28, 61
+  orig: 28, 61
+  offset: 0, 0
+  index: -1
+daizhi1_2
+  rotate: false
+  xy: 305, 10
+  size: 32, 104
+  orig: 32, 104
+  offset: 0, 0
+  index: -1
+hair1_1
+  rotate: true
+  xy: 910, 816
+  size: 143, 78
+  orig: 143, 78
+  offset: 0, 0
+  index: -1
+hair1_10
+  rotate: false
+  xy: 1076, 967
+  size: 49, 95
+  orig: 49, 95
+  offset: 0, 0
+  index: -1
+hair1_11
+  rotate: true
+  xy: 189, 259
+  size: 55, 143
+  orig: 55, 143
+  offset: 0, 0
+  index: -1
+hair1_12
+  rotate: true
+  xy: 318, 526
+  size: 76, 128
+  orig: 76, 128
+  offset: 0, 0
+  index: -1
+hair1_13
+  rotate: false
+  xy: 1221, 1070
+  size: 60, 193
+  orig: 60, 193
+  offset: 0, 0
+  index: -1
+hair1_14
+  rotate: true
+  xy: 783, 961
+  size: 104, 215
+  orig: 104, 215
+  offset: 0, 0
+  index: -1
+hair1_2
+  rotate: false
+  xy: 990, 819
+  size: 51, 131
+  orig: 51, 131
+  offset: 0, 0
+  index: -1
+hair1_3
+  rotate: false
+  xy: 1000, 952
+  size: 74, 114
+  orig: 74, 114
+  offset: 0, 0
+  index: -1
+hair1_4
+  rotate: false
+  xy: 1043, 822
+  size: 35, 128
+  orig: 35, 128
+  offset: 0, 0
+  index: -1
+hair1_5
+  rotate: true
+  xy: 460, 579
+  size: 121, 264
+  orig: 121, 264
+  offset: 0, 0
+  index: -1
+hair1_6
+  rotate: true
+  xy: 509, 1222
+  size: 59, 240
+  orig: 59, 240
+  offset: 0, 0
+  index: -1
+hair1_7
+  rotate: false
+  xy: 705, 953
+  size: 76, 267
+  orig: 76, 267
+  offset: 0, 0
+  index: -1
+hair1_8
+  rotate: false
+  xy: 269, 2
+  size: 34, 112
+  orig: 34, 112
+  offset: 0, 0
+  index: -1
+hair1_9
+  rotate: false
+  xy: 790, 746
+  size: 53, 213
+  orig: 53, 213
+  offset: 0, 0
+  index: -1
+head1_1
+  rotate: false
+  xy: 910, 791
+  size: 32, 23
+  orig: 32, 23
+  offset: 0, 0
+  index: -1
+head1_2
+  rotate: true
+  xy: 2029, 2011
+  size: 24, 17
+  orig: 24, 17
+  offset: 0, 0
+  index: -1
+head1_3
+  rotate: false
+  xy: 783, 1067
+  size: 170, 196
+  orig: 170, 196
+  offset: 0, 0
+  index: -1
+l_arm1_1
+  rotate: false
+  xy: 705, 724
+  size: 83, 227
+  orig: 83, 227
+  offset: 0, 0
+  index: -1
+l_hand1_1
+  rotate: false
+  xy: 1833, 1605
+  size: 77, 45
+  orig: 77, 45
+  offset: 0, 0
+  index: -1
+l_hand1_2
+  rotate: false
+  xy: 253, 1173
+  size: 61, 31
+  orig: 61, 31
+  offset: 0, 0
+  index: -1
+l_hand1_3
+  rotate: false
+  xy: 343, 331
+  size: 89, 78
+  orig: 89, 78
+  offset: 0, 0
+  index: -1
+l_lower_leg1_1
+  rotate: true
+  xy: 2, 4
+  size: 250, 265
+  orig: 250, 265
+  offset: 0, 0
+  index: -1
+l_shoulder1_1
+  rotate: false
+  xy: 955, 1068
+  size: 133, 195
+  orig: 133, 195
+  offset: 0, 0
+  index: -1
+l_upper_leg1_1
+  rotate: true
+  xy: 448, 530
+  size: 47, 124
+  orig: 47, 124
+  offset: 0, 0
+  index: -1
+l_upper_leg1_2
+  rotate: true
+  xy: 574, 549
+  size: 28, 129
+  orig: 28, 129
+  offset: 0, 0
+  index: -1
+l_upper_leg1_3
+  rotate: true
+  xy: 1745, 1607
+  size: 43, 86
+  orig: 43, 86
+  offset: 0, 0
+  index: -1
+l_upper_leg1_4
+  rotate: false
+  xy: 2004, 1872
+  size: 23, 163
+  orig: 23, 163
+  offset: 0, 0
+  index: -1
+l_upper_leg1_5
+  rotate: false
+  xy: 845, 786
+  size: 63, 173
+  orig: 63, 173
+  offset: 0, 0
+  index: -1
+l_upper_leg1_6
+  rotate: false
+  xy: 1763, 1652
+  size: 239, 383
+  orig: 239, 383
+  offset: 0, 0
+  index: -1
+pelvis1_1
+  rotate: true
+  xy: 1080, 867
+  size: 98, 41
+  orig: 98, 41
+  offset: 0, 0
+  index: -1
+pelvis1_2
+  rotate: false
+  xy: 1127, 999
+  size: 78, 63
+  orig: 78, 63
+  offset: 0, 0
+  index: -1
+pife1_1
+  rotate: false
+  xy: 189, 519
+  size: 127, 609
+  orig: 127, 609
+  offset: 0, 0
+  index: -1
+pife1_2
+  rotate: true
+  xy: 1214, 1758
+  size: 277, 547
+  orig: 277, 547
+  offset: 0, 0
+  index: -1
+pife1_3
+  rotate: false
+  xy: 770, 1564
+  size: 442, 471
+  orig: 442, 471
+  offset: 0, 0
+  index: -1
+pife1_4
+  rotate: false
+  xy: 509, 1283
+  size: 259, 752
+  orig: 259, 752
+  offset: 0, 0
+  index: -1
+pife1_5
+  rotate: true
+  xy: 1214, 1581
+  size: 175, 529
+  orig: 175, 529
+  offset: 0, 0
+  index: -1
+pife1_6
+  rotate: false
+  xy: 460, 702
+  size: 243, 502
+  orig: 243, 502
+  offset: 0, 0
+  index: -1
+pife2_1
+  rotate: false
+  xy: 2, 1130
+  size: 249, 905
+  orig: 249, 905
+  offset: 0, 0
+  index: -1
+pife2_2
+  rotate: false
+  xy: 269, 116
+  size: 60, 141
+  orig: 60, 141
+  offset: 0, 0
+  index: -1
+pife2_3
+  rotate: false
+  xy: 253, 1206
+  size: 254, 829
+  orig: 254, 829
+  offset: 0, 0
+  index: -1
+pife2_4
+  rotate: false
+  xy: 318, 604
+  size: 140, 600
+  orig: 140, 600
+  offset: 0, 0
+  index: -1
+r_arm1_1
+  rotate: false
+  xy: 1090, 1064
+  size: 129, 199
+  orig: 129, 199
+  offset: 0, 0
+  index: -1
+r_hand1_1
+  rotate: true
+  xy: 343, 411
+  size: 113, 93
+  orig: 113, 93
+  offset: 0, 0
+  index: -1
+r_shoulder1_1
+  rotate: true
+  xy: 189, 316
+  size: 201, 152
+  orig: 201, 152
+  offset: 0, 0
+  index: -1
+r_upper_leg1_1
+  rotate: false
+  xy: 2, 256
+  size: 185, 872
+  orig: 185, 872
+  offset: 0, 0
+  index: -1
+torso1_1
+  rotate: true
+  xy: 770, 1265
+  size: 297, 512
+  orig: 297, 512
+  offset: 0, 0
+  index: -1
+torso2_1
+  rotate: true
+  xy: 1284, 1277
+  size: 302, 519
+  orig: 302, 519
+  offset: 0, 0
+  index: -1

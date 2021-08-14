@@ -1,0 +1,89 @@
+
+sanzhigongjian.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+kf_lingqi1/kf_lingqi1_1
+  rotate: false
+  xy: 2, 762
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+kf_lingqi1/kf_lingqi1_2
+  rotate: false
+  xy: 254, 762
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+kf_lingqi1/kf_lingqi1_3
+  rotate: false
+  xy: 506, 762
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+kf_lingqi1/kf_lingqi1_4
+  rotate: false
+  xy: 758, 762
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+kf_lingqi1/kf_lingqi1_5
+  rotate: false
+  xy: 2, 510
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+kf_lingqi1/kf_lingqi1_6
+  rotate: false
+  xy: 254, 510
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+kf_lingqi1/kf_lingqi1_7
+  rotate: false
+  xy: 506, 510
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+kf_lingqi1/kf_lingqi1_8
+  rotate: false
+  xy: 758, 510
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+sjbs_jian_2
+  rotate: true
+  xy: 2, 250
+  size: 258, 319
+  orig: 258, 319
+  offset: 0, 0
+  index: -1
+sjbs_xian
+  rotate: true
+  xy: 323, 114
+  size: 394, 691
+  orig: 394, 691
+  offset: 0, 0
+  index: -1
+
+sanzhigongjian2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sjbs_gong
+  rotate: false
+  xy: 2, 2
+  size: 427, 725
+  orig: 427, 725
+  offset: 0, 0
+  index: -1

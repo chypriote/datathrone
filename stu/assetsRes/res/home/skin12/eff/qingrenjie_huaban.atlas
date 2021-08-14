@@ -1,0 +1,62 @@
+
+qingrenjie_huaban.png
+size: 296,610
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/huaban_00000
+  rotate: false
+  xy: 2, 468
+  size: 150, 140
+  orig: 150, 140
+  offset: 0, 0
+  index: -1
+images/huaban_00001
+  rotate: true
+  xy: 154, 458
+  size: 150, 140
+  orig: 150, 140
+  offset: 0, 0
+  index: -1
+images/huaban_00002
+  rotate: false
+  xy: 2, 326
+  size: 150, 140
+  orig: 150, 140
+  offset: 0, 0
+  index: -1
+images/huaban_00003
+  rotate: true
+  xy: 154, 306
+  size: 150, 140
+  orig: 150, 140
+  offset: 0, 0
+  index: -1
+images/huaban_00004
+  rotate: false
+  xy: 2, 184
+  size: 150, 140
+  orig: 150, 140
+  offset: 0, 0
+  index: -1
+images/huaban_00005
+  rotate: true
+  xy: 154, 154
+  size: 150, 140
+  orig: 150, 140
+  offset: 0, 0
+  index: -1
+images/huaban_00006
+  rotate: false
+  xy: 2, 42
+  size: 150, 140
+  orig: 150, 140
+  offset: 0, 0
+  index: -1
+images/huaban_00007
+  rotate: true
+  xy: 154, 2
+  size: 150, 140
+  orig: 150, 140
+  offset: 0, 0
+  index: -1

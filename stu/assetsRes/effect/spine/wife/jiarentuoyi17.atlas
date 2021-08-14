@@ -1,0 +1,160 @@
+
+jiarentuoyi17.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+biyan
+  rotate: false
+  xy: 946, 91
+  size: 105, 38
+  orig: 105, 38
+  offset: 0, 0
+  index: -1
+fa
+  rotate: true
+  xy: 1212, 219
+  size: 35, 85
+  orig: 35, 85
+  offset: 0, 0
+  index: -1
+fa1
+  rotate: false
+  xy: 1811, 294
+  size: 52, 71
+  orig: 52, 71
+  offset: 0, 0
+  index: -1
+fa2
+  rotate: true
+  xy: 1146, 340
+  size: 170, 405
+  orig: 170, 405
+  offset: 0, 0
+  index: -1
+fa3
+  rotate: false
+  xy: 1399, 265
+  size: 58, 48
+  orig: 58, 48
+  offset: 0, 0
+  index: -1
+fa4
+  rotate: false
+  xy: 642, 153
+  size: 74, 26
+  orig: 74, 26
+  offset: 0, 0
+  index: -1
+fa6
+  rotate: true
+  xy: 718, 288
+  size: 222, 426
+  orig: 222, 426
+  offset: 0, 0
+  index: -1
+houfa
+  rotate: false
+  xy: 560, 41
+  size: 54, 67
+  orig: 54, 67
+  offset: 0, 0
+  index: -1
+shen
+  rotate: false
+  xy: 2, 37
+  size: 343, 473
+  orig: 343, 473
+  offset: 0, 0
+  index: -1
+shen1
+  rotate: false
+  xy: 347, 181
+  size: 369, 329
+  orig: 369, 329
+  offset: 0, 0
+  index: -1
+shou
+  rotate: true
+  xy: 1553, 306
+  size: 59, 256
+  orig: 59, 256
+  offset: 0, 0
+  index: -1
+shou01
+  rotate: false
+  xy: 560, 110
+  size: 80, 69
+  orig: 80, 69
+  offset: 0, 0
+  index: -1
+shou02
+  rotate: true
+  xy: 1149, 256
+  size: 82, 248
+  orig: 82, 248
+  offset: 0, 0
+  index: -1
+shou2
+  rotate: true
+  xy: 1553, 367
+  size: 143, 310
+  orig: 143, 310
+  offset: 0, 0
+  index: -1
+shou3
+  rotate: true
+  xy: 946, 131
+  size: 155, 201
+  orig: 155, 201
+  offset: 0, 0
+  index: -1
+shou4
+  rotate: false
+  xy: 1149, 171
+  size: 61, 83
+  orig: 61, 83
+  offset: 0, 0
+  index: -1
+shou5
+  rotate: true
+  xy: 2, 2
+  size: 33, 91
+  orig: 33, 91
+  offset: 0, 0
+  index: -1
+shou6
+  rotate: true
+  xy: 95, 8
+  size: 27, 92
+  orig: 27, 92
+  offset: 0, 0
+  index: -1
+shou7
+  rotate: true
+  xy: 1399, 315
+  size: 23, 101
+  orig: 23, 101
+  offset: 0, 0
+  index: -1
+tou
+  rotate: true
+  xy: 347, 12
+  size: 167, 211
+  orig: 167, 211
+  offset: 0, 0
+  index: -1
+tui
+  rotate: true
+  xy: 1865, 327
+  size: 183, 169
+  orig: 183, 169
+  offset: 0, 0
+  index: -1
+tui1
+  rotate: true
+  xy: 718, 91
+  size: 195, 226
+  orig: 195, 226
+  offset: 0, 0
+  index: -1

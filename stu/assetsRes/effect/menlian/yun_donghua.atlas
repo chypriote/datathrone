@@ -1,0 +1,13 @@
+
+yun_donghua.png
+size: 1079,700
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dayun
+  rotate: false
+  xy: 2, 2
+  size: 1075, 696
+  orig: 1075, 696
+  offset: 0, 0
+  index: -1

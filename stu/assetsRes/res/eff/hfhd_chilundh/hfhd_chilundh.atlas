@@ -1,0 +1,244 @@
+
+hfhd_chilundh.png
+size: 93,141
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/dalun/a1
+  rotate: false
+  xy: 2, 80
+  size: 5, 59
+  orig: 5, 59
+  offset: 0, 0
+  index: -1
+image/dalun/a2
+  rotate: false
+  xy: 2, 19
+  size: 5, 59
+  orig: 5, 59
+  offset: 0, 0
+  index: -1
+image/dalun/a3
+  rotate: false
+  xy: 9, 80
+  size: 5, 59
+  orig: 5, 59
+  offset: 0, 0
+  index: -1
+image/dalun/a4
+  rotate: false
+  xy: 9, 19
+  size: 5, 59
+  orig: 5, 59
+  offset: 0, 0
+  index: -1
+image/dalun/a5
+  rotate: false
+  xy: 16, 80
+  size: 5, 59
+  orig: 5, 59
+  offset: 0, 0
+  index: -1
+image/dalun/a6
+  rotate: false
+  xy: 16, 19
+  size: 5, 59
+  orig: 5, 59
+  offset: 0, 0
+  index: -1
+image/dalun/a7
+  rotate: false
+  xy: 23, 80
+  size: 5, 59
+  orig: 5, 59
+  offset: 0, 0
+  index: -1
+image/dalun/b1
+  rotate: false
+  xy: 30, 85
+  size: 10, 54
+  orig: 10, 54
+  offset: 0, 0
+  index: -1
+image/dalun/b2
+  rotate: false
+  xy: 42, 85
+  size: 10, 54
+  orig: 10, 54
+  offset: 0, 0
+  index: -1
+image/dalun/b3
+  rotate: false
+  xy: 54, 85
+  size: 10, 54
+  orig: 10, 54
+  offset: 0, 0
+  index: -1
+image/dalun/b4
+  rotate: false
+  xy: 66, 85
+  size: 10, 54
+  orig: 10, 54
+  offset: 0, 0
+  index: -1
+image/dalun/b5
+  rotate: false
+  xy: 78, 85
+  size: 10, 54
+  orig: 10, 54
+  offset: 0, 0
+  index: -1
+image/dalun/b6
+  rotate: false
+  xy: 23, 24
+  size: 10, 54
+  orig: 10, 54
+  offset: 0, 0
+  index: -1
+image/dalun/b7
+  rotate: false
+  xy: 35, 29
+  size: 10, 54
+  orig: 10, 54
+  offset: 0, 0
+  index: -1
+image/dalun/b8
+  rotate: false
+  xy: 47, 29
+  size: 10, 54
+  orig: 10, 54
+  offset: 0, 0
+  index: -1
+image/xiaolun/c1
+  rotate: true
+  xy: 2, 10
+  size: 7, 18
+  orig: 7, 18
+  offset: 0, 0
+  index: -1
+image/xiaolun/c2
+  rotate: true
+  xy: 35, 20
+  size: 7, 18
+  orig: 7, 18
+  offset: 0, 0
+  index: -1
+image/xiaolun/c3
+  rotate: false
+  xy: 23, 4
+  size: 7, 18
+  orig: 7, 18
+  offset: 0, 0
+  index: -1
+image/xiaolun/c4
+  rotate: true
+  xy: 32, 11
+  size: 7, 18
+  orig: 7, 18
+  offset: 0, 0
+  index: -1
+image/xiaolun/c5
+  rotate: true
+  xy: 32, 2
+  size: 7, 18
+  orig: 7, 18
+  offset: 0, 0
+  index: -1
+image/xiaolun/c6
+  rotate: true
+  xy: 55, 13
+  size: 7, 18
+  orig: 7, 18
+  offset: 0, 0
+  index: -1
+image/xiaolun/c7
+  rotate: false
+  xy: 75, 2
+  size: 7, 18
+  orig: 7, 18
+  offset: 0, 0
+  index: -1
+image/xiaolun/d1
+  rotate: true
+  xy: 59, 76
+  size: 7, 32
+  orig: 7, 32
+  offset: 0, 0
+  index: -1
+image/xiaolun/d2
+  rotate: true
+  xy: 59, 67
+  size: 7, 32
+  orig: 7, 32
+  offset: 0, 0
+  index: -1
+image/xiaolun/d3
+  rotate: true
+  xy: 59, 58
+  size: 7, 32
+  orig: 7, 32
+  offset: 0, 0
+  index: -1
+image/xiaolun/d4
+  rotate: true
+  xy: 59, 49
+  size: 7, 32
+  orig: 7, 32
+  offset: 0, 0
+  index: -1
+image/xiaolun/d5
+  rotate: true
+  xy: 59, 40
+  size: 7, 32
+  orig: 7, 32
+  offset: 0, 0
+  index: -1
+image/xiaolun/d6
+  rotate: true
+  xy: 59, 31
+  size: 7, 32
+  orig: 7, 32
+  offset: 0, 0
+  index: -1
+image/xiaolun/d7
+  rotate: true
+  xy: 59, 22
+  size: 7, 32
+  orig: 7, 32
+  offset: 0, 0
+  index: -1
+image/xiaolun/e1
+  rotate: false
+  xy: 2, 2
+  size: 5, 6
+  orig: 5, 6
+  offset: 0, 0
+  index: -1
+image/xiaolun/e2
+  rotate: false
+  xy: 9, 2
+  size: 5, 6
+  orig: 5, 6
+  offset: 0, 0
+  index: -1
+image/xiaolun/e3
+  rotate: false
+  xy: 9, 2
+  size: 5, 6
+  orig: 5, 6
+  offset: 0, 0
+  index: -1
+image/xiaolun/e4
+  rotate: false
+  xy: 16, 2
+  size: 5, 6
+  orig: 5, 6
+  offset: 0, 0
+  index: -1
+image/xiaolun/e5
+  rotate: false
+  xy: 84, 14
+  size: 5, 6
+  orig: 5, 6
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,279 @@
+
+jiarenweituoyi208.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fabu
+  rotate: false
+  xy: 1113, 1406
+  size: 214, 312
+  orig: 214, 312
+  offset: 0, 0
+  index: -1
+hair
+  rotate: true
+  xy: 326, 528
+  size: 199, 126
+  orig: 199, 126
+  offset: 0, 0
+  index: -1
+hair_1
+  rotate: false
+  xy: 308, 144
+  size: 37, 368
+  orig: 37, 368
+  offset: 0, 0
+  index: -1
+hair_10
+  rotate: true
+  xy: 712, 1105
+  size: 84, 218
+  orig: 84, 218
+  offset: 0, 0
+  index: -1
+hair_11
+  rotate: true
+  xy: 355, 1215
+  size: 97, 239
+  orig: 97, 239
+  offset: 0, 0
+  index: -1
+hair_12
+  rotate: false
+  xy: 504, 864
+  size: 60, 349
+  orig: 60, 349
+  offset: 0, 0
+  index: -1
+hair_13
+  rotate: false
+  xy: 476, 283
+  size: 35, 261
+  orig: 35, 261
+  offset: 0, 0
+  index: -1
+hair_14
+  rotate: true
+  xy: 712, 1191
+  size: 83, 251
+  orig: 83, 251
+  offset: 0, 0
+  index: -1
+hair_15
+  rotate: false
+  xy: 1454, 1428
+  size: 35, 298
+  orig: 35, 298
+  offset: 0, 0
+  index: -1
+hair_16
+  rotate: false
+  xy: 501, 555
+  size: 19, 172
+  orig: 19, 172
+  offset: 0, 0
+  index: -1
+hair_17
+  rotate: false
+  xy: 454, 546
+  size: 45, 181
+  orig: 45, 181
+  offset: 0, 0
+  index: -1
+hair_18
+  rotate: true
+  xy: 347, 226
+  size: 17, 126
+  orig: 17, 126
+  offset: 0, 0
+  index: -1
+hair_19
+  rotate: true
+  xy: 709, 842
+  size: 14, 108
+  orig: 14, 108
+  offset: 0, 0
+  index: -1
+hair_2
+  rotate: false
+  xy: 566, 850
+  size: 36, 363
+  orig: 36, 363
+  offset: 0, 0
+  index: -1
+hair_20
+  rotate: false
+  xy: 1488, 1762
+  size: 32, 134
+  orig: 32, 134
+  offset: 0, 0
+  index: -1
+hair_3
+  rotate: false
+  xy: 1406, 1401
+  size: 46, 317
+  orig: 46, 317
+  offset: 0, 0
+  index: -1
+hair_4
+  rotate: false
+  xy: 1329, 1410
+  size: 75, 308
+  orig: 75, 308
+  offset: 0, 0
+  index: -1
+hair_5
+  rotate: false
+  xy: 308, 2
+  size: 74, 140
+  orig: 74, 140
+  offset: 0, 0
+  index: -1
+hair_6
+  rotate: false
+  xy: 604, 1070
+  size: 106, 242
+  orig: 106, 242
+  offset: 0, 0
+  index: -1
+hair_7
+  rotate: true
+  xy: 712, 1032
+  size: 71, 227
+  orig: 71, 227
+  offset: 0, 0
+  index: -1
+hair_8
+  rotate: false
+  xy: 864, 810
+  size: 75, 220
+  orig: 75, 220
+  offset: 0, 0
+  index: -1
+hair_9
+  rotate: false
+  xy: 1417, 1728
+  size: 69, 168
+  orig: 69, 168
+  offset: 0, 0
+  index: -1
+hair_yinying
+  rotate: false
+  xy: 504, 820
+  size: 50, 42
+  orig: 50, 42
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 709, 858
+  size: 153, 172
+  orig: 153, 172
+  offset: 0, 0
+  index: -1
+houqunbai
+  rotate: false
+  xy: 2, 1215
+  size: 351, 831
+  orig: 351, 831
+  offset: 0, 0
+  index: -1
+l_lansedaizhi
+  rotate: false
+  xy: 347, 245
+  size: 127, 281
+  orig: 127, 281
+  offset: 0, 0
+  index: -1
+l_shoulder
+  rotate: true
+  xy: 752, 1720
+  size: 176, 663
+  orig: 176, 663
+  offset: 0, 0
+  index: -1
+l_upper_leg
+  rotate: true
+  xy: 752, 1898
+  size: 148, 807
+  orig: 148, 807
+  offset: 0, 0
+  index: -1
+qiandaiozhi
+  rotate: true
+  xy: 1561, 1870
+  size: 176, 485
+  orig: 176, 485
+  offset: 0, 0
+  index: -1
+qianpiaodaiyingzhi
+  rotate: false
+  xy: 326, 729
+  size: 176, 484
+  orig: 176, 484
+  offset: 0, 0
+  index: -1
+qunzhi_qian
+  rotate: false
+  xy: 355, 1314
+  size: 395, 732
+  orig: 395, 732
+  offset: 0, 0
+  index: -1
+r_lansrdaizhi
+  rotate: true
+  xy: 752, 1276
+  size: 130, 343
+  orig: 130, 343
+  offset: 0, 0
+  index: -1
+r_shoulder
+  rotate: false
+  xy: 752, 1408
+  size: 359, 310
+  orig: 359, 310
+  offset: 0, 0
+  index: -1
+r_shouzhi
+  rotate: true
+  xy: 932, 1144
+  size: 45, 22
+  orig: 45, 22
+  offset: 0, 0
+  index: -1
+r_upper_leg
+  rotate: false
+  xy: 2, 514
+  size: 322, 699
+  orig: 322, 699
+  offset: 0, 0
+  index: -1
+shangyi_l_lantiao
+  rotate: false
+  xy: 604, 830
+  size: 103, 238
+  orig: 103, 238
+  offset: 0, 0
+  index: -1
+shangyi_r_lantiao
+  rotate: true
+  xy: 1097, 1273
+  size: 131, 249
+  orig: 131, 249
+  offset: 0, 0
+  index: -1
+torso
+  rotate: false
+  xy: 2, 6
+  size: 304, 506
+  orig: 304, 506
+  offset: 0, 0
+  index: -1
+yanpi
+  rotate: false
+  xy: 965, 1247
+  size: 105, 27
+  orig: 105, 27
+  offset: 0, 0
+  index: -1

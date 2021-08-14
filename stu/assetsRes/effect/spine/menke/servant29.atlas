@@ -1,0 +1,146 @@
+
+servant29.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+biyan
+  rotate: false
+  xy: 596, 668
+  size: 68, 22
+  orig: 68, 23
+  offset: 0, 0
+  index: -1
+daizi
+  rotate: false
+  xy: 560, 266
+  size: 258, 128
+  orig: 258, 128
+  offset: 0, 0
+  index: -1
+erduo
+  rotate: false
+  xy: 964, 342
+  size: 23, 42
+  orig: 23, 42
+  offset: 0, 0
+  index: -1
+huzi
+  rotate: false
+  xy: 662, 3
+  size: 117, 99
+  orig: 117, 99
+  offset: 0, 0
+  index: -1
+jian
+  rotate: false
+  xy: 251, 191
+  size: 307, 232
+  orig: 308, 232
+  offset: 0, 0
+  index: -1
+lian
+  rotate: true
+  xy: 820, 271
+  size: 113, 142
+  orig: 113, 142
+  offset: 0, 0
+  index: -1
+lingzi
+  rotate: false
+  xy: 673, 623
+  size: 338, 89
+  orig: 338, 89
+  offset: 0, 0
+  index: -1
+maozi
+  rotate: true
+  xy: 783, 108
+  size: 156, 93
+  orig: 156, 93
+  offset: 0, 0
+  index: -1
+pidai
+  rotate: false
+  xy: 596, 396
+  size: 300, 225
+  orig: 300, 225
+  offset: 0, 0
+  index: -1
+pifemg
+  rotate: false
+  xy: 2, 465
+  size: 266, 553
+  orig: 266, 553
+  offset: 0, 0
+  index: -1
+pifeng_L
+  rotate: true
+  xy: 529, 2
+  size: 100, 131
+  orig: 100, 131
+  offset: 0, 0
+  index: -1
+pifenng2
+  rotate: false
+  xy: 2, 55
+  size: 247, 408
+  orig: 247, 408
+  offset: 0, 0
+  index: -1
+touqiu
+  rotate: true
+  xy: 878, 47
+  size: 73, 76
+  orig: 73, 76
+  offset: 0, 0
+  index: -1
+xiashen
+  rotate: false
+  xy: 270, 692
+  size: 401, 326
+  orig: 402, 326
+  offset: 0, 0
+  index: -1
+xiashen1
+  rotate: true
+  xy: 270, 425
+  size: 265, 324
+  orig: 266, 324
+  offset: 0, 0
+  index: -1
+xiongjia
+  rotate: true
+  xy: 673, 714
+  size: 304, 340
+  orig: 304, 340
+  offset: 0, 0
+  index: -1
+yiling
+  rotate: true
+  xy: 878, 122
+  size: 147, 120
+  orig: 147, 120
+  offset: 0, 0
+  index: -1
+youbi
+  rotate: true
+  xy: 251, 63
+  size: 126, 276
+  orig: 126, 276
+  offset: 0, 0
+  index: -1
+youbi_1
+  rotate: false
+  xy: 898, 386
+  size: 123, 235
+  orig: 124, 235
+  offset: 1, 0
+  index: -1
+zuobi
+  rotate: false
+  xy: 560, 104
+  size: 221, 160
+  orig: 221, 160
+  offset: 0, 0
+  index: -1

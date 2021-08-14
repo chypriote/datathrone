@@ -1,0 +1,27 @@
+
+cb_xunlu.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xunlu1
+  rotate: false
+  xy: 2, 126
+  size: 193, 111
+  orig: 193, 111
+  offset: 0, 0
+  index: -1
+xunlu2
+  rotate: false
+  xy: 2, 3
+  size: 60, 85
+  orig: 60, 85
+  offset: 0, 0
+  index: -1
+xunlu_yingzi
+  rotate: false
+  xy: 2, 90
+  size: 237, 34
+  orig: 237, 34
+  offset: 0, 0
+  index: -1

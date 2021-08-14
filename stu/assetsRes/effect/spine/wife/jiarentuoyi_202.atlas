@@ -1,0 +1,125 @@
+
+jiarentuoyi_202.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+biyan
+  rotate: true
+  xy: 1949, 891
+  size: 108, 53
+  orig: 108, 53
+  offset: 0, 0
+  index: -1
+leikubua
+  rotate: true
+  xy: 1916, 785
+  size: 39, 12
+  orig: 39, 12
+  offset: 0, 0
+  index: -1
+leikui
+  rotate: false
+  xy: 575, 474
+  size: 307, 525
+  orig: 307, 525
+  offset: 0, 0
+  index: -1
+qunzi
+  rotate: false
+  xy: 784, 130
+  size: 194, 342
+  orig: 194, 342
+  offset: 0, 0
+  index: -1
+shangshen
+  rotate: false
+  xy: 374, 2
+  size: 246, 404
+  orig: 246, 404
+  offset: 0, 0
+  index: -1
+shangshen1
+  rotate: true
+  xy: 2, 53
+  size: 263, 370
+  orig: 263, 370
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 1283, 272
+  size: 184, 229
+  orig: 184, 229
+  offset: 0, 0
+  index: -1
+toufa1
+  rotate: true
+  xy: 1397, 656
+  size: 168, 517
+  orig: 168, 517
+  offset: 0, 0
+  index: -1
+toufa2
+  rotate: false
+  xy: 980, 183
+  size: 176, 320
+  orig: 176, 320
+  offset: 0, 0
+  index: -1
+toufa3
+  rotate: true
+  xy: 1397, 503
+  size: 151, 424
+  orig: 151, 424
+  offset: 0, 0
+  index: -1
+toufa4
+  rotate: false
+  xy: 884, 505
+  size: 256, 494
+  orig: 256, 494
+  offset: 0, 0
+  index: -1
+toufa5
+  rotate: false
+  xy: 297, 408
+  size: 276, 591
+  orig: 276, 591
+  offset: 0, 0
+  index: -1
+youbi
+  rotate: false
+  xy: 1158, 192
+  size: 123, 321
+  orig: 123, 321
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: true
+  xy: 622, 78
+  size: 394, 160
+  orig: 394, 160
+  offset: 0, 0
+  index: -1
+youtui
+  rotate: false
+  xy: 1142, 515
+  size: 253, 484
+  orig: 253, 484
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: false
+  xy: 2, 318
+  size: 293, 681
+  orig: 293, 681
+  offset: 0, 0
+  index: -1
+zuotui
+  rotate: true
+  xy: 1397, 826
+  size: 173, 550
+  orig: 173, 550
+  offset: 0, 0
+  index: -1

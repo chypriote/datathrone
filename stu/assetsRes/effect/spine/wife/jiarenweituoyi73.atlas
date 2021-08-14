@@ -1,0 +1,132 @@
+
+jiarenweituoyi73.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+biyan
+  rotate: true
+  xy: 973, 946
+  size: 73, 38
+  orig: 73, 38
+  offset: 0, 0
+  index: -1
+fashi
+  rotate: false
+  xy: 859, 805
+  size: 112, 214
+  orig: 112, 214
+  offset: 0, 0
+  index: -1
+fashi1
+  rotate: true
+  xy: 514, 282
+  size: 15, 42
+  orig: 15, 42
+  offset: 0, 0
+  index: -1
+fashi2
+  rotate: false
+  xy: 2, 2
+  size: 65, 29
+  orig: 65, 29
+  offset: 0, 0
+  index: -1
+qunzi
+  rotate: false
+  xy: 2, 279
+  size: 510, 740
+  orig: 510, 740
+  offset: 0, 0
+  index: -1
+shangshen
+  rotate: false
+  xy: 607, 59
+  size: 168, 238
+  orig: 168, 238
+  offset: 0, 0
+  index: -1
+shoubi
+  rotate: false
+  xy: 514, 299
+  size: 343, 720
+  orig: 343, 720
+  offset: 0, 0
+  index: -1
+shoubi1
+  rotate: false
+  xy: 859, 635
+  size: 129, 168
+  orig: 129, 168
+  offset: 0, 0
+  index: -1
+shoushanzi
+  rotate: false
+  xy: 222, 35
+  size: 213, 242
+  orig: 213, 242
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 2, 33
+  size: 218, 244
+  orig: 218, 244
+  offset: 0, 0
+  index: -1
+yaodai
+  rotate: false
+  xy: 870, 205
+  size: 86, 125
+  orig: 86, 125
+  offset: 0, 0
+  index: -1
+yaodai1
+  rotate: false
+  xy: 859, 332
+  size: 137, 148
+  orig: 137, 148
+  offset: 0, 0
+  index: -1
+yaodai2
+  rotate: false
+  xy: 777, 25
+  size: 98, 113
+  orig: 98, 113
+  offset: 0, 0
+  index: -1
+yaodai3
+  rotate: false
+  xy: 777, 140
+  size: 91, 157
+  orig: 91, 157
+  offset: 0, 0
+  index: -1
+yaodai4
+  rotate: false
+  xy: 877, 104
+  size: 86, 99
+  orig: 86, 99
+  offset: 0, 0
+  index: -1
+yaodai5
+  rotate: false
+  xy: 859, 482
+  size: 147, 151
+  orig: 147, 151
+  offset: 0, 0
+  index: -1
+yifu
+  rotate: true
+  xy: 437, 26
+  size: 251, 168
+  orig: 251, 168
+  offset: 0, 0
+  index: -1
+youfa1
+  rotate: true
+  xy: 877, 21
+  size: 81, 84
+  orig: 81, 84
+  offset: 0, 0
+  index: -1

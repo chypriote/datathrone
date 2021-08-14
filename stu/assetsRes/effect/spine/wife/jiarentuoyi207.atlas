@@ -1,0 +1,307 @@
+
+jiarentuoyi207.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+biyan
+  rotate: false
+  xy: 404, 2
+  size: 30, 17
+  orig: 30, 17
+  offset: 0, 0
+  index: -1
+hair1
+  rotate: true
+  xy: 361, 2
+  size: 12, 30
+  orig: 12, 30
+  offset: 0, 0
+  index: -1
+hair2
+  rotate: false
+  xy: 1338, 122
+  size: 30, 56
+  orig: 30, 56
+  offset: 0, 0
+  index: -1
+hair3
+  rotate: true
+  xy: 1800, 193
+  size: 52, 76
+  orig: 52, 76
+  offset: 0, 0
+  index: -1
+hair4
+  rotate: false
+  xy: 2012, 302
+  size: 34, 53
+  orig: 34, 53
+  offset: 0, 0
+  index: -1
+hair5
+  rotate: false
+  xy: 1765, 215
+  size: 33, 89
+  orig: 33, 89
+  offset: 0, 0
+  index: -1
+hair6
+  rotate: false
+  xy: 1071, 30
+  size: 75, 81
+  orig: 75, 81
+  offset: 0, 0
+  index: -1
+hair7
+  rotate: true
+  xy: 1377, 178
+  size: 84, 149
+  orig: 84, 149
+  offset: 0, 0
+  index: -1
+hair8
+  rotate: false
+  xy: 1294, 28
+  size: 54, 60
+  orig: 54, 60
+  offset: 0, 0
+  index: -1
+hair9
+  rotate: false
+  xy: 500, 46
+  size: 65, 72
+  orig: 65, 72
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 532, 129
+  size: 213, 197
+  orig: 213, 197
+  offset: 0, 0
+  index: -1
+l_arm
+  rotate: true
+  xy: 1800, 357
+  size: 74, 222
+  orig: 74, 222
+  offset: 0, 0
+  index: -1
+l_arm_yinying
+  rotate: true
+  xy: 1148, 46
+  size: 65, 48
+  orig: 65, 48
+  offset: 0, 0
+  index: -1
+l_hand
+  rotate: true
+  xy: 1006, 3
+  size: 106, 63
+  orig: 106, 63
+  offset: 0, 0
+  index: -1
+l_lower_leg
+  rotate: true
+  xy: 2, 120
+  size: 206, 528
+  orig: 206, 528
+  offset: 0, 0
+  index: -1
+l_shoulder
+  rotate: true
+  xy: 2, 11
+  size: 107, 265
+  orig: 107, 265
+  offset: 0, 0
+  index: -1
+l_tuidai
+  rotate: false
+  xy: 1657, 260
+  size: 106, 44
+  orig: 106, 44
+  offset: 0, 0
+  index: -1
+l_upper_leg
+  rotate: true
+  xy: 753, 235
+  size: 275, 443
+  orig: 275, 443
+  offset: 0, 0
+  index: -1
+neck
+  rotate: true
+  xy: 1537, 306
+  size: 204, 261
+  orig: 204, 261
+  offset: 0, 0
+  index: -1
+putao1
+  rotate: true
+  xy: 567, 49
+  size: 23, 40
+  orig: 23, 40
+  offset: 0, 0
+  index: -1
+putao2
+  rotate: false
+  xy: 2012, 263
+  size: 23, 37
+  orig: 23, 37
+  offset: 0, 0
+  index: -1
+putao3
+  rotate: true
+  xy: 404, 21
+  size: 24, 39
+  orig: 24, 39
+  offset: 0, 0
+  index: -1
+putao5
+  rotate: false
+  xy: 1929, 263
+  size: 81, 92
+  orig: 81, 92
+  offset: 0, 0
+  index: -1
+putao6
+  rotate: true
+  xy: 747, 104
+  size: 129, 168
+  orig: 129, 168
+  offset: 0, 0
+  index: -1
+putao7
+  rotate: false
+  xy: 613, 88
+  size: 25, 39
+  orig: 25, 39
+  offset: 0, 0
+  index: -1
+r_arm
+  rotate: true
+  xy: 1800, 433
+  size: 77, 229
+  orig: 77, 229
+  offset: 0, 0
+  index: -1
+r_hand
+  rotate: false
+  xy: 917, 2
+  size: 87, 107
+  orig: 87, 107
+  offset: 0, 0
+  index: -1
+r_leg
+  rotate: true
+  xy: 2, 328
+  size: 182, 749
+  orig: 182, 749
+  offset: 0, 0
+  index: -1
+r_shoulder
+  rotate: true
+  xy: 269, 47
+  size: 71, 229
+  orig: 71, 229
+  offset: 0, 0
+  index: -1
+r_shouzhi1
+  rotate: false
+  xy: 361, 16
+  size: 41, 29
+  orig: 41, 29
+  offset: 0, 0
+  index: -1
+r_shouzhi2
+  rotate: false
+  xy: 1338, 91
+  size: 25, 29
+  orig: 25, 29
+  offset: 0, 0
+  index: -1
+r_shouzhi3
+  rotate: false
+  xy: 1071, 4
+  size: 58, 24
+  orig: 58, 24
+  offset: 0, 0
+  index: -1
+shouzhuo1
+  rotate: false
+  xy: 567, 74
+  size: 44, 53
+  orig: 44, 53
+  offset: 0, 0
+  index: -1
+shouzhuo2
+  rotate: false
+  xy: 1878, 188
+  size: 50, 57
+  orig: 50, 57
+  offset: 0, 0
+  index: -1
+terso
+  rotate: true
+  xy: 1198, 264
+  size: 246, 337
+  orig: 246, 337
+  offset: 0, 0
+  index: -1
+xianglian1
+  rotate: false
+  xy: 1198, 29
+  size: 94, 59
+  orig: 94, 59
+  offset: 0, 0
+  index: -1
+xianglian2
+  rotate: false
+  xy: 1800, 247
+  size: 127, 108
+  orig: 127, 108
+  offset: 0, 0
+  index: -1
+xiong1
+  rotate: true
+  xy: 917, 111
+  size: 122, 147
+  orig: 122, 147
+  offset: 0, 0
+  index: -1
+xiong2
+  rotate: true
+  xy: 1066, 113
+  size: 120, 130
+  orig: 120, 130
+  offset: 0, 0
+  index: -1
+yaodai1
+  rotate: true
+  xy: 1537, 266
+  size: 38, 118
+  orig: 38, 118
+  offset: 0, 0
+  index: -1
+yaodai2
+  rotate: false
+  xy: 269, 4
+  size: 90, 41
+  orig: 90, 41
+  offset: 0, 0
+  index: -1
+yaodai3
+  rotate: false
+  xy: 1198, 180
+  size: 177, 82
+  orig: 177, 82
+  offset: 0, 0
+  index: -1
+yaodaiyinying
+  rotate: true
+  xy: 1198, 90
+  size: 88, 138
+  orig: 88, 138
+  offset: 0, 0
+  index: -1

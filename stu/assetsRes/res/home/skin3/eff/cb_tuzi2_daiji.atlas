@@ -1,0 +1,76 @@
+
+cb_tuzi2_daiji.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tuzi2_bozi
+  rotate: false
+  xy: 2, 3
+  size: 36, 39
+  orig: 36, 39
+  offset: 0, 0
+  index: -1
+tuzi2_erduo1
+  rotate: false
+  xy: 2, 44
+  size: 59, 23
+  orig: 59, 23
+  offset: 0, 0
+  index: -1
+tuzi2_erduo2
+  rotate: true
+  xy: 71, 52
+  size: 25, 48
+  orig: 25, 48
+  offset: 0, 0
+  index: -1
+tuzi2_hou1
+  rotate: false
+  xy: 40, 4
+  size: 32, 38
+  orig: 32, 38
+  offset: 0, 0
+  index: -1
+tuzi2_hou2
+  rotate: false
+  xy: 40, 4
+  size: 32, 38
+  orig: 32, 38
+  offset: 0, 0
+  index: -1
+tuzi2_qian1
+  rotate: false
+  xy: 74, 23
+  size: 37, 27
+  orig: 37, 27
+  offset: 0, 0
+  index: -1
+tuzi2_qian2
+  rotate: false
+  xy: 74, 23
+  size: 37, 27
+  orig: 37, 27
+  offset: 0, 0
+  index: -1
+tuzi2_shenzi
+  rotate: false
+  xy: 2, 69
+  size: 67, 54
+  orig: 67, 54
+  offset: 0, 0
+  index: -1
+tuzi2_tou
+  rotate: false
+  xy: 71, 79
+  size: 37, 44
+  orig: 37, 44
+  offset: 0, 0
+  index: -1
+tuzi2_weiba
+  rotate: false
+  xy: 74, 2
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1

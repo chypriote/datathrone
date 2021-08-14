@@ -1,0 +1,125 @@
+
+Caidan.png
+size: 1520,594
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+B_tang
+  rotate: true
+  xy: 970, 127
+  size: 203, 211
+  orig: 203, 211
+  offset: 0, 0
+  index: -1
+zadan_00000
+  rotate: true
+  xy: 1362, 265
+  size: 120, 156
+  orig: 400, 300
+  offset: 140, 56
+  index: -1
+zadan_00001
+  rotate: false
+  xy: 1049, 332
+  size: 288, 260
+  orig: 400, 300
+  offset: 82, 25
+  index: -1
+zadan_00002
+  rotate: false
+  xy: 2, 305
+  size: 371, 287
+  orig: 400, 300
+  offset: 17, 0
+  index: -1
+zadan_00003
+  rotate: false
+  xy: 375, 316
+  size: 376, 276
+  orig: 400, 300
+  offset: 7, 8
+  index: -1
+zadan_00004
+  rotate: false
+  xy: 2, 34
+  size: 327, 269
+  orig: 400, 300
+  offset: 41, 5
+  index: -1
+zadan_00005
+  rotate: false
+  xy: 753, 333
+  size: 294, 259
+  orig: 400, 300
+  offset: 46, 6
+  index: -1
+zadan_00006
+  rotate: true
+  xy: 331, 33
+  size: 270, 216
+  orig: 400, 300
+  offset: 67, 7
+  index: -1
+zadan_00007
+  rotate: true
+  xy: 549, 74
+  size: 240, 194
+  orig: 400, 300
+  offset: 88, 31
+  index: -1
+zadan_00008
+  rotate: false
+  xy: 753, 146
+  size: 215, 185
+  orig: 400, 300
+  offset: 92, 35
+  index: -1
+zadan_00009
+  rotate: true
+  xy: 1339, 387
+  size: 205, 174
+  orig: 400, 300
+  offset: 98, 45
+  index: -1
+zadan_00010
+  rotate: true
+  xy: 1183, 143
+  size: 187, 177
+  orig: 400, 300
+  offset: 105, 39
+  index: -1
+zadan_00011
+  rotate: true
+  xy: 1362, 100
+  size: 163, 152
+  orig: 400, 300
+  offset: 114, 51
+  index: -1
+zadan_00012
+  rotate: true
+  xy: 745, 13
+  size: 131, 149
+  orig: 400, 300
+  offset: 135, 53
+  index: -1
+zadan_00013
+  rotate: true
+  xy: 1183, 10
+  size: 131, 146
+  orig: 400, 300
+  offset: 135, 56
+  index: -1
+zadan_00014
+  rotate: true
+  xy: 896, 2
+  size: 123, 139
+  orig: 400, 300
+  offset: 138, 56
+  index: -1
+zadan_00015
+  rotate: false
+  xy: 1037, 7
+  size: 122, 118
+  orig: 400, 300
+  offset: 139, 56
+  index: -1

@@ -1,0 +1,146 @@
+
+zmhd_bj.png
+size: 850,762
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/zmhd_bj _00000
+  rotate: true
+  xy: 214, 610
+  size: 150, 210
+  orig: 150, 210
+  offset: 0, 0
+  index: -1
+image/zmhd_bj _00001
+  rotate: true
+  xy: 426, 610
+  size: 150, 210
+  orig: 150, 210
+  offset: 0, 0
+  index: -1
+image/zmhd_bj _00002
+  rotate: true
+  xy: 638, 610
+  size: 150, 210
+  orig: 150, 210
+  offset: 0, 0
+  index: -1
+image/zmhd_bj _00003
+  rotate: true
+  xy: 2, 458
+  size: 150, 210
+  orig: 150, 210
+  offset: 0, 0
+  index: -1
+image/zmhd_bj _00004
+  rotate: true
+  xy: 214, 458
+  size: 150, 210
+  orig: 150, 210
+  offset: 0, 0
+  index: -1
+image/zmhd_bj _00005
+  rotate: true
+  xy: 426, 458
+  size: 150, 210
+  orig: 150, 210
+  offset: 0, 0
+  index: -1
+image/zmhd_bj _00006
+  rotate: true
+  xy: 638, 458
+  size: 150, 210
+  orig: 150, 210
+  offset: 0, 0
+  index: -1
+image/zmhd_bj _00007
+  rotate: true
+  xy: 2, 306
+  size: 150, 210
+  orig: 150, 210
+  offset: 0, 0
+  index: -1
+image/zmhd_bj _00008
+  rotate: true
+  xy: 214, 306
+  size: 150, 210
+  orig: 150, 210
+  offset: 0, 0
+  index: -1
+image/zmhd_bj _00009
+  rotate: true
+  xy: 426, 306
+  size: 150, 210
+  orig: 150, 210
+  offset: 0, 0
+  index: -1
+image/zmhd_bj _00010
+  rotate: true
+  xy: 638, 306
+  size: 150, 210
+  orig: 150, 210
+  offset: 0, 0
+  index: -1
+image/zmhd_bj _00011
+  rotate: true
+  xy: 2, 154
+  size: 150, 210
+  orig: 150, 210
+  offset: 0, 0
+  index: -1
+image/zmhd_bj _00012
+  rotate: true
+  xy: 214, 154
+  size: 150, 210
+  orig: 150, 210
+  offset: 0, 0
+  index: -1
+image/zmhd_bj _00013
+  rotate: true
+  xy: 426, 154
+  size: 150, 210
+  orig: 150, 210
+  offset: 0, 0
+  index: -1
+image/zmhd_bj _00014
+  rotate: true
+  xy: 638, 154
+  size: 150, 210
+  orig: 150, 210
+  offset: 0, 0
+  index: -1
+image/zmhd_bj _00015
+  rotate: true
+  xy: 2, 2
+  size: 150, 210
+  orig: 150, 210
+  offset: 0, 0
+  index: -1
+image/zmhd_bj _00016
+  rotate: true
+  xy: 214, 2
+  size: 150, 210
+  orig: 150, 210
+  offset: 0, 0
+  index: -1
+image/zmhd_bj _00017
+  rotate: true
+  xy: 426, 2
+  size: 150, 210
+  orig: 150, 210
+  offset: 0, 0
+  index: -1
+image/zmhd_bj _00018
+  rotate: true
+  xy: 638, 2
+  size: 150, 210
+  orig: 150, 210
+  offset: 0, 0
+  index: -1
+image/zmhd_bj _00019
+  rotate: true
+  xy: 2, 610
+  size: 150, 210
+  orig: 150, 210
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,62 @@
+
+mache.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/che
+  rotate: false
+  xy: 2, 118
+  size: 183, 125
+  orig: 183, 125
+  offset: 0, 0
+  index: -1
+images/hou_hou
+  rotate: false
+  xy: 119, 59
+  size: 33, 57
+  orig: 33, 57
+  offset: 0, 0
+  index: -1
+images/ma
+  rotate: false
+  xy: 2, 2
+  size: 115, 114
+  orig: 115, 114
+  offset: 0, 0
+  index: -1
+images/qian_hou
+  rotate: false
+  xy: 214, 181
+  size: 23, 62
+  orig: 23, 62
+  offset: 0, 0
+  index: -1
+images/shenzi1
+  rotate: true
+  xy: 119, 13
+  size: 44, 27
+  orig: 44, 27
+  offset: 0, 0
+  index: -1
+images/shenzi2
+  rotate: true
+  xy: 154, 78
+  size: 38, 28
+  orig: 38, 28
+  offset: 0, 0
+  index: -1
+images/shenzi3
+  rotate: true
+  xy: 187, 161
+  size: 82, 25
+  orig: 82, 25
+  offset: 0, 0
+  index: -1
+images/weiba
+  rotate: false
+  xy: 187, 132
+  size: 19, 27
+  orig: 19, 27
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,264 @@
+
+jiarentuoyi20.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Lady Godiva_OO
+  rotate: false
+  xy: 792, 315
+  size: 219, 160
+  orig: 221, 165
+  offset: 1, 4
+  index: -1
+Lady Godiva_armL
+  rotate: false
+  xy: 291, 477
+  size: 227, 545
+  orig: 229, 547
+  offset: 1, 1
+  index: -1
+Lady Godiva_armR02
+  rotate: false
+  xy: 233, 72
+  size: 148, 335
+  orig: 150, 337
+  offset: 1, 1
+  index: -1
+Lady Godiva_armR02001
+  rotate: false
+  xy: 2, 2
+  size: 82, 81
+  orig: 84, 83
+  offset: 1, 1
+  index: -1
+Lady Godiva_body00
+  rotate: false
+  xy: 2, 409
+  size: 287, 613
+  orig: 289, 615
+  offset: 1, 1
+  index: -1
+Lady Godiva_body00S
+  rotate: true
+  xy: 594, 231
+  size: 51, 54
+  orig: 53, 75
+  offset: 1, 20
+  index: -1
+Lady Godiva_cloth00
+  rotate: false
+  xy: 520, 730
+  size: 480, 292
+  orig: 482, 294
+  offset: 1, 1
+  index: -1
+Lady Godiva_cloth01
+  rotate: false
+  xy: 2, 85
+  size: 229, 322
+  orig: 231, 325
+  offset: 1, 1
+  index: -1
+Lady Godiva_cloth03
+  rotate: false
+  xy: 819, 477
+  size: 181, 251
+  orig: 183, 253
+  offset: 1, 1
+  index: -1
+Lady Godiva_cloth04
+  rotate: true
+  xy: 383, 199
+  size: 276, 209
+  orig: 278, 211
+  offset: 1, 1
+  index: -1
+Lady Godiva_eyesC
+  rotate: true
+  xy: 1002, 936
+  size: 86, 20
+  orig: 88, 22
+  offset: 1, 1
+  index: -1
+Lady Godiva_hair00
+  rotate: false
+  xy: 520, 504
+  size: 297, 224
+  orig: 299, 226
+  offset: 1, 1
+  index: -1
+Lady Godiva_hair01
+  rotate: true
+  xy: 203, 25
+  size: 45, 70
+  orig: 47, 72
+  offset: 1, 1
+  index: -1
+Lady Godiva_hair02S
+  rotate: true
+  xy: 291, 409
+  size: 66, 63
+  orig: 68, 65
+  offset: 1, 1
+  index: -1
+Lady Godiva_hair03
+  rotate: false
+  xy: 650, 14
+  size: 121, 268
+  orig: 123, 270
+  offset: 1, 1
+  index: -1
+Lady Godiva_hair03S1
+  rotate: true
+  xy: 792, 284
+  size: 29, 39
+  orig: 31, 41
+  offset: 1, 1
+  index: -1
+Lady Godiva_hair03S2
+  rotate: true
+  xy: 86, 8
+  size: 35, 96
+  orig: 37, 98
+  offset: 1, 1
+  index: -1
+Lady Godiva_hair05
+  rotate: true
+  xy: 86, 45
+  size: 38, 115
+  orig: 40, 117
+  offset: 1, 1
+  index: -1
+Lady Godiva_hair05S
+  rotate: false
+  xy: 833, 287
+  size: 33, 26
+  orig: 35, 28
+  offset: 1, 1
+  index: -1
+Lady Godiva_head00
+  rotate: false
+  xy: 868, 116
+  size: 153, 197
+  orig: 155, 199
+  offset: 1, 1
+  index: -1
+Lady Godiva_kulian
+  rotate: true
+  xy: 773, 27
+  size: 255, 93
+  orig: 257, 95
+  offset: 1, 1
+  index: -1
+Lady Godiva_legL
+  rotate: false
+  xy: 594, 284
+  size: 196, 218
+  orig: 198, 220
+  offset: 1, 1
+  index: -1
+Lady Godiva_legR
+  rotate: true
+  xy: 383, 56
+  size: 141, 265
+  orig: 143, 267
+  offset: 1, 1
+  index: -1
+Lady Godiva_neck
+  rotate: false
+  xy: 868, 20
+  size: 145, 94
+  orig: 147, 96
+  offset: 1, 1
+  index: -1
+Lady Godiva_ringL
+  rotate: true
+  xy: 520, 488
+  size: 14, 31
+  orig: 16, 33
+  offset: 1, 1
+  index: -1
+Lady Godiva_ringR
+  rotate: false
+  xy: 1002, 907
+  size: 15, 27
+  orig: 17, 29
+  offset: 1, 1
+  index: -1
+
+jiarentuoyi202.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Lady Godiva_armL001
+  rotate: true
+  xy: 90, 46
+  size: 159, 79
+  orig: 161, 81
+  offset: 1, 1
+  index: -1
+Lady Godiva_armR01
+  rotate: false
+  xy: 2, 25
+  size: 86, 157
+  orig: 88, 159
+  offset: 1, 1
+  index: -1
+Lady Godiva_cloth02
+  rotate: true
+  xy: 193, 211
+  size: 93, 111
+  orig: 95, 113
+  offset: 1, 1
+  index: -1
+Lady Godiva_cloth05
+  rotate: true
+  xy: 88, 207
+  size: 209, 103
+  orig: 211, 105
+  offset: 1, 1
+  index: -1
+Lady Godiva_hair02
+  rotate: false
+  xy: 2, 184
+  size: 84, 232
+  orig: 86, 234
+  offset: 1, 1
+  index: -1
+Lady Godiva_hair04
+  rotate: false
+  xy: 412, 391
+  size: 94, 113
+  orig: 96, 115
+  offset: 1, 1
+  index: -1
+Lady Godiva_handR
+  rotate: false
+  xy: 193, 306
+  size: 144, 94
+  orig: 146, 96
+  offset: 1, 1
+  index: -1
+Lady Godiva_handRS
+  rotate: false
+  xy: 251, 402
+  size: 159, 102
+  orig: 159, 105
+  offset: 0, 2
+  index: -1
+Lady Godiva_headF
+  rotate: false
+  xy: 171, 97
+  size: 88, 108
+  orig: 90, 110
+  offset: 1, 1
+  index: -1
+Lady Godiva_kulianS
+  rotate: false
+  xy: 2, 418
+  size: 247, 86
+  orig: 249, 88
+  offset: 1, 1
+  index: -1

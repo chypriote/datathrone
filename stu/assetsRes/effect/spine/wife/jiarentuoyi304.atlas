@@ -1,0 +1,167 @@
+
+jiarentuoyi304.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eye_1
+  rotate: false
+  xy: 856, 384
+  size: 29, 60
+  orig: 29, 60
+  offset: 0, 0
+  index: -1
+hair_1
+  rotate: false
+  xy: 199, 32
+  size: 124, 185
+  orig: 124, 185
+  offset: 0, 0
+  index: -1
+hair_2
+  rotate: false
+  xy: 887, 524
+  size: 133, 301
+  orig: 133, 301
+  offset: 0, 0
+  index: -1
+hair_3
+  rotate: false
+  xy: 1022, 611
+  size: 63, 214
+  orig: 63, 214
+  offset: 0, 0
+  index: -1
+hair_4
+  rotate: false
+  xy: 325, 144
+  size: 86, 119
+  orig: 86, 119
+  offset: 0, 0
+  index: -1
+hair_5
+  rotate: false
+  xy: 413, 134
+  size: 63, 129
+  orig: 63, 129
+  offset: 0, 0
+  index: -1
+hair_71
+  rotate: true
+  xy: 1093, 854
+  size: 168, 498
+  orig: 168, 498
+  offset: 0, 0
+  index: -1
+hair_76
+  rotate: false
+  xy: 802, 446
+  size: 83, 379
+  orig: 83, 379
+  offset: 0, 0
+  index: -1
+hair_77
+  rotate: false
+  xy: 623, 325
+  size: 120, 500
+  orig: 120, 500
+  offset: 0, 0
+  index: -1
+hair_84
+  rotate: false
+  xy: 745, 359
+  size: 55, 466
+  orig: 55, 466
+  offset: 0, 0
+  index: -1
+head_1
+  rotate: true
+  xy: 887, 430
+  size: 92, 139
+  orig: 92, 139
+  offset: 0, 0
+  index: -1
+jianbangyinying
+  rotate: true
+  xy: 2, 2
+  size: 18, 46
+  orig: 18, 46
+  offset: 0, 0
+  index: -1
+l_arm
+  rotate: true
+  xy: 1593, 884
+  size: 138, 404
+  orig: 138, 404
+  offset: 0, 0
+  index: -1
+l_leg_2
+  rotate: true
+  xy: 254, 827
+  size: 195, 837
+  orig: 195, 837
+  offset: 0, 0
+  index: -1
+lianyinying_1
+  rotate: false
+  xy: 325, 32
+  size: 69, 110
+  orig: 69, 110
+  offset: 0, 0
+  index: -1
+piaodai_1
+  rotate: false
+  xy: 1022, 557
+  size: 35, 52
+  orig: 35, 52
+  offset: 0, 0
+  index: -1
+piaodai_5
+  rotate: true
+  xy: 623, 267
+  size: 56, 115
+  orig: 56, 115
+  offset: 0, 0
+  index: -1
+piaodaiyinying_3
+  rotate: false
+  xy: 802, 341
+  size: 52, 103
+  orig: 52, 103
+  offset: 0, 0
+  index: -1
+r_arm
+  rotate: false
+  xy: 1999, 951
+  size: 39, 71
+  orig: 39, 71
+  offset: 0, 0
+  index: -1
+r_leg
+  rotate: false
+  xy: 2, 219
+  size: 250, 803
+  orig: 250, 803
+  offset: 0, 0
+  index: -1
+torso_1
+  rotate: false
+  xy: 2, 22
+  size: 195, 195
+  orig: 195, 195
+  offset: 0, 0
+  index: -1
+torso_61
+  rotate: false
+  xy: 254, 265
+  size: 252, 560
+  orig: 252, 560
+  offset: 0, 0
+  index: -1
+wuqi
+  rotate: false
+  xy: 508, 286
+  size: 113, 539
+  orig: 113, 539
+  offset: 0, 0
+  index: -1

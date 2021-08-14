@@ -1,0 +1,146 @@
+
+zdlx_kxtx.png
+size: 1004,1018
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/kplx_kxg_00000
+  rotate: false
+  xy: 610, 816
+  size: 170, 200
+  orig: 170, 200
+  offset: 0, 0
+  index: -1
+image/kplx_kxg_00001
+  rotate: false
+  xy: 610, 614
+  size: 170, 200
+  orig: 170, 200
+  offset: 0, 0
+  index: -1
+image/kplx_kxg_00002
+  rotate: false
+  xy: 782, 816
+  size: 170, 200
+  orig: 170, 200
+  offset: 0, 0
+  index: -1
+image/kplx_kxg_00003
+  rotate: false
+  xy: 782, 614
+  size: 170, 200
+  orig: 170, 200
+  offset: 0, 0
+  index: -1
+image/kplx_kxg_00004
+  rotate: false
+  xy: 458, 384
+  size: 170, 200
+  orig: 170, 200
+  offset: 0, 0
+  index: -1
+image/kplx_kxg_00005
+  rotate: false
+  xy: 458, 182
+  size: 170, 200
+  orig: 170, 200
+  offset: 0, 0
+  index: -1
+image/kplx_kxg_00006
+  rotate: false
+  xy: 630, 412
+  size: 170, 200
+  orig: 170, 200
+  offset: 0, 0
+  index: -1
+image/kplx_kxg_00007
+  rotate: false
+  xy: 630, 210
+  size: 170, 200
+  orig: 170, 200
+  offset: 0, 0
+  index: -1
+image/kplx_kxg_00008
+  rotate: false
+  xy: 802, 412
+  size: 170, 200
+  orig: 170, 200
+  offset: 0, 0
+  index: -1
+image/kplx_kxg_00009
+  rotate: false
+  xy: 802, 210
+  size: 170, 200
+  orig: 170, 200
+  offset: 0, 0
+  index: -1
+image/kplx_kxg_00010
+  rotate: true
+  xy: 630, 38
+  size: 170, 200
+  orig: 170, 200
+  offset: 0, 0
+  index: -1
+image/kplx_kxg_00011
+  rotate: false
+  xy: 832, 8
+  size: 170, 200
+  orig: 170, 200
+  offset: 0, 0
+  index: -1
+image/kplx_sdx_00000
+  rotate: false
+  xy: 2, 154
+  size: 150, 430
+  orig: 150, 430
+  offset: 0, 0
+  index: -1
+image/kplx_sdx_00001
+  rotate: false
+  xy: 154, 586
+  size: 150, 430
+  orig: 150, 430
+  offset: 0, 0
+  index: -1
+image/kplx_sdx_00002
+  rotate: false
+  xy: 154, 154
+  size: 150, 430
+  orig: 150, 430
+  offset: 0, 0
+  index: -1
+image/kplx_sdx_00003
+  rotate: false
+  xy: 306, 586
+  size: 150, 430
+  orig: 150, 430
+  offset: 0, 0
+  index: -1
+image/kplx_sdx_00004
+  rotate: false
+  xy: 306, 154
+  size: 150, 430
+  orig: 150, 430
+  offset: 0, 0
+  index: -1
+image/kplx_sdx_00005
+  rotate: true
+  xy: 2, 2
+  size: 150, 430
+  orig: 150, 430
+  offset: 0, 0
+  index: -1
+image/kplx_sdx_00006
+  rotate: false
+  xy: 458, 586
+  size: 150, 430
+  orig: 150, 430
+  offset: 0, 0
+  index: -1
+image/kplx_sdx_00007
+  rotate: false
+  xy: 2, 586
+  size: 150, 430
+  orig: 150, 430
+  offset: 0, 0
+  index: -1

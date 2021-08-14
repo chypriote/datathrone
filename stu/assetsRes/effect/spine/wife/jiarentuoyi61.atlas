@@ -1,0 +1,153 @@
+
+jiarentuoyi61.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+biyan
+  rotate: false
+  xy: 113, 16
+  size: 99, 43
+  orig: 99, 43
+  offset: 0, 0
+  index: -1
+hair
+  rotate: false
+  xy: 626, 587
+  size: 401, 268
+  orig: 401, 268
+  offset: 0, 0
+  index: -1
+hair_1
+  rotate: true
+  xy: 865, 278
+  size: 87, 93
+  orig: 87, 93
+  offset: 0, 0
+  index: -1
+hair_2
+  rotate: false
+  xy: 1029, 543
+  size: 74, 69
+  orig: 74, 69
+  offset: 0, 0
+  index: -1
+hair_3
+  rotate: true
+  xy: 2, 2
+  size: 57, 109
+  orig: 57, 109
+  offset: 0, 0
+  index: -1
+hair_4
+  rotate: false
+  xy: 1921, 857
+  size: 104, 152
+  orig: 104, 152
+  offset: 0, 0
+  index: -1
+hair_5
+  rotate: true
+  xy: 393, 57
+  size: 104, 143
+  orig: 104, 143
+  offset: 0, 0
+  index: -1
+hair_6
+  rotate: true
+  xy: 742, 274
+  size: 95, 121
+  orig: 95, 121
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 626, 371
+  size: 240, 214
+  orig: 240, 214
+  offset: 0, 0
+  index: -1
+l_shoulder
+  rotate: true
+  xy: 1456, 861
+  size: 148, 463
+  orig: 148, 463
+  offset: 0, 0
+  index: -1
+l_upper_lrg
+  rotate: false
+  xy: 2, 61
+  size: 242, 948
+  orig: 242, 948
+  offset: 0, 0
+  index: -1
+leikui
+  rotate: false
+  xy: 246, 163
+  size: 310, 214
+  orig: 310, 214
+  offset: 0, 0
+  index: -1
+qunzi
+  rotate: false
+  xy: 1029, 614
+  size: 402, 241
+  orig: 402, 241
+  offset: 0, 0
+  index: -1
+r_arm
+  rotate: false
+  xy: 868, 367
+  size: 115, 218
+  orig: 115, 218
+  offset: 0, 0
+  index: -1
+r_hand
+  rotate: false
+  xy: 601, 291
+  size: 139, 78
+  orig: 139, 78
+  offset: 0, 0
+  index: -1
+r_shoulder
+  rotate: true
+  xy: 246, 58
+  size: 103, 145
+  orig: 103, 145
+  offset: 0, 0
+  index: -1
+r_upper_lrg
+  rotate: true
+  xy: 626, 857
+  size: 152, 828
+  orig: 152, 828
+  offset: 0, 0
+  index: -1
+shouzhuo1
+  rotate: false
+  xy: 558, 212
+  size: 41, 165
+  orig: 41, 165
+  offset: 0, 0
+  index: -1
+shouzhuo2
+  rotate: false
+  xy: 985, 491
+  size: 42, 94
+  orig: 42, 94
+  offset: 0, 0
+  index: -1
+torso
+  rotate: false
+  xy: 246, 379
+  size: 378, 630
+  orig: 378, 630
+  offset: 0, 0
+  index: -1
+tuilian
+  rotate: false
+  xy: 601, 222
+  size: 83, 67
+  orig: 83, 67
+  offset: 0, 0
+  index: -1

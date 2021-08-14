@@ -1,0 +1,285 @@
+
+jiarenweituoyi68.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+biyan
+  rotate: true
+  xy: 1172, 14
+  size: 86, 39
+  orig: 86, 39
+  offset: 0, 0
+  index: -1
+erhuan1
+  rotate: true
+  xy: 1266, 2
+  size: 14, 53
+  orig: 14, 53
+  offset: 0, 0
+  index: -1
+erhuan2
+  rotate: false
+  xy: 718, 5
+  size: 16, 54
+  orig: 16, 54
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 1879, 528
+  size: 150, 218
+  orig: 150, 218
+  offset: 0, 0
+  index: -1
+l_leg
+  rotate: true
+  xy: 1132, 797
+  size: 225, 814
+  orig: 225, 814
+  offset: 0, 0
+  index: -1
+qianjing
+  rotate: false
+  xy: 1524, 30
+  size: 111, 306
+  orig: 111, 306
+  offset: 0, 0
+  index: -1
+r_arm
+  rotate: true
+  xy: 1399, 5
+  size: 226, 123
+  orig: 226, 123
+  offset: 0, 0
+  index: -1
+r_leg
+  rotate: false
+  xy: 583, 61
+  size: 187, 961
+  orig: 187, 961
+  offset: 0, 0
+  index: -1
+r_shoulder
+  rotate: false
+  xy: 1948, 748
+  size: 97, 274
+  orig: 97, 274
+  offset: 0, 0
+  index: -1
+sha1
+  rotate: false
+  xy: 772, 79
+  size: 276, 943
+  orig: 276, 943
+  offset: 0, 0
+  index: -1
+sha2
+  rotate: false
+  xy: 2, 14
+  size: 579, 1008
+  orig: 579, 1008
+  offset: 0, 0
+  index: -1
+sha3
+  rotate: true
+  xy: 1399, 338
+  size: 457, 478
+  orig: 457, 478
+  offset: 0, 0
+  index: -1
+shiping1
+  rotate: true
+  xy: 1016, 2
+  size: 13, 47
+  orig: 13, 47
+  offset: 0, 0
+  index: -1
+shiping10
+  rotate: false
+  xy: 736, 5
+  size: 15, 54
+  orig: 15, 54
+  offset: 0, 0
+  index: -1
+shiping11
+  rotate: false
+  xy: 951, 11
+  size: 18, 66
+  orig: 18, 66
+  offset: 0, 0
+  index: -1
+shiping12
+  rotate: false
+  xy: 679, 3
+  size: 14, 56
+  orig: 14, 56
+  offset: 0, 0
+  index: -1
+shiping13
+  rotate: false
+  xy: 920, 9
+  size: 29, 68
+  orig: 29, 68
+  offset: 0, 0
+  index: -1
+shiping14
+  rotate: false
+  xy: 994, 15
+  size: 20, 62
+  orig: 20, 62
+  offset: 0, 0
+  index: -1
+shiping15
+  rotate: false
+  xy: 1050, 80
+  size: 81, 20
+  orig: 81, 20
+  offset: 0, 0
+  index: -1
+shiping16
+  rotate: false
+  xy: 868, 3
+  size: 26, 74
+  orig: 26, 74
+  offset: 0, 0
+  index: -1
+shiping17
+  rotate: false
+  xy: 1133, 4
+  size: 37, 96
+  orig: 37, 96
+  offset: 0, 0
+  index: -1
+shiping18
+  rotate: true
+  xy: 753, 6
+  size: 53, 113
+  orig: 53, 113
+  offset: 0, 0
+  index: -1
+shiping19
+  rotate: true
+  xy: 1016, 17
+  size: 60, 114
+  orig: 60, 114
+  offset: 0, 0
+  index: -1
+shiping2
+  rotate: false
+  xy: 655, 2
+  size: 22, 57
+  orig: 22, 57
+  offset: 0, 0
+  index: -1
+shiping20
+  rotate: true
+  xy: 583, 2
+  size: 57, 70
+  orig: 57, 70
+  offset: 0, 0
+  index: -1
+shiping21
+  rotate: true
+  xy: 1050, 999
+  size: 23, 78
+  orig: 23, 78
+  offset: 0, 0
+  index: -1
+shiping22
+  rotate: true
+  xy: 772, 62
+  size: 15, 67
+  orig: 15, 67
+  offset: 0, 0
+  index: -1
+shiping23
+  rotate: true
+  xy: 1050, 627
+  size: 25, 47
+  orig: 25, 47
+  offset: 0, 0
+  index: -1
+shiping3
+  rotate: false
+  xy: 896, 4
+  size: 22, 73
+  orig: 22, 73
+  offset: 0, 0
+  index: -1
+shiping4
+  rotate: false
+  xy: 1241, 16
+  size: 23, 84
+  orig: 23, 84
+  offset: 0, 0
+  index: -1
+shiping5
+  rotate: false
+  xy: 1266, 18
+  size: 22, 82
+  orig: 22, 82
+  offset: 0, 0
+  index: -1
+shiping6
+  rotate: false
+  xy: 695, 4
+  size: 21, 55
+  orig: 21, 55
+  offset: 0, 0
+  index: -1
+shiping7
+  rotate: false
+  xy: 971, 15
+  size: 21, 62
+  orig: 21, 62
+  offset: 0, 0
+  index: -1
+shiping8
+  rotate: false
+  xy: 1213, 15
+  size: 26, 85
+  orig: 26, 85
+  offset: 0, 0
+  index: -1
+shiping9
+  rotate: true
+  xy: 1050, 654
+  size: 27, 53
+  orig: 27, 53
+  offset: 0, 0
+  index: -1
+shipingyaodai
+  rotate: true
+  xy: 1879, 233
+  size: 293, 147
+  orig: 293, 147
+  offset: 0, 0
+  index: -1
+terso
+  rotate: false
+  xy: 1128, 102
+  size: 269, 693
+  orig: 269, 693
+  offset: 0, 0
+  index: -1
+yinying
+  rotate: false
+  xy: 1050, 683
+  size: 76, 314
+  orig: 76, 314
+  offset: 0, 0
+  index: -1
+
+jiarenweituoyi682.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hair_houz
+  rotate: false
+  xy: 2, 2
+  size: 357, 351
+  orig: 357, 351
+  offset: 0, 0
+  index: -1

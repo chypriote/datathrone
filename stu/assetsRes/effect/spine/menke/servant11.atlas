@@ -1,0 +1,208 @@
+
+servant11.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+daizi
+  rotate: false
+  xy: 722, 125
+  size: 118, 559
+  orig: 118, 559
+  offset: 0, 0
+  index: -1
+daizi1
+  rotate: false
+  xy: 842, 443
+  size: 86, 483
+  orig: 86, 483
+  offset: 0, 0
+  index: -1
+huzi
+  rotate: false
+  xy: 842, 117
+  size: 97, 143
+  orig: 97, 143
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 262, 84
+  size: 292, 368
+  orig: 292, 368
+  offset: 0, 0
+  index: -1
+shouzhang
+  rotate: true
+  xy: 223, 686
+  size: 158, 591
+  orig: 158, 591
+  offset: 0, 0
+  index: -1
+shouzhi
+  rotate: false
+  xy: 941, 112
+  size: 69, 66
+  orig: 69, 66
+  offset: 0, 0
+  index: -1
+tf1
+  rotate: false
+  xy: 930, 738
+  size: 47, 188
+  orig: 47, 188
+  offset: 0, 0
+  index: -1
+tf2
+  rotate: false
+  xy: 941, 180
+  size: 68, 113
+  orig: 68, 113
+  offset: 0, 0
+  index: -1
+tf3
+  rotate: false
+  xy: 930, 582
+  size: 76, 154
+  orig: 76, 154
+  offset: 0, 0
+  index: -1
+tf4
+  rotate: false
+  xy: 842, 262
+  size: 69, 179
+  orig: 69, 179
+  offset: 0, 0
+  index: -1
+tf5
+  rotate: true
+  xy: 2, 3
+  size: 61, 175
+  orig: 61, 175
+  offset: 0, 0
+  index: -1
+xiabanshen
+  rotate: true
+  xy: 2, 66
+  size: 380, 258
+  orig: 380, 258
+  offset: 0, 0
+  index: -1
+xiongpai
+  rotate: false
+  xy: 556, 103
+  size: 163, 101
+  orig: 163, 101
+  offset: 0, 0
+  index: -1
+youhuzi
+  rotate: false
+  xy: 179, 44
+  size: 18, 20
+  orig: 18, 20
+  offset: 0, 0
+  index: -1
+youijan1
+  rotate: true
+  xy: 913, 295
+  size: 142, 99
+  orig: 142, 99
+  offset: 0, 0
+  index: -1
+youjian
+  rotate: true
+  xy: 588, 2
+  size: 99, 107
+  orig: 99, 107
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: false
+  xy: 556, 206
+  size: 164, 246
+  orig: 164, 246
+  offset: 0, 0
+  index: -1
+youxiu
+  rotate: true
+  xy: 223, 846
+  size: 175, 584
+  orig: 175, 584
+  offset: 0, 0
+  index: -1
+youxiu1
+  rotate: false
+  xy: 2, 448
+  size: 219, 573
+  orig: 219, 573
+  offset: 0, 0
+  index: -1
+youyanpi
+  rotate: false
+  xy: 995, 1006
+  size: 21, 15
+  orig: 21, 15
+  offset: 0, 0
+  index: -1
+zuohuzi
+  rotate: false
+  xy: 809, 902
+  size: 29, 24
+  orig: 29, 24
+  offset: 0, 0
+  index: -1
+zuojian
+  rotate: true
+  xy: 809, 928
+  size: 93, 184
+  orig: 93, 184
+  offset: 0, 0
+  index: -1
+zuojian1
+  rotate: true
+  xy: 930, 439
+  size: 141, 86
+  orig: 141, 86
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: true
+  xy: 223, 454
+  size: 230, 490
+  orig: 230, 490
+  offset: 0, 0
+  index: -1
+zuoxiu
+  rotate: true
+  xy: 262, 18
+  size: 64, 324
+  orig: 64, 324
+  offset: 0, 0
+  index: -1
+zuoyaanpi
+  rotate: true
+  xy: 913, 262
+  size: 31, 10
+  orig: 31, 10
+  offset: 0, 0
+  index: -1
+
+servant112.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+maozi
+  rotate: false
+  xy: 197, 69
+  size: 138, 125
+  orig: 138, 125
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 2, 2
+  size: 193, 192
+  orig: 193, 192
+  offset: 0, 0
+  index: -1

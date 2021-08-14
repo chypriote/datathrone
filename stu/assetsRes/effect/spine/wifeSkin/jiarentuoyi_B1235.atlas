@@ -1,0 +1,174 @@
+
+jiarentuoyi_B1235.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hair1_1
+  rotate: true
+  xy: 1324, 215
+  size: 116, 140
+  orig: 116, 140
+  offset: 0, 0
+  index: -1
+hair1_2
+  rotate: true
+  xy: 372, 70
+  size: 170, 384
+  orig: 170, 384
+  offset: 0, 0
+  index: -1
+hair1_3
+  rotate: true
+  xy: 1620, 691
+  size: 136, 276
+  orig: 136, 276
+  offset: 0, 0
+  index: -1
+hair1_4
+  rotate: false
+  xy: 372, 242
+  size: 441, 543
+  orig: 441, 543
+  offset: 0, 0
+  index: -1
+head1_1
+  rotate: false
+  xy: 372, 21
+  size: 98, 47
+  orig: 98, 47
+  offset: 0, 0
+  index: -1
+head1_2
+  rotate: false
+  xy: 1324, 333
+  size: 141, 167
+  orig: 141, 167
+  offset: 0, 0
+  index: -1
+l_shulder1_1
+  rotate: true
+  xy: 1380, 829
+  size: 171, 571
+  orig: 171, 571
+  offset: 0, 0
+  index: -1
+l_upper_leg1_1
+  rotate: false
+  xy: 2, 2
+  size: 368, 998
+  orig: 368, 998
+  offset: 0, 0
+  index: -1
+r_arm
+  rotate: false
+  xy: 1466, 239
+  size: 107, 79
+  orig: 107, 79
+  offset: 0, 0
+  index: -1
+r_hand1_1
+  rotate: true
+  xy: 1467, 320
+  size: 113, 147
+  orig: 113, 147
+  offset: 0, 0
+  index: -1
+r_shulder1_1
+  rotate: true
+  xy: 1620, 589
+  size: 100, 254
+  orig: 100, 254
+  offset: 0, 0
+  index: -1
+r_upper_leg1_1
+  rotate: true
+  xy: 372, 787
+  size: 213, 1006
+  orig: 213, 1006
+  offset: 0, 0
+  index: -1
+torso
+  rotate: false
+  xy: 1401, 563
+  size: 217, 264
+  orig: 217, 264
+  offset: 0, 0
+  index: -1
+torso1_1
+  rotate: true
+  xy: 815, 259
+  size: 241, 507
+  orig: 241, 507
+  offset: 0, 0
+  index: -1
+torso1_2
+  rotate: true
+  xy: 815, 502
+  size: 283, 584
+  orig: 283, 584
+  offset: 0, 0
+  index: -1
+yaolian
+  rotate: false
+  xy: 1467, 435
+  size: 150, 126
+  orig: 150, 126
+  offset: 0, 0
+  index: -1
+yy
+  rotate: true
+  xy: 1953, 919
+  size: 81, 93
+  orig: 81, 93
+  offset: 0, 0
+  index: -1
+yy1
+  rotate: true
+  xy: 1401, 503
+  size: 58, 64
+  orig: 58, 64
+  offset: 0, 0
+  index: -1
+yz1
+  rotate: false
+  xy: 1953, 874
+  size: 30, 43
+  orig: 30, 43
+  offset: 0, 0
+  index: -1
+yz2
+  rotate: false
+  xy: 1898, 771
+  size: 28, 56
+  orig: 28, 56
+  offset: 0, 0
+  index: -1
+yz3
+  rotate: false
+  xy: 1575, 294
+  size: 36, 24
+  orig: 36, 24
+  offset: 0, 0
+  index: -1
+yz4
+  rotate: true
+  xy: 1620, 565
+  size: 22, 48
+  orig: 22, 48
+  offset: 0, 0
+  index: -1
+yz5
+  rotate: false
+  xy: 472, 43
+  size: 34, 25
+  orig: 34, 25
+  offset: 0, 0
+  index: -1
+yz6
+  rotate: false
+  xy: 758, 205
+  size: 27, 35
+  orig: 27, 35
+  offset: 0, 0
+  index: -1

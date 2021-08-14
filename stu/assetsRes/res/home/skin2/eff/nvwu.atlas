@@ -1,0 +1,153 @@
+
+nvwu.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+nvwu
+  rotate: false
+  xy: 114, 192
+  size: 90, 46
+  orig: 90, 46
+  offset: 0, 0
+  index: -1
+tuowei/tuowei_01
+  rotate: false
+  xy: 2, 396
+  size: 110, 50
+  orig: 110, 50
+  offset: 0, 0
+  index: -1
+tuowei/tuowei_02
+  rotate: false
+  xy: 114, 448
+  size: 110, 50
+  orig: 110, 50
+  offset: 0, 0
+  index: -1
+tuowei/tuowei_03
+  rotate: false
+  xy: 2, 344
+  size: 110, 50
+  orig: 110, 50
+  offset: 0, 0
+  index: -1
+tuowei/tuowei_04
+  rotate: false
+  xy: 114, 396
+  size: 110, 50
+  orig: 110, 50
+  offset: 0, 0
+  index: -1
+tuowei/tuowei_05
+  rotate: false
+  xy: 226, 448
+  size: 110, 50
+  orig: 110, 50
+  offset: 0, 0
+  index: -1
+tuowei/tuowei_06
+  rotate: false
+  xy: 2, 292
+  size: 110, 50
+  orig: 110, 50
+  offset: 0, 0
+  index: -1
+tuowei/tuowei_07
+  rotate: false
+  xy: 114, 344
+  size: 110, 50
+  orig: 110, 50
+  offset: 0, 0
+  index: -1
+tuowei/tuowei_08
+  rotate: false
+  xy: 226, 396
+  size: 110, 50
+  orig: 110, 50
+  offset: 0, 0
+  index: -1
+tuowei/tuowei_09
+  rotate: false
+  xy: 338, 448
+  size: 110, 50
+  orig: 110, 50
+  offset: 0, 0
+  index: -1
+tuowei/tuowei_10
+  rotate: false
+  xy: 2, 240
+  size: 110, 50
+  orig: 110, 50
+  offset: 0, 0
+  index: -1
+tuowei/tuowei_11
+  rotate: false
+  xy: 114, 292
+  size: 110, 50
+  orig: 110, 50
+  offset: 0, 0
+  index: -1
+tuowei/tuowei_12
+  rotate: false
+  xy: 226, 344
+  size: 110, 50
+  orig: 110, 50
+  offset: 0, 0
+  index: -1
+tuowei/tuowei_13
+  rotate: false
+  xy: 338, 396
+  size: 110, 50
+  orig: 110, 50
+  offset: 0, 0
+  index: -1
+tuowei/tuowei_14
+  rotate: false
+  xy: 2, 188
+  size: 110, 50
+  orig: 110, 50
+  offset: 0, 0
+  index: -1
+tuowei/tuowei_15
+  rotate: false
+  xy: 114, 240
+  size: 110, 50
+  orig: 110, 50
+  offset: 0, 0
+  index: -1
+tuowei/tuowei_16
+  rotate: false
+  xy: 226, 292
+  size: 110, 50
+  orig: 110, 50
+  offset: 0, 0
+  index: -1
+tuowei/tuowei_17
+  rotate: false
+  xy: 338, 344
+  size: 110, 50
+  orig: 110, 50
+  offset: 0, 0
+  index: -1
+tuowei/tuowei_18
+  rotate: true
+  xy: 450, 388
+  size: 110, 50
+  orig: 110, 50
+  offset: 0, 0
+  index: -1
+tuowei/tuowei_19
+  rotate: false
+  xy: 2, 136
+  size: 110, 50
+  orig: 110, 50
+  offset: 0, 0
+  index: -1
+tuowei/tuowei_20
+  rotate: false
+  xy: 2, 448
+  size: 110, 50
+  orig: 110, 50
+  offset: 0, 0
+  index: -1

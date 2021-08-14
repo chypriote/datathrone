@@ -1,0 +1,188 @@
+
+cnhk_shang.png
+size: 1749,908
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+16
+  rotate: true
+  xy: 1512, 627
+  size: 279, 133
+  orig: 279, 133
+  offset: 0, 0
+  index: -1
+cjnc_guangban_00000
+  rotate: false
+  xy: 1512, 497
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+cjnc_shuibowen_00000
+  rotate: false
+  xy: 2, 606
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+cjnc_shuibowen_00001
+  rotate: false
+  xy: 2, 304
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+cjnc_shuibowen_00002
+  rotate: false
+  xy: 304, 606
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+cjnc_shuibowen_00003
+  rotate: false
+  xy: 2, 2
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+cjnc_shuibowen_00004
+  rotate: false
+  xy: 304, 304
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+cjnc_shuibowen_00005
+  rotate: false
+  xy: 606, 606
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+cjnc_shuibowen_00006
+  rotate: false
+  xy: 304, 2
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+cjnc_shuibowen_00007
+  rotate: false
+  xy: 606, 304
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+cjnc_shuibowen_00008
+  rotate: false
+  xy: 908, 606
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+cjnc_shuibowen_00009
+  rotate: false
+  xy: 606, 2
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+cjnc_shuibowen_00010
+  rotate: false
+  xy: 908, 304
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+cjnc_shuibowen_00011
+  rotate: false
+  xy: 1210, 606
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+cjnc_shuibowen_00012
+  rotate: false
+  xy: 908, 2
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+cjnc_shuibowen_00013
+  rotate: false
+  xy: 1210, 304
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+cjnc_shuibowen_00014
+  rotate: false
+  xy: 1210, 2
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+cnhk_hudie_00000
+  rotate: true
+  xy: 1647, 778
+  size: 128, 100
+  orig: 128, 100
+  offset: 0, 0
+  index: -1
+cnhk_hudie_00001
+  rotate: false
+  xy: 1512, 395
+  size: 128, 100
+  orig: 128, 100
+  offset: 0, 0
+  index: -1
+cnhk_hudie_00002
+  rotate: true
+  xy: 1647, 648
+  size: 128, 100
+  orig: 128, 100
+  offset: 0, 0
+  index: -1
+cnhk_hudie_00003
+  rotate: false
+  xy: 1512, 293
+  size: 128, 100
+  orig: 128, 100
+  offset: 0, 0
+  index: -1
+cnhk_hudie_00004
+  rotate: false
+  xy: 1512, 191
+  size: 128, 100
+  orig: 128, 100
+  offset: 0, 0
+  index: -1
+cnhk_hudie_00005
+  rotate: false
+  xy: 1512, 89
+  size: 128, 100
+  orig: 128, 100
+  offset: 0, 0
+  index: -1
+cnhk_hudie_00006
+  rotate: true
+  xy: 1642, 497
+  size: 128, 100
+  orig: 128, 100
+  offset: 0, 0
+  index: -1
+cnhk_hudie_00007
+  rotate: true
+  xy: 1642, 367
+  size: 128, 100
+  orig: 128, 100
+  offset: 0, 0
+  index: -1
+qiuri_guangdian_00002
+  rotate: false
+  xy: 1512, 23
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1

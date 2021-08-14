@@ -1,0 +1,20 @@
+
+znls_piaodai.png
+size: 1556,156
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/changpd
+  rotate: false
+  xy: 2, 2
+  size: 775, 152
+  orig: 775, 152
+  offset: 0, 0
+  index: -1
+images/changpd2
+  rotate: false
+  xy: 779, 2
+  size: 775, 152
+  orig: 775, 152
+  offset: 0, 0
+  index: -1

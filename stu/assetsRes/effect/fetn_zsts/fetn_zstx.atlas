@@ -1,0 +1,76 @@
+
+fetn_zstx.png
+size: 850,638
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image/fetn_zsg_00000
+  rotate: false
+  xy: 2, 214
+  size: 210, 210
+  orig: 210, 210
+  offset: 0, 0
+  index: -1
+image/fetn_zsg_00001
+  rotate: false
+  xy: 214, 426
+  size: 210, 210
+  orig: 210, 210
+  offset: 0, 0
+  index: -1
+image/fetn_zsg_00002
+  rotate: false
+  xy: 2, 2
+  size: 210, 210
+  orig: 210, 210
+  offset: 0, 0
+  index: -1
+image/fetn_zsg_00003
+  rotate: false
+  xy: 214, 214
+  size: 210, 210
+  orig: 210, 210
+  offset: 0, 0
+  index: -1
+image/fetn_zsg_00004
+  rotate: false
+  xy: 426, 426
+  size: 210, 210
+  orig: 210, 210
+  offset: 0, 0
+  index: -1
+image/fetn_zsg_00005
+  rotate: false
+  xy: 214, 2
+  size: 210, 210
+  orig: 210, 210
+  offset: 0, 0
+  index: -1
+image/fetn_zsg_00006
+  rotate: false
+  xy: 426, 214
+  size: 210, 210
+  orig: 210, 210
+  offset: 0, 0
+  index: -1
+image/fetn_zsg_00007
+  rotate: false
+  xy: 638, 426
+  size: 210, 210
+  orig: 210, 210
+  offset: 0, 0
+  index: -1
+image/fetn_zsg_00008
+  rotate: false
+  xy: 426, 2
+  size: 210, 210
+  orig: 210, 210
+  offset: 0, 0
+  index: -1
+image/fetn_zsg_00009
+  rotate: false
+  xy: 2, 426
+  size: 210, 210
+  orig: 210, 210
+  offset: 0, 0
+  index: -1

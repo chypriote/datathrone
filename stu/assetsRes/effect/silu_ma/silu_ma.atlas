@@ -1,0 +1,174 @@
+
+silu_ma.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ma1_mashen
+  rotate: false
+  xy: 422, 62
+  size: 74, 64
+  orig: 74, 64
+  offset: 0, 0
+  index: -1
+ma1_masheng
+  rotate: false
+  xy: 100, 14
+  size: 56, 28
+  orig: 56, 28
+  offset: 0, 0
+  index: -1
+ma1_matui1_1
+  rotate: false
+  xy: 498, 94
+  size: 8, 32
+  orig: 8, 32
+  offset: 0, 0
+  index: -1
+ma1_matui1_2
+  rotate: true
+  xy: 296, 2
+  size: 18, 38
+  orig: 18, 38
+  offset: 0, 0
+  index: -1
+ma1_matui2_1
+  rotate: true
+  xy: 216, 28
+  size: 16, 45
+  orig: 16, 45
+  offset: 0, 0
+  index: -1
+ma1_matui2_2
+  rotate: true
+  xy: 224, 66
+  size: 21, 54
+  orig: 21, 54
+  offset: 0, 0
+  index: -1
+ma1_mawei
+  rotate: false
+  xy: 384, 33
+  size: 34, 43
+  orig: 34, 43
+  offset: 0, 0
+  index: -1
+ma1_ren
+  rotate: true
+  xy: 329, 78
+  size: 48, 91
+  orig: 48, 91
+  offset: 0, 0
+  index: -1
+ma2_mashen
+  rotate: false
+  xy: 2, 70
+  size: 108, 56
+  orig: 108, 56
+  offset: 0, 0
+  index: -1
+ma2_masheng
+  rotate: false
+  xy: 112, 68
+  size: 84, 18
+  orig: 84, 18
+  offset: 0, 0
+  index: -1
+ma2_matui1_1
+  rotate: true
+  xy: 204, 8
+  size: 18, 45
+  orig: 18, 45
+  offset: 0, 0
+  index: -1
+ma2_matui1_2
+  rotate: true
+  xy: 329, 56
+  size: 20, 53
+  orig: 20, 53
+  offset: 0, 0
+  index: -1
+ma2_matui2_1
+  rotate: true
+  xy: 251, 2
+  size: 18, 43
+  orig: 18, 43
+  offset: 0, 0
+  index: -1
+ma2_matui2_2
+  rotate: true
+  xy: 420, 38
+  size: 22, 49
+  orig: 22, 49
+  offset: 0, 0
+  index: -1
+ma2_mawei
+  rotate: false
+  xy: 176, 33
+  size: 38, 33
+  orig: 38, 33
+  offset: 0, 0
+  index: -1
+ma2_ren
+  rotate: true
+  xy: 224, 89
+  size: 37, 103
+  orig: 37, 103
+  offset: 0, 0
+  index: -1
+ma3_mashen
+  rotate: false
+  xy: 2, 11
+  size: 96, 57
+  orig: 96, 57
+  offset: 0, 0
+  index: -1
+ma3_matui1_1
+  rotate: true
+  xy: 420, 22
+  size: 14, 44
+  orig: 14, 44
+  offset: 0, 0
+  index: -1
+ma3_matui1_2
+  rotate: true
+  xy: 216, 46
+  size: 18, 46
+  orig: 18, 46
+  offset: 0, 0
+  index: -1
+ma3_matui2_1
+  rotate: false
+  xy: 158, 2
+  size: 16, 40
+  orig: 16, 40
+  offset: 0, 0
+  index: -1
+ma3_matui2_2
+  rotate: true
+  xy: 280, 70
+  size: 17, 47
+  orig: 17, 47
+  offset: 0, 0
+  index: -1
+ma3_mawei
+  rotate: false
+  xy: 176, 2
+  size: 26, 29
+  orig: 26, 29
+  offset: 0, 0
+  index: -1
+ma3_ren
+  rotate: true
+  xy: 112, 88
+  size: 38, 110
+  orig: 38, 110
+  offset: 0, 0
+  index: -1
+ma_yingzi
+  rotate: false
+  xy: 100, 44
+  size: 71, 22
+  orig: 71, 22
+  offset: 0, 0
+  index: -1
