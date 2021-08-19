@@ -105,7 +105,7 @@ local root=
                     ["id"]=5
                 },
                 {
-                    ["count"]=6,
+                    ["count"]=1,
                     ["id"]=121
                 }
             }
@@ -127,12 +127,12 @@ local root=
             }}
         },
         {
-            ["msg"]="mainTask_msg_48_1",
+            ["msg"]="mainTask_msg_3_1",
             ["set"]={1},
-            ["name"]="mainTask_typeName_48",
+            ["name"]="mainTask_typeName_3",
             ["_id"]=5,
             ["id"]=6,
-            ["type"]=48,
+            ["type"]=3,
             ["jumpTo"]={
                 ["val"]="game.servant.ServantCommand.showServantDetail",
                 ["param"]=1,

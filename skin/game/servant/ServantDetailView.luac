@@ -41,6 +41,7 @@ function __Class:using(servantProxy,playerProxy,markProxy,governmentProxy,equipP
     self.timeProxy = self.zero:getProxy("game.time.TimeProxy")
     self.warHorseProxy=self.zero:getProxy("game.warHorse.WarHorseProxy")
     self.equipExProxy = self.zero:getProxy("game.equipEx.EquipExProxy")
+    self.mainTaskProxy = self.zero:getProxy("game.mainTask.MainTaskProxy")
     self:bindProxy(self.warHorseProxy)
     self:bindProxy(self.equipExProxy)
     
@@ -263,7 +264,6 @@ function __Class:using(servantProxy,playerProxy,markProxy,governmentProxy,equipP
     stu:addEvent("lvUp",function ( ... )
         self:command("ServantCommand.lvUp",self.servantVo.level,self.canLevelUp)
     end)
-    -- self:eventCommand(stu,"lvUp","ServantCommand.lvUp",self.servantVo.level,self.canLevelUp)
     self:eventCommand(stu,"item","ServantCommand.item")
 
 
@@ -480,9 +480,29 @@ function __Class:using(servantProxy,playerProxy,markProxy,governmentProxy,equipP
     stu:getChild("box10", "lvup","Text_0"):setString(lang("servant.lvUp"))
     stu:getChild("box10", "Text_1_1"):setString("/"..totalSkinLength)
     ---------------------皮肤界面 end---------------------
+    self:initGuideEvent()
+    -- self:initGuide()
     return stu
 end
-
+function __Class:initGuideEvent( ... )
+    local icon = {"forcetip","poltip","braintip","charmtip"}
+    for i=1,4 do
+        local function guideHd( ... )
+            self.zero:command("game.guide.GuideCommand.showGuide",20000 + i,true)
+        end
+        UICommon.changeBtnStateImage(get("box2","guideBtn"..i),get("box2",icon[i]),guideHd,1,0.9)
+    end
+end
+function __Class:initGuide(id)
+    if self.guideProxy.isGuiding == true then
+        return
+    end
+    local str = self.activityProxy:getCommonActRed("isGuideServantDetailFirst"..id)
+    if str ~= "" then
+      return 
+    end
+    self.zero:command("game.guide.GuideCommand.showGuide",id,true)
+end
 -- 设置门客骨骼动画（同个骨骼动画不再重新设置）
 function __Class:setMenKeDongHuaTEM(img, vo)
     local skinId = 0
@@ -934,6 +954,8 @@ end
 
 function __Class:hidePromoteEff( ... )
     self.stu:getChild("page1","upEff"):setVisible(false)
+    -- self.stu:getChild("box2","itemBtn","upEff_0"):setVisible(false)
+    -- self.stu:getChild("box2","itemBtn","red"):setVisible(false)
 end
 
 function __Class:upServantList()
@@ -973,6 +995,9 @@ function __Class:upServantList()
     else
         self.stu:getChild("page1","upEff"):setVisible(false)
     end
+    self.stu:getChild("box2","itemBtn","upEff_0"):setVisible(false)
+    self.stu:getChild("box2","itemBtn","red"):setVisible(false)
+
     local Image_52 = self.stu:getChild("page1","Image_52")
     Image_52:ignoreContentAdaptWithSize(false)
     Image_52:setContentSize(cc.size(txtLv:getContentSize().width + 52,43)) 
@@ -1093,8 +1118,9 @@ function __Class:upServantList()
     self:checkUpLvTen()
     self:upTabMenu()
     self:upLimitGiftBtnEnter()
+    self:upHandNode()
+    self:upEffShow()
 end
-
 --佳人技能红点
 function __Class:upJrSkillTabRed()
     local isJrRed = false --是否红点
@@ -1219,6 +1245,7 @@ function __Class:upTabMenu( ... )
             gBtnAttr_Text:setColor(c2)
         elseif id == 2 then
             gBtnZz_Text:setColor(c2)
+            self:initGuide(205)
         elseif id == 3 then
             gBtnJr_Text:setColor(c2)
         elseif id == 4 then
@@ -1233,6 +1260,7 @@ function __Class:upTabMenu( ... )
             self.page1:setVisible(false)
         else
             self.page1:setVisible(true)
+            self:initGuide(204)
         end
         self.zero:command("game.guide.GuideCommand.goTaskStep")
     end)
@@ -1340,6 +1368,7 @@ function __Class:setEpItem(item,v,i)
         if eventType == ccui.TouchEventType.ended then
             if v.level > 0 then
                 self:command("ServantCommand.upZzSkill",i,v.sid)
+                self.zero:command("game.guide.GuideCommand.goStep")
                 self.zero:command("game.guide.GuideCommand.goTaskStep")
             else
                 self.defaultSkinId = v.skinId
@@ -2223,6 +2252,8 @@ function __Class:checkUpLvTen( ... )
         return 
     end
     self:upCheckBox()
+    self:upHandNode()
+    self:upEffShow()
 end
 
 function __Class:upCheckBox()
@@ -2262,6 +2293,7 @@ function __Class:upCheckBox()
     self.stu:getChild("box2","upNode","costNum"):setPositionX(posX - size.width -1)
     self.stu:getChild("box2","upNode","costNum"):setTextColor(count >= costItemCost and cc.c3b(50,197,5) or cc.c3b(208,38,35))
     if itemCost then
+        dump(itemCost,"itemCost===itemCost===itemCost===itemCost")
         self.canLevelUp = count >= costItemCost and self.playerProxy.user.coin > self.needCoin
     end
     self.stu:getChild("box2","upNode","Image_8"):setContentSize(size.width + s_size.width + 32,27)
@@ -2425,4 +2457,34 @@ function __Class:upEquipExRed()
     local isEquipExRed = self.equipExProxy:isRed(self.detailId)
     get("btnList2", "btnEquipEx", "imgRed"):setVisible(isEquipExRed)
 end
+function __Class:upHandNode( ... )
+    local pNode = self.stu:getChild("page1","handNode")
+    pNode:removeAllChildren()
+    pNode:hide()
+    local taskInfo = self.mainTaskProxy.taskInfo
+    if taskInfo.id ~= 2 or self.guideProxy.isGuiding == true then
+        return
+    end
+    local cfgData = self.mainTaskProxy:getTaskConfById(taskInfo.id)
+    if self.servantVo.heroid ~= cfgData.set[1] then
+        return
+    end
+    local hand = UICommon.loadArmatureM("armature/shouzhi.ExportJson","shouzhi")
+    hand:getAnimation():playWithIndex(0)
+    pNode:addChild(hand)
+    if self.servantVo.level < cfgData.set[2] then
+        pNode:show()
+    end
+end
+function __Class:upEffShow()
+    local power,allCount = self.bagProxy:getHeroMedicinalPowder() ----有书可以使用增加特效
+    if allCount > 0 then
+        self.stu:getChild("box2","itemBtn","upEff_0"):setVisible(true)
+        self.stu:getChild("box2","itemBtn","red"):setVisible(true)
+    else
+        self.stu:getChild("box2","itemBtn","upEff_0"):setVisible(false)
+        self.stu:getChild("box2","itemBtn","red"):setVisible(false)
+    end
+end
+
 end

@@ -1,6 +1,7 @@
 local root=
 {
     ["story_index"]={
+        ["id_6200"]=1574,
         ["id_225"]=224,
         ["id_224"]=223,
         ["id_227"]=226,
@@ -5502,6 +5503,12 @@ local root=
             ["_id"]=654,
             ["id"]=7501,
             ["long"]=0
+        },
+        {
+            ["storyId"]=6200,
+            ["_id"]=655,
+            ["id"]=6200,
+            ["long"]=0
         }
     },
     ["storyGroup_index"]={
@@ -5510,6 +5517,7 @@ local root=
         ["id_3055"]=629,
         ["id_3054"]=628,
         ["id_3057"]=631,
+        ["id_6200"]=655,
         ["id_3056"]=630,
         ["id_104"]=103,
         ["id_225"]=224,
@@ -23002,7 +23010,7 @@ local root=
             ["_id"]=1075,
             ["id"]=10188,
             ["img2"]=0,
-            ["img1"]="my"
+            ["img1"]="assetsRes/res/disciple/whole/68.png"
         },
         {
             ["eff"]=0,
@@ -30780,6 +30788,18 @@ local root=
             ["id"]=7501,
             ["img2"]=0,
             ["img1"]="assetsRes/res/disciple/whole/1.png"
+        },
+        {
+            ["txt"]="guidesay_txt2_101",
+            ["r"]=0,
+            ["s"]=1.2,
+            ["bg"]="assetsRes/res/drama/stage/15.png",
+            ["x"]=-160,
+            ["say"]="zisi.meipoTitle",
+            ["_id"]=1574,
+            ["id"]=6200,
+            ["img2"]=0,
+            ["img1"]="assetsRes/res/wife/newWife/meipo.png"
         }
     }
 }

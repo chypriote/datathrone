@@ -324,6 +324,7 @@ maker.SCT_SC=function()
 	zd.initSet(obj,"SkinMineWarfareGift",maker.SCT_SC_CombinedSevXG())
 	zd.initSet(obj,"SkinMineWarfareCHouKa",maker.SCT_SC_HalloweenSparta())
 	zd.initSet(obj,"magicWeapon",maker.SCT_SC_magicWeapon())
+	zd.initSet(obj,"voyageTreasure",maker.SCT_SC_voyageTreasure())
 	return obj
 end
 maker.SCT_CS=function()
@@ -1408,7 +1409,7 @@ maker.SCT_SC_SkinGloryPlunder=function()
 	local obj={}
 	zd.makeDataTable(obj)
 	zd.initSet(obj,"info",maker.SCT_SkinGloryPlunder())
-	zd.initSet(obj,"cfg",maker.SCT_GloryPlunder_cfg())
+	zd.initSet(obj,"cfg",maker.SCT_SkinGloryPlunder_cfg())
 	zd.initSet(obj,"outer",maker.SCT_SkinGloryPlunder_outer())
 	zd.initSet(obj,"win",maker.SCT_GloryPlunder_win())
 	zd.initSet(obj,"is_win",maker.SCT_is_win())
@@ -1432,7 +1433,7 @@ maker.SCT_SkinGloryPlunder=function()
 	zd.initSet(obj,"MineD",maker.SCT_GloryPlunder_Mine())
 	zd.initSet(obj,"occupy",maker.SCT_SkinGloryPlunder_occupy())
 	zd.initSet(obj,"current_location",0)
-	zd.initSet(obj,"anger",zd.makeDataArray(maker.SCT_SkinGloryPlunder_anger()))
+	zd.initSet(obj,"anger",maker.SCT_SkinGloryPlunder_anger())
 	return obj
 end
 maker.SCT_GloryPlunder_win=function()
@@ -1500,7 +1501,7 @@ end
 maker.SCT_SkinGloryPlunder_outer=function()
 	local obj={}
 	zd.makeDataTable(obj)
-	zd.initSet(obj,"mine",zd.makeDataArray(maker.SCT_GloryPlunder_outer_mine()))
+	zd.initSet(obj,"mine",zd.makeDataArray(maker.SCT_SkinGloryPlunder_outer_mine()))
 	zd.initSet(obj,"mine_cfg",zd.makeDataArray(maker.SCT_SkinGloryPlunder_outer_mine_cfg()))
 	return obj
 end
@@ -1509,6 +1510,12 @@ maker.SCT_GloryPlunder_outer=function()
 	zd.makeDataTable(obj)
 	zd.initSet(obj,"mine",zd.makeDataArray(maker.SCT_GloryPlunder_outer_mine()))
 	zd.initSet(obj,"mine_cfg",zd.makeDataArray(maker.SCT_GloryPlunder_outer_mine_cfg()))
+	return obj
+end
+maker.SCT_SkinGloryPlunder_outer_mine=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"people",zd.makeDataArray(maker.SCT_SkinGloryPlunder_outer_mine_people()))
 	return obj
 end
 maker.SCT_GloryPlunder_outer_mine=function()
@@ -1535,6 +1542,27 @@ maker.SCT_GloryPlunder_outer_mine_cfg=function()
 	zd.initSet(obj,"rwd",maker.SCT_ItemInfo())
 	return obj
 end
+maker.SCT_SkinGloryPlunder_outer_mine_people=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"uid",0)
+	zd.initSet(obj,"stime",0)
+	zd.initSet(obj,"ptime",0)
+	zd.initSet(obj,"occupy_resource",0)
+	zd.initSet(obj,"name","")
+	zd.initSet(obj,"job",0)
+	zd.initSet(obj,"sex",0)
+	zd.initSet(obj,"level",0)
+	zd.initSet(obj,"shili",0)
+	zd.initSet(obj,"chenghao",0)
+	zd.initSet(obj,"headType",0)
+	zd.initSet(obj,"headId",0)
+	zd.initSet(obj,"vipStatus",1)
+	zd.initSet(obj,"vip",0)
+	zd.initSet(obj,"anger_num",0)
+	zd.initSet(obj,"anger_time",0)
+	return obj
+end
 maker.SCT_GloryPlunder_outer_mine_people=function()
 	local obj={}
 	zd.makeDataTable(obj)
@@ -1551,6 +1579,15 @@ maker.SCT_GloryPlunder_outer_mine_people=function()
 	zd.initSet(obj,"headId",0)
 	zd.initSet(obj,"vipStatus",1)
 	zd.initSet(obj,"vip",0)
+	return obj
+end
+maker.SCT_SkinGloryPlunder_cfg=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"inner_mine",maker.SCT_GloryPlunder_inner_mine())
+	zd.initSet(obj,"start_fight",zd.makeDataArray(maker.SCT_ItemInfo()))
+	zd.initSet(obj,"go",0)
+	zd.initSet(obj,"attack",0)
 	return obj
 end
 maker.SCT_GloryPlunder_cfg=function()
@@ -1905,6 +1942,62 @@ maker.SCT_SC_GoFishingClubPartyClubInfo=function()
 	zd.initSet(obj,"jinGuiYu",0)
 	zd.initSet(obj,"jinSuoZiYu",0)
 	zd.initSet(obj,"partyNum",0)
+	return obj
+end
+maker.SCT_SC_voyageTreasure=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"dayConsume",maker.SCT_voyageTreasure_dayConsume())
+	zd.initSet(obj,"dayRecharge",maker.SCT_voyageTreasure_dayConsume())
+	zd.initSet(obj,"dayTasks",maker.SCT_voyageTreasure_dayTasks())
+	zd.initSet(obj,"shop",maker.SCT_voyageTreasure_shop())
+	zd.initSet(obj,"info",maker.SCT_voyageTreasure_info())
+	return obj
+end
+maker.SCT_voyageTreasure_dayConsume=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"time",0)
+	zd.initSet(obj,"status",0)
+	zd.initSet(obj,"score",0)
+	return obj
+end
+maker.SCT_voyageTreasure_dayTasks=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"day",0)
+	zd.initSet(obj,"time",0)
+	zd.initSet(obj,"tasksNum",zd.makeDataArray(maker.SCT_idValue()))
+	zd.initSet(obj,"tasksStatus",zd.makeDataArray(maker.SCT_idValue()))
+	return obj
+end
+maker.SCT_voyageTreasure_shop=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"date",0)
+	zd.initSet(obj,"score",0)
+	zd.initSet(obj,"refresh",0)
+	zd.initSet(obj,"buyStatus",zd.makeDataArray(maker.SCT_idValue()))
+	zd.initSet(obj,"choose",zd.makeDataArray(0))
+	return obj
+end
+maker.SCT_voyageTreasure_info=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"token",0)
+	zd.initSet(obj,"dice",0)
+	zd.initSet(obj,"dice1",0)
+	zd.initSet(obj,"dice2",0)
+	zd.initSet(obj,"dice3",0)
+	zd.initSet(obj,"dice4",0)
+	zd.initSet(obj,"dice5",0)
+	zd.initSet(obj,"dice6",0)
+	zd.initSet(obj,"currLocation",0)
+	zd.initSet(obj,"isShop",0)
+	zd.initSet(obj,"success",0)
+	zd.initSet(obj,"map",zd.makeDataArray(maker.SCT_idValue()))
+	zd.initSet(obj,"shopBuyStatus",zd.makeDataArray(maker.SCT_idValue()))
+	zd.initSet(obj,"dcStatus",zd.makeDataArray(maker.SCT_idValue()))
 	return obj
 end
 maker.SCT_SC_magicWeapon=function()
@@ -3754,12 +3847,18 @@ maker.SCT_CS_huodong2=function()
 	zd.initSet(obj,"hd1369Rwd",maker.SCT_CxshdRwd())
 	zd.initSet(obj,"hd1370Info","NULL")
 	zd.initSet(obj,"hd1370BuyGift",maker.SCT_hd1114buyGift())
+	zd.initSet(obj,"hd1372Info","")
+	zd.initSet(obj,"hd1372handleOpen","")
+	zd.initSet(obj,"hd1372useDice","")
+	zd.initSet(obj,"hd1372buyToken",maker.SCT_paramsNum())
+	zd.initSet(obj,"hd1372handleEvent",maker.SCT_paramsId())
+	zd.initSet(obj,"hd1372buy",maker.SCT_paramsId())
 	zd.initSet(obj,"hd1373Info","")
 	zd.initSet(obj,"hd1373shopBuy",maker.SCT_paramsIdNum())
 	zd.initSet(obj,"hd1373refresh","")
 	zd.initSet(obj,"hd1374getRwd",maker.SCT_paramsId())
-	zd.initSet(obj,"hd1375getRwd","")
-	zd.initSet(obj,"hd1376getRwd","")
+	zd.initSet(obj,"hd1375getRwd",maker.SCT_paramsId())
+	zd.initSet(obj,"hd1376getRwd",maker.SCT_paramsId())
 	return obj
 end
 maker.SCT_hd1360Info=function()
@@ -11191,6 +11290,9 @@ maker.SCT_SC_czhuodong=function()
 	zd.initSet(obj,"miningLeiji",maker.SCT_SC_CrusadeTotal())
 	zd.initSet(obj,"miningLeijiCfg",maker.SCT_SC_CrusadeTotalCfg())
 	zd.initSet(obj,"miningLeiTian",maker.SCT_Sxshuodong())
+	zd.initSet(obj,"SkinMineWarfareDay",maker.SCT_scombinedSevday())
+	zd.initSet(obj,"SkinMineWarfareLeiji",maker.SCT_Sxshuodong())
+	zd.initSet(obj,"SkinMineWarfareLeiTian",maker.SCT_Sxshuodong())
 	return obj
 end
 maker.SCT_SC_kuacbhuodong=function()
@@ -13936,6 +14038,7 @@ maker.SCT_CS_FuLi=function()
 	zd.initSet(obj,"getAdvertisingRwd","NULL")
 	zd.initSet(obj,"setAdvertisingStatus","NULL")
 	zd.initSet(obj,"setAdvertisingLog","NULL")
+	zd.initSet(obj,"weekSwitch",zd.makeDataArray(maker.SCT_weekCardSwitch()))
 	return obj
 end
 maker.SCT_efunanswer=function()
@@ -14648,6 +14751,14 @@ maker.SCT_SC_FuLi=function()
 	zd.initSet(obj,"levyImage",zd.makeDataArray(maker.SCT_levyImage()))
 	zd.initSet(obj,"zerogift",maker.SCT_FuLiZerogift())
 	zd.initSet(obj,"advertising",maker.SCT_advertising())
+	zd.initSet(obj,"weekCardSwitch",zd.makeDataArray(maker.SCT_weekCardSwitch()))
+	return obj
+end
+maker.SCT_weekCardSwitch=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"id",0)
+	zd.initSet(obj,"status",0)
 	return obj
 end
 maker.SCT_advertising=function()
@@ -14845,6 +14956,8 @@ maker.SCT_DumpWindows=function()
 	zd.makeDataTable(obj)
 	zd.initSet(obj,"type1",zd.makeDataArray(maker.SCT_ItemInfo()))
 	zd.initSet(obj,"type2",zd.makeDataArray(maker.SCT_ItemInfo()))
+	zd.initSet(obj,"type3",zd.makeDataArray(maker.SCT_ItemInfo()))
+	zd.initSet(obj,"type4",zd.makeDataArray(maker.SCT_ItemInfo()))
 	return obj
 end
 maker.SCT_addInfo=function()
@@ -22524,6 +22637,7 @@ maker.CST_SC=function()
 	zd.initLiteSet(obj,"SkinMineWarfareGift",maker.CST_SC_CombinedSevXG())
 	zd.initLiteSet(obj,"SkinMineWarfareCHouKa",maker.CST_SC_HalloweenSparta())
 	zd.initLiteSet(obj,"magicWeapon",maker.CST_SC_magicWeapon())
+	zd.initLiteSet(obj,"voyageTreasure",maker.CST_SC_voyageTreasure())
 	return obj
 end
 maker.CST_CS=function()
@@ -23608,7 +23722,7 @@ maker.CST_SC_SkinGloryPlunder=function()
 	local obj={}
 	zd.makeLiteTable(obj)
 	zd.initLiteSet(obj,"info",maker.CST_SkinGloryPlunder())
-	zd.initLiteSet(obj,"cfg",maker.CST_GloryPlunder_cfg())
+	zd.initLiteSet(obj,"cfg",maker.CST_SkinGloryPlunder_cfg())
 	zd.initLiteSet(obj,"outer",maker.CST_SkinGloryPlunder_outer())
 	zd.initLiteSet(obj,"win",maker.CST_GloryPlunder_win())
 	zd.initLiteSet(obj,"is_win",maker.CST_is_win())
@@ -23632,7 +23746,7 @@ maker.CST_SkinGloryPlunder=function()
 	zd.initLiteSet(obj,"MineD",maker.CST_GloryPlunder_Mine())
 	zd.initLiteSet(obj,"occupy",maker.CST_SkinGloryPlunder_occupy())
 	zd.initLiteSet(obj,"current_location",0)
-	zd.initLiteSet(obj,"anger",zd.makeLiteArray(maker.SCT_SkinGloryPlunder_anger()))
+	zd.initLiteSet(obj,"anger",maker.CST_SkinGloryPlunder_anger())
 	return obj
 end
 maker.CST_GloryPlunder_win=function()
@@ -23700,7 +23814,7 @@ end
 maker.CST_SkinGloryPlunder_outer=function()
 	local obj={}
 	zd.makeLiteTable(obj)
-	zd.initLiteSet(obj,"mine",zd.makeLiteArray(maker.SCT_GloryPlunder_outer_mine()))
+	zd.initLiteSet(obj,"mine",zd.makeLiteArray(maker.SCT_SkinGloryPlunder_outer_mine()))
 	zd.initLiteSet(obj,"mine_cfg",zd.makeLiteArray(maker.SCT_SkinGloryPlunder_outer_mine_cfg()))
 	return obj
 end
@@ -23709,6 +23823,12 @@ maker.CST_GloryPlunder_outer=function()
 	zd.makeLiteTable(obj)
 	zd.initLiteSet(obj,"mine",zd.makeLiteArray(maker.SCT_GloryPlunder_outer_mine()))
 	zd.initLiteSet(obj,"mine_cfg",zd.makeLiteArray(maker.SCT_GloryPlunder_outer_mine_cfg()))
+	return obj
+end
+maker.CST_SkinGloryPlunder_outer_mine=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"people",zd.makeLiteArray(maker.SCT_SkinGloryPlunder_outer_mine_people()))
 	return obj
 end
 maker.CST_GloryPlunder_outer_mine=function()
@@ -23735,6 +23855,27 @@ maker.CST_GloryPlunder_outer_mine_cfg=function()
 	zd.initLiteSet(obj,"rwd",maker.CST_ItemInfo())
 	return obj
 end
+maker.CST_SkinGloryPlunder_outer_mine_people=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"uid",0)
+	zd.initLiteSet(obj,"stime",0)
+	zd.initLiteSet(obj,"ptime",0)
+	zd.initLiteSet(obj,"occupy_resource",0)
+	zd.initLiteSet(obj,"name","")
+	zd.initLiteSet(obj,"job",0)
+	zd.initLiteSet(obj,"sex",0)
+	zd.initLiteSet(obj,"level",0)
+	zd.initLiteSet(obj,"shili",0)
+	zd.initLiteSet(obj,"chenghao",0)
+	zd.initLiteSet(obj,"headType",0)
+	zd.initLiteSet(obj,"headId",0)
+	zd.initLiteSet(obj,"vipStatus",1)
+	zd.initLiteSet(obj,"vip",0)
+	zd.initLiteSet(obj,"anger_num",0)
+	zd.initLiteSet(obj,"anger_time",0)
+	return obj
+end
 maker.CST_GloryPlunder_outer_mine_people=function()
 	local obj={}
 	zd.makeLiteTable(obj)
@@ -23751,6 +23892,15 @@ maker.CST_GloryPlunder_outer_mine_people=function()
 	zd.initLiteSet(obj,"headId",0)
 	zd.initLiteSet(obj,"vipStatus",1)
 	zd.initLiteSet(obj,"vip",0)
+	return obj
+end
+maker.CST_SkinGloryPlunder_cfg=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"inner_mine",maker.CST_GloryPlunder_inner_mine())
+	zd.initLiteSet(obj,"start_fight",zd.makeLiteArray(maker.SCT_ItemInfo()))
+	zd.initLiteSet(obj,"go",0)
+	zd.initLiteSet(obj,"attack",0)
 	return obj
 end
 maker.CST_GloryPlunder_cfg=function()
@@ -24105,6 +24255,62 @@ maker.CST_SC_GoFishingClubPartyClubInfo=function()
 	zd.initLiteSet(obj,"jinGuiYu",0)
 	zd.initLiteSet(obj,"jinSuoZiYu",0)
 	zd.initLiteSet(obj,"partyNum",0)
+	return obj
+end
+maker.CST_SC_voyageTreasure=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"dayConsume",maker.CST_voyageTreasure_dayConsume())
+	zd.initLiteSet(obj,"dayRecharge",maker.CST_voyageTreasure_dayConsume())
+	zd.initLiteSet(obj,"dayTasks",maker.CST_voyageTreasure_dayTasks())
+	zd.initLiteSet(obj,"shop",maker.CST_voyageTreasure_shop())
+	zd.initLiteSet(obj,"info",maker.CST_voyageTreasure_info())
+	return obj
+end
+maker.CST_voyageTreasure_dayConsume=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"time",0)
+	zd.initLiteSet(obj,"status",0)
+	zd.initLiteSet(obj,"score",0)
+	return obj
+end
+maker.CST_voyageTreasure_dayTasks=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"day",0)
+	zd.initLiteSet(obj,"time",0)
+	zd.initLiteSet(obj,"tasksNum",zd.makeLiteArray(maker.SCT_idValue()))
+	zd.initLiteSet(obj,"tasksStatus",zd.makeLiteArray(maker.SCT_idValue()))
+	return obj
+end
+maker.CST_voyageTreasure_shop=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"date",0)
+	zd.initLiteSet(obj,"score",0)
+	zd.initLiteSet(obj,"refresh",0)
+	zd.initLiteSet(obj,"buyStatus",zd.makeLiteArray(maker.SCT_idValue()))
+	zd.initLiteSet(obj,"choose",zd.makeLiteArray(0))
+	return obj
+end
+maker.CST_voyageTreasure_info=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"token",0)
+	zd.initLiteSet(obj,"dice",0)
+	zd.initLiteSet(obj,"dice1",0)
+	zd.initLiteSet(obj,"dice2",0)
+	zd.initLiteSet(obj,"dice3",0)
+	zd.initLiteSet(obj,"dice4",0)
+	zd.initLiteSet(obj,"dice5",0)
+	zd.initLiteSet(obj,"dice6",0)
+	zd.initLiteSet(obj,"currLocation",0)
+	zd.initLiteSet(obj,"isShop",0)
+	zd.initLiteSet(obj,"success",0)
+	zd.initLiteSet(obj,"map",zd.makeLiteArray(maker.SCT_idValue()))
+	zd.initLiteSet(obj,"shopBuyStatus",zd.makeLiteArray(maker.SCT_idValue()))
+	zd.initLiteSet(obj,"dcStatus",zd.makeLiteArray(maker.SCT_idValue()))
 	return obj
 end
 maker.CST_SC_magicWeapon=function()
@@ -25954,12 +26160,18 @@ maker.CST_CS_huodong2=function()
 	zd.initLiteSet(obj,"hd1369Rwd",maker.CST_CxshdRwd())
 	zd.initLiteSet(obj,"hd1370Info","NULL")
 	zd.initLiteSet(obj,"hd1370BuyGift",maker.CST_hd1114buyGift())
+	zd.initLiteSet(obj,"hd1372Info","")
+	zd.initLiteSet(obj,"hd1372handleOpen","")
+	zd.initLiteSet(obj,"hd1372useDice","")
+	zd.initLiteSet(obj,"hd1372buyToken",maker.CST_paramsNum())
+	zd.initLiteSet(obj,"hd1372handleEvent",maker.CST_paramsId())
+	zd.initLiteSet(obj,"hd1372buy",maker.CST_paramsId())
 	zd.initLiteSet(obj,"hd1373Info","")
 	zd.initLiteSet(obj,"hd1373shopBuy",maker.CST_paramsIdNum())
 	zd.initLiteSet(obj,"hd1373refresh","")
 	zd.initLiteSet(obj,"hd1374getRwd",maker.CST_paramsId())
-	zd.initLiteSet(obj,"hd1375getRwd","")
-	zd.initLiteSet(obj,"hd1376getRwd","")
+	zd.initLiteSet(obj,"hd1375getRwd",maker.CST_paramsId())
+	zd.initLiteSet(obj,"hd1376getRwd",maker.CST_paramsId())
 	return obj
 end
 maker.CST_hd1360Info=function()
@@ -33391,6 +33603,9 @@ maker.CST_SC_czhuodong=function()
 	zd.initLiteSet(obj,"miningLeiji",maker.CST_SC_CrusadeTotal())
 	zd.initLiteSet(obj,"miningLeijiCfg",maker.CST_SC_CrusadeTotalCfg())
 	zd.initLiteSet(obj,"miningLeiTian",maker.CST_Sxshuodong())
+	zd.initLiteSet(obj,"SkinMineWarfareDay",maker.CST_scombinedSevday())
+	zd.initLiteSet(obj,"SkinMineWarfareLeiji",maker.CST_Sxshuodong())
+	zd.initLiteSet(obj,"SkinMineWarfareLeiTian",maker.CST_Sxshuodong())
 	return obj
 end
 maker.CST_SC_kuacbhuodong=function()
@@ -36136,6 +36351,7 @@ maker.CST_CS_FuLi=function()
 	zd.initLiteSet(obj,"getAdvertisingRwd","NULL")
 	zd.initLiteSet(obj,"setAdvertisingStatus","NULL")
 	zd.initLiteSet(obj,"setAdvertisingLog","NULL")
+	zd.initLiteSet(obj,"weekSwitch",zd.makeLiteArray(maker.SCT_weekCardSwitch()))
 	return obj
 end
 maker.CST_efunanswer=function()
@@ -36848,6 +37064,14 @@ maker.CST_SC_FuLi=function()
 	zd.initLiteSet(obj,"levyImage",zd.makeLiteArray(maker.SCT_levyImage()))
 	zd.initLiteSet(obj,"zerogift",maker.CST_FuLiZerogift())
 	zd.initLiteSet(obj,"advertising",maker.CST_advertising())
+	zd.initLiteSet(obj,"weekCardSwitch",zd.makeLiteArray(maker.SCT_weekCardSwitch()))
+	return obj
+end
+maker.CST_weekCardSwitch=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"id",0)
+	zd.initLiteSet(obj,"status",0)
 	return obj
 end
 maker.CST_advertising=function()
@@ -37045,6 +37269,8 @@ maker.CST_DumpWindows=function()
 	zd.makeLiteTable(obj)
 	zd.initLiteSet(obj,"type1",zd.makeLiteArray(maker.SCT_ItemInfo()))
 	zd.initLiteSet(obj,"type2",zd.makeLiteArray(maker.SCT_ItemInfo()))
+	zd.initLiteSet(obj,"type3",zd.makeLiteArray(maker.SCT_ItemInfo()))
+	zd.initLiteSet(obj,"type4",zd.makeLiteArray(maker.SCT_ItemInfo()))
 	return obj
 end
 maker.CST_addInfo=function()
