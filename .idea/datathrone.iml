@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/temp" />
+      <excludeFolder url="file://$MODULE_DIR$/.tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/tmp" />
+      <excludePattern pattern="language*_de.luac" />
+      <excludePattern pattern="language*_es.luac" />
+      <excludePattern pattern="language*_it.luac" />
+      <excludePattern pattern="language*_nl.luac" />
+      <excludePattern pattern="language*_pl.luac" />
+      <excludePattern pattern="language*_ru.luac" />
+      <excludePattern pattern="language*_tr.luac" />
+      <excludePattern pattern="language*_vn.luac" />
+      <excludePattern pattern="language*_pt.luac" />
+      <excludePattern pattern="language*_zh_cn.luac" />
+      <excludePattern pattern="language*_zh_tw.luac" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
