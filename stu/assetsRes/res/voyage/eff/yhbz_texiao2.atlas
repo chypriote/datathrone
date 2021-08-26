@@ -1,0 +1,90 @@
+
+yhbz_texiao2.png
+size: 1562,204
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/xuanwo_00000
+  rotate: true
+  xy: 2, 2
+  size: 200, 128
+  orig: 200, 128
+  offset: 0, 0
+  index: -1
+images/xuanwo_00001
+  rotate: true
+  xy: 132, 2
+  size: 200, 128
+  orig: 200, 128
+  offset: 0, 0
+  index: -1
+images/xuanwo_00002
+  rotate: true
+  xy: 262, 2
+  size: 200, 128
+  orig: 200, 128
+  offset: 0, 0
+  index: -1
+images/xuanwo_00003
+  rotate: true
+  xy: 392, 2
+  size: 200, 128
+  orig: 200, 128
+  offset: 0, 0
+  index: -1
+images/xuanwo_00004
+  rotate: true
+  xy: 522, 2
+  size: 200, 128
+  orig: 200, 128
+  offset: 0, 0
+  index: -1
+images/xuanwo_00005
+  rotate: true
+  xy: 652, 2
+  size: 200, 128
+  orig: 200, 128
+  offset: 0, 0
+  index: -1
+images/xuanwo_00006
+  rotate: true
+  xy: 782, 2
+  size: 200, 128
+  orig: 200, 128
+  offset: 0, 0
+  index: -1
+images/xuanwo_00007
+  rotate: true
+  xy: 912, 2
+  size: 200, 128
+  orig: 200, 128
+  offset: 0, 0
+  index: -1
+images/xuanwo_00008
+  rotate: true
+  xy: 1042, 2
+  size: 200, 128
+  orig: 200, 128
+  offset: 0, 0
+  index: -1
+images/xuanwo_00009
+  rotate: true
+  xy: 1172, 2
+  size: 200, 128
+  orig: 200, 128
+  offset: 0, 0
+  index: -1
+images/xuanwo_00010
+  rotate: true
+  xy: 1302, 2
+  size: 200, 128
+  orig: 200, 128
+  offset: 0, 0
+  index: -1
+images/xuanwo_00011
+  rotate: true
+  xy: 1432, 2
+  size: 200, 128
+  orig: 200, 128
+  offset: 0, 0
+  index: -1

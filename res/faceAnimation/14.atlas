@@ -1,0 +1,55 @@
+
+14.png
+size: 281,142
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 273, 132
+  size: 6, 8
+  orig: 6, 8
+  offset: 0, 0
+  index: -1
+doupeng
+  rotate: true
+  xy: 239, 55
+  size: 85, 32
+  orig: 85, 32
+  offset: 0, 0
+  index: -1
+st
+  rotate: true
+  xy: 2, 16
+  size: 124, 156
+  orig: 124, 156
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 160, 57
+  size: 77, 83
+  orig: 77, 83
+  offset: 0, 0
+  index: -1
+youjiao
+  rotate: false
+  xy: 197, 28
+  size: 39, 27
+  orig: 39, 27
+  offset: 0, 0
+  index: -1
+zb
+  rotate: true
+  xy: 160, 2
+  size: 19, 15
+  orig: 19, 15
+  offset: 0, 0
+  index: -1
+zuojiao
+  rotate: false
+  xy: 160, 23
+  size: 35, 32
+  orig: 35, 32
+  offset: 0, 0
+  index: -1

@@ -2486,5 +2486,7 @@ function __Class:upEffShow()
         self.stu:getChild("box2","itemBtn","red"):setVisible(false)
     end
 end
-
+function __Class:upWhenBagOpen(proxy,isShow)
+    self.stu:setVisible(isShow == true)
+end
 end

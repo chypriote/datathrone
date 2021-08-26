@@ -1,0 +1,83 @@
+
+3.png
+size: 332,110
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+maozi
+  rotate: false
+  xy: 229, 49
+  size: 71, 59
+  orig: 71, 59
+  offset: 0, 0
+  index: -1
+shenti1
+  rotate: false
+  xy: 82, 42
+  size: 76, 66
+  orig: 76, 66
+  offset: 0, 0
+  index: -1
+tou2
+  rotate: false
+  xy: 229, 2
+  size: 53, 45
+  orig: 53, 45
+  offset: 0, 0
+  index: -1
+toufa
+  rotate: false
+  xy: 2, 6
+  size: 78, 102
+  orig: 78, 102
+  offset: 0, 0
+  index: -1
+tui
+  rotate: false
+  xy: 151, 6
+  size: 64, 34
+  orig: 64, 34
+  offset: 0, 0
+  index: -1
+yougebo
+  rotate: false
+  xy: 302, 77
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+youling
+  rotate: false
+  xy: 160, 42
+  size: 67, 66
+  orig: 67, 66
+  offset: 0, 0
+  index: -1
+youling1
+  rotate: true
+  xy: 318, 78
+  size: 13, 12
+  orig: 13, 12
+  offset: 0, 0
+  index: -1
+youling_00000
+  rotate: false
+  xy: 284, 7
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: false
+  xy: 302, 93
+  size: 18, 15
+  orig: 18, 15
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: false
+  xy: 82, 6
+  size: 67, 34
+  orig: 67, 34
+  offset: 0, 0
+  index: -1

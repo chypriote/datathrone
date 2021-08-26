@@ -1,0 +1,300 @@
+
+zhouka.png
+size: 1970,924
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+kapai1
+  rotate: true
+  xy: 1486, 338
+  size: 190, 254
+  orig: 190, 254
+  offset: 0, 0
+  index: -1
+kapai1_00000
+  rotate: true
+  xy: 293, 530
+  size: 130, 174
+  orig: 130, 174
+  offset: 0, 0
+  index: -1
+kapai1_00001
+  rotate: true
+  xy: 469, 530
+  size: 130, 174
+  orig: 130, 174
+  offset: 0, 0
+  index: -1
+kapai1_00002
+  rotate: true
+  xy: 645, 530
+  size: 130, 174
+  orig: 130, 174
+  offset: 0, 0
+  index: -1
+kapai1_00003
+  rotate: true
+  xy: 821, 530
+  size: 130, 174
+  orig: 130, 174
+  offset: 0, 0
+  index: -1
+kapai1_00004
+  rotate: true
+  xy: 997, 530
+  size: 130, 174
+  orig: 130, 174
+  offset: 0, 0
+  index: -1
+kapai1_00005
+  rotate: true
+  xy: 1173, 530
+  size: 130, 174
+  orig: 130, 174
+  offset: 0, 0
+  index: -1
+kapai1_00006
+  rotate: true
+  xy: 1349, 530
+  size: 130, 174
+  orig: 130, 174
+  offset: 0, 0
+  index: -1
+kapai1_00007
+  rotate: true
+  xy: 1525, 530
+  size: 130, 174
+  orig: 130, 174
+  offset: 0, 0
+  index: -1
+kapai1_00008
+  rotate: false
+  xy: 1565, 748
+  size: 130, 174
+  orig: 130, 174
+  offset: 0, 0
+  index: -1
+kapai1_00009
+  rotate: false
+  xy: 1697, 748
+  size: 130, 174
+  orig: 130, 174
+  offset: 0, 0
+  index: -1
+kapai1_00010
+  rotate: false
+  xy: 1701, 572
+  size: 130, 174
+  orig: 130, 174
+  offset: 0, 0
+  index: -1
+kapai1_00011
+  rotate: false
+  xy: 1829, 748
+  size: 130, 174
+  orig: 130, 174
+  offset: 0, 0
+  index: -1
+kapai1_00012
+  rotate: false
+  xy: 1833, 572
+  size: 130, 174
+  orig: 130, 174
+  offset: 0, 0
+  index: -1
+kapai1_00013
+  rotate: true
+  xy: 1742, 440
+  size: 130, 174
+  orig: 130, 174
+  offset: 0, 0
+  index: -1
+kapai1_00014
+  rotate: true
+  xy: 1742, 308
+  size: 130, 174
+  orig: 130, 174
+  offset: 0, 0
+  index: -1
+kapai1_00015
+  rotate: true
+  xy: 1486, 206
+  size: 130, 174
+  orig: 130, 174
+  offset: 0, 0
+  index: -1
+kapai1_00016
+  rotate: true
+  xy: 1662, 176
+  size: 130, 174
+  orig: 130, 174
+  offset: 0, 0
+  index: -1
+kapai1_00017
+  rotate: true
+  xy: 1486, 74
+  size: 130, 174
+  orig: 130, 174
+  offset: 0, 0
+  index: -1
+kapai1_00018
+  rotate: false
+  xy: 1838, 132
+  size: 130, 174
+  orig: 130, 174
+  offset: 0, 0
+  index: -1
+kapai1_00019
+  rotate: true
+  xy: 1662, 44
+  size: 130, 174
+  orig: 130, 174
+  offset: 0, 0
+  index: -1
+kapai3
+  rotate: true
+  xy: 2, 526
+  size: 396, 289
+  orig: 396, 289
+  offset: 0, 0
+  index: -1
+kapai3_00000
+  rotate: true
+  xy: 2, 264
+  size: 260, 210
+  orig: 260, 210
+  offset: 0, 0
+  index: -1
+kapai3_00001
+  rotate: true
+  xy: 2, 2
+  size: 260, 210
+  orig: 260, 210
+  offset: 0, 0
+  index: -1
+kapai3_00002
+  rotate: true
+  xy: 214, 264
+  size: 260, 210
+  orig: 260, 210
+  offset: 0, 0
+  index: -1
+kapai3_00003
+  rotate: true
+  xy: 214, 2
+  size: 260, 210
+  orig: 260, 210
+  offset: 0, 0
+  index: -1
+kapai3_00004
+  rotate: true
+  xy: 293, 662
+  size: 260, 210
+  orig: 260, 210
+  offset: 0, 0
+  index: -1
+kapai3_00005
+  rotate: true
+  xy: 426, 268
+  size: 260, 210
+  orig: 260, 210
+  offset: 0, 0
+  index: -1
+kapai3_00006
+  rotate: true
+  xy: 505, 662
+  size: 260, 210
+  orig: 260, 210
+  offset: 0, 0
+  index: -1
+kapai3_00007
+  rotate: true
+  xy: 426, 6
+  size: 260, 210
+  orig: 260, 210
+  offset: 0, 0
+  index: -1
+kapai3_00008
+  rotate: true
+  xy: 638, 268
+  size: 260, 210
+  orig: 260, 210
+  offset: 0, 0
+  index: -1
+kapai3_00009
+  rotate: true
+  xy: 717, 662
+  size: 260, 210
+  orig: 260, 210
+  offset: 0, 0
+  index: -1
+kapai3_00010
+  rotate: true
+  xy: 929, 662
+  size: 260, 210
+  orig: 260, 210
+  offset: 0, 0
+  index: -1
+kapai3_00011
+  rotate: true
+  xy: 638, 6
+  size: 260, 210
+  orig: 260, 210
+  offset: 0, 0
+  index: -1
+kapai3_00012
+  rotate: true
+  xy: 850, 268
+  size: 260, 210
+  orig: 260, 210
+  offset: 0, 0
+  index: -1
+kapai3_00013
+  rotate: true
+  xy: 1141, 662
+  size: 260, 210
+  orig: 260, 210
+  offset: 0, 0
+  index: -1
+kapai3_00014
+  rotate: true
+  xy: 850, 6
+  size: 260, 210
+  orig: 260, 210
+  offset: 0, 0
+  index: -1
+kapai3_00015
+  rotate: true
+  xy: 1062, 268
+  size: 260, 210
+  orig: 260, 210
+  offset: 0, 0
+  index: -1
+kapai3_00016
+  rotate: true
+  xy: 1062, 6
+  size: 260, 210
+  orig: 260, 210
+  offset: 0, 0
+  index: -1
+kapai3_00017
+  rotate: true
+  xy: 1274, 268
+  size: 260, 210
+  orig: 260, 210
+  offset: 0, 0
+  index: -1
+kapai3_00018
+  rotate: true
+  xy: 1353, 662
+  size: 260, 210
+  orig: 260, 210
+  offset: 0, 0
+  index: -1
+kapai3_00019
+  rotate: true
+  xy: 1274, 6
+  size: 260, 210
+  orig: 260, 210
+  offset: 0, 0
+  index: -1
