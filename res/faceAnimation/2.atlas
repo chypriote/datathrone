@@ -1,0 +1,76 @@
+
+2.png
+size: 126,260
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+love
+  rotate: true
+  xy: 92, 190
+  size: 68, 31
+  orig: 68, 31
+  offset: 0, 0
+  index: -1
+shenti
+  rotate: false
+  xy: 2, 114
+  size: 88, 144
+  orig: 88, 144
+  offset: 0, 0
+  index: -1
+shou
+  rotate: true
+  xy: 70, 20
+  size: 92, 49
+  orig: 92, 49
+  offset: 0, 0
+  index: -1
+toufa
+  rotate: false
+  xy: 2, 2
+  size: 66, 110
+  orig: 66, 110
+  offset: 0, 0
+  index: -1
+xin1
+  rotate: false
+  xy: 91, 4
+  size: 13, 14
+  orig: 13, 14
+  offset: 0, 0
+  index: -1
+xin2
+  rotate: true
+  xy: 70, 2
+  size: 16, 19
+  orig: 16, 19
+  offset: 0, 0
+  index: -1
+xin3
+  rotate: true
+  xy: 92, 124
+  size: 20, 15
+  orig: 20, 15
+  offset: 0, 0
+  index: -1
+yanjing1
+  rotate: false
+  xy: 92, 146
+  size: 18, 20
+  orig: 18, 20
+  offset: 0, 0
+  index: -1
+yanjing2
+  rotate: false
+  xy: 92, 168
+  size: 19, 20
+  orig: 19, 20
+  offset: 0, 0
+  index: -1
+zb
+  rotate: false
+  xy: 113, 177
+  size: 11, 11
+  orig: 11, 11
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,90 @@
+
+yhbz_texiao.png
+size: 1742,1510
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/yhbz_bowen_00000
+  rotate: true
+  xy: 2, 1133
+  size: 375, 578
+  orig: 375, 578
+  offset: 0, 0
+  index: -1
+images/yhbz_bowen_00001
+  rotate: true
+  xy: 582, 1133
+  size: 375, 578
+  orig: 375, 578
+  offset: 0, 0
+  index: -1
+images/yhbz_bowen_00002
+  rotate: true
+  xy: 1162, 1133
+  size: 375, 578
+  orig: 375, 578
+  offset: 0, 0
+  index: -1
+images/yhbz_bowen_00003
+  rotate: true
+  xy: 2, 756
+  size: 375, 578
+  orig: 375, 578
+  offset: 0, 0
+  index: -1
+images/yhbz_bowen_00004
+  rotate: true
+  xy: 582, 756
+  size: 375, 578
+  orig: 375, 578
+  offset: 0, 0
+  index: -1
+images/yhbz_bowen_00005
+  rotate: true
+  xy: 1162, 756
+  size: 375, 578
+  orig: 375, 578
+  offset: 0, 0
+  index: -1
+images/yhbz_bowen_00006
+  rotate: true
+  xy: 2, 379
+  size: 375, 578
+  orig: 375, 578
+  offset: 0, 0
+  index: -1
+images/yhbz_bowen_00007
+  rotate: true
+  xy: 582, 379
+  size: 375, 578
+  orig: 375, 578
+  offset: 0, 0
+  index: -1
+images/yhbz_bowen_00008
+  rotate: true
+  xy: 1162, 379
+  size: 375, 578
+  orig: 375, 578
+  offset: 0, 0
+  index: -1
+images/yhbz_bowen_00009
+  rotate: true
+  xy: 2, 2
+  size: 375, 578
+  orig: 375, 578
+  offset: 0, 0
+  index: -1
+images/yhbz_bowen_00010
+  rotate: true
+  xy: 582, 2
+  size: 375, 578
+  orig: 375, 578
+  offset: 0, 0
+  index: -1
+images/yhbz_bowen_00011
+  rotate: true
+  xy: 1162, 2
+  size: 375, 578
+  orig: 375, 578
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,62 @@
+
+5.png
+size: 173,142
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+doupeng
+  rotate: true
+  xy: 81, 70
+  size: 70, 88
+  orig: 70, 88
+  offset: 0, 0
+  index: -1
+guaizhang
+  rotate: false
+  xy: 81, 2
+  size: 13, 66
+  orig: 13, 66
+  offset: 0, 0
+  index: -1
+shou
+  rotate: false
+  xy: 138, 6
+  size: 33, 26
+  orig: 33, 26
+  offset: 0, 0
+  index: -1
+st
+  rotate: true
+  xy: 96, 34
+  size: 34, 69
+  orig: 34, 69
+  offset: 0, 0
+  index: -1
+tou
+  rotate: true
+  xy: 2, 7
+  size: 42, 52
+  orig: 42, 52
+  offset: 0, 0
+  index: -1
+toufa1
+  rotate: false
+  xy: 2, 51
+  size: 77, 89
+  orig: 77, 89
+  offset: 0, 0
+  index: -1
+toufa2
+  rotate: true
+  xy: 96, 5
+  size: 27, 40
+  orig: 27, 40
+  offset: 0, 0
+  index: -1
+toufa3
+  rotate: false
+  xy: 56, 36
+  size: 20, 13
+  orig: 20, 13
+  offset: 0, 0
+  index: -1

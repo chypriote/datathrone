@@ -1,0 +1,69 @@
+
+10.png
+size: 305,111
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bao
+  rotate: true
+  xy: 188, 65
+  size: 44, 77
+  orig: 44, 77
+  offset: 0, 0
+  index: -1
+doupeng
+  rotate: false
+  xy: 112, 45
+  size: 74, 64
+  orig: 74, 64
+  offset: 0, 0
+  index: -1
+huzi
+  rotate: true
+  xy: 112, 2
+  size: 41, 27
+  orig: 41, 27
+  offset: 0, 0
+  index: -1
+st2
+  rotate: false
+  xy: 188, 21
+  size: 60, 42
+  orig: 60, 42
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 2, 8
+  size: 108, 101
+  orig: 108, 101
+  offset: 0, 0
+  index: -1
+tui
+  rotate: false
+  xy: 250, 17
+  size: 47, 43
+  orig: 47, 43
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: false
+  xy: 141, 2
+  size: 22, 17
+  orig: 22, 17
+  offset: 0, 0
+  index: -1
+zb
+  rotate: false
+  xy: 141, 22
+  size: 23, 21
+  orig: 23, 21
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: true
+  xy: 267, 62
+  size: 47, 36
+  orig: 47, 36
+  offset: 0, 0
+  index: -1
