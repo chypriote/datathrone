@@ -2462,7 +2462,7 @@ local root=
         },
         {
             ["explain"]="item_explain_95",
-            ["classify"]=3,
+            ["classify"]=1,
             ["meType"]=11,
             ["kind"]=1,
             ["meVal"]=50,
@@ -2906,7 +2906,7 @@ local root=
         },
         {
             ["explain"]="item_explain_110",
-            ["classify"]=3,
+            ["classify"]=2,
             ["meType"]=6.5,
             ["kind"]=1,
             ["meVal"]=2000,
@@ -3011,6 +3011,7 @@ local root=
         },
         {
             ["explain"]="item_explain_114",
+            ["classify"]=1,
             ["kind"]=1,
             ["meVal"]=300,
             ["name"]="item_name_114",
@@ -4140,244 +4141,259 @@ local root=
         },
         {
             ["explain"]="item_explain_190",
+            ["classify"]=1,
             ["meType"]=12,
             ["meLiang"]=1,
             ["kind"]=10,
             ["meVal"]=50000,
-            ["meBigType"]=3,
-            ["name"]="item_name_190",
             ["icon"]=190,
-            ["_id"]=153,
-            ["id"]=190,
             ["source"]="item_source_136",
             ["type"]={
                 "other",
                 1
-            }
+            },
+            ["meBigType"]=3,
+            ["name"]="item_name_190",
+            ["_id"]=153,
+            ["id"]=190
         },
         {
             ["explain"]="item_explain_191",
+            ["classify"]=1,
             ["meType"]=12,
             ["meLiang"]=1,
             ["kind"]=10,
             ["meVal"]=50000,
-            ["meBigType"]=3,
-            ["name"]="item_name_191",
             ["icon"]=191,
-            ["_id"]=154,
-            ["id"]=191,
             ["source"]="item_source_137",
             ["type"]={
                 "other",
                 2
-            }
+            },
+            ["meBigType"]=3,
+            ["name"]="item_name_191",
+            ["_id"]=154,
+            ["id"]=191
         },
         {
             ["explain"]="item_explain_192",
+            ["classify"]=1,
             ["meType"]=12,
             ["meLiang"]=1,
             ["kind"]=10,
             ["meVal"]=50000,
-            ["meBigType"]=3,
-            ["name"]="item_name_192",
             ["icon"]=192,
-            ["_id"]=155,
-            ["id"]=192,
             ["source"]="item_source_138",
             ["type"]={
                 "other",
                 3
-            }
+            },
+            ["meBigType"]=3,
+            ["name"]="item_name_192",
+            ["_id"]=155,
+            ["id"]=192
         },
         {
             ["explain"]="item_explain_193",
+            ["classify"]=1,
             ["meType"]=12,
             ["meLiang"]=1,
             ["kind"]=10,
             ["meVal"]=50000,
-            ["meBigType"]=3,
-            ["name"]="item_name_193",
             ["icon"]=193,
-            ["_id"]=156,
-            ["id"]=193,
             ["source"]="item_source_139",
             ["type"]={
                 "other",
                 4
-            }
+            },
+            ["meBigType"]=3,
+            ["name"]="item_name_193",
+            ["_id"]=156,
+            ["id"]=193
         },
         {
             ["explain"]="item_explain_194",
+            ["classify"]=1,
             ["meType"]=12,
             ["meLiang"]=1,
             ["kind"]=10,
             ["meVal"]=50000,
-            ["meBigType"]=3,
-            ["name"]="item_name_194",
             ["icon"]=194,
-            ["_id"]=157,
-            ["id"]=194,
             ["source"]="item_source_140",
             ["type"]={
                 "other",
                 5
-            }
+            },
+            ["meBigType"]=3,
+            ["name"]="item_name_194",
+            ["_id"]=157,
+            ["id"]=194
         },
         {
             ["explain"]="item_explain_195",
+            ["classify"]=1,
             ["meType"]=12,
             ["meLiang"]=1,
             ["kind"]=10,
             ["meVal"]=50000,
-            ["meBigType"]=3,
-            ["name"]="item_name_195",
             ["icon"]=195,
-            ["_id"]=158,
-            ["id"]=195,
             ["source"]="item_source_141",
             ["type"]={
                 "other",
                 6
-            }
+            },
+            ["meBigType"]=3,
+            ["name"]="item_name_195",
+            ["_id"]=158,
+            ["id"]=195
         },
         {
             ["explain"]="item_explain_196",
+            ["classify"]=1,
             ["meType"]=12,
             ["meLiang"]=1,
             ["kind"]=10,
             ["meVal"]=50000,
-            ["meBigType"]=3,
-            ["name"]="item_name_196",
             ["icon"]=196,
-            ["_id"]=159,
-            ["id"]=196,
             ["source"]="item_source_142",
             ["type"]={
                 "other",
                 7
-            }
+            },
+            ["meBigType"]=3,
+            ["name"]="item_name_196",
+            ["_id"]=159,
+            ["id"]=196
         },
         {
             ["explain"]="item_explain_197",
+            ["classify"]=1,
             ["meType"]=12,
             ["meLiang"]=1,
             ["kind"]=10,
             ["meVal"]=50000,
-            ["meBigType"]=3,
-            ["name"]="item_name_197",
             ["icon"]=197,
-            ["_id"]=160,
-            ["id"]=197,
             ["source"]="item_source_143",
             ["type"]={
                 "other",
                 8
-            }
+            },
+            ["meBigType"]=3,
+            ["name"]="item_name_197",
+            ["_id"]=160,
+            ["id"]=197
         },
         {
             ["explain"]="item_explain_198",
+            ["classify"]=1,
             ["meType"]=12,
             ["meLiang"]=1,
             ["kind"]=10,
             ["meVal"]=50000,
-            ["meBigType"]=3,
-            ["name"]="item_name_198",
             ["icon"]=198,
-            ["_id"]=161,
-            ["id"]=198,
             ["source"]="item_source_144",
             ["type"]={
                 "other",
                 9
-            }
+            },
+            ["meBigType"]=3,
+            ["name"]="item_name_198",
+            ["_id"]=161,
+            ["id"]=198
         },
         {
             ["explain"]="item_explain_199",
+            ["classify"]=1,
             ["meType"]=12,
             ["meLiang"]=1,
             ["kind"]=10,
             ["meVal"]=50000,
-            ["meBigType"]=3,
-            ["name"]="item_name_199",
             ["icon"]=199,
-            ["_id"]=162,
-            ["id"]=199,
             ["source"]="item_source_145",
             ["type"]={
                 "other",
                 10
-            }
+            },
+            ["meBigType"]=3,
+            ["name"]="item_name_199",
+            ["_id"]=162,
+            ["id"]=199
         },
         {
             ["explain"]="item_explain_200",
+            ["classify"]=1,
             ["meType"]=12,
             ["meLiang"]=1,
             ["kind"]=10,
             ["meVal"]=5,
-            ["meBigType"]=3,
-            ["name"]="item_name_200",
             ["icon"]=200,
-            ["_id"]=163,
-            ["id"]=200,
             ["source"]="item_source_146",
             ["type"]={
                 "other",
                 11
-            }
+            },
+            ["meBigType"]=3,
+            ["name"]="item_name_200",
+            ["_id"]=163,
+            ["id"]=200
         },
         {
             ["explain"]="item_explain_201",
+            ["classify"]=1,
             ["meType"]=12,
             ["meLiang"]=1,
             ["kind"]=10,
             ["meVal"]=10,
-            ["meBigType"]=3,
-            ["name"]="item_name_201",
             ["icon"]=201,
-            ["_id"]=164,
-            ["id"]=201,
             ["source"]="item_source_kuanfuyamen",
             ["type"]={
                 "other",
                 99
-            }
+            },
+            ["meBigType"]=3,
+            ["name"]="item_name_201",
+            ["_id"]=164,
+            ["id"]=201
         },
         {
             ["explain"]="item_explain_202",
+            ["classify"]=1,
             ["meType"]=12,
             ["meLiang"]=1,
             ["kind"]=10,
             ["meVal"]=20,
-            ["meBigType"]=3,
-            ["name"]="item_name_202",
             ["icon"]=202,
-            ["_id"]=165,
-            ["id"]=202,
             ["source"]="item_source_147",
             ["type"]={
                 "other",
                 13
-            }
+            },
+            ["meBigType"]=3,
+            ["name"]="item_name_202",
+            ["_id"]=165,
+            ["id"]=202
         },
         {
             ["explain"]="item_explain_203",
+            ["classify"]=1,
             ["meType"]=12,
             ["meLiang"]=1,
             ["kind"]=10,
             ["meVal"]=40,
-            ["meBigType"]=3,
-            ["name"]="item_name_203",
             ["icon"]=203,
-            ["_id"]=166,
-            ["id"]=203,
             ["source"]="item_source_148",
             ["type"]={
                 "other",
                 14
-            }
+            },
+            ["meBigType"]=3,
+            ["name"]="item_name_203",
+            ["_id"]=166,
+            ["id"]=203
         },
         {
             ["explain"]="item_explain_204",
+            ["classify"]=1,
             ["meLiang"]=1,
             ["kind"]=10,
             ["meVal"]=100,
@@ -4393,6 +4409,7 @@ local root=
         },
         {
             ["explain"]="item_explain_205",
+            ["classify"]=1,
             ["meLiang"]=1,
             ["kind"]=10,
             ["meVal"]=5,
@@ -4408,71 +4425,75 @@ local root=
         },
         {
             ["explain"]="item_explain_206",
+            ["classify"]=1,
             ["meType"]=12,
             ["meLiang"]=1,
             ["kind"]=10,
             ["meVal"]=10,
-            ["meBigType"]=3,
-            ["name"]="item_name_206",
             ["icon"]=206,
-            ["_id"]=169,
-            ["id"]=206,
             ["source"]="item_source_kuanfushili",
             ["type"]={
                 "other",
                 17
-            }
+            },
+            ["meBigType"]=3,
+            ["name"]="item_name_206",
+            ["_id"]=169,
+            ["id"]=206
         },
         {
             ["explain"]="item_explain_207",
+            ["classify"]=1,
             ["meType"]=12,
             ["meLiang"]=1,
             ["kind"]=10,
             ["meVal"]=20,
-            ["meBigType"]=3,
-            ["name"]="item_name_207",
             ["icon"]=207,
-            ["_id"]=170,
-            ["id"]=207,
             ["source"]="item_source_banhuiyamen",
             ["type"]={
                 "other",
                 18
-            }
+            },
+            ["meBigType"]=3,
+            ["name"]="item_name_207",
+            ["_id"]=170,
+            ["id"]=207
         },
         {
             ["explain"]="item_explain_208",
+            ["classify"]=1,
             ["meType"]=12,
             ["meLiang"]=1,
             ["kind"]=10,
             ["meVal"]=40,
-            ["meBigType"]=3,
-            ["name"]="item_name_208",
             ["icon"]=208,
-            ["_id"]=171,
-            ["id"]=208,
             ["source"]="item_source_banhuiyamen",
             ["type"]={
                 "other",
                 19
-            }
+            },
+            ["meBigType"]=3,
+            ["name"]="item_name_208",
+            ["_id"]=171,
+            ["id"]=208
         },
         {
             ["explain"]="item_explain_209",
+            ["classify"]=1,
             ["meType"]=12,
             ["meLiang"]=1,
             ["kind"]=10,
             ["meVal"]=10,
-            ["meBigType"]=3,
-            ["name"]="item_name_209",
             ["icon"]=209,
-            ["_id"]=172,
-            ["id"]=209,
             ["source"]="item_source_kuanfuqinmi",
             ["type"]={
                 "other",
                 20
-            }
+            },
+            ["meBigType"]=3,
+            ["name"]="item_name_209",
+            ["_id"]=172,
+            ["id"]=209
         },
         {
             ["explain"]="item_explain_212",
@@ -4642,6 +4663,7 @@ local root=
         },
         {
             ["explain"]="item_explain_251",
+            ["classify"]=1,
             ["meType"]=9,
             ["kind"]=1,
             ["meVal"]=5,
@@ -4700,6 +4722,7 @@ local root=
         },
         {
             ["explain"]="item_explain_256",
+            ["classify"]=1,
             ["meType"]=9,
             ["kind"]=11,
             ["meVal"]=10,
@@ -4731,6 +4754,7 @@ local root=
         },
         {
             ["explain"]="item_explain_257",
+            ["classify"]=1,
             ["meType"]=9,
             ["kind"]=11,
             ["meVal"]=20,
@@ -4772,6 +4796,7 @@ local root=
         },
         {
             ["explain"]="item_explain_258",
+            ["classify"]=1,
             ["meType"]=9,
             ["kind"]=11,
             ["meVal"]=40,
@@ -4813,6 +4838,7 @@ local root=
         },
         {
             ["explain"]="item_explain_259",
+            ["classify"]=1,
             ["meType"]=9,
             ["kind"]=11,
             ["meVal"]=500,
@@ -5026,6 +5052,7 @@ local root=
         },
         {
             ["explain"]="item_explain_270",
+            ["classify"]=1,
             ["meType"]=9,
             ["kind"]=1,
             ["meVal"]=1000,
@@ -5039,6 +5066,7 @@ local root=
         },
         {
             ["explain"]="item_explain_271",
+            ["classify"]=1,
             ["meType"]=9,
             ["kind"]=11,
             ["meVal"]=500,
@@ -5070,6 +5098,7 @@ local root=
         },
         {
             ["explain"]="item_explain_272",
+            ["classify"]=1,
             ["meType"]=9,
             ["kind"]=11,
             ["meVal"]=100,
@@ -5111,6 +5140,7 @@ local root=
         },
         {
             ["explain"]="item_explain_273",
+            ["classify"]=1,
             ["meType"]=9,
             ["kind"]=11,
             ["meVal"]=100,
@@ -5152,6 +5182,7 @@ local root=
         },
         {
             ["explain"]="item_explain_274",
+            ["classify"]=1,
             ["meType"]=9,
             ["kind"]=11,
             ["meVal"]=100,
@@ -5333,6 +5364,7 @@ local root=
         },
         {
             ["explain"]="item_explain_331",
+            ["classify"]=1,
             ["meType"]=9,
             ["kind"]=11,
             ["meVal"]=100,
@@ -5346,6 +5378,7 @@ local root=
         },
         {
             ["explain"]="item_explain_332",
+            ["classify"]=1,
             ["meType"]=9,
             ["kind"]=11,
             ["meVal"]=500,
@@ -5359,52 +5392,56 @@ local root=
         },
         {
             ["explain"]="item_explain_333",
+            ["classify"]=1,
             ["meType"]=9,
             ["kind"]=11,
             ["meVal"]=100,
-            ["meBigType"]=2,
-            ["name"]="item_name_333",
             ["icon"]=333,
-            ["_id"]=200,
-            ["id"]=333,
             ["source"]="xunbao.item",
             ["type"]={"hd1020"},
-            ["checkName"]="万圣节活动骰子"
+            ["checkName"]="万圣节活动骰子",
+            ["meBigType"]=2,
+            ["name"]="item_name_333",
+            ["_id"]=200,
+            ["id"]=333
         },
         {
             ["explain"]="item_explain_334",
+            ["classify"]=1,
             ["meType"]=9,
             ["kind"]=1,
             ["meVal"]=150,
-            ["meBigType"]=2,
-            ["name"]="item_name_334",
             ["icon"]=334,
-            ["_id"]=201,
-            ["id"]=334,
             ["source"]="xunbao.item",
             ["type"]={
                 "item",
                 "act1020DoubleTime",
                 300
             },
-            ["checkName"]="巧克力积分翻倍"
+            ["checkName"]="巧克力积分翻倍",
+            ["meBigType"]=2,
+            ["name"]="item_name_334",
+            ["_id"]=201,
+            ["id"]=334
         },
         {
             ["explain"]="item_explain_335",
+            ["classify"]=1,
             ["meType"]=9,
             ["kind"]=11,
             ["meVal"]=0,
-            ["meBigType"]=2,
-            ["name"]="item_name_335",
             ["icon"]=335,
-            ["_id"]=202,
-            ["id"]=335,
             ["source"]="xunbao.item",
             ["type"]={"hd1022"},
-            ["checkName"]="活动积分"
+            ["checkName"]="活动积分",
+            ["meBigType"]=2,
+            ["name"]="item_name_335",
+            ["_id"]=202,
+            ["id"]=335
         },
         {
             ["explain"]="item_explain_336",
+            ["classify"]=1,
             ["meType"]=9,
             ["kind"]=1,
             ["meVal"]=0,
@@ -5421,6 +5458,7 @@ local root=
         },
         {
             ["explain"]="item_explain_343",
+            ["classify"]=1,
             ["meType"]=9,
             ["kind"]=11,
             ["meVal"]=100,
@@ -5434,34 +5472,37 @@ local root=
         },
         {
             ["explain"]="item_explain_344",
+            ["classify"]=1,
             ["meType"]=9,
             ["kind"]=11,
             ["meVal"]=200,
-            ["meBigType"]=2,
-            ["name"]="item_name_344",
             ["icon"]=344,
-            ["_id"]=205,
-            ["id"]=344,
             ["source"]="xunbao.item",
             ["type"]={"hd298"},
-            ["checkName"]="爆竹"
+            ["checkName"]="爆竹",
+            ["meBigType"]=2,
+            ["name"]="item_name_344",
+            ["_id"]=205,
+            ["id"]=344
         },
         {
             ["explain"]="item_explain_345",
+            ["classify"]=1,
             ["meType"]=9,
             ["kind"]=11,
             ["meVal"]=500,
-            ["meBigType"]=2,
-            ["name"]="item_name_345",
             ["icon"]=345,
-            ["_id"]=206,
-            ["id"]=345,
             ["source"]="xunbao.item",
             ["type"]={"hd298"},
-            ["checkName"]="烟花"
+            ["checkName"]="烟花",
+            ["meBigType"]=2,
+            ["name"]="item_name_345",
+            ["_id"]=206,
+            ["id"]=345
         },
         {
             ["explain"]="item_explain_348",
+            ["classify"]=1,
             ["meType"]=9,
             ["kind"]=11,
             ["meVal"]=2000,
@@ -5475,6 +5516,7 @@ local root=
         },
         {
             ["explain"]="item_explain_349",
+            ["classify"]=1,
             ["meType"]=9,
             ["kind"]=11,
             ["meVal"]=10000,
@@ -5488,6 +5530,7 @@ local root=
         },
         {
             ["explain"]="item_explain_350",
+            ["classify"]=1,
             ["meType"]=9,
             ["kind"]=11,
             ["meVal"]=10000,
@@ -5501,6 +5544,7 @@ local root=
         },
         {
             ["explain"]="item_explain_371",
+            ["classify"]=1,
             ["kind"]=11,
             ["meVal"]=10000,
             ["name"]="item_name_371",
@@ -5512,6 +5556,7 @@ local root=
         },
         {
             ["explain"]="item_explain_374",
+            ["classify"]=1,
             ["meType"]=9,
             ["kind"]=11,
             ["meVal"]=10000,
@@ -5525,6 +5570,7 @@ local root=
         },
         {
             ["explain"]="item_explain_375",
+            ["classify"]=1,
             ["meType"]=9,
             ["kind"]=11,
             ["meVal"]=200,
@@ -5538,6 +5584,7 @@ local root=
         },
         {
             ["explain"]="item_explain_377",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_377",
             ["icon"]=377,
@@ -5565,6 +5612,7 @@ local root=
         },
         {
             ["explain"]="item_explain_379",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_379",
             ["icon"]=379,
@@ -5576,6 +5624,7 @@ local root=
         },
         {
             ["explain"]="item_explain_380",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_380",
             ["icon"]=380,
@@ -5587,41 +5636,43 @@ local root=
         },
         {
             ["explain"]="item_explain_501",
+            ["classify"]=1,
             ["meType"]=9,
             ["meLiang"]=1,
             ["kind"]=1,
             ["meVal"]=200,
-            ["meBigType"]=2,
-            ["name"]="item_name_501",
             ["icon"]=501,
-            ["_id"]=217,
-            ["id"]=501,
             ["source"]="item_source_153",
             ["type"]={
                 "item",
                 "wifeadd",
                 26,
                 100
-            }
+            },
+            ["meBigType"]=2,
+            ["name"]="item_name_501",
+            ["_id"]=217,
+            ["id"]=501
         },
         {
             ["explain"]="item_explain_504",
+            ["classify"]=1,
             ["meType"]=9,
             ["meLiang"]=1,
             ["kind"]=1,
             ["meVal"]=0,
-            ["meBigType"]=2,
-            ["name"]="item_name_504",
             ["icon"]=504,
-            ["_id"]=218,
-            ["id"]=504,
             ["source"]="item_source_153",
             ["type"]={
                 "item",
                 "wifeadd",
                 28,
                 100
-            }
+            },
+            ["meBigType"]=2,
+            ["name"]="item_name_504",
+            ["_id"]=218,
+            ["id"]=504
         },
         {
             ["explain"]="item_explain_505",
@@ -8331,20 +8382,22 @@ local root=
         },
         {
             ["explain"]="item_explain_771",
+            ["classify"]=1,
             ["meType"]=9,
             ["kind"]=11,
             ["meVal"]=10000,
-            ["meBigType"]=2,
-            ["name"]="item_name_771",
             ["icon"]=771,
-            ["_id"]=346,
-            ["id"]=771,
             ["source"]="xunbao.item",
             ["type"]={"hd608"},
-            ["checkName"]="传情玫瑰"
+            ["checkName"]="传情玫瑰",
+            ["meBigType"]=2,
+            ["name"]="item_name_771",
+            ["_id"]=346,
+            ["id"]=771
         },
         {
             ["explain"]="item_explain_772",
+            ["classify"]=1,
             ["kind"]=1,
             ["meVal"]=10000,
             ["name"]="item_name_772",
@@ -8388,6 +8441,7 @@ local root=
         },
         {
             ["explain"]="item_explain_773",
+            ["classify"]=1,
             ["kind"]=11,
             ["meVal"]=10000,
             ["name"]="item_name_773",
@@ -9498,14 +9552,11 @@ local root=
         },
         {
             ["explain"]="item_explain_900",
+            ["classify"]=1,
             ["meType"]=9,
             ["kind"]=17,
             ["meVal"]=1000,
-            ["meBigType"]=2,
-            ["name"]="item_name_900",
             ["icon"]=900,
-            ["_id"]=403,
-            ["id"]=900,
             ["source"]="xunbao.item",
             ["type"]={
                 "item",
@@ -9513,18 +9564,19 @@ local root=
                 "yamen",
                 {{["effect_time"]=86400}}
             },
-            ["checkName"]="周榜buff"
+            ["checkName"]="周榜buff",
+            ["meBigType"]=2,
+            ["name"]="item_name_900",
+            ["_id"]=403,
+            ["id"]=900
         },
         {
             ["explain"]="item_explain_901",
+            ["classify"]=1,
             ["meType"]=9,
             ["kind"]=17,
             ["meVal"]=1000,
-            ["meBigType"]=2,
-            ["name"]="item_name_901",
             ["icon"]=901,
-            ["_id"]=404,
-            ["id"]=901,
             ["source"]="xunbao.item",
             ["type"]={
                 "item",
@@ -9532,18 +9584,19 @@ local root=
                 "worldboss",
                 {{["effect_time"]=86400}}
             },
-            ["checkName"]="周榜buff"
+            ["checkName"]="周榜buff",
+            ["meBigType"]=2,
+            ["name"]="item_name_901",
+            ["_id"]=404,
+            ["id"]=901
         },
         {
             ["explain"]="item_explain_902",
+            ["classify"]=1,
             ["meType"]=9,
             ["kind"]=17,
             ["meVal"]=1000,
-            ["meBigType"]=2,
-            ["name"]="item_name_902",
             ["icon"]=902,
-            ["_id"]=405,
-            ["id"]=902,
             ["source"]="xunbao.item",
             ["type"]={
                 "item",
@@ -9551,18 +9604,19 @@ local root=
                 "wife",
                 {{["effect_time"]=86400}}
             },
-            ["checkName"]="周榜buff"
+            ["checkName"]="周榜buff",
+            ["meBigType"]=2,
+            ["name"]="item_name_902",
+            ["_id"]=405,
+            ["id"]=902
         },
         {
             ["explain"]="item_explain_903",
+            ["classify"]=1,
             ["meType"]=9,
             ["kind"]=17,
             ["meVal"]=1000,
-            ["meBigType"]=2,
-            ["name"]="item_name_903",
             ["icon"]=903,
-            ["_id"]=406,
-            ["id"]=903,
             ["source"]="xunbao.item",
             ["type"]={
                 "item",
@@ -9570,18 +9624,19 @@ local root=
                 "jiulou",
                 {{["effect_time"]=86400}}
             },
-            ["checkName"]="周榜buff"
+            ["checkName"]="周榜buff",
+            ["meBigType"]=2,
+            ["name"]="item_name_903",
+            ["_id"]=406,
+            ["id"]=903
         },
         {
             ["explain"]="item_explain_904",
+            ["classify"]=1,
             ["meType"]=9,
             ["kind"]=17,
             ["meVal"]=1000,
-            ["meBigType"]=2,
-            ["name"]="item_name_904",
             ["icon"]=904,
-            ["_id"]=407,
-            ["id"]=904,
             ["source"]="xunbao.item",
             ["type"]={
                 "item",
@@ -9589,18 +9644,19 @@ local root=
                 "mobai",
                 {{["effect_time"]=86400}}
             },
-            ["checkName"]="周榜buff"
+            ["checkName"]="周榜buff",
+            ["meBigType"]=2,
+            ["name"]="item_name_904",
+            ["_id"]=407,
+            ["id"]=904
         },
         {
             ["explain"]="item_explain_905",
+            ["classify"]=1,
             ["meType"]=9,
             ["kind"]=17,
             ["meVal"]=1000,
-            ["meBigType"]=2,
-            ["name"]="item_name_905",
             ["icon"]=905,
-            ["_id"]=408,
-            ["id"]=905,
             ["source"]="xunbao.item",
             ["type"]={
                 "item",
@@ -9608,10 +9664,15 @@ local root=
                 "hanlin",
                 {{["effect_time"]=86400}}
             },
-            ["checkName"]="周榜buff"
+            ["checkName"]="周榜buff",
+            ["meBigType"]=2,
+            ["name"]="item_name_905",
+            ["_id"]=408,
+            ["id"]=905
         },
         {
             ["explain"]="item_explain_906",
+            ["classify"]=1,
             ["meType"]=9,
             ["kind"]=11,
             ["meVal"]=1000,
@@ -9625,31 +9686,33 @@ local root=
         },
         {
             ["explain"]="item_explain_907",
+            ["classify"]=1,
             ["meType"]=9,
             ["kind"]=11,
             ["meVal"]=1000,
-            ["meBigType"]=2,
-            ["name"]="item_name_907",
             ["icon"]=907,
-            ["_id"]=410,
-            ["id"]=907,
             ["source"]="xunbao.item",
             ["type"]={"hd1028"},
-            ["checkName"]="感恩节许愿骨活动道具"
+            ["checkName"]="感恩节许愿骨活动道具",
+            ["meBigType"]=2,
+            ["name"]="item_name_907",
+            ["_id"]=410,
+            ["id"]=907
         },
         {
             ["explain"]="item_explain_908",
+            ["classify"]=1,
             ["meType"]=9,
             ["kind"]=11,
             ["meVal"]=1000,
-            ["meBigType"]=2,
-            ["name"]="item_name_908",
             ["icon"]=908,
-            ["_id"]=411,
-            ["id"]=908,
             ["source"]="xunbao.item",
             ["type"]={"hd1030"},
-            ["checkName"]="感恩节积分羽毛枫叶"
+            ["checkName"]="感恩节积分羽毛枫叶",
+            ["meBigType"]=2,
+            ["name"]="item_name_908",
+            ["_id"]=411,
+            ["id"]=908
         },
         {
             ["explain"]="item_explain_909",
@@ -9839,6 +9902,7 @@ local root=
         },
         {
             ["explain"]="item_explain_919",
+            ["classify"]=1,
             ["meType"]=9,
             ["kind"]=1,
             ["meVal"]=1000,
@@ -9855,73 +9919,78 @@ local root=
         },
         {
             ["explain"]="item_explain_920",
+            ["classify"]=1,
             ["meType"]=9,
             ["kind"]=11,
             ["meVal"]=2000,
-            ["meBigType"]=2,
-            ["name"]="item_name_920",
             ["icon"]=920,
-            ["_id"]=423,
-            ["id"]=920,
             ["source"]="xunbao.item",
             ["type"]={"hd1038_milk"},
-            ["checkName"]="牛奶"
+            ["checkName"]="牛奶",
+            ["meBigType"]=2,
+            ["name"]="item_name_920",
+            ["_id"]=423,
+            ["id"]=920
         },
         {
             ["explain"]="item_explain_921",
+            ["classify"]=1,
             ["meType"]=9,
             ["kind"]=11,
             ["meVal"]=500,
-            ["meBigType"]=2,
-            ["name"]="item_name_921",
             ["icon"]=921,
-            ["_id"]=424,
-            ["id"]=921,
             ["source"]="xunbao.item",
             ["type"]={"hd1038_biscuits"},
-            ["checkName"]="饼干"
+            ["checkName"]="饼干",
+            ["meBigType"]=2,
+            ["name"]="item_name_921",
+            ["_id"]=424,
+            ["id"]=921
         },
         {
             ["explain"]="item_explain_922",
+            ["classify"]=1,
             ["meType"]=9,
             ["kind"]=11,
             ["meVal"]=1000,
-            ["meBigType"]=2,
-            ["name"]="item_name_922",
             ["icon"]=922,
-            ["_id"]=425,
-            ["id"]=922,
             ["source"]="xunbao.item",
             ["type"]={"hd1038_coal"},
-            ["checkName"]="煤炭"
+            ["checkName"]="煤炭",
+            ["meBigType"]=2,
+            ["name"]="item_name_922",
+            ["_id"]=425,
+            ["id"]=922
         },
         {
             ["explain"]="item_explain_923",
+            ["classify"]=1,
             ["meType"]=9,
             ["kind"]=11,
             ["meVal"]=400,
-            ["meBigType"]=2,
-            ["name"]="item_name_923",
             ["icon"]=923,
-            ["_id"]=426,
-            ["id"]=923,
             ["source"]="xunbao.item",
             ["type"]={"hd1038_refine"},
-            ["checkName"]="精炼石碎片"
+            ["checkName"]="精炼石碎片",
+            ["meBigType"]=2,
+            ["name"]="item_name_923",
+            ["_id"]=426,
+            ["id"]=923
         },
         {
             ["explain"]="item_explain_924",
+            ["classify"]=1,
             ["meType"]=9,
             ["kind"]=11,
             ["meVal"]=800,
-            ["meBigType"]=2,
-            ["name"]="item_name_924",
             ["icon"]=924,
-            ["_id"]=427,
-            ["id"]=924,
             ["source"]="xunbao.item",
             ["type"]={"hd1038_score"},
-            ["checkName"]="精炼石"
+            ["checkName"]="精炼石",
+            ["meBigType"]=2,
+            ["name"]="item_name_924",
+            ["_id"]=427,
+            ["id"]=924
         },
         {
             ["explain"]="item_explain_925",
@@ -10062,23 +10131,25 @@ local root=
         },
         {
             ["explain"]="item_explain_931",
+            ["classify"]=1,
             ["meType"]=9,
             ["kind"]=1,
             ["meVal"]=1000,
-            ["meBigType"]=2,
-            ["name"]="item_name_931",
             ["icon"]=931,
-            ["_id"]=434,
-            ["id"]=931,
             ["source"]="xunbao.item",
             ["type"]={
                 "item",
                 "hd4002"
             },
-            ["checkName"]="小游戏3恢复道具"
+            ["checkName"]="小游戏3恢复道具",
+            ["meBigType"]=2,
+            ["name"]="item_name_931",
+            ["_id"]=434,
+            ["id"]=931
         },
         {
             ["explain"]="item_explain_932",
+            ["classify"]=1,
             ["kind"]=1,
             ["meVal"]=50,
             ["name"]="item_name_932",
@@ -10094,20 +10165,21 @@ local root=
         },
         {
             ["explain"]="item_explain_933",
+            ["classify"]=1,
             ["meType"]=9,
             ["kind"]=1,
             ["meVal"]=100,
-            ["meBigType"]=2,
-            ["name"]="item_name_933",
             ["icon"]=933,
-            ["_id"]=436,
-            ["id"]=933,
             ["source"]="xunbao.item",
             ["type"]={
                 "item",
                 "hd4003"
             },
-            ["checkName"]="小游戏4冰壶恢复道具"
+            ["checkName"]="小游戏4冰壶恢复道具",
+            ["meBigType"]=2,
+            ["name"]="item_name_933",
+            ["_id"]=436,
+            ["id"]=933
         },
         {
             ["explain"]="item_explain_934",
@@ -10132,6 +10204,7 @@ local root=
         },
         {
             ["explain"]="item_explain_980",
+            ["classify"]=1,
             ["kind"]=1,
             ["meVal"]=500,
             ["name"]="item_name_980",
@@ -10144,6 +10217,7 @@ local root=
         },
         {
             ["explain"]="item_explain_981",
+            ["classify"]=1,
             ["kind"]=11,
             ["meVal"]=1000,
             ["name"]="item_name_981",
@@ -10156,6 +10230,7 @@ local root=
         },
         {
             ["explain"]="item_explain_982",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_982",
             ["icon"]=982,
@@ -10167,6 +10242,7 @@ local root=
         },
         {
             ["explain"]="item_explain_983",
+            ["classify"]=1,
             ["meType"]=12,
             ["meLiang"]=1,
             ["kind"]=10,
@@ -10185,6 +10261,7 @@ local root=
         },
         {
             ["explain"]="item_explain_985",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_985",
             ["icon"]=985,
@@ -10196,6 +10273,7 @@ local root=
         },
         {
             ["explain"]="item_explain_986",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_986",
             ["icon"]=986,
@@ -10207,6 +10285,7 @@ local root=
         },
         {
             ["explain"]="item_explain_984",
+            ["classify"]=1,
             ["kind"]=1,
             ["name"]="item_name_984",
             ["icon"]=984,
@@ -10217,6 +10296,7 @@ local root=
         },
         {
             ["explain"]="item_explain_987",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_987",
             ["icon"]=987,
@@ -10228,6 +10308,7 @@ local root=
         },
         {
             ["explain"]="item_explain_988",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_988",
             ["icon"]=988,
@@ -10251,6 +10332,7 @@ local root=
         },
         {
             ["explain"]="item_explain_990",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_990",
             ["icon"]=990,
@@ -13287,6 +13369,7 @@ local root=
         },
         {
             ["explain"]="item_explain_13001",
+            ["classify"]=1,
             ["meType"]=12,
             ["meLiang"]=1,
             ["kind"]=10,
@@ -13305,6 +13388,7 @@ local root=
         },
         {
             ["explain"]="item_explain_13002",
+            ["classify"]=1,
             ["meType"]=12,
             ["meLiang"]=1,
             ["kind"]=10,
@@ -13323,6 +13407,7 @@ local root=
         },
         {
             ["explain"]="item_explain_13003",
+            ["classify"]=1,
             ["meType"]=12,
             ["meLiang"]=1,
             ["kind"]=10,
@@ -13341,6 +13426,7 @@ local root=
         },
         {
             ["explain"]="item_explain_13193",
+            ["classify"]=1,
             ["meType"]=12,
             ["meLiang"]=1,
             ["kind"]=10,
@@ -13359,6 +13445,7 @@ local root=
         },
         {
             ["explain"]="item_explain_13194",
+            ["classify"]=1,
             ["meType"]=12,
             ["meLiang"]=1,
             ["kind"]=10,
@@ -13377,6 +13464,7 @@ local root=
         },
         {
             ["explain"]="item_explain_13195",
+            ["classify"]=1,
             ["meType"]=12,
             ["meLiang"]=1,
             ["kind"]=10,
@@ -13395,6 +13483,7 @@ local root=
         },
         {
             ["explain"]="item_explain_13196",
+            ["classify"]=1,
             ["meType"]=12,
             ["meLiang"]=1,
             ["kind"]=10,
@@ -13413,6 +13502,7 @@ local root=
         },
         {
             ["explain"]="item_explain_13197",
+            ["classify"]=1,
             ["meType"]=12,
             ["meLiang"]=1,
             ["kind"]=10,
@@ -13482,6 +13572,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14004",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14004",
             ["icon"]=14004,
@@ -13493,6 +13584,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14005",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14005",
             ["icon"]=14005,
@@ -13504,6 +13596,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14006",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14006",
             ["icon"]=14006,
@@ -13515,6 +13608,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14007",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14007",
             ["icon"]=14007,
@@ -13526,6 +13620,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14008",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14008",
             ["icon"]=14008,
@@ -13537,6 +13632,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14009",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14009",
             ["icon"]=14009,
@@ -13548,6 +13644,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14010",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14010",
             ["icon"]=14010,
@@ -13559,6 +13656,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14011",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14011",
             ["icon"]=14011,
@@ -13617,6 +13715,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14013",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14013",
             ["icon"]=14013,
@@ -13644,6 +13743,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14102",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14102",
             ["icon"]=14102,
@@ -13655,6 +13755,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14103",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14103",
             ["icon"]=14103,
@@ -13666,6 +13767,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14104",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14104",
             ["icon"]=14104,
@@ -13677,6 +13779,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14105",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14105",
             ["icon"]=14105,
@@ -13688,6 +13791,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14106",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14106",
             ["icon"]=14106,
@@ -13699,6 +13803,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14107",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14107",
             ["icon"]=14107,
@@ -13710,6 +13815,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14108",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14108",
             ["icon"]=14108,
@@ -13721,6 +13827,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14109",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14109",
             ["icon"]=14109,
@@ -13732,6 +13839,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14110",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14110",
             ["icon"]=14110,
@@ -13743,6 +13851,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14111",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14111",
             ["icon"]=14111,
@@ -13754,6 +13863,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14112",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14112",
             ["icon"]=14112,
@@ -13765,6 +13875,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14113",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14113",
             ["icon"]=14113,
@@ -13776,6 +13887,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14114",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14114",
             ["icon"]=14114,
@@ -13787,6 +13899,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14115",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14115",
             ["icon"]=14115,
@@ -13798,6 +13911,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14116",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14116",
             ["icon"]=14116,
@@ -13809,6 +13923,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14117",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14117",
             ["icon"]=14117,
@@ -13990,6 +14105,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14123",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14123",
             ["icon"]=14123,
@@ -14001,6 +14117,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14124",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14124",
             ["icon"]=14124,
@@ -14012,6 +14129,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14125",
+            ["classify"]=1,
             ["meLiang"]=1,
             ["kind"]=11,
             ["name"]="item_name_14125",
@@ -14024,6 +14142,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14126",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14126",
             ["icon"]=14126,
@@ -14035,6 +14154,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14127",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14127",
             ["icon"]=14127,
@@ -14046,6 +14166,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14128",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14128",
             ["icon"]=14128,
@@ -14057,6 +14178,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14129",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14129",
             ["icon"]=14129,
@@ -14105,6 +14227,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14131",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14131",
             ["icon"]=14131,
@@ -14149,6 +14272,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14133",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14133",
             ["icon"]=14133,
@@ -14160,6 +14284,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14134",
+            ["classify"]=1,
             ["kind"]=11,
             ["meVal"]=500,
             ["name"]="item_name_14134",
@@ -14172,6 +14297,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14135",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14135",
             ["icon"]=14135,
@@ -14183,6 +14309,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14136",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14136",
             ["icon"]=14136,
@@ -14194,6 +14321,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14137",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14137",
             ["icon"]=14137,
@@ -14205,6 +14333,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14138",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14138",
             ["icon"]=14138,
@@ -14216,6 +14345,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14139",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14139",
             ["icon"]=14139,
@@ -14227,6 +14357,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14140",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14140",
             ["icon"]=14140,
@@ -14238,6 +14369,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14141",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14141",
             ["icon"]=14141,
@@ -14249,6 +14381,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14142",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14142",
             ["icon"]=14142,
@@ -14324,6 +14457,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14145",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14145",
             ["icon"]=14145,
@@ -14335,6 +14469,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14146",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14146",
             ["icon"]=14146,
@@ -14441,6 +14576,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14148",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14148",
             ["icon"]=14148,
@@ -14452,6 +14588,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14149",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14149",
             ["icon"]=14149,
@@ -14463,6 +14600,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14150",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14150",
             ["icon"]=14150,
@@ -14474,6 +14612,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14151",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14151",
             ["icon"]=14151,
@@ -14485,6 +14624,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14152",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14152",
             ["icon"]=14152,
@@ -14537,6 +14677,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14154",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14154",
             ["icon"]=14154,
@@ -14548,6 +14689,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14155",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14155",
             ["icon"]=14155,
@@ -14559,6 +14701,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14156",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14156",
             ["icon"]=14156,
@@ -14570,6 +14713,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14157",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14157",
             ["icon"]=14157,
@@ -14581,6 +14725,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14158",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14158",
             ["icon"]=14158,
@@ -14592,6 +14737,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14159",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14159",
             ["icon"]=14159,
@@ -14603,6 +14749,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14160",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14160",
             ["icon"]=14160,
@@ -14614,6 +14761,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14161",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14161",
             ["icon"]=14161,
@@ -14625,6 +14773,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14162",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14162",
             ["icon"]=14162,
@@ -14636,6 +14785,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14163",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14163",
             ["icon"]=14163,
@@ -14647,6 +14797,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14164",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14164",
             ["icon"]=14164,
@@ -14658,6 +14809,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14165",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14165",
             ["icon"]=14165,
@@ -14669,6 +14821,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14166",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14166",
             ["icon"]=14166,
@@ -14680,6 +14833,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14167",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14167",
             ["icon"]=14167,
@@ -14691,6 +14845,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14168",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14168",
             ["icon"]=14168,
@@ -14702,6 +14857,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14169",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14169",
             ["icon"]=14169,
@@ -14713,6 +14869,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14170",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14170",
             ["icon"]=14170,
@@ -14724,6 +14881,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14171",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14171",
             ["icon"]=14171,
@@ -14735,6 +14893,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14172",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14172",
             ["icon"]=14172,
@@ -14746,6 +14905,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14173",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14173",
             ["icon"]=14173,
@@ -14777,6 +14937,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14175",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14175",
             ["icon"]=14175,
@@ -14788,6 +14949,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14176",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14176",
             ["icon"]=14176,
@@ -14799,6 +14961,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14177",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14177",
             ["icon"]=14177,
@@ -14810,6 +14973,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14178",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14178",
             ["icon"]=14178,
@@ -14821,6 +14985,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14179",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14179",
             ["icon"]=14179,
@@ -14832,6 +14997,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14180",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14180",
             ["icon"]=14180,
@@ -14843,6 +15009,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14181",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14181",
             ["icon"]=14181,
@@ -14854,6 +15021,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14182",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14182",
             ["icon"]=14182,
@@ -14865,6 +15033,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14183",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14183",
             ["icon"]=14183,
@@ -14876,6 +15045,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14184",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14184",
             ["icon"]=14184,
@@ -14887,6 +15057,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14185",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14185",
             ["icon"]=14185,
@@ -14898,6 +15069,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14186",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14186",
             ["icon"]=14186,
@@ -14909,6 +15081,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14187",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14187",
             ["icon"]=14187,
@@ -14920,6 +15093,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14188",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14188",
             ["icon"]=14188,
@@ -14931,6 +15105,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14189",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14189",
             ["icon"]=14189,
@@ -14942,6 +15117,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14190",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14190",
             ["icon"]=14190,
@@ -14975,6 +15151,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14192",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14192",
             ["icon"]=14192,
@@ -14986,6 +15163,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14193",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14193",
             ["icon"]=14193,
@@ -14997,6 +15175,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14194",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14194",
             ["icon"]=14194,
@@ -15008,6 +15187,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14195",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14195",
             ["icon"]=14195,
@@ -15019,6 +15199,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14196",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14196",
             ["icon"]=14196,
@@ -15030,6 +15211,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14197",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14197",
             ["icon"]=14197,
@@ -15041,6 +15223,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14198",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14198",
             ["icon"]=14198,
@@ -15052,6 +15235,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14199",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14199",
             ["icon"]=14199,
@@ -15063,6 +15247,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14200",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14200",
             ["icon"]=14200,
@@ -15074,6 +15259,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14201",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14201",
             ["icon"]=14201,
@@ -15085,6 +15271,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14202",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14202",
             ["icon"]=14202,
@@ -15096,6 +15283,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14203",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14203",
             ["icon"]=14203,
@@ -15130,6 +15318,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14205",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14205",
             ["icon"]=14205,
@@ -15141,6 +15330,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14206",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14206",
             ["icon"]=14206,
@@ -15152,6 +15342,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14207",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14207",
             ["icon"]=14207,
@@ -15163,6 +15354,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14208",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14208",
             ["icon"]=14208,
@@ -15174,6 +15366,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14209",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14209",
             ["icon"]=14209,
@@ -15185,6 +15378,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14210",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14210",
             ["icon"]=14210,
@@ -15196,6 +15390,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14211",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14211",
             ["icon"]=14211,
@@ -15207,6 +15402,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14212",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14212",
             ["icon"]=14212,
@@ -15218,6 +15414,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14213",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14213",
             ["icon"]=14213,
@@ -15229,6 +15426,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14214",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14214",
             ["icon"]=14214,
@@ -15240,6 +15438,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14215",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14215",
             ["icon"]=14215,
@@ -15251,6 +15450,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14216",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14216",
             ["icon"]=14216,
@@ -15262,6 +15462,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14217",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14217",
             ["icon"]=14217,
@@ -15273,6 +15474,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14218",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14218",
             ["icon"]=14218,
@@ -15284,6 +15486,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14219",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14219",
             ["icon"]=14219,
@@ -15295,6 +15498,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14220",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14220",
             ["icon"]=14220,
@@ -15306,6 +15510,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14221",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14221",
             ["icon"]=14221,
@@ -15317,6 +15522,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14222",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14222",
             ["icon"]=14222,
@@ -15328,6 +15534,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14223",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14223",
             ["icon"]=14223,
@@ -15339,6 +15546,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14224",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14224",
             ["icon"]=14224,
@@ -15350,6 +15558,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14225",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14225",
             ["icon"]=14225,
@@ -15361,6 +15570,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14226",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14226",
             ["icon"]=14226,
@@ -15372,6 +15582,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14227",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14227",
             ["icon"]=14227,
@@ -15383,6 +15594,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14228",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14228",
             ["icon"]=14228,
@@ -15394,6 +15606,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14229",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14229",
             ["icon"]=14229,
@@ -15405,6 +15618,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14230",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14230",
             ["icon"]=14230,
@@ -15416,6 +15630,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14231",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14231",
             ["icon"]=14231,
@@ -15570,6 +15785,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14237",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14237",
             ["icon"]=14237,
@@ -15581,6 +15797,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14238",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14238",
             ["icon"]=14238,
@@ -15592,6 +15809,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14239",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14239",
             ["icon"]=14239,
@@ -15603,6 +15821,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14240",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14240",
             ["icon"]=14240,
@@ -15614,6 +15833,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14241",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14241",
             ["icon"]=14241,
@@ -15625,6 +15845,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14242",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14242",
             ["icon"]=14242,
@@ -15636,6 +15857,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14243",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14243",
             ["icon"]=14243,
@@ -15647,6 +15869,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14244",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14244",
             ["icon"]=14244,
@@ -15658,6 +15881,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14245",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14245",
             ["icon"]=14245,
@@ -15669,6 +15893,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14246",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14246",
             ["icon"]=14246,
@@ -15680,6 +15905,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14247",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14247",
             ["icon"]=14247,
@@ -15691,6 +15917,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14248",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14248",
             ["icon"]=14248,
@@ -15702,6 +15929,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14249",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14249",
             ["icon"]=14249,
@@ -15713,6 +15941,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14250",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14250",
             ["icon"]=14250,
@@ -15724,6 +15953,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14251",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14251",
             ["icon"]=14251,
@@ -15750,6 +15980,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14253",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14253",
             ["icon"]=14253,
@@ -15761,6 +15992,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14254",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14254",
             ["icon"]=14254,
@@ -15772,6 +16004,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14255",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14255",
             ["icon"]=14255,
@@ -15783,6 +16016,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14256",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14256",
             ["icon"]=14256,
@@ -15794,6 +16028,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14257",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14257",
             ["icon"]=14257,
@@ -15805,6 +16040,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14258",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14258",
             ["icon"]=14258,
@@ -15816,6 +16052,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14259",
+            ["classify"]=1,
             ["meLiang"]=1,
             ["kind"]=11,
             ["name"]="item_name_14259",
@@ -15828,6 +16065,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14260",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14260",
             ["icon"]=14260,
@@ -15839,6 +16077,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14261",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14261",
             ["icon"]=14261,
@@ -15850,6 +16089,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14262",
+            ["classify"]=1,
             ["meLiang"]=1,
             ["kind"]=11,
             ["name"]="item_name_14262",
@@ -15862,6 +16102,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14263",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14263",
             ["icon"]=14263,
@@ -15873,6 +16114,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14264",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14264",
             ["icon"]=14264,
@@ -15884,6 +16126,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14265",
+            ["classify"]=1,
             ["meLiang"]=1,
             ["kind"]=11,
             ["name"]="item_name_14265",
@@ -15896,6 +16139,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14266",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14266",
             ["icon"]=14266,
@@ -15907,6 +16151,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14267",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14267",
             ["icon"]=14267,
@@ -15918,6 +16163,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14268",
+            ["classify"]=1,
             ["meLiang"]=1,
             ["kind"]=11,
             ["name"]="item_name_14268",
@@ -15930,6 +16176,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14269",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14269",
             ["icon"]=14269,
@@ -15962,6 +16209,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14271",
+            ["classify"]=1,
             ["meLiang"]=1,
             ["kind"]=11,
             ["meVal"]=5000,
@@ -15975,6 +16223,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14272",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14272",
             ["icon"]=14272,
@@ -15986,6 +16235,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14273",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14273",
             ["icon"]=14273,
@@ -15997,6 +16247,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14274",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14274",
             ["icon"]=14274,
@@ -16008,6 +16259,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14275",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14275",
             ["icon"]=14275,
@@ -16019,6 +16271,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14276",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14276",
             ["icon"]=14276,
@@ -16030,6 +16283,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14277",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14277",
             ["icon"]=14277,
@@ -16041,6 +16295,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14278",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14278",
             ["icon"]=14278,
@@ -16052,6 +16307,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14279",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14279",
             ["icon"]=14279,
@@ -16063,6 +16319,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14280",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14280",
             ["icon"]=14280,
@@ -16074,6 +16331,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14281",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14281",
             ["icon"]=14281,
@@ -16085,6 +16343,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14282",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14282",
             ["icon"]=14282,
@@ -16096,6 +16355,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14283",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14283",
             ["icon"]=14283,
@@ -16107,6 +16367,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14284",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14284",
             ["icon"]=14284,
@@ -16118,6 +16379,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14285",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14285",
             ["icon"]=14285,
@@ -16129,6 +16391,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14286",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14286",
             ["icon"]=14286,
@@ -16140,6 +16403,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14287",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14287",
             ["icon"]=14287,
@@ -16151,6 +16415,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14288",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14288",
             ["icon"]=14288,
@@ -16162,6 +16427,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14289",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14289",
             ["icon"]=14289,
@@ -16173,6 +16439,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14290",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14290",
             ["icon"]=14290,
@@ -16184,6 +16451,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14291",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14291",
             ["icon"]=14291,
@@ -16195,6 +16463,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14292",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14292",
             ["icon"]=14292,
@@ -16206,6 +16475,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14293",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14293",
             ["icon"]=14293,
@@ -16217,6 +16487,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14294",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14294",
             ["icon"]=14294,
@@ -16228,6 +16499,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14295",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14295",
             ["icon"]=14295,
@@ -16239,6 +16511,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14296",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14296",
             ["icon"]=14296,
@@ -16250,6 +16523,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14297",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14297",
             ["icon"]=14297,
@@ -16261,6 +16535,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14298",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14298",
             ["icon"]=14298,
@@ -16272,6 +16547,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14299",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14299",
             ["icon"]=14299,
@@ -16283,6 +16559,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14300",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14300",
             ["icon"]=14300,
@@ -16294,6 +16571,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14301",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14301",
             ["icon"]=14301,
@@ -16305,6 +16583,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14302",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14302",
             ["icon"]=14302,
@@ -16316,6 +16595,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14303",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14303",
             ["icon"]=14303,
@@ -16362,6 +16642,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14305",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14305",
             ["icon"]=14305,
@@ -16373,6 +16654,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14306",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14306",
             ["icon"]=14306,
@@ -16384,6 +16666,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14307",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14307",
             ["icon"]=14307,
@@ -16395,6 +16678,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14308",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14308",
             ["icon"]=14308,
@@ -16406,6 +16690,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14309",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14309",
             ["icon"]=14309,
@@ -16417,6 +16702,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14310",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14310",
             ["icon"]=14310,
@@ -16428,6 +16714,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14311",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14311",
             ["icon"]=14311,
@@ -16439,6 +16726,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14312",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14312",
             ["icon"]=14312,
@@ -16450,6 +16738,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14313",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14313",
             ["icon"]=14313,
@@ -16461,6 +16750,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14314",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14314",
             ["icon"]=14314,
@@ -16472,6 +16762,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14315",
+            ["classify"]=1,
             ["kind"]=1,
             ["meVal"]=100,
             ["name"]="item_name_14315",
@@ -16484,6 +16775,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14316",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14316",
             ["icon"]=14316,
@@ -16495,6 +16787,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14317",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14317",
             ["icon"]=14317,
@@ -16506,6 +16799,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14318",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14318",
             ["icon"]=14318,
@@ -16517,6 +16811,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14319",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14319",
             ["icon"]=14319,
@@ -16528,6 +16823,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14320",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14320",
             ["icon"]=14320,
@@ -16539,6 +16835,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14321",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14321",
             ["icon"]=14321,
@@ -16550,6 +16847,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14322",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14322",
             ["icon"]=14322,
@@ -16561,6 +16859,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14324",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14324",
             ["icon"]=14324,
@@ -16572,6 +16871,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14325",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14325",
             ["icon"]=14325,
@@ -16583,6 +16883,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14326",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14326",
             ["icon"]=14326,
@@ -16594,6 +16895,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14327",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14327",
             ["icon"]=14327,
@@ -16605,6 +16907,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14328",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14328",
             ["icon"]=14328,
@@ -16616,6 +16919,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14329",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14329",
             ["icon"]=14329,
@@ -16627,6 +16931,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14330",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14330",
             ["icon"]=14330,
@@ -16638,6 +16943,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14331",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14331",
             ["icon"]=14331,
@@ -16649,6 +16955,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14332",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14332",
             ["icon"]=14332,
@@ -16660,6 +16967,7 @@ local root=
         },
         {
             ["explain"]="item_explain_14333",
+            ["classify"]=1,
             ["kind"]=11,
             ["name"]="item_name_14333",
             ["icon"]=14333,

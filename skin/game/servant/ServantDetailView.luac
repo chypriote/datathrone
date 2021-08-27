@@ -183,7 +183,7 @@ function __Class:using(servantProxy,playerProxy,markProxy,governmentProxy,equipP
         self:hideWidget()
         self:hideSelf()
         self.servantVo = nil
-        self.zero:show("game.servant.ServantView")
+        self.zero:show("game.servant.ServantView",nil,nil,self.detailId)
         self:command("ServantCommand.refreshServant")
     end
     stu:addEvent("close",closeHd)
