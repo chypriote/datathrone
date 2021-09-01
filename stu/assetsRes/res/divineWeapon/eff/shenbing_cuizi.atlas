@@ -1,0 +1,118 @@
+
+shenbing_cuizi.png
+size: 1941,606
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/chuizi
+  rotate: true
+  xy: 1808, 178
+  size: 168, 131
+  orig: 168, 131
+  offset: 0, 0
+  index: -1
+images/shengbing_shenji_00002
+  rotate: true
+  xy: 2, 304
+  size: 300, 256
+  orig: 300, 256
+  offset: 0, 0
+  index: -1
+images/shengbing_shenji_00003
+  rotate: true
+  xy: 2, 2
+  size: 300, 256
+  orig: 300, 256
+  offset: 0, 0
+  index: -1
+images/shengbing_shenji_00004
+  rotate: true
+  xy: 260, 304
+  size: 300, 256
+  orig: 300, 256
+  offset: 0, 0
+  index: -1
+images/shengbing_shenji_00005
+  rotate: true
+  xy: 260, 2
+  size: 300, 256
+  orig: 300, 256
+  offset: 0, 0
+  index: -1
+images/shengbing_shenji_00006
+  rotate: true
+  xy: 518, 304
+  size: 300, 256
+  orig: 300, 256
+  offset: 0, 0
+  index: -1
+images/shengbing_shenji_00007
+  rotate: true
+  xy: 518, 2
+  size: 300, 256
+  orig: 300, 256
+  offset: 0, 0
+  index: -1
+images/shengbing_shenji_00008
+  rotate: true
+  xy: 776, 304
+  size: 300, 256
+  orig: 300, 256
+  offset: 0, 0
+  index: -1
+images/shengbing_shenji_00009
+  rotate: true
+  xy: 776, 2
+  size: 300, 256
+  orig: 300, 256
+  offset: 0, 0
+  index: -1
+images/shengbing_shenji_00010
+  rotate: true
+  xy: 1034, 304
+  size: 300, 256
+  orig: 300, 256
+  offset: 0, 0
+  index: -1
+images/shengbing_shenji_00011
+  rotate: true
+  xy: 1034, 2
+  size: 300, 256
+  orig: 300, 256
+  offset: 0, 0
+  index: -1
+images/shengbing_shenji_00012
+  rotate: true
+  xy: 1292, 304
+  size: 300, 256
+  orig: 300, 256
+  offset: 0, 0
+  index: -1
+images/shengbing_shenji_00013
+  rotate: true
+  xy: 1292, 2
+  size: 300, 256
+  orig: 300, 256
+  offset: 0, 0
+  index: -1
+images/shengbing_shenji_00014
+  rotate: false
+  xy: 1550, 348
+  size: 300, 256
+  orig: 300, 256
+  offset: 0, 0
+  index: -1
+images/shengbing_shenji_00015
+  rotate: true
+  xy: 1550, 46
+  size: 300, 256
+  orig: 300, 256
+  offset: 0, 0
+  index: -1
+images/zhan
+  rotate: true
+  xy: 1852, 418
+  size: 186, 78
+  orig: 186, 78
+  offset: 0, 0
+  index: -1

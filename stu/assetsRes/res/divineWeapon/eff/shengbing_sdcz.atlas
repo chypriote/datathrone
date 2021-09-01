@@ -1,0 +1,257 @@
+
+shengbing_sdcz.png
+size: 2010,2012
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/sb_kaitou_00000
+  rotate: false
+  xy: 604, 2
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+images/sb_kaitou_00001
+  rotate: false
+  xy: 1206, 404
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+images/sb_kaitou_00002
+  rotate: false
+  xy: 1006, 2
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+images/sb_kaitou_00003
+  rotate: false
+  xy: 1608, 404
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+images/sb_kaitou_00004
+  rotate: false
+  xy: 1408, 2
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+images/sb_zaxia_00000
+  rotate: false
+  xy: 2, 1208
+  size: 600, 400
+  orig: 600, 400
+  offset: 0, 0
+  index: -1
+images/sb_zaxia_00001
+  rotate: false
+  xy: 604, 1610
+  size: 600, 400
+  orig: 600, 400
+  offset: 0, 0
+  index: -1
+images/sb_zaxia_00002
+  rotate: false
+  xy: 2, 806
+  size: 600, 400
+  orig: 600, 400
+  offset: 0, 0
+  index: -1
+images/sb_zaxia_00003
+  rotate: false
+  xy: 604, 1208
+  size: 600, 400
+  orig: 600, 400
+  offset: 0, 0
+  index: -1
+images/sb_zaxia_00004
+  rotate: false
+  xy: 1206, 1610
+  size: 600, 400
+  orig: 600, 400
+  offset: 0, 0
+  index: -1
+images/sb_zaxia_00005
+  rotate: false
+  xy: 2, 404
+  size: 600, 400
+  orig: 600, 400
+  offset: 0, 0
+  index: -1
+images/sb_zaxia_00006
+  rotate: false
+  xy: 604, 806
+  size: 600, 400
+  orig: 600, 400
+  offset: 0, 0
+  index: -1
+images/sb_zaxia_00007
+  rotate: false
+  xy: 1206, 1208
+  size: 600, 400
+  orig: 600, 400
+  offset: 0, 0
+  index: -1
+images/sb_zaxia_00008
+  rotate: false
+  xy: 2, 2
+  size: 600, 400
+  orig: 600, 400
+  offset: 0, 0
+  index: -1
+images/sb_zaxia_00009
+  rotate: false
+  xy: 604, 404
+  size: 600, 400
+  orig: 600, 400
+  offset: 0, 0
+  index: -1
+images/sb_zaxia_00010
+  rotate: false
+  xy: 1206, 806
+  size: 600, 400
+  orig: 600, 400
+  offset: 0, 0
+  index: -1
+images/sb_zaxia_00011
+  rotate: false
+  xy: 2, 1610
+  size: 600, 400
+  orig: 600, 400
+  offset: 0, 0
+  index: -1
+
+shengbing_sdcz2.png
+size: 2012,920
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/sb_kaitou_00005
+  rotate: false
+  xy: 2, 518
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+images/sb_kaitou_00006
+  rotate: false
+  xy: 404, 518
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+images/sb_kaitou_00007
+  rotate: false
+  xy: 806, 518
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+images/sb_kaitou_00008
+  rotate: false
+  xy: 1208, 518
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+images/sb_kaitou_00009
+  rotate: false
+  xy: 1610, 518
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+images/sb_kaitou_00010
+  rotate: false
+  xy: 2, 116
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+images/sb_xhdian_00000
+  rotate: false
+  xy: 404, 260
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+images/sb_xhdian_00001
+  rotate: false
+  xy: 662, 260
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+images/sb_xhdian_00002
+  rotate: false
+  xy: 920, 260
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+images/sb_xhdian_00003
+  rotate: false
+  xy: 1178, 260
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+images/sb_xhdian_00004
+  rotate: false
+  xy: 1436, 260
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+images/sb_xhdian_00005
+  rotate: false
+  xy: 1694, 260
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+images/sb_xhdian_00006
+  rotate: false
+  xy: 404, 2
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+images/sb_xhdian_00007
+  rotate: false
+  xy: 662, 2
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+images/sb_xhdian_00008
+  rotate: false
+  xy: 920, 2
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+images/sb_xhdian_00009
+  rotate: false
+  xy: 1178, 2
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+images/sb_xhdian_00010
+  rotate: false
+  xy: 1436, 2
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+images/sb_xhdian_00011
+  rotate: false
+  xy: 1694, 2
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1

@@ -25,23 +25,22 @@ local root=
         ["id_2"]=1
     },
     ["voyageDayTask_index"]={
-        ["id_71"]=70,
-        ["id_72"]=71,
-        ["id_70"]=69,
+        ["id_104"]=103,
+        ["id_103"]=102,
+        ["id_106"]=105,
+        ["id_105"]=104,
+        ["id_108"]=107,
+        ["id_107"]=106,
+        ["id_109"]=108,
         ["id_24"]=23,
-        ["id_68"]=67,
         ["id_25"]=24,
-        ["id_69"]=68,
         ["id_22"]=21,
-        ["id_66"]=65,
         ["id_23"]=22,
-        ["id_67"]=66,
         ["id_20"]=19,
-        ["id_64"]=63,
+        ["id_100"]=99,
         ["id_21"]=20,
-        ["id_65"]=64,
-        ["id_62"]=61,
-        ["id_63"]=62,
+        ["id_102"]=101,
+        ["id_101"]=100,
         ["id_28"]=27,
         ["id_29"]=28,
         ["id_26"]=25,
@@ -52,67 +51,89 @@ local root=
         ["id_6"]=5,
         ["id_9"]=8,
         ["id_8"]=7,
-        ["id_60"]=59,
-        ["id_61"]=60,
         ["id_13"]=12,
-        ["id_57"]=56,
         ["id_14"]=13,
-        ["id_58"]=57,
         ["id_11"]=10,
-        ["id_55"]=54,
+        ["id_99"]=98,
         ["id_12"]=11,
-        ["id_56"]=55,
-        ["id_53"]=52,
+        ["id_97"]=96,
+        ["id_111"]=110,
         ["id_10"]=9,
-        ["id_54"]=53,
-        ["id_51"]=50,
-        ["id_52"]=51,
+        ["id_98"]=97,
+        ["id_110"]=109,
+        ["id_95"]=94,
+        ["id_96"]=95,
+        ["id_112"]=111,
         ["id_19"]=18,
         ["id_1"]=0,
         ["id_17"]=16,
         ["id_18"]=17,
         ["id_3"]=2,
         ["id_15"]=14,
-        ["id_59"]=58,
         ["id_2"]=1,
         ["id_16"]=15,
-        ["id_50"]=49,
+        ["id_93"]=92,
+        ["id_94"]=93,
         ["id_91"]=90,
+        ["id_92"]=91,
         ["id_90"]=89,
-        ["id_46"]=45,
-        ["id_47"]=46,
-        ["id_44"]=43,
         ["id_88"]=87,
-        ["id_45"]=44,
         ["id_89"]=88,
-        ["id_42"]=41,
         ["id_86"]=85,
-        ["id_43"]=42,
         ["id_87"]=86,
-        ["id_40"]=39,
         ["id_84"]=83,
-        ["id_41"]=40,
         ["id_85"]=84,
-        ["id_48"]=47,
-        ["id_49"]=48,
         ["id_82"]=81,
         ["id_83"]=82,
         ["id_80"]=79,
         ["id_81"]=80,
-        ["id_35"]=34,
         ["id_79"]=78,
-        ["id_36"]=35,
-        ["id_33"]=32,
         ["id_77"]=76,
-        ["id_34"]=33,
         ["id_78"]=77,
-        ["id_31"]=30,
         ["id_75"]=74,
-        ["id_32"]=31,
         ["id_76"]=75,
         ["id_73"]=72,
-        ["id_30"]=29,
         ["id_74"]=73,
+        ["id_71"]=70,
+        ["id_72"]=71,
+        ["id_70"]=69,
+        ["id_68"]=67,
+        ["id_69"]=68,
+        ["id_66"]=65,
+        ["id_67"]=66,
+        ["id_64"]=63,
+        ["id_65"]=64,
+        ["id_62"]=61,
+        ["id_63"]=62,
+        ["id_60"]=59,
+        ["id_61"]=60,
+        ["id_57"]=56,
+        ["id_58"]=57,
+        ["id_55"]=54,
+        ["id_56"]=55,
+        ["id_53"]=52,
+        ["id_54"]=53,
+        ["id_51"]=50,
+        ["id_52"]=51,
+        ["id_59"]=58,
+        ["id_50"]=49,
+        ["id_46"]=45,
+        ["id_47"]=46,
+        ["id_44"]=43,
+        ["id_45"]=44,
+        ["id_42"]=41,
+        ["id_43"]=42,
+        ["id_40"]=39,
+        ["id_41"]=40,
+        ["id_48"]=47,
+        ["id_49"]=48,
+        ["id_35"]=34,
+        ["id_36"]=35,
+        ["id_33"]=32,
+        ["id_34"]=33,
+        ["id_31"]=30,
+        ["id_32"]=31,
+        ["id_30"]=29,
         ["id_39"]=38,
         ["id_37"]=36,
         ["id_38"]=37
@@ -152,21 +173,35 @@ local root=
             ["need"]=690,
             ["_id"]=3,
             ["id"]=4,
-            ["items"]={{
-                ["kind"]=1,
-                ["count"]=1,
-                ["id"]=20003
-            }}
+            ["items"]={
+                {
+                    ["kind"]=1,
+                    ["count"]=1,
+                    ["id"]=20003
+                },
+                {
+                    ["kind"]=11,
+                    ["count"]=1,
+                    ["id"]=14316
+                }
+            }
         },
         {
             ["need"]=950,
             ["_id"]=4,
             ["id"]=5,
-            ["items"]={{
-                ["kind"]=11,
-                ["count"]=1,
-                ["id"]=14316
-            }}
+            ["items"]={
+                {
+                    ["kind"]=1,
+                    ["count"]=1,
+                    ["id"]=20001
+                },
+                {
+                    ["kind"]=11,
+                    ["count"]=1,
+                    ["id"]=14316
+                }
+            }
         },
         {
             ["need"]=2000,
@@ -181,7 +216,12 @@ local root=
                 {
                     ["kind"]=1,
                     ["count"]=1,
-                    ["id"]=92
+                    ["id"]=20004
+                },
+                {
+                    ["kind"]=11,
+                    ["count"]=1,
+                    ["id"]=14316
                 }
             }
         },
@@ -192,7 +232,7 @@ local root=
             ["items"]={
                 {
                     ["kind"]=11,
-                    ["count"]=1,
+                    ["count"]=2,
                     ["id"]=14316
                 },
                 {
@@ -208,24 +248,24 @@ local root=
             ["id"]=8,
             ["items"]={
                 {
-                    ["kind"]=11,
-                    ["count"]=1,
-                    ["id"]=14316
-                },
-                {
                     ["kind"]=1,
-                    ["count"]=1,
+                    ["count"]=2,
                     ["id"]=14315
                 },
                 {
                     ["kind"]=11,
-                    ["count"]=1,
+                    ["count"]=2,
                     ["id"]=14317
                 },
                 {
                     ["kind"]=11,
-                    ["count"]=5,
+                    ["count"]=1,
                     ["id"]=14318
+                },
+                {
+                    ["kind"]=1,
+                    ["count"]=1,
+                    ["id"]=20004
                 }
             }
         },
@@ -235,14 +275,24 @@ local root=
             ["id"]=9,
             ["items"]={
                 {
-                    ["kind"]=11,
-                    ["count"]=20,
-                    ["id"]=14316
+                    ["kind"]=1,
+                    ["count"]=1,
+                    ["id"]=20000
                 },
                 {
                     ["kind"]=1,
-                    ["count"]=18,
+                    ["count"]=1,
                     ["id"]=14315
+                },
+                {
+                    ["kind"]=11,
+                    ["count"]=2,
+                    ["id"]=14317
+                },
+                {
+                    ["kind"]=1,
+                    ["count"]=1,
+                    ["id"]=20002
                 }
             }
         },
@@ -252,14 +302,29 @@ local root=
             ["id"]=10,
             ["items"]={
                 {
+                    ["kind"]=1,
+                    ["count"]=1,
+                    ["id"]=20000
+                },
+                {
+                    ["kind"]=1,
+                    ["count"]=2,
+                    ["id"]=14315
+                },
+                {
                     ["kind"]=11,
-                    ["count"]=20,
+                    ["count"]=2,
                     ["id"]=14316
                 },
                 {
                     ["kind"]=1,
-                    ["count"]=19,
-                    ["id"]=14315
+                    ["count"]=1,
+                    ["id"]=20007
+                },
+                {
+                    ["kind"]=1,
+                    ["count"]=1,
+                    ["id"]=20008
                 }
             }
         },
@@ -269,14 +334,29 @@ local root=
             ["id"]=11,
             ["items"]={
                 {
+                    ["kind"]=1,
+                    ["count"]=2,
+                    ["id"]=20000
+                },
+                {
+                    ["kind"]=1,
+                    ["count"]=2,
+                    ["id"]=14315
+                },
+                {
                     ["kind"]=11,
-                    ["count"]=20,
+                    ["count"]=3,
                     ["id"]=14316
                 },
                 {
                     ["kind"]=1,
-                    ["count"]=20,
-                    ["id"]=14315
+                    ["count"]=1,
+                    ["id"]=20005
+                },
+                {
+                    ["kind"]=1,
+                    ["count"]=1,
+                    ["id"]=20006
                 }
             }
         },
@@ -286,14 +366,29 @@ local root=
             ["id"]=12,
             ["items"]={
                 {
+                    ["kind"]=1,
+                    ["count"]=2,
+                    ["id"]=20000
+                },
+                {
+                    ["kind"]=1,
+                    ["count"]=3,
+                    ["id"]=14315
+                },
+                {
                     ["kind"]=11,
-                    ["count"]=20,
+                    ["count"]=4,
                     ["id"]=14316
                 },
                 {
                     ["kind"]=1,
-                    ["count"]=21,
-                    ["id"]=14315
+                    ["count"]=2,
+                    ["id"]=20007
+                },
+                {
+                    ["kind"]=1,
+                    ["count"]=2,
+                    ["id"]=20008
                 }
             }
         },
@@ -303,14 +398,29 @@ local root=
             ["id"]=13,
             ["items"]={
                 {
+                    ["kind"]=1,
+                    ["count"]=5,
+                    ["id"]=20000
+                },
+                {
+                    ["kind"]=1,
+                    ["count"]=4,
+                    ["id"]=14315
+                },
+                {
                     ["kind"]=11,
-                    ["count"]=20,
+                    ["count"]=5,
                     ["id"]=14316
                 },
                 {
                     ["kind"]=1,
-                    ["count"]=22,
-                    ["id"]=14315
+                    ["count"]=2,
+                    ["id"]=20005
+                },
+                {
+                    ["kind"]=1,
+                    ["count"]=2,
+                    ["id"]=20006
                 }
             }
         }
@@ -918,10 +1028,10 @@ local root=
             ["isShow"]=1
         },
         {
-            ["remark"]="49、累计登录",
+            ["remark"]="49、每日登录",
             ["_id"]=48,
             ["type"]=49,
-            ["title"]="achieveName_title_1",
+            ["title"]="valentines.up.t1.info",
             ["jumpTo"]={
                 ["val"]="yamen",
                 ["type"]="city"
@@ -976,7 +1086,7 @@ local root=
             ["remark"]="54、强化一次装备",
             ["_id"]=53,
             ["type"]=54,
-            ["title"]="act1332.task_1",
+            ["title"]="useEquiProp",
             ["jumpTo"]={
                 ["val"]="servant2",
                 ["type"]="home"
@@ -987,7 +1097,7 @@ local root=
             ["remark"]="55、劣质抛光油",
             ["_id"]=54,
             ["type"]=55,
-            ["title"]="act1332.task_1",
+            ["title"]="useEquiProp",
             ["jumpTo"]={
                 ["val"]="servant2",
                 ["type"]="home"
@@ -998,7 +1108,7 @@ local root=
             ["remark"]="56、劣质装甲片",
             ["_id"]=55,
             ["type"]=56,
-            ["title"]="act1332.task_2",
+            ["title"]="useEquiProp",
             ["jumpTo"]={
                 ["val"]="servant2",
                 ["type"]="home"
@@ -1009,7 +1119,7 @@ local root=
             ["remark"]="57、劣质磨刀石",
             ["_id"]=56,
             ["type"]=57,
-            ["title"]="act1332.task_3",
+            ["title"]="useEquiProp",
             ["jumpTo"]={
                 ["val"]="servant2",
                 ["type"]="home"
@@ -1020,7 +1130,7 @@ local root=
             ["remark"]="58、劣质破甲马刺",
             ["_id"]=57,
             ["type"]=58,
-            ["title"]="act1332.task_4",
+            ["title"]="useEquiProp",
             ["jumpTo"]={
                 ["val"]="servant2",
                 ["type"]="home"
@@ -1031,7 +1141,7 @@ local root=
             ["remark"]="59、优良抛光油",
             ["_id"]=58,
             ["type"]=59,
-            ["title"]="act1332.task_5",
+            ["title"]="useEquiProp",
             ["jumpTo"]={
                 ["val"]="servant2",
                 ["type"]="home"
@@ -1042,7 +1152,7 @@ local root=
             ["remark"]="60、优良装甲片",
             ["_id"]=59,
             ["type"]=60,
-            ["title"]="act1332.task_6",
+            ["title"]="useEquiProp",
             ["jumpTo"]={
                 ["val"]="servant2",
                 ["type"]="home"
@@ -1053,7 +1163,7 @@ local root=
             ["remark"]="61、优良磨刀石",
             ["_id"]=60,
             ["type"]=61,
-            ["title"]="act1332.task_7",
+            ["title"]="useEquiProp",
             ["jumpTo"]={
                 ["val"]="servant2",
                 ["type"]="home"
@@ -1064,7 +1174,7 @@ local root=
             ["remark"]="62、优良破甲马刺",
             ["_id"]=61,
             ["type"]=62,
-            ["title"]="act1332.task_8",
+            ["title"]="useEquiProp",
             ["jumpTo"]={
                 ["val"]="servant2",
                 ["type"]="home"
@@ -1075,7 +1185,7 @@ local root=
             ["remark"]="63、精品抛光油",
             ["_id"]=62,
             ["type"]=63,
-            ["title"]="act1332.task_9",
+            ["title"]="useEquiProp",
             ["jumpTo"]={
                 ["val"]="servant2",
                 ["type"]="home"
@@ -1086,7 +1196,7 @@ local root=
             ["remark"]="64、精品装甲片",
             ["_id"]=63,
             ["type"]=64,
-            ["title"]="act1332.task_10",
+            ["title"]="useEquiProp",
             ["jumpTo"]={
                 ["val"]="servant2",
                 ["type"]="home"
@@ -1097,7 +1207,7 @@ local root=
             ["remark"]="65、精品磨刀石",
             ["_id"]=64,
             ["type"]=65,
-            ["title"]="act1332.task_11",
+            ["title"]="useEquiProp",
             ["jumpTo"]={
                 ["val"]="servant2",
                 ["type"]="home"
@@ -1108,7 +1218,7 @@ local root=
             ["remark"]="66、精品破甲马刺",
             ["_id"]=65,
             ["type"]=66,
-            ["title"]="act1332.task_12",
+            ["title"]="useEquiProp",
             ["jumpTo"]={
                 ["val"]="servant2",
                 ["type"]="home"
@@ -1119,7 +1229,7 @@ local root=
             ["remark"]="67、极品抛光油",
             ["_id"]=66,
             ["type"]=67,
-            ["title"]="act1332.task_13",
+            ["title"]="useEquiProp",
             ["jumpTo"]={
                 ["val"]="servant2",
                 ["type"]="home"
@@ -1130,7 +1240,7 @@ local root=
             ["remark"]="68、极品装甲片",
             ["_id"]=67,
             ["type"]=68,
-            ["title"]="act1332.task_14",
+            ["title"]="useEquiProp",
             ["jumpTo"]={
                 ["val"]="servant2",
                 ["type"]="home"
@@ -1141,7 +1251,7 @@ local root=
             ["remark"]="69、极品磨刀石",
             ["_id"]=68,
             ["type"]=69,
-            ["title"]="act1332.task_15",
+            ["title"]="useEquiProp",
             ["jumpTo"]={
                 ["val"]="servant2",
                 ["type"]="home"
@@ -1152,7 +1262,7 @@ local root=
             ["remark"]="70、极品破甲马刺",
             ["_id"]=69,
             ["type"]=70,
-            ["title"]="act1332.task_16",
+            ["title"]="useEquiProp",
             ["jumpTo"]={
                 ["val"]="servant2",
                 ["type"]="home"
@@ -1163,14 +1273,14 @@ local root=
             ["remark"]="71、装备总势力提升<1>",
             ["_id"]=70,
             ["type"]=71,
-            ["title"]="act1332.task_21",
+            ["title"]="useEquiProp",
             ["isShow"]=1
         }
     },
     ["voyageEvent"]={
         {
             ["name"]="随机常规道具奖励",
-            ["count"]=3,
+            ["count"]=4,
             ["json"]={
                 {
                     ["kind"]=1,
@@ -1427,7 +1537,7 @@ local root=
             ["count"]=1,
             ["json"]={
                 {
-                    ["prob_10000"]=3000,
+                    ["prob_10000"]=4000,
                     ["item"]={
                         ["kind"]=11,
                         ["count"]=100,
@@ -1436,40 +1546,58 @@ local root=
                     ["dc"]=1
                 },
                 {
-                    ["prob_10000"]=3000,
+                    ["prob_10000"]=1000,
                     ["item"]={
-                        ["kind"]=11,
-                        ["count"]=200,
-                        ["id"]=14325
+                        ["kind"]=1,
+                        ["count"]=1,
+                        ["id"]=81
                     },
                     ["dc"]=2
                 },
                 {
-                    ["prob_10000"]=2000,
+                    ["prob_10000"]=1000,
                     ["item"]={
-                        ["kind"]=11,
-                        ["count"]=300,
-                        ["id"]=14325
+                        ["kind"]=1,
+                        ["count"]=1,
+                        ["id"]=111
                     },
                     ["dc"]=3
                 },
                 {
                     ["prob_10000"]=1000,
                     ["item"]={
-                        ["kind"]=11,
-                        ["count"]=400,
-                        ["id"]=14325
+                        ["kind"]=1,
+                        ["count"]=2,
+                        ["id"]=6301
                     },
                     ["dc"]=4
                 },
                 {
                     ["prob_10000"]=1000,
                     ["item"]={
-                        ["kind"]=11,
-                        ["count"]=500,
-                        ["id"]=14325
+                        ["kind"]=1,
+                        ["count"]=1,
+                        ["id"]=82
                     },
                     ["dc"]=5
+                },
+                {
+                    ["prob_10000"]=1000,
+                    ["item"]={
+                        ["kind"]=1,
+                        ["count"]=1,
+                        ["id"]=12
+                    },
+                    ["dc"]=6
+                },
+                {
+                    ["prob_10000"]=1000,
+                    ["item"]={
+                        ["kind"]=1,
+                        ["count"]=1,
+                        ["id"]=161
+                    },
+                    ["dc"]=7
                 }
             },
             ["_id"]=3,
@@ -1491,7 +1619,7 @@ local root=
         },
         {
             ["name"]="惩罚事件",
-            ["count"]=3,
+            ["count"]=2,
             ["json"]={
                 ["min"]=1,
                 ["max"]=6
@@ -1528,7 +1656,7 @@ local root=
             ["key"]="free_num"
         },
         {
-            ["lable"]="对行商城-远航商品数量",
+            ["lable"]="兑换商城-远航商品数量",
             ["_id"]=2,
             ["value"]=3,
             ["key"]="shop_limit"
@@ -1787,6 +1915,45 @@ local root=
             ["level"]=1,
             ["_id"]=13,
             ["id"]=14,
+            ["type"]=52,
+            ["day"]=1,
+            ["rewards"]={{
+                ["kind"]=1,
+                ["count"]=1,
+                ["id"]=91
+            }},
+            ["target"]=2
+        },
+        {
+            ["level"]=2,
+            ["_id"]=14,
+            ["id"]=15,
+            ["type"]=52,
+            ["day"]=1,
+            ["rewards"]={{
+                ["kind"]=1,
+                ["count"]=1,
+                ["id"]=108
+            }},
+            ["target"]=5
+        },
+        {
+            ["level"]=3,
+            ["_id"]=15,
+            ["id"]=16,
+            ["type"]=52,
+            ["day"]=1,
+            ["rewards"]={{
+                ["kind"]=11,
+                ["count"]=1,
+                ["id"]=14316
+            }},
+            ["target"]=10
+        },
+        {
+            ["level"]=1,
+            ["_id"]=16,
+            ["id"]=17,
             ["type"]=49,
             ["day"]=2,
             ["rewards"]={
@@ -1805,45 +1972,6 @@ local root=
         },
         {
             ["level"]=1,
-            ["_id"]=14,
-            ["id"]=15,
-            ["type"]=54,
-            ["day"]=2,
-            ["rewards"]={{
-                ["kind"]=1,
-                ["count"]=1,
-                ["id"]=11
-            }},
-            ["target"]=3
-        },
-        {
-            ["level"]=2,
-            ["_id"]=15,
-            ["id"]=16,
-            ["type"]=54,
-            ["day"]=2,
-            ["rewards"]={{
-                ["kind"]=1,
-                ["count"]=1,
-                ["id"]=21
-            }},
-            ["target"]=5
-        },
-        {
-            ["level"]=3,
-            ["_id"]=16,
-            ["id"]=17,
-            ["type"]=54,
-            ["day"]=2,
-            ["rewards"]={{
-                ["kind"]=1,
-                ["count"]=1,
-                ["id"]=162
-            }},
-            ["target"]=10
-        },
-        {
-            ["level"]=4,
             ["_id"]=17,
             ["id"]=18,
             ["type"]=54,
@@ -1851,17 +1979,56 @@ local root=
             ["rewards"]={{
                 ["kind"]=1,
                 ["count"]=1,
-                ["id"]=80
+                ["id"]=11
             }},
-            ["target"]=15
+            ["target"]=3
         },
         {
-            ["level"]=5,
+            ["level"]=2,
             ["_id"]=18,
             ["id"]=19,
             ["type"]=54,
             ["day"]=2,
             ["rewards"]={{
+                ["kind"]=1,
+                ["count"]=1,
+                ["id"]=21
+            }},
+            ["target"]=5
+        },
+        {
+            ["level"]=3,
+            ["_id"]=19,
+            ["id"]=20,
+            ["type"]=54,
+            ["day"]=2,
+            ["rewards"]={{
+                ["kind"]=1,
+                ["count"]=1,
+                ["id"]=162
+            }},
+            ["target"]=10
+        },
+        {
+            ["level"]=4,
+            ["_id"]=20,
+            ["id"]=21,
+            ["type"]=54,
+            ["day"]=2,
+            ["rewards"]={{
+                ["kind"]=1,
+                ["count"]=1,
+                ["id"]=80
+            }},
+            ["target"]=15
+        },
+        {
+            ["level"]=5,
+            ["_id"]=21,
+            ["id"]=22,
+            ["type"]=54,
+            ["day"]=2,
+            ["rewards"]={{
                 ["kind"]=11,
                 ["count"]=2,
                 ["id"]=14316
@@ -1870,191 +2037,230 @@ local root=
         },
         {
             ["level"]=1,
-            ["_id"]=19,
-            ["id"]=20,
-            ["type"]=2,
-            ["day"]=2,
-            ["rewards"]={{
-                ["kind"]=1,
-                ["count"]=1,
-                ["id"]=31
-            }},
-            ["target"]=1
-        },
-        {
-            ["level"]=2,
-            ["_id"]=20,
-            ["id"]=21,
-            ["type"]=2,
-            ["day"]=2,
-            ["rewards"]={{
-                ["kind"]=1,
-                ["count"]=1,
-                ["id"]=82
-            }},
-            ["target"]=3
-        },
-        {
-            ["level"]=3,
-            ["_id"]=21,
-            ["id"]=22,
-            ["type"]=2,
-            ["day"]=2,
-            ["rewards"]={{
-                ["kind"]=1,
-                ["count"]=1,
-                ["id"]=83
-            }},
-            ["target"]=5
-        },
-        {
-            ["level"]=4,
             ["_id"]=22,
             ["id"]=23,
             ["type"]=2,
             ["day"]=2,
             ["rewards"]={{
+                ["kind"]=1,
+                ["count"]=1,
+                ["id"]=31
+            }},
+            ["target"]=1
+        },
+        {
+            ["level"]=2,
+            ["_id"]=23,
+            ["id"]=24,
+            ["type"]=2,
+            ["day"]=2,
+            ["rewards"]={{
+                ["kind"]=1,
+                ["count"]=1,
+                ["id"]=82
+            }},
+            ["target"]=3
+        },
+        {
+            ["level"]=3,
+            ["_id"]=24,
+            ["id"]=25,
+            ["type"]=2,
+            ["day"]=2,
+            ["rewards"]={{
+                ["kind"]=1,
+                ["count"]=1,
+                ["id"]=83
+            }},
+            ["target"]=5
+        },
+        {
+            ["level"]=4,
+            ["_id"]=25,
+            ["id"]=26,
+            ["type"]=2,
+            ["day"]=2,
+            ["rewards"]={{
                 ["kind"]=11,
                 ["count"]=2,
                 ["id"]=14316
             }},
             ["target"]=10
-        },
-        {
-            ["level"]=1,
-            ["_id"]=23,
-            ["id"]=24,
-            ["type"]=3,
-            ["day"]=2,
-            ["rewards"]={{
-                ["kind"]=1,
-                ["count"]=1,
-                ["id"]=91
-            }},
-            ["target"]=6
-        },
-        {
-            ["level"]=2,
-            ["_id"]=24,
-            ["id"]=25,
-            ["type"]=3,
-            ["day"]=2,
-            ["rewards"]={
-                {
-                    ["kind"]=1,
-                    ["count"]=1,
-                    ["id"]=93
-                },
-                {
-                    ["kind"]=1,
-                    ["count"]=1,
-                    ["id"]=108
-                }
-            },
-            ["target"]=12
-        },
-        {
-            ["level"]=3,
-            ["_id"]=25,
-            ["id"]=26,
-            ["type"]=3,
-            ["day"]=2,
-            ["rewards"]={{
-                ["kind"]=11,
-                ["count"]=1,
-                ["id"]=14316
-            }},
-            ["target"]=18
         },
         {
             ["level"]=1,
             ["_id"]=26,
             ["id"]=27,
-            ["type"]=49,
-            ["day"]=3,
+            ["type"]=3,
+            ["day"]=2,
+            ["rewards"]={{
+                ["kind"]=1,
+                ["count"]=1,
+                ["id"]=91
+            }},
+            ["target"]=6
+        },
+        {
+            ["level"]=2,
+            ["_id"]=27,
+            ["id"]=28,
+            ["type"]=3,
+            ["day"]=2,
             ["rewards"]={
                 {
                     ["kind"]=1,
                     ["count"]=1,
-                    ["id"]=14315
+                    ["id"]=93
                 },
                 {
                     ["kind"]=1,
                     ["count"]=1,
-                    ["id"]=52
+                    ["id"]=108
                 }
             },
-            ["target"]=1
+            ["target"]=12
+        },
+        {
+            ["level"]=3,
+            ["_id"]=28,
+            ["id"]=29,
+            ["type"]=3,
+            ["day"]=2,
+            ["rewards"]={{
+                ["kind"]=11,
+                ["count"]=1,
+                ["id"]=14316
+            }},
+            ["target"]=18
         },
         {
             ["level"]=1,
-            ["_id"]=27,
-            ["id"]=28,
-            ["type"]=54,
-            ["day"]=3,
+            ["_id"]=29,
+            ["id"]=30,
+            ["type"]=52,
+            ["day"]=2,
             ["rewards"]={{
                 ["kind"]=1,
                 ["count"]=1,
-                ["id"]=11
+                ["id"]=91
             }},
-            ["target"]=3
+            ["target"]=2
         },
         {
             ["level"]=2,
-            ["_id"]=28,
-            ["id"]=29,
-            ["type"]=54,
-            ["day"]=3,
+            ["_id"]=30,
+            ["id"]=31,
+            ["type"]=52,
+            ["day"]=2,
             ["rewards"]={{
                 ["kind"]=1,
                 ["count"]=1,
-                ["id"]=21
+                ["id"]=108
             }},
             ["target"]=5
         },
         {
             ["level"]=3,
-            ["_id"]=29,
-            ["id"]=30,
-            ["type"]=54,
-            ["day"]=3,
-            ["rewards"]={{
-                ["kind"]=1,
-                ["count"]=1,
-                ["id"]=162
-            }},
-            ["target"]=10
-        },
-        {
-            ["level"]=4,
-            ["_id"]=30,
-            ["id"]=31,
-            ["type"]=54,
-            ["day"]=3,
-            ["rewards"]={{
-                ["kind"]=1,
-                ["count"]=1,
-                ["id"]=80
-            }},
-            ["target"]=15
-        },
-        {
-            ["level"]=5,
             ["_id"]=31,
             ["id"]=32,
-            ["type"]=54,
-            ["day"]=3,
+            ["type"]=52,
+            ["day"]=2,
             ["rewards"]={{
                 ["kind"]=11,
-                ["count"]=2,
+                ["count"]=1,
                 ["id"]=14316
             }},
-            ["target"]=20
+            ["target"]=10
         },
         {
             ["level"]=1,
             ["_id"]=32,
             ["id"]=33,
+            ["type"]=49,
+            ["day"]=3,
+            ["rewards"]={
+                {
+                    ["kind"]=1,
+                    ["count"]=1,
+                    ["id"]=14315
+                },
+                {
+                    ["kind"]=1,
+                    ["count"]=1,
+                    ["id"]=52
+                }
+            },
+            ["target"]=1
+        },
+        {
+            ["level"]=1,
+            ["_id"]=33,
+            ["id"]=34,
+            ["type"]=54,
+            ["day"]=3,
+            ["rewards"]={{
+                ["kind"]=1,
+                ["count"]=1,
+                ["id"]=11
+            }},
+            ["target"]=3
+        },
+        {
+            ["level"]=2,
+            ["_id"]=34,
+            ["id"]=35,
+            ["type"]=54,
+            ["day"]=3,
+            ["rewards"]={{
+                ["kind"]=1,
+                ["count"]=1,
+                ["id"]=21
+            }},
+            ["target"]=5
+        },
+        {
+            ["level"]=3,
+            ["_id"]=35,
+            ["id"]=36,
+            ["type"]=54,
+            ["day"]=3,
+            ["rewards"]={{
+                ["kind"]=1,
+                ["count"]=1,
+                ["id"]=162
+            }},
+            ["target"]=10
+        },
+        {
+            ["level"]=4,
+            ["_id"]=36,
+            ["id"]=37,
+            ["type"]=54,
+            ["day"]=3,
+            ["rewards"]={{
+                ["kind"]=1,
+                ["count"]=1,
+                ["id"]=80
+            }},
+            ["target"]=15
+        },
+        {
+            ["level"]=5,
+            ["_id"]=37,
+            ["id"]=38,
+            ["type"]=54,
+            ["day"]=3,
+            ["rewards"]={{
+                ["kind"]=11,
+                ["count"]=2,
+                ["id"]=14316
+            }},
+            ["target"]=20
+        },
+        {
+            ["level"]=1,
+            ["_id"]=38,
+            ["id"]=39,
             ["type"]=2,
             ["day"]=3,
             ["rewards"]={{
@@ -2066,8 +2272,8 @@ local root=
         },
         {
             ["level"]=2,
-            ["_id"]=33,
-            ["id"]=34,
+            ["_id"]=39,
+            ["id"]=40,
             ["type"]=2,
             ["day"]=3,
             ["rewards"]={{
@@ -2079,8 +2285,8 @@ local root=
         },
         {
             ["level"]=3,
-            ["_id"]=34,
-            ["id"]=35,
+            ["_id"]=40,
+            ["id"]=41,
             ["type"]=2,
             ["day"]=3,
             ["rewards"]={{
@@ -2092,8 +2298,8 @@ local root=
         },
         {
             ["level"]=4,
-            ["_id"]=35,
-            ["id"]=36,
+            ["_id"]=41,
+            ["id"]=42,
             ["type"]=2,
             ["day"]=3,
             ["rewards"]={{
@@ -2105,8 +2311,8 @@ local root=
         },
         {
             ["level"]=1,
-            ["_id"]=36,
-            ["id"]=37,
+            ["_id"]=42,
+            ["id"]=43,
             ["type"]=3,
             ["day"]=3,
             ["rewards"]={{
@@ -2118,8 +2324,8 @@ local root=
         },
         {
             ["level"]=2,
-            ["_id"]=37,
-            ["id"]=38,
+            ["_id"]=43,
+            ["id"]=44,
             ["type"]=3,
             ["day"]=3,
             ["rewards"]={
@@ -2138,8 +2344,8 @@ local root=
         },
         {
             ["level"]=3,
-            ["_id"]=38,
-            ["id"]=39,
+            ["_id"]=44,
+            ["id"]=45,
             ["type"]=3,
             ["day"]=3,
             ["rewards"]={{
@@ -2148,181 +2354,220 @@ local root=
                 ["id"]=14316
             }},
             ["target"]=18
-        },
-        {
-            ["level"]=1,
-            ["_id"]=39,
-            ["id"]=40,
-            ["type"]=49,
-            ["day"]=4,
-            ["rewards"]={
-                {
-                    ["kind"]=1,
-                    ["count"]=1,
-                    ["id"]=14315
-                },
-                {
-                    ["kind"]=1,
-                    ["count"]=1,
-                    ["id"]=52
-                }
-            },
-            ["target"]=1
-        },
-        {
-            ["level"]=1,
-            ["_id"]=40,
-            ["id"]=41,
-            ["type"]=54,
-            ["day"]=4,
-            ["rewards"]={{
-                ["kind"]=1,
-                ["count"]=1,
-                ["id"]=11
-            }},
-            ["target"]=3
-        },
-        {
-            ["level"]=2,
-            ["_id"]=41,
-            ["id"]=42,
-            ["type"]=54,
-            ["day"]=4,
-            ["rewards"]={{
-                ["kind"]=1,
-                ["count"]=1,
-                ["id"]=21
-            }},
-            ["target"]=5
-        },
-        {
-            ["level"]=3,
-            ["_id"]=42,
-            ["id"]=43,
-            ["type"]=54,
-            ["day"]=4,
-            ["rewards"]={{
-                ["kind"]=1,
-                ["count"]=1,
-                ["id"]=162
-            }},
-            ["target"]=10
-        },
-        {
-            ["level"]=4,
-            ["_id"]=43,
-            ["id"]=44,
-            ["type"]=54,
-            ["day"]=4,
-            ["rewards"]={{
-                ["kind"]=1,
-                ["count"]=1,
-                ["id"]=80
-            }},
-            ["target"]=15
-        },
-        {
-            ["level"]=5,
-            ["_id"]=44,
-            ["id"]=45,
-            ["type"]=54,
-            ["day"]=4,
-            ["rewards"]={{
-                ["kind"]=11,
-                ["count"]=2,
-                ["id"]=14316
-            }},
-            ["target"]=20
         },
         {
             ["level"]=1,
             ["_id"]=45,
             ["id"]=46,
-            ["type"]=2,
-            ["day"]=4,
+            ["type"]=52,
+            ["day"]=3,
             ["rewards"]={{
                 ["kind"]=1,
                 ["count"]=1,
-                ["id"]=31
+                ["id"]=91
             }},
-            ["target"]=1
+            ["target"]=2
         },
         {
             ["level"]=2,
             ["_id"]=46,
             ["id"]=47,
-            ["type"]=2,
-            ["day"]=4,
+            ["type"]=52,
+            ["day"]=3,
             ["rewards"]={{
                 ["kind"]=1,
                 ["count"]=1,
-                ["id"]=82
+                ["id"]=108
             }},
-            ["target"]=3
+            ["target"]=5
         },
         {
             ["level"]=3,
             ["_id"]=47,
             ["id"]=48,
-            ["type"]=2,
-            ["day"]=4,
-            ["rewards"]={{
-                ["kind"]=1,
-                ["count"]=1,
-                ["id"]=83
-            }},
-            ["target"]=5
-        },
-        {
-            ["level"]=4,
-            ["_id"]=48,
-            ["id"]=49,
-            ["type"]=2,
-            ["day"]=4,
+            ["type"]=52,
+            ["day"]=3,
             ["rewards"]={{
                 ["kind"]=11,
-                ["count"]=2,
+                ["count"]=1,
                 ["id"]=14316
             }},
             ["target"]=10
+        },
+        {
+            ["level"]=1,
+            ["_id"]=48,
+            ["id"]=49,
+            ["type"]=49,
+            ["day"]=4,
+            ["rewards"]={
+                {
+                    ["kind"]=1,
+                    ["count"]=1,
+                    ["id"]=14315
+                },
+                {
+                    ["kind"]=1,
+                    ["count"]=1,
+                    ["id"]=52
+                }
+            },
+            ["target"]=1
         },
         {
             ["level"]=1,
             ["_id"]=49,
             ["id"]=50,
-            ["type"]=3,
+            ["type"]=54,
             ["day"]=4,
             ["rewards"]={{
                 ["kind"]=1,
                 ["count"]=1,
-                ["id"]=91
+                ["id"]=11
             }},
-            ["target"]=6
+            ["target"]=3
         },
         {
             ["level"]=2,
             ["_id"]=50,
             ["id"]=51,
-            ["type"]=3,
+            ["type"]=54,
             ["day"]=4,
-            ["rewards"]={
-                {
-                    ["kind"]=1,
-                    ["count"]=1,
-                    ["id"]=93
-                },
-                {
-                    ["kind"]=1,
-                    ["count"]=1,
-                    ["id"]=108
-                }
-            },
-            ["target"]=12
+            ["rewards"]={{
+                ["kind"]=1,
+                ["count"]=1,
+                ["id"]=21
+            }},
+            ["target"]=5
         },
         {
             ["level"]=3,
             ["_id"]=51,
             ["id"]=52,
+            ["type"]=54,
+            ["day"]=4,
+            ["rewards"]={{
+                ["kind"]=1,
+                ["count"]=1,
+                ["id"]=162
+            }},
+            ["target"]=10
+        },
+        {
+            ["level"]=4,
+            ["_id"]=52,
+            ["id"]=53,
+            ["type"]=54,
+            ["day"]=4,
+            ["rewards"]={{
+                ["kind"]=1,
+                ["count"]=1,
+                ["id"]=80
+            }},
+            ["target"]=15
+        },
+        {
+            ["level"]=5,
+            ["_id"]=53,
+            ["id"]=54,
+            ["type"]=54,
+            ["day"]=4,
+            ["rewards"]={{
+                ["kind"]=11,
+                ["count"]=2,
+                ["id"]=14316
+            }},
+            ["target"]=20
+        },
+        {
+            ["level"]=1,
+            ["_id"]=54,
+            ["id"]=55,
+            ["type"]=2,
+            ["day"]=4,
+            ["rewards"]={{
+                ["kind"]=1,
+                ["count"]=1,
+                ["id"]=31
+            }},
+            ["target"]=1
+        },
+        {
+            ["level"]=2,
+            ["_id"]=55,
+            ["id"]=56,
+            ["type"]=2,
+            ["day"]=4,
+            ["rewards"]={{
+                ["kind"]=1,
+                ["count"]=1,
+                ["id"]=82
+            }},
+            ["target"]=3
+        },
+        {
+            ["level"]=3,
+            ["_id"]=56,
+            ["id"]=57,
+            ["type"]=2,
+            ["day"]=4,
+            ["rewards"]={{
+                ["kind"]=1,
+                ["count"]=1,
+                ["id"]=83
+            }},
+            ["target"]=5
+        },
+        {
+            ["level"]=4,
+            ["_id"]=57,
+            ["id"]=58,
+            ["type"]=2,
+            ["day"]=4,
+            ["rewards"]={{
+                ["kind"]=11,
+                ["count"]=2,
+                ["id"]=14316
+            }},
+            ["target"]=10
+        },
+        {
+            ["level"]=1,
+            ["_id"]=58,
+            ["id"]=59,
+            ["type"]=3,
+            ["day"]=4,
+            ["rewards"]={{
+                ["kind"]=1,
+                ["count"]=1,
+                ["id"]=91
+            }},
+            ["target"]=6
+        },
+        {
+            ["level"]=2,
+            ["_id"]=59,
+            ["id"]=60,
+            ["type"]=3,
+            ["day"]=4,
+            ["rewards"]={
+                {
+                    ["kind"]=1,
+                    ["count"]=1,
+                    ["id"]=93
+                },
+                {
+                    ["kind"]=1,
+                    ["count"]=1,
+                    ["id"]=108
+                }
+            },
+            ["target"]=12
+        },
+        {
+            ["level"]=3,
+            ["_id"]=60,
+            ["id"]=61,
             ["type"]=3,
             ["day"]=4,
             ["rewards"]={{
@@ -2334,8 +2579,47 @@ local root=
         },
         {
             ["level"]=1,
-            ["_id"]=52,
-            ["id"]=53,
+            ["_id"]=61,
+            ["id"]=62,
+            ["type"]=52,
+            ["day"]=4,
+            ["rewards"]={{
+                ["kind"]=1,
+                ["count"]=1,
+                ["id"]=91
+            }},
+            ["target"]=2
+        },
+        {
+            ["level"]=2,
+            ["_id"]=62,
+            ["id"]=63,
+            ["type"]=52,
+            ["day"]=4,
+            ["rewards"]={{
+                ["kind"]=1,
+                ["count"]=1,
+                ["id"]=108
+            }},
+            ["target"]=5
+        },
+        {
+            ["level"]=3,
+            ["_id"]=63,
+            ["id"]=64,
+            ["type"]=52,
+            ["day"]=4,
+            ["rewards"]={{
+                ["kind"]=11,
+                ["count"]=1,
+                ["id"]=14316
+            }},
+            ["target"]=10
+        },
+        {
+            ["level"]=1,
+            ["_id"]=64,
+            ["id"]=65,
             ["type"]=49,
             ["day"]=5,
             ["rewards"]={
@@ -2351,195 +2635,234 @@ local root=
                 }
             },
             ["target"]=1
-        },
-        {
-            ["level"]=1,
-            ["_id"]=53,
-            ["id"]=54,
-            ["type"]=54,
-            ["day"]=5,
-            ["rewards"]={{
-                ["kind"]=1,
-                ["count"]=1,
-                ["id"]=11
-            }},
-            ["target"]=3
-        },
-        {
-            ["level"]=2,
-            ["_id"]=54,
-            ["id"]=55,
-            ["type"]=54,
-            ["day"]=5,
-            ["rewards"]={{
-                ["kind"]=1,
-                ["count"]=1,
-                ["id"]=21
-            }},
-            ["target"]=5
-        },
-        {
-            ["level"]=3,
-            ["_id"]=55,
-            ["id"]=56,
-            ["type"]=54,
-            ["day"]=5,
-            ["rewards"]={{
-                ["kind"]=1,
-                ["count"]=1,
-                ["id"]=162
-            }},
-            ["target"]=10
-        },
-        {
-            ["level"]=4,
-            ["_id"]=56,
-            ["id"]=57,
-            ["type"]=54,
-            ["day"]=5,
-            ["rewards"]={{
-                ["kind"]=1,
-                ["count"]=1,
-                ["id"]=80
-            }},
-            ["target"]=15
-        },
-        {
-            ["level"]=5,
-            ["_id"]=57,
-            ["id"]=58,
-            ["type"]=54,
-            ["day"]=5,
-            ["rewards"]={{
-                ["kind"]=11,
-                ["count"]=2,
-                ["id"]=14316
-            }},
-            ["target"]=20
-        },
-        {
-            ["level"]=1,
-            ["_id"]=58,
-            ["id"]=59,
-            ["type"]=2,
-            ["day"]=5,
-            ["rewards"]={{
-                ["kind"]=1,
-                ["count"]=1,
-                ["id"]=31
-            }},
-            ["target"]=1
-        },
-        {
-            ["level"]=2,
-            ["_id"]=59,
-            ["id"]=60,
-            ["type"]=2,
-            ["day"]=5,
-            ["rewards"]={{
-                ["kind"]=1,
-                ["count"]=1,
-                ["id"]=82
-            }},
-            ["target"]=3
-        },
-        {
-            ["level"]=3,
-            ["_id"]=60,
-            ["id"]=61,
-            ["type"]=2,
-            ["day"]=5,
-            ["rewards"]={{
-                ["kind"]=1,
-                ["count"]=1,
-                ["id"]=83
-            }},
-            ["target"]=5
-        },
-        {
-            ["level"]=4,
-            ["_id"]=61,
-            ["id"]=62,
-            ["type"]=2,
-            ["day"]=5,
-            ["rewards"]={{
-                ["kind"]=11,
-                ["count"]=2,
-                ["id"]=14316
-            }},
-            ["target"]=10
-        },
-        {
-            ["level"]=1,
-            ["_id"]=62,
-            ["id"]=63,
-            ["type"]=3,
-            ["day"]=5,
-            ["rewards"]={{
-                ["kind"]=1,
-                ["count"]=1,
-                ["id"]=91
-            }},
-            ["target"]=6
-        },
-        {
-            ["level"]=2,
-            ["_id"]=63,
-            ["id"]=64,
-            ["type"]=3,
-            ["day"]=5,
-            ["rewards"]={
-                {
-                    ["kind"]=1,
-                    ["count"]=1,
-                    ["id"]=93
-                },
-                {
-                    ["kind"]=1,
-                    ["count"]=1,
-                    ["id"]=108
-                }
-            },
-            ["target"]=12
-        },
-        {
-            ["level"]=3,
-            ["_id"]=64,
-            ["id"]=65,
-            ["type"]=3,
-            ["day"]=5,
-            ["rewards"]={{
-                ["kind"]=11,
-                ["count"]=1,
-                ["id"]=14316
-            }},
-            ["target"]=18
         },
         {
             ["level"]=1,
             ["_id"]=65,
             ["id"]=66,
-            ["type"]=49,
-            ["day"]=6,
-            ["rewards"]={
-                {
-                    ["kind"]=1,
-                    ["count"]=1,
-                    ["id"]=14315
-                },
-                {
-                    ["kind"]=1,
-                    ["count"]=1,
-                    ["id"]=52
-                }
-            },
-            ["target"]=1
+            ["type"]=54,
+            ["day"]=5,
+            ["rewards"]={{
+                ["kind"]=1,
+                ["count"]=1,
+                ["id"]=11
+            }},
+            ["target"]=3
         },
         {
-            ["level"]=1,
+            ["level"]=2,
             ["_id"]=66,
             ["id"]=67,
             ["type"]=54,
+            ["day"]=5,
+            ["rewards"]={{
+                ["kind"]=1,
+                ["count"]=1,
+                ["id"]=21
+            }},
+            ["target"]=5
+        },
+        {
+            ["level"]=3,
+            ["_id"]=67,
+            ["id"]=68,
+            ["type"]=54,
+            ["day"]=5,
+            ["rewards"]={{
+                ["kind"]=1,
+                ["count"]=1,
+                ["id"]=162
+            }},
+            ["target"]=10
+        },
+        {
+            ["level"]=4,
+            ["_id"]=68,
+            ["id"]=69,
+            ["type"]=54,
+            ["day"]=5,
+            ["rewards"]={{
+                ["kind"]=1,
+                ["count"]=1,
+                ["id"]=80
+            }},
+            ["target"]=15
+        },
+        {
+            ["level"]=5,
+            ["_id"]=69,
+            ["id"]=70,
+            ["type"]=54,
+            ["day"]=5,
+            ["rewards"]={{
+                ["kind"]=11,
+                ["count"]=2,
+                ["id"]=14316
+            }},
+            ["target"]=20
+        },
+        {
+            ["level"]=1,
+            ["_id"]=70,
+            ["id"]=71,
+            ["type"]=2,
+            ["day"]=5,
+            ["rewards"]={{
+                ["kind"]=1,
+                ["count"]=1,
+                ["id"]=31
+            }},
+            ["target"]=1
+        },
+        {
+            ["level"]=2,
+            ["_id"]=71,
+            ["id"]=72,
+            ["type"]=2,
+            ["day"]=5,
+            ["rewards"]={{
+                ["kind"]=1,
+                ["count"]=1,
+                ["id"]=82
+            }},
+            ["target"]=3
+        },
+        {
+            ["level"]=3,
+            ["_id"]=72,
+            ["id"]=73,
+            ["type"]=2,
+            ["day"]=5,
+            ["rewards"]={{
+                ["kind"]=1,
+                ["count"]=1,
+                ["id"]=83
+            }},
+            ["target"]=5
+        },
+        {
+            ["level"]=4,
+            ["_id"]=73,
+            ["id"]=74,
+            ["type"]=2,
+            ["day"]=5,
+            ["rewards"]={{
+                ["kind"]=11,
+                ["count"]=2,
+                ["id"]=14316
+            }},
+            ["target"]=10
+        },
+        {
+            ["level"]=1,
+            ["_id"]=74,
+            ["id"]=75,
+            ["type"]=3,
+            ["day"]=5,
+            ["rewards"]={{
+                ["kind"]=1,
+                ["count"]=1,
+                ["id"]=91
+            }},
+            ["target"]=6
+        },
+        {
+            ["level"]=2,
+            ["_id"]=75,
+            ["id"]=76,
+            ["type"]=3,
+            ["day"]=5,
+            ["rewards"]={
+                {
+                    ["kind"]=1,
+                    ["count"]=1,
+                    ["id"]=93
+                },
+                {
+                    ["kind"]=1,
+                    ["count"]=1,
+                    ["id"]=108
+                }
+            },
+            ["target"]=12
+        },
+        {
+            ["level"]=3,
+            ["_id"]=76,
+            ["id"]=77,
+            ["type"]=3,
+            ["day"]=5,
+            ["rewards"]={{
+                ["kind"]=11,
+                ["count"]=1,
+                ["id"]=14316
+            }},
+            ["target"]=18
+        },
+        {
+            ["level"]=1,
+            ["_id"]=77,
+            ["id"]=78,
+            ["type"]=52,
+            ["day"]=5,
+            ["rewards"]={{
+                ["kind"]=1,
+                ["count"]=1,
+                ["id"]=91
+            }},
+            ["target"]=2
+        },
+        {
+            ["level"]=2,
+            ["_id"]=78,
+            ["id"]=79,
+            ["type"]=52,
+            ["day"]=5,
+            ["rewards"]={{
+                ["kind"]=1,
+                ["count"]=1,
+                ["id"]=108
+            }},
+            ["target"]=5
+        },
+        {
+            ["level"]=3,
+            ["_id"]=79,
+            ["id"]=80,
+            ["type"]=52,
+            ["day"]=5,
+            ["rewards"]={{
+                ["kind"]=11,
+                ["count"]=1,
+                ["id"]=14316
+            }},
+            ["target"]=10
+        },
+        {
+            ["level"]=1,
+            ["_id"]=80,
+            ["id"]=81,
+            ["type"]=49,
+            ["day"]=6,
+            ["rewards"]={
+                {
+                    ["kind"]=1,
+                    ["count"]=1,
+                    ["id"]=14315
+                },
+                {
+                    ["kind"]=1,
+                    ["count"]=1,
+                    ["id"]=52
+                }
+            },
+            ["target"]=1
+        },
+        {
+            ["level"]=1,
+            ["_id"]=81,
+            ["id"]=82,
+            ["type"]=54,
             ["day"]=6,
             ["rewards"]={{
                 ["kind"]=1,
@@ -2550,8 +2873,8 @@ local root=
         },
         {
             ["level"]=2,
-            ["_id"]=67,
-            ["id"]=68,
+            ["_id"]=82,
+            ["id"]=83,
             ["type"]=54,
             ["day"]=6,
             ["rewards"]={{
@@ -2563,8 +2886,8 @@ local root=
         },
         {
             ["level"]=3,
-            ["_id"]=68,
-            ["id"]=69,
+            ["_id"]=83,
+            ["id"]=84,
             ["type"]=54,
             ["day"]=6,
             ["rewards"]={{
@@ -2576,8 +2899,8 @@ local root=
         },
         {
             ["level"]=4,
-            ["_id"]=69,
-            ["id"]=70,
+            ["_id"]=84,
+            ["id"]=85,
             ["type"]=54,
             ["day"]=6,
             ["rewards"]={{
@@ -2589,8 +2912,8 @@ local root=
         },
         {
             ["level"]=5,
-            ["_id"]=70,
-            ["id"]=71,
+            ["_id"]=85,
+            ["id"]=86,
             ["type"]=54,
             ["day"]=6,
             ["rewards"]={{
@@ -2602,8 +2925,8 @@ local root=
         },
         {
             ["level"]=1,
-            ["_id"]=71,
-            ["id"]=72,
+            ["_id"]=86,
+            ["id"]=87,
             ["type"]=2,
             ["day"]=6,
             ["rewards"]={{
@@ -2615,8 +2938,8 @@ local root=
         },
         {
             ["level"]=2,
-            ["_id"]=72,
-            ["id"]=73,
+            ["_id"]=87,
+            ["id"]=88,
             ["type"]=2,
             ["day"]=6,
             ["rewards"]={{
@@ -2628,8 +2951,8 @@ local root=
         },
         {
             ["level"]=3,
-            ["_id"]=73,
-            ["id"]=74,
+            ["_id"]=88,
+            ["id"]=89,
             ["type"]=2,
             ["day"]=6,
             ["rewards"]={{
@@ -2641,8 +2964,8 @@ local root=
         },
         {
             ["level"]=4,
-            ["_id"]=74,
-            ["id"]=75,
+            ["_id"]=89,
+            ["id"]=90,
             ["type"]=2,
             ["day"]=6,
             ["rewards"]={{
@@ -2654,8 +2977,8 @@ local root=
         },
         {
             ["level"]=1,
-            ["_id"]=75,
-            ["id"]=76,
+            ["_id"]=90,
+            ["id"]=91,
             ["type"]=3,
             ["day"]=6,
             ["rewards"]={{
@@ -2667,8 +2990,8 @@ local root=
         },
         {
             ["level"]=2,
-            ["_id"]=76,
-            ["id"]=77,
+            ["_id"]=91,
+            ["id"]=92,
             ["type"]=3,
             ["day"]=6,
             ["rewards"]={
@@ -2687,8 +3010,8 @@ local root=
         },
         {
             ["level"]=3,
-            ["_id"]=77,
-            ["id"]=78,
+            ["_id"]=92,
+            ["id"]=93,
             ["type"]=3,
             ["day"]=6,
             ["rewards"]={{
@@ -2700,8 +3023,47 @@ local root=
         },
         {
             ["level"]=1,
-            ["_id"]=78,
-            ["id"]=79,
+            ["_id"]=93,
+            ["id"]=94,
+            ["type"]=52,
+            ["day"]=6,
+            ["rewards"]={{
+                ["kind"]=1,
+                ["count"]=1,
+                ["id"]=91
+            }},
+            ["target"]=2
+        },
+        {
+            ["level"]=2,
+            ["_id"]=94,
+            ["id"]=95,
+            ["type"]=52,
+            ["day"]=6,
+            ["rewards"]={{
+                ["kind"]=1,
+                ["count"]=1,
+                ["id"]=108
+            }},
+            ["target"]=5
+        },
+        {
+            ["level"]=3,
+            ["_id"]=95,
+            ["id"]=96,
+            ["type"]=52,
+            ["day"]=6,
+            ["rewards"]={{
+                ["kind"]=11,
+                ["count"]=1,
+                ["id"]=14316
+            }},
+            ["target"]=10
+        },
+        {
+            ["level"]=1,
+            ["_id"]=96,
+            ["id"]=97,
             ["type"]=49,
             ["day"]=7,
             ["rewards"]={
@@ -2720,8 +3082,8 @@ local root=
         },
         {
             ["level"]=1,
-            ["_id"]=79,
-            ["id"]=80,
+            ["_id"]=97,
+            ["id"]=98,
             ["type"]=54,
             ["day"]=7,
             ["rewards"]={{
@@ -2733,8 +3095,8 @@ local root=
         },
         {
             ["level"]=2,
-            ["_id"]=80,
-            ["id"]=81,
+            ["_id"]=98,
+            ["id"]=99,
             ["type"]=54,
             ["day"]=7,
             ["rewards"]={{
@@ -2746,8 +3108,8 @@ local root=
         },
         {
             ["level"]=3,
-            ["_id"]=81,
-            ["id"]=82,
+            ["_id"]=99,
+            ["id"]=100,
             ["type"]=54,
             ["day"]=7,
             ["rewards"]={{
@@ -2759,8 +3121,8 @@ local root=
         },
         {
             ["level"]=4,
-            ["_id"]=82,
-            ["id"]=83,
+            ["_id"]=100,
+            ["id"]=101,
             ["type"]=54,
             ["day"]=7,
             ["rewards"]={{
@@ -2772,8 +3134,8 @@ local root=
         },
         {
             ["level"]=5,
-            ["_id"]=83,
-            ["id"]=84,
+            ["_id"]=101,
+            ["id"]=102,
             ["type"]=54,
             ["day"]=7,
             ["rewards"]={{
@@ -2785,8 +3147,8 @@ local root=
         },
         {
             ["level"]=1,
-            ["_id"]=84,
-            ["id"]=85,
+            ["_id"]=102,
+            ["id"]=103,
             ["type"]=2,
             ["day"]=7,
             ["rewards"]={{
@@ -2798,8 +3160,8 @@ local root=
         },
         {
             ["level"]=2,
-            ["_id"]=85,
-            ["id"]=86,
+            ["_id"]=103,
+            ["id"]=104,
             ["type"]=2,
             ["day"]=7,
             ["rewards"]={{
@@ -2811,8 +3173,8 @@ local root=
         },
         {
             ["level"]=3,
-            ["_id"]=86,
-            ["id"]=87,
+            ["_id"]=104,
+            ["id"]=105,
             ["type"]=2,
             ["day"]=7,
             ["rewards"]={{
@@ -2824,8 +3186,8 @@ local root=
         },
         {
             ["level"]=4,
-            ["_id"]=87,
-            ["id"]=88,
+            ["_id"]=105,
+            ["id"]=106,
             ["type"]=2,
             ["day"]=7,
             ["rewards"]={{
@@ -2837,8 +3199,8 @@ local root=
         },
         {
             ["level"]=1,
-            ["_id"]=88,
-            ["id"]=89,
+            ["_id"]=106,
+            ["id"]=107,
             ["type"]=3,
             ["day"]=7,
             ["rewards"]={{
@@ -2850,8 +3212,8 @@ local root=
         },
         {
             ["level"]=2,
-            ["_id"]=89,
-            ["id"]=90,
+            ["_id"]=107,
+            ["id"]=108,
             ["type"]=3,
             ["day"]=7,
             ["rewards"]={
@@ -2870,8 +3232,8 @@ local root=
         },
         {
             ["level"]=3,
-            ["_id"]=90,
-            ["id"]=91,
+            ["_id"]=108,
+            ["id"]=109,
             ["type"]=3,
             ["day"]=7,
             ["rewards"]={{
@@ -2880,6 +3242,45 @@ local root=
                 ["id"]=14316
             }},
             ["target"]=18
+        },
+        {
+            ["level"]=1,
+            ["_id"]=109,
+            ["id"]=110,
+            ["type"]=52,
+            ["day"]=7,
+            ["rewards"]={{
+                ["kind"]=1,
+                ["count"]=1,
+                ["id"]=91
+            }},
+            ["target"]=2
+        },
+        {
+            ["level"]=2,
+            ["_id"]=110,
+            ["id"]=111,
+            ["type"]=52,
+            ["day"]=7,
+            ["rewards"]={{
+                ["kind"]=1,
+                ["count"]=1,
+                ["id"]=108
+            }},
+            ["target"]=5
+        },
+        {
+            ["level"]=3,
+            ["_id"]=111,
+            ["id"]=112,
+            ["type"]=52,
+            ["day"]=7,
+            ["rewards"]={{
+                ["kind"]=11,
+                ["count"]=1,
+                ["id"]=14316
+            }},
+            ["target"]=10
         }
     },
     ["voyageDayRecharge"]={
@@ -2887,35 +3288,21 @@ local root=
             ["need"]=500,
             ["_id"]=0,
             ["id"]=1,
-            ["items"]={
-                {
-                    ["kind"]=11,
-                    ["count"]=20,
-                    ["id"]=14316
-                },
-                {
-                    ["kind"]=1,
-                    ["count"]=10,
-                    ["id"]=14315
-                }
-            }
+            ["items"]={{
+                ["kind"]=1,
+                ["count"]=1,
+                ["id"]=20001
+            }}
         },
         {
             ["need"]=1000,
             ["_id"]=1,
             ["id"]=2,
-            ["items"]={
-                {
-                    ["kind"]=11,
-                    ["count"]=20,
-                    ["id"]=14316
-                },
-                {
-                    ["kind"]=1,
-                    ["count"]=10,
-                    ["id"]=14315
-                }
-            }
+            ["items"]={{
+                ["kind"]=1,
+                ["count"]=1,
+                ["id"]=20002
+            }}
         },
         {
             ["need"]=2000,
@@ -2923,14 +3310,14 @@ local root=
             ["id"]=3,
             ["items"]={
                 {
-                    ["kind"]=11,
-                    ["count"]=20,
-                    ["id"]=14316
+                    ["kind"]=1,
+                    ["count"]=1,
+                    ["id"]=20003
                 },
                 {
                     ["kind"]=1,
-                    ["count"]=10,
-                    ["id"]=14315
+                    ["count"]=1,
+                    ["id"]=11
                 }
             }
         },
@@ -2940,14 +3327,14 @@ local root=
             ["id"]=4,
             ["items"]={
                 {
-                    ["kind"]=11,
-                    ["count"]=20,
-                    ["id"]=14316
+                    ["kind"]=1,
+                    ["count"]=1,
+                    ["id"]=20004
                 },
                 {
-                    ["kind"]=1,
-                    ["count"]=10,
-                    ["id"]=14315
+                    ["kind"]=11,
+                    ["count"]=1,
+                    ["id"]=14316
                 }
             }
         },
@@ -2957,14 +3344,19 @@ local root=
             ["id"]=5,
             ["items"]={
                 {
+                    ["kind"]=1,
+                    ["count"]=1,
+                    ["id"]=14315
+                },
+                {
                     ["kind"]=11,
-                    ["count"]=20,
+                    ["count"]=1,
                     ["id"]=14316
                 },
                 {
                     ["kind"]=1,
-                    ["count"]=10,
-                    ["id"]=14315
+                    ["count"]=1,
+                    ["id"]=20001
                 }
             }
         },
@@ -2974,14 +3366,19 @@ local root=
             ["id"]=6,
             ["items"]={
                 {
-                    ["kind"]=11,
-                    ["count"]=20,
-                    ["id"]=14316
+                    ["kind"]=1,
+                    ["count"]=1,
+                    ["id"]=20002
                 },
                 {
                     ["kind"]=1,
-                    ["count"]=10,
-                    ["id"]=14315
+                    ["count"]=1,
+                    ["id"]=20003
+                },
+                {
+                    ["kind"]=1,
+                    ["count"]=1,
+                    ["id"]=20004
                 }
             }
         },
@@ -2991,14 +3388,19 @@ local root=
             ["id"]=7,
             ["items"]={
                 {
+                    ["kind"]=1,
+                    ["count"]=1,
+                    ["id"]=14315
+                },
+                {
                     ["kind"]=11,
-                    ["count"]=20,
+                    ["count"]=2,
                     ["id"]=14316
                 },
                 {
                     ["kind"]=1,
-                    ["count"]=10,
-                    ["id"]=14315
+                    ["count"]=2,
+                    ["id"]=20001
                 }
             }
         },
@@ -3008,14 +3410,24 @@ local root=
             ["id"]=8,
             ["items"]={
                 {
+                    ["kind"]=1,
+                    ["count"]=1,
+                    ["id"]=14315
+                },
+                {
                     ["kind"]=11,
-                    ["count"]=20,
+                    ["count"]=2,
                     ["id"]=14316
                 },
                 {
                     ["kind"]=1,
-                    ["count"]=10,
-                    ["id"]=14315
+                    ["count"]=2,
+                    ["id"]=20002
+                },
+                {
+                    ["kind"]=1,
+                    ["count"]=2,
+                    ["id"]=20003
                 }
             }
         },
@@ -3025,14 +3437,24 @@ local root=
             ["id"]=9,
             ["items"]={
                 {
+                    ["kind"]=1,
+                    ["count"]=2,
+                    ["id"]=14315
+                },
+                {
                     ["kind"]=11,
-                    ["count"]=20,
+                    ["count"]=3,
                     ["id"]=14316
                 },
                 {
                     ["kind"]=1,
-                    ["count"]=10,
-                    ["id"]=14315
+                    ["count"]=2,
+                    ["id"]=20004
+                },
+                {
+                    ["kind"]=1,
+                    ["count"]=1,
+                    ["id"]=20005
                 }
             }
         },
@@ -3042,14 +3464,29 @@ local root=
             ["id"]=10,
             ["items"]={
                 {
+                    ["kind"]=1,
+                    ["count"]=5,
+                    ["id"]=14315
+                },
+                {
                     ["kind"]=11,
-                    ["count"]=20,
+                    ["count"]=5,
                     ["id"]=14316
                 },
                 {
                     ["kind"]=1,
-                    ["count"]=10,
-                    ["id"]=14315
+                    ["count"]=2,
+                    ["id"]=20005
+                },
+                {
+                    ["kind"]=1,
+                    ["count"]=2,
+                    ["id"]=20006
+                },
+                {
+                    ["kind"]=1,
+                    ["count"]=2,
+                    ["id"]=20007
                 }
             }
         },
@@ -3059,14 +3496,24 @@ local root=
             ["id"]=11,
             ["items"]={
                 {
+                    ["kind"]=1,
+                    ["count"]=1,
+                    ["id"]=20000
+                },
+                {
+                    ["kind"]=1,
+                    ["count"]=10,
+                    ["id"]=14315
+                },
+                {
                     ["kind"]=11,
-                    ["count"]=20,
+                    ["count"]=10,
                     ["id"]=14316
                 },
                 {
                     ["kind"]=1,
-                    ["count"]=11,
-                    ["id"]=14315
+                    ["count"]=5,
+                    ["id"]=20008
                 }
             }
         },
@@ -3076,14 +3523,39 @@ local root=
             ["id"]=12,
             ["items"]={
                 {
+                    ["kind"]=1,
+                    ["count"]=2,
+                    ["id"]=20000
+                },
+                {
+                    ["kind"]=1,
+                    ["count"]=20,
+                    ["id"]=14315
+                },
+                {
                     ["kind"]=11,
                     ["count"]=20,
                     ["id"]=14316
                 },
                 {
                     ["kind"]=1,
-                    ["count"]=12,
-                    ["id"]=14315
+                    ["count"]=10,
+                    ["id"]=20005
+                },
+                {
+                    ["kind"]=1,
+                    ["count"]=10,
+                    ["id"]=20006
+                },
+                {
+                    ["kind"]=1,
+                    ["count"]=10,
+                    ["id"]=20007
+                },
+                {
+                    ["kind"]=1,
+                    ["count"]=10,
+                    ["id"]=20008
                 }
             }
         }
@@ -3632,7 +4104,7 @@ local root=
             ["is_limit"]=1,
             ["prob"]=1000,
             ["original"]=288,
-            ["need"]=268,
+            ["need"]=288,
             ["limit"]=1,
             ["_id"]=0,
             ["items"]={
@@ -3673,7 +4145,7 @@ local root=
             ["is_limit"]=1,
             ["prob"]=1000,
             ["original"]=488,
-            ["need"]=268,
+            ["need"]=488,
             ["limit"]=2,
             ["_id"]=1,
             ["items"]={
@@ -3699,7 +4171,7 @@ local root=
                 },
                 {
                     ["kind"]=1,
-                    ["count"]=1,
+                    ["count"]=2,
                     ["id"]=162
                 }
             },
@@ -3714,7 +4186,7 @@ local root=
             ["is_limit"]=1,
             ["prob"]=1000,
             ["original"]=888,
-            ["need"]=728,
+            ["need"]=888,
             ["limit"]=2,
             ["_id"]=2,
             ["items"]={
@@ -3740,7 +4212,7 @@ local root=
                 },
                 {
                     ["kind"]=1,
-                    ["count"]=1,
+                    ["count"]=2,
                     ["id"]=162
                 }
             },
@@ -3755,7 +4227,7 @@ local root=
             ["is_limit"]=1,
             ["prob"]=2000,
             ["original"]=1288,
-            ["need"]=688,
+            ["need"]=1288,
             ["limit"]=5,
             ["_id"]=3,
             ["items"]={
@@ -3781,7 +4253,7 @@ local root=
                 },
                 {
                     ["kind"]=1,
-                    ["count"]=1,
+                    ["count"]=2,
                     ["id"]=162
                 },
                 {
@@ -3806,7 +4278,7 @@ local root=
             ["is_limit"]=1,
             ["prob"]=1000,
             ["original"]=2888,
-            ["need"]=2088,
+            ["need"]=2888,
             ["limit"]=5,
             ["_id"]=4,
             ["items"]={
@@ -3867,7 +4339,7 @@ local root=
             ["is_limit"]=1,
             ["prob"]=2000,
             ["original"]=5888,
-            ["need"]=4288,
+            ["need"]=5888,
             ["limit"]=10,
             ["_id"]=5,
             ["items"]={
@@ -3933,59 +4405,59 @@ local root=
             ["is_limit"]=1,
             ["prob"]=1000,
             ["original"]=18888,
-            ["need"]=6888,
+            ["need"]=18888,
             ["limit"]=10,
             ["_id"]=6,
             ["items"]={
                 {
                     ["kind"]=1,
-                    ["count"]=8,
-                    ["id"]=72
-                },
-                {
-                    ["kind"]=1,
-                    ["count"]=15,
-                    ["id"]=73
-                },
-                {
-                    ["kind"]=1,
-                    ["count"]=2,
-                    ["id"]=101
-                },
-                {
-                    ["kind"]=1,
-                    ["count"]=1,
-                    ["id"]=102
-                },
-                {
-                    ["kind"]=1,
                     ["count"]=3,
-                    ["id"]=344
+                    ["id"]=17045
                 },
                 {
                     ["kind"]=1,
                     ["count"]=2,
-                    ["id"]=345
-                },
-                {
-                    ["kind"]=1,
-                    ["count"]=5,
                     ["id"]=77
                 },
                 {
                     ["kind"]=1,
-                    ["count"]=2,
-                    ["id"]=82
+                    ["count"]=6,
+                    ["id"]=160
+                },
+                {
+                    ["kind"]=1,
+                    ["count"]=6,
+                    ["id"]=161
+                },
+                {
+                    ["kind"]=1,
+                    ["count"]=6,
+                    ["id"]=162
+                },
+                {
+                    ["kind"]=1,
+                    ["count"]=3,
+                    ["id"]=17043
                 },
                 {
                     ["kind"]=1,
                     ["count"]=2,
-                    ["id"]=83
+                    ["id"]=77
                 },
                 {
                     ["kind"]=1,
-                    ["count"]=1,
-                    ["id"]=147
+                    ["count"]=6,
+                    ["id"]=160
+                },
+                {
+                    ["kind"]=1,
+                    ["count"]=6,
+                    ["id"]=161
+                },
+                {
+                    ["kind"]=1,
+                    ["count"]=6,
+                    ["id"]=162
                 }
             },
             ["dc"]=7
@@ -3999,14 +4471,36 @@ local root=
             ["is_limit"]=1,
             ["prob"]=1000,
             ["original"]=28888,
-            ["need"]=13888,
+            ["need"]=28888,
             ["limit"]=20,
             ["_id"]=7,
-            ["items"]={{
-                ["kind"]=1,
-                ["count"]=10,
-                ["id"]=14106
-            }},
+            ["items"]={
+                {
+                    ["kind"]=11,
+                    ["count"]=2,
+                    ["id"]=14106
+                },
+                {
+                    ["kind"]=11,
+                    ["count"]=2,
+                    ["id"]=14106
+                },
+                {
+                    ["kind"]=11,
+                    ["count"]=2,
+                    ["id"]=14106
+                },
+                {
+                    ["kind"]=11,
+                    ["count"]=2,
+                    ["id"]=14106
+                },
+                {
+                    ["kind"]=11,
+                    ["count"]=2,
+                    ["id"]=14106
+                }
+            },
             ["dc"]=8
         }
     },
@@ -4120,19 +4614,14 @@ local root=
                     ["kind"]=1,
                     ["count"]=1,
                     ["id"]=14315
-                },
-                {
-                    ["kind"]=1,
-                    ["count"]=5,
-                    ["id"]=77
                 }
             },
             ["dc"]=831
         },
         {
             ["is_limit"]=1,
-            ["prob"]=1000,
-            ["limit"]=2,
+            ["prob"]=2000,
+            ["limit"]=5,
             ["discount"]=4.99,
             ["_id"]=1,
             ["items"]={
@@ -4197,7 +4686,7 @@ local root=
         {
             ["is_limit"]=1,
             ["prob"]=2000,
-            ["limit"]=2,
+            ["limit"]=5,
             ["discount"]=9.99,
             ["_id"]=2,
             ["items"]={
@@ -4205,6 +4694,11 @@ local root=
                     ["kind"]=1,
                     ["count"]=888,
                     ["id"]=1
+                },
+                {
+                    ["kind"]=1,
+                    ["count"]=1,
+                    ["id"]=77
                 },
                 {
                     ["kind"]=1,
@@ -4261,8 +4755,8 @@ local root=
         },
         {
             ["is_limit"]=1,
-            ["prob"]=3000,
-            ["limit"]=2,
+            ["prob"]=2000,
+            ["limit"]=8,
             ["discount"]=29.99,
             ["_id"]=3,
             ["items"]={
@@ -4352,7 +4846,7 @@ local root=
         {
             ["is_limit"]=1,
             ["prob"]=1000,
-            ["limit"]=2,
+            ["limit"]=8,
             ["discount"]=49.99,
             ["_id"]=4,
             ["items"]={
@@ -4442,7 +4936,7 @@ local root=
         {
             ["is_limit"]=1,
             ["prob"]=2000,
-            ["limit"]=2,
+            ["limit"]=10,
             ["discount"]=99.99,
             ["_id"]=5,
             ["items"]={

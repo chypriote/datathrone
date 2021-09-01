@@ -1,0 +1,41 @@
+
+fengche.png
+size: 2004,1301
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bj
+  rotate: false
+  xy: 2, 2
+  size: 1502, 1297
+  orig: 1502, 1297
+  offset: 0, 0
+  index: -1
+dashanyei
+  rotate: true
+  xy: 1506, 772
+  size: 527, 496
+  orig: 527, 496
+  offset: 0, 0
+  index: -1
+shanyei1
+  rotate: false
+  xy: 1506, 615
+  size: 141, 155
+  orig: 141, 155
+  offset: 0, 0
+  index: -1
+shanyei2
+  rotate: false
+  xy: 1506, 534
+  size: 78, 79
+  orig: 78, 79
+  offset: 0, 0
+  index: -1
+shanyei3
+  rotate: false
+  xy: 1649, 718
+  size: 51, 52
+  orig: 51, 52
+  offset: 0, 0
+  index: -1
