@@ -453,6 +453,7 @@ local root=
     ["voyage.getShop"]="Trong Hành Trình của mình, bạn đã tình cờ gặp một Cửa Hàng Vật Phẩm!",
     ["lottery_useTip"]="Trượt ngón tay vào vùng cào để cào vé",
     ["mine.chanNoNum"]="Không đủ Xẻng.",
+    ["help_show_710"]="Cách chơi:\n1. Người chơi phải chọn phần thưởng mong muốn trên bánh xe. Các mục có thể được thay đổi trước khi quay.\n2. Sau khi chọn, người chơi phải bỏ ra 1 hoặc 10 Warrior Tokens để kiếm từ 1 đến 10 phần thưởng tương ứng.",
     ["luckyWheel.info2"]="Mua VIP để nhận Ngọc.",
     ["luckyWheel.info1"]="Bộ Hẹn Giờ AFK tối đa + <1> phút",
     ["luckyWheel.info4"]="Dùng <1> để Thu Thập Nhanh? (Nhận Tăng Xu May mắn trong <2> phút)",

@@ -453,6 +453,7 @@ local root=
     ["voyage.getShop"]="Em sua viagem, você encontra uma loja de suprimentos!",
     ["lottery_useTip"]="Deslize o dedo na área de raspagem para raspar o bilhete.",
     ["mine.chanNoNum"]="Pás insuficientes",
+    ["help_show_710"]="Jogo: \n1. Os jogadores devem escolher as recompensas que querem da roda. Os itens podem ser trocados antes de girar. \n2. Após a escolha, os jogadores devem gastar 1 ou 10 fichas de guerreiro para ganhar 1 a 10 recompensas correspondentes.",
     ["luckyWheel.info2"]="Compre VIP para resgatar gemas.",
     ["luckyWheel.info1"]="Máx. de tempo ausente +<1> minuto(s)",
     ["luckyWheel.info4"]="Consumir <1> para coleta rápida? (Ganhe um impulso de moedas da sorte por <2> min)",

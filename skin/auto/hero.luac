@@ -17520,6 +17520,92 @@ local root=
                 }
             },
             ["info"]="hero_info_322"
+        },
+        {
+            ["storyId"]=537,
+            ["new_hero_chip"]={
+                ["kind"]=1,
+                ["count"]=50,
+                ["id"]=17323
+            },
+            ["star"]=6,
+            ["need"]={
+                {
+                    ["kind"]=1,
+                    ["count"]=50,
+                    ["id"]=17323,
+                    ["class"]=0
+                },
+                {
+                    ["kind"]=1,
+                    ["count"]=60,
+                    ["id"]=17323,
+                    ["class"]=1
+                },
+                {
+                    ["kind"]=1,
+                    ["count"]=70,
+                    ["id"]=17323,
+                    ["class"]=2
+                },
+                {
+                    ["kind"]=1,
+                    ["count"]=85,
+                    ["id"]=17323,
+                    ["class"]=3
+                },
+                {
+                    ["kind"]=1,
+                    ["count"]=105,
+                    ["id"]=17323,
+                    ["class"]=4
+                }
+            },
+            ["sex"]=1,
+            ["heroid"]=323,
+            ["spine"]="servant323",
+            ["spec"]={1},
+            ["specMsg"]="hero_specMsg_2",
+            ["skills"]={
+                {
+                    ["lv"]=1,
+                    ["id"]=460
+                },
+                {
+                    ["lv"]=1,
+                    ["id"]=461
+                },
+                {
+                    ["lv"]=1,
+                    ["id"]=4
+                },
+                {
+                    ["lv"]=1,
+                    ["id"]=10
+                },
+                {
+                    ["lv"]=1,
+                    ["id"]=15
+                },
+                {
+                    ["lv"]=1,
+                    ["id"]=20
+                }
+            },
+            ["wid"]=323,
+            ["name"]="hero_name_323",
+            ["_id"]=116,
+            ["ghSkills"]={
+                {
+                    ["lv"]=0,
+                    ["id"]=86
+                },
+                {
+                    ["lv"]=0,
+                    ["id"]=87
+                }
+            },
+            ["info"]="hero_info_323"
         }
     },
     ["hero_index"]={
@@ -17610,6 +17696,7 @@ local root=
         ["heroid_203"]=82,
         ["heroid_32"]=31,
         ["heroid_202"]=81,
+        ["heroid_323"]=116,
         ["heroid_37"]=36,
         ["heroid_205"]=84,
         ["heroid_38"]=37,

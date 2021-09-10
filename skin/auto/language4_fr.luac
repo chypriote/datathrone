@@ -453,6 +453,7 @@ local root=
     ["voyage.getShop"]="Au cours de votre voyage, vous êtes tombé sur un magasin de ravitaillements !",
     ["lottery_useTip"]="Faites glisser la zone de grattage avec votre doigt pour gratter le ticket.",
     ["mine.chanNoNum"]="Pelles Insuffisantes",
+    ["help_show_710"]="Fonctionnalité :\n1. Les joueurs doivent choisir les récompenses souhaitées sur la roue. Les objets peuvent être modifiés avant de tourner.\n2. Après avoir choisi, les joueurs doivent dépenser 1 ou 10 Jetons de Guerrier pour gagner 1 à 10 récompenses correspondantes.",
     ["luckyWheel.info2"]="Achetez le VIP pour obtenir des gemmes.",
     ["luckyWheel.info1"]="Compteur AFK Max +<1> minute(s)",
     ["luckyWheel.info4"]="Consommez <1> pour Récolter Rapidement ? (Obtenez une Pièce Chance pour <2> minute(s))",

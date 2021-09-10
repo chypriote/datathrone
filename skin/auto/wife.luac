@@ -9533,6 +9533,25 @@ local root=
             ["open"]=1,
             ["isHalf"]=1,
             ["info"]="wife_info_322"
+        },
+        {
+            ["storyId"]=538,
+            ["spineTuo"]="jiarentuoyi323",
+            ["wname"]="wife_wname_323",
+            ["guoji"]=7,
+            ["wflower"]=300,
+            ["spine"]="jiarenweituoyi323",
+            ["tuo"]=300,
+            ["condition"]=0,
+            ["wid"]=323,
+            ["talk2"]={"wife_talk2_323"},
+            ["talk3"]={"wife_talk3_323"},
+            ["from"]="huodong",
+            ["talk"]={"wife_talk_323"},
+            ["_id"]=85,
+            ["open"]=1,
+            ["isHalf"]=1,
+            ["info"]="wife_info_323"
         }
     },
     ["wife_index"]={
@@ -9546,6 +9565,7 @@ local root=
         ["wid_204"]=54,
         ["wid_203"]=53,
         ["wid_202"]=52,
+        ["wid_323"]=85,
         ["wid_322"]=84,
         ["wid_321"]=83,
         ["wid_320"]=82,

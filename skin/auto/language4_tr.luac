@@ -453,6 +453,7 @@ local root=
     ["voyage.getShop"]="Yolculuğun sırasında bir erzak dükkânına rastladın!",
     ["lottery_useTip"]="Bileti kazımak için parmağını kazıma alanında kaydırarak hareket ettir.",
     ["mine.chanNoNum"]="Yetersiz Kürek",
+    ["help_show_710"]="Oynanış:\n1. Oyuncular çarkta istedikleri ödülleri seçmelidir. Ögeler döndürmeden önce değiştirilebilir.\n2. Seçtikten sonra, oyuncular 1 ya da 10 tane ödül kazanmak için 1 ya da 10 Savaşçı Jetonu harcamalıdır.",
     ["luckyWheel.info2"]="Mücevher toplamakl için VIP satın al.",
     ["luckyWheel.info1"]="AFK Zamanlayıcı Maks +<1> dakika",
     ["luckyWheel.info4"]="Hızlı Toplama için <1> harcansın mı? (<2> dakika boyunca Şans Akçesi takviyesi kazan)",
