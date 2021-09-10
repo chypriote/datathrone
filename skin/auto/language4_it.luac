@@ -453,6 +453,7 @@ local root=
     ["voyage.getShop"]="Durante il tuo viaggio, ti sei imbattuto in un Negozio di Rifornimenti!",
     ["lottery_useTip"]="Gratta il biglietto.",
     ["mine.chanNoNum"]="Pale insufficienti",
+    ["help_show_710"]="Gioco:\n1. I giocatori devono scegliere sulla ruota i premi che desiderano. Gli oggetti possono essere cambiati prima di girare.\n2. Dopo aver scelto, i giocatori devono spendere 1 o 10 gettoni Token Guerriero per guadagnare da 1 a 10 ricompense.",
     ["luckyWheel.info2"]="Acquista VIP per riscattare le gemme.",
     ["luckyWheel.info1"]="Timer AFK Max +<1> minuto/i",
     ["luckyWheel.info4"]="Consuma <1> per Raccolta?(Guadagna un potenziamento Moneta Fortunata per <2> minuto/i)",

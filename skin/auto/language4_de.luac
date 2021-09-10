@@ -452,6 +452,7 @@ local root=
     ["voyage.getShop"]="Auf Eurer Reise seid Ihr auf einen Vorräte-Shop gestoßen!",
     ["lottery_useTip"]="Schieben Sie über die Rubbelfläche mit Ihrem Finger, um das Ticket zu rubbeln.",
     ["mine.chanNoNum"]="Nicht genug Schaufeln",
+    ["help_show_710"]="Gameplay: \n1. Die Spieler müssen die gewünschten Belohnungen auf dem Rad auswählen. Gegenstände können vor dem Drehen geändert werden. \n2. Nach der Auswahl müssen die Spieler 1 oder 10 Krieger-Token ausgeben, um die entsprechenden 1 bis 10 Belohnungen zu erhalten.",
     ["luckyWheel.info2"]="Kauft VIP, um Juwelen zu erhalten.",
     ["luckyWheel.info1"]="AFK-Timer-Max. +<1> Minute(n)",
     ["luckyWheel.info4"]="<1> verbrauchen zum Schnellsammeln? (Erhalte einen Glücksmünzen-Boost für <2> Minute(n))",

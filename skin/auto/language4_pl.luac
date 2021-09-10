@@ -453,6 +453,7 @@ local root=
     ["voyage.getShop"]="Podczas podróży natrafiasz na sklep z zapasami!",
     ["lottery_useTip"]="Przeciągnij palcem po polu zdrapki, aby zdrapać bilet.",
     ["mine.chanNoNum"]="Za mało łopat",
+    ["help_show_710"]="Rozgrywka: \n1. Gracze muszą wybrać pożądane nagrody na kole. Przedmioty można zmienić przed zakręceniem. \n2. Po dokonaniu wyboru gracze muszą wydać 1 lub 10 żetonów wojownika, aby zdobyć odpowiednio 1 do 10 nagród.",
     ["luckyWheel.info2"]="Kup VIP, aby odebrać klejnoty.",
     ["luckyWheel.info1"]="Licznik czasu AFK – maks. +<1> min",
     ["luckyWheel.info4"]="Chcesz użyć: <1> dla szybkiego odbioru? (zdobądź doładowanie monet szczęścia na <2> min)",

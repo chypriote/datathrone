@@ -453,6 +453,7 @@ local root=
     ["voyage.getShop"]="¡Durante tu viaje, te encuentras con una tienda de suministros!",
     ["lottery_useTip"]="Desliza por el área con tu dedo para rascar el boleto.",
     ["mine.chanNoNum"]="Palas insuficientes",
+    ["help_show_710"]="Modo de juego: \n1. Los jugadores deben elegir sus recompensas deseadas en la ruleta. Los objetos se pueden cambiar antes de girar. \n2. Tras elegir, los jugadores deben gastar 1 a 10 insignias de guerrero para ganar 1 a 10 recompensas respectivamente.",
     ["luckyWheel.info2"]="Compra VIP para reclamar gemas.",
     ["luckyWheel.info1"]="Temporizador de inactividad máx. +<1> minuto(s)",
     ["luckyWheel.info4"]="¿Consumir <1> para recoger rápido? (Gana un potenciador de moneda de la suerte durante <2> minuto(s))",

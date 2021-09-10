@@ -453,6 +453,7 @@ local root=
     ["voyage.getShop"]="Tijdens je reis ben je langs een voorraadwinkel gekomen!",
     ["lottery_useTip"]="Veeg met je vinger over het krasgebied om de kaart te krassen.",
     ["mine.chanNoNum"]="Onvoldoende schoppen",
+    ["help_show_710"]="Spelregels: \n1. Kies de gewenste beloningen op het rad. Je kunt items wisselen voordat je draait. \n2. Nadat je een keuze hebt gemaakt moet je 1 tot 10 krijgersymbolen gebruiken om 1 tot 10 bijbehorende beloningen te ontvangen.",
     ["luckyWheel.info2"]="Koop VIP om edelstenen te claimen.",
     ["luckyWheel.info1"]="AFK-timer max +<1> minu(u)t(en)",
     ["luckyWheel.info4"]="<1> gebruiken om snel te verzamelen? (Verdien een geluksmuntenboost voor <2> minu(u)t(en))",
