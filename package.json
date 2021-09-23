@@ -1,0 +1,25 @@
+{
+  "name": "datathrone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "unpack.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chypriote/datathrone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chypriote/datathrone/issues"
+  },
+  "homepage": "https://github.com/chypriote/datathrone#readme",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.9.6"
+  }
+}
