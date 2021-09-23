@@ -1273,7 +1273,11 @@ local root=
             ["remark"]="71、装备总势力提升<1>",
             ["_id"]=70,
             ["type"]=71,
-            ["title"]="useEquiProp",
+            ["title"]="upEquiShiLi",
+            ["jumpTo"]={
+                ["val"]="servant2",
+                ["type"]="home"
+            },
             ["isShow"]=1
         }
     },

@@ -330,6 +330,9 @@ maker.SCT_SC=function()
 	zd.initSet(obj,"robberAttackFight",maker.SCT_SC_robberAttackFight())
 	zd.initSet(obj,"robberAttackXuanShang",maker.SCT_SC_robberAttackXuanShang())
 	zd.initSet(obj,"throne",maker.SCT_SC_throne())
+	zd.initSet(obj,"Bidding",maker.SCT_SC_bidding())
+	zd.initSet(obj,"kingdomRewardOrder",maker.SCT_SC_kingdomRewardOrder())
+	zd.initSet(obj,"haveFunGiftBag",maker.SCT_SC_haveFunGiftBag())
 	return obj
 end
 maker.SCT_CS=function()
@@ -391,6 +394,7 @@ maker.SCT_CS=function()
 	zd.initSet(obj,"huodong2",maker.SCT_CS_huodong2())
 	zd.initSet(obj,"qxzb",maker.SCT_CS_Qxzb())
 	zd.initSet(obj,"throne",maker.SCT_CS_throne())
+	zd.initSet(obj,"bidding",maker.SCT_CS_bidding())
 	return obj
 end
 maker.SCT_SC_ConditionalTouchGift=function()
@@ -398,6 +402,47 @@ maker.SCT_SC_ConditionalTouchGift=function()
 	zd.makeDataTable(obj)
 	zd.initSet(obj,"info",maker.SCT_ConditionalTouchGift_info())
 	zd.initSet(obj,"gift_info",maker.SCT_ConditionalTouchGift_gift_info())
+	return obj
+end
+maker.SCT_CS_bidding=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"info","")
+	zd.initSet(obj,"shopInfo","")
+	zd.initSet(obj,"bShop",maker.SCT_CS_bWar_shop())
+	zd.initSet(obj,"mobai","")
+	zd.initSet(obj,"getRank","")
+	zd.initSet(obj,"getTypeRank",maker.SCT_bidding_type())
+	zd.initSet(obj,"fight",maker.SCT_bidding_id())
+	zd.initSet(obj,"fightInfo","")
+	zd.initSet(obj,"fightList","")
+	zd.initSet(obj,"get_rwd_info","")
+	zd.initSet(obj,"rwd",maker.SCT_bidding_rwd_id())
+	return obj
+end
+maker.SCT_bidding_rwd_id=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"id",0)
+	return obj
+end
+maker.SCT_CS_bWar_shop=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"id",0)
+	zd.initSet(obj,"num",0)
+	return obj
+end
+maker.SCT_bidding_type=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"type",0)
+	return obj
+end
+maker.SCT_bidding_id=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"id",0)
 	return obj
 end
 maker.SCT_CS_throne_hasNum=function()
@@ -418,8 +463,8 @@ end
 maker.SCT_CS_throne_info=function()
 	local obj={}
 	zd.makeDataTable(obj)
-	zd.initSet(obj,"exp","0")
-	zd.initSet(obj,"level","0")
+	zd.initSet(obj,"exp",0)
+	zd.initSet(obj,"level",0)
 	zd.initSet(obj,"chengjiu",zd.makeDataArray(maker.SCT_CS_throne_chengjiu()))
 	zd.initSet(obj,"hasNum",zd.makeDataArray(maker.SCT_CS_throne_hasNum()))
 	zd.initSet(obj,"cd",maker.SCT_CdLabel())
@@ -431,14 +476,165 @@ maker.SCT_CS_throne_Exp=function()
 	zd.initSet(obj,"exp",0)
 	return obj
 end
-maker.SCT_CS_throne=function()
+maker.SCT_SC_throne=function()
 	local obj={}
 	zd.makeDataTable(obj)
 	zd.initSet(obj,"store",maker.SCT_CS_throne_info())
 	zd.initSet(obj,"addExp",maker.SCT_CS_throne_Exp())
 	return obj
 end
-maker.SCT_SC_throne=function()
+maker.SCT_SC_myBiddingRank=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"rank",0)
+	return obj
+end
+maker.SCT_SC_bidding=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"bid_info",maker.SCT_SC_bidInfo())
+	zd.initSet(obj,"fight_info",zd.makeDataArray(maker.SCT_SC_bidFightInfo()))
+	zd.initSet(obj,"fight",maker.SCT_SC_bidFight())
+	zd.initSet(obj,"bidRank",zd.makeDataArray(maker.SCT_SC_Bid_Rank(),"rid"))
+	zd.initSet(obj,"typeRank",zd.makeDataArray(maker.SCT_SC_BidTRank(),"id"))
+	zd.initSet(obj,"bidding_list",zd.makeDataArray(maker.SCT_SC_BidList(),"id"))
+	zd.initSet(obj,"news",maker.SCT_SC_bidNews())
+	zd.initSet(obj,"myRank",maker.SCT_SC_myBiddingRank())
+	zd.initSet(obj,"history",zd.makeDataArray(maker.SCT_SC_biddingHistory()))
+	zd.initSet(obj,"shop",zd.makeDataArray(maker.SCT_SC_biddingShop()))
+	return obj
+end
+maker.SCT_SC_biddingShop=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"id",0)
+	zd.initSet(obj,"good",maker.SCT_ItemInfo())
+	zd.initSet(obj,"need",maker.SCT_ItemInfo())
+	zd.initSet(obj,"is_limit",0)
+	zd.initSet(obj,"limit",0)
+	zd.initSet(obj,"buy",0)
+	return obj
+end
+maker.SCT_SC_biddingHistory=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"day",0)
+	zd.initSet(obj,"id",0)
+	zd.initSet(obj,"score",0)
+	zd.initSet(obj,"is_get",1)
+	return obj
+end
+maker.SCT_SC_myRank=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"rank",0)
+	return obj
+end
+maker.SCT_SC_BidList=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"id",0)
+	zd.initSet(obj,"t",0)
+	zd.initSet(obj,"user_info",maker.SCT_fUserInfo())
+	zd.initSet(obj,"shili",0)
+	zd.initSet(obj,"money",0)
+	zd.initSet(obj,"user_id",0)
+	return obj
+end
+maker.SCT_SC_BidTRank=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"id",0)
+	zd.initSet(obj,"t",0)
+	zd.initSet(obj,"atk",0)
+	zd.initSet(obj,"user_info",maker.SCT_fUserInfo())
+	zd.initSet(obj,"money",0)
+	return obj
+end
+maker.SCT_SC_Bid_Rank=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"rid",0)
+	zd.initSet(obj,"num",0)
+	zd.initSet(obj,"user_info",maker.SCT_fUserInfo())
+	zd.initSet(obj,"type",0)
+	return obj
+end
+maker.SCT_SC_bidFight=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"is_win",0)
+	zd.initSet(obj,"challenge",0)
+	zd.initSet(obj,"through",0)
+	zd.initSet(obj,"id",0)
+	zd.initSet(obj,"user_id",0)
+	zd.initSet(obj,"user_info",maker.SCT_fUserInfo())
+	zd.initSet(obj,"money",0)
+	zd.initSet(obj,"fight_num",0)
+	zd.initSet(obj,"fightLog",maker.SCT_bidding_logs())
+	return obj
+end
+maker.SCT_bidding_logs=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"hero_list",zd.makeDataArray(maker.SCT_biddingFightInfo()))
+	zd.initSet(obj,"fhero_list",zd.makeDataArray(maker.SCT_biddingFightInfo()))
+	return obj
+end
+maker.SCT_biddingFightInfo=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"id",0)
+	zd.initSet(obj,"atk",0)
+	return obj
+end
+maker.SCT_SC_bidFightInfo=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"uid",0)
+	zd.initSet(obj,"t_type",0)
+	zd.initSet(obj,"win",0)
+	zd.initSet(obj,"bid",0)
+	zd.initSet(obj,"type",1)
+	zd.initSet(obj,"atk",0)
+	zd.initSet(obj,"time",0)
+	zd.initSet(obj,"name","")
+	zd.initSet(obj,"chenghao",0)
+	zd.initSet(obj,"headType",0)
+	zd.initSet(obj,"headId",0)
+	zd.initSet(obj,"level",0)
+	zd.initSet(obj,"shili",0)
+	zd.initSet(obj,"job",0)
+	zd.initSet(obj,"sex",0)
+	zd.initSet(obj,"vip",0)
+	zd.initSet(obj,"vipStatus",1)
+	return obj
+end
+maker.SCT_SC_bidNews=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"id",0)
+	zd.initSet(obj,"bai",0)
+	zd.initSet(obj,"fight",0)
+	zd.initSet(obj,"rwd",0)
+	return obj
+end
+maker.SCT_SC_bidInfo=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"id",0)
+	zd.initSet(obj,"mid",0)
+	zd.initSet(obj,"money",0)
+	zd.initSet(obj,"is_rwd",0)
+	zd.initSet(obj,"type",0)
+	zd.initSet(obj,"fight_num",0)
+	zd.initSet(obj,"score",0)
+	zd.initSet(obj,"sid",1)
+	zd.initSet(obj,"stime",0)
+	zd.initSet(obj,"etime",0)
+	return obj
+end
+maker.SCT_CS_throne=function()
 	local obj={}
 	zd.makeDataTable(obj)
 	zd.initSet(obj,"exchange",maker.SCT_mysteriousShop_cfg())
@@ -2187,6 +2383,85 @@ maker.SCT_robberAttackFightFloorStatus=function()
 	zd.makeDataTable(obj)
 	zd.initSet(obj,"floor",0)
 	zd.initSet(obj,"status",0)
+	return obj
+end
+maker.SCT_SC_haveFunGiftBag=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"info",maker.SCT_haveFunGiftBagInfo())
+	zd.initSet(obj,"cfg",maker.SCT_haveFunGiftBagCfg())
+	return obj
+end
+maker.SCT_haveFunGiftBagInfo=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"rwd",0)
+	zd.initSet(obj,"isRecharge",0)
+	zd.initSet(obj,"getTime",0)
+	return obj
+end
+maker.SCT_haveFunGiftBagCfg=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"dc",0)
+	zd.initSet(obj,"cfg",zd.makeDataArray(maker.SCT_haveFunGiftBagCfgCfg()))
+	return obj
+end
+maker.SCT_haveFunGiftBagCfgCfg=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"id",0)
+	zd.initSet(obj,"rwd",zd.makeDataArray(maker.SCT_haveFunGiftBagCfgCfgRwd()))
+	return obj
+end
+maker.SCT_haveFunGiftBagCfgCfgRwd=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"item",maker.SCT_ItemInfo())
+	zd.initSet(obj,"tip",0)
+	return obj
+end
+maker.SCT_SC_kingdomRewardOrder=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"info",maker.SCT_kingdomRewardOrderInfo())
+	zd.initSet(obj,"cfg",maker.SCT_kingdomRewardOrderCfg())
+	zd.initSet(obj,"taskRwd",maker.SCT_kingdomRewardOrderTaskRwd())
+	return obj
+end
+maker.SCT_kingdomRewardOrderInfo=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"isOpenSenior",0)
+	zd.initSet(obj,"generalStatus",zd.makeDataArray(maker.SCT_XSLRwdStatus()))
+	zd.initSet(obj,"seniorStatus",zd.makeDataArray(maker.SCT_XSLRwdStatus()))
+	zd.initSet(obj,"shopStatus",zd.makeDataArray(maker.SCT_wall_shop_num()))
+	zd.initSet(obj,"medal",0)
+	zd.initSet(obj,"hasMedal",0)
+	return obj
+end
+maker.SCT_kingdomRewardOrderCfg=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"dc",0)
+	zd.initSet(obj,"showHero",0)
+	zd.initSet(obj,"generalRwd",zd.makeDataArray(maker.SCT_XSLCfgRwd()))
+	zd.initSet(obj,"seniorRwd",zd.makeDataArray(maker.SCT_XSLCfgRwd()))
+	zd.initSet(obj,"shop",zd.makeDataArray(maker.SCT_wall_shop()))
+	return obj
+end
+maker.SCT_kingdomRewardOrderTaskRwd=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"dailyTaskRwd",zd.makeDataArray(maker.SCT_kingdomRewardOrderTaskRwdMsg()))
+	zd.initSet(obj,"weeklyTaskRwd",zd.makeDataArray(maker.SCT_kingdomRewardOrderTaskRwdMsg()))
+	return obj
+end
+maker.SCT_kingdomRewardOrderTaskRwdMsg=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"id",0)
+	zd.initSet(obj,"rwd",zd.makeDataArray(maker.SCT_ItemInfo()))
 	return obj
 end
 maker.SCT_SC_robberAttackForge=function()
@@ -4130,6 +4405,45 @@ maker.SCT_CS_huodong2=function()
 	zd.initSet(obj,"hd1385Rwd",maker.SCT_paramsId())
 	zd.initSet(obj,"hd1386Info",maker.SCT_CxshdInfo())
 	zd.initSet(obj,"hd1386Rwd",maker.SCT_paramsId())
+	zd.initSet(obj,"hd1387Info","")
+	zd.initSet(obj,"hd1387Rwd",maker.SCT_hd1382Get())
+	zd.initSet(obj,"hd1387ShopBuy",maker.SCT_hd608Buy())
+	zd.initSet(obj,"hd1389Info","")
+	zd.initSet(obj,"hd1389Rwd","")
+	zd.initSet(obj,"hd1390Info","NULL")
+	zd.initSet(obj,"hd1390Info2","NULL")
+	zd.initSet(obj,"hd1390Info3",maker.SCT_paramsId())
+	zd.initSet(obj,"hd1390Upgrade",maker.SCT_paramsStr())
+	zd.initSet(obj,"hd1390Go",maker.SCT_paramsGo())
+	zd.initSet(obj,"hd1390Fight",maker.SCT_paramsUid())
+	zd.initSet(obj,"hd1390Collect","NULL")
+	zd.initSet(obj,"hd1390Log",maker.SCT_Null())
+	zd.initSet(obj,"hd1391Info","")
+	zd.initSet(obj,"hd1391buy",maker.SCT_paramsNum())
+	zd.initSet(obj,"hd1391choose",maker.SCT_hd1391choose())
+	zd.initSet(obj,"hd1391getRwd",maker.SCT_paramsNum())
+	zd.initSet(obj,"hd1391chou",maker.SCT_paramsNum())
+	zd.initSet(obj,"hd1392Info",maker.SCT_CxshdInfo())
+	zd.initSet(obj,"hd1392Rwd",maker.SCT_CxshdRwd())
+	zd.initSet(obj,"hd1392GetBox",maker.SCT_Null())
+	zd.initSet(obj,"hd1393Info",maker.SCT_CxshdInfo())
+	zd.initSet(obj,"hd1393Rwd",maker.SCT_CxshdRwd())
+	zd.initSet(obj,"hd1394Info",maker.SCT_CxshdInfo())
+	zd.initSet(obj,"hd1394Rwd",maker.SCT_CxshdRwd())
+	zd.initSet(obj,"hd1395Info","")
+	zd.initSet(obj,"hd1395GetRwd",maker.SCT_hd1158Rwd())
+	zd.initSet(obj,"hd1396Info","")
+	zd.initSet(obj,"hd1396buy",maker.SCT_paramsIdNum())
+	zd.initSet(obj,"hd1397Info","")
+	zd.initSet(obj,"hd1398Info","")
+	zd.initSet(obj,"hd1399Info","")
+	return obj
+end
+maker.SCT_hd1391choose=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"key",0)
+	zd.initSet(obj,"id",0)
 	return obj
 end
 maker.SCT_hd1382Get=function()
@@ -6680,8 +6994,33 @@ maker.SCT_redEnvelopeList=function()
 	zd.initSet(obj,"num",0)
 	zd.initSet(obj,"total",0)
 	zd.initSet(obj,"status",0)
-	zd.initSet(obj,"userInfo",maker.SCT_SCfapplyfUserInfo())
+	zd.initSet(obj,"userInfo",maker.SCT_SCfapplyfUserInfo1())
 	zd.initSet(obj,"content",zd.makeDataArray(maker.SCT_redEnvelopeContent(),"id"))
+	return obj
+end
+maker.SCT_SCfapplyfUserInfo1=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"id",0)
+	zd.initSet(obj,"uid",0)
+	zd.initSet(obj,"name","")
+	zd.initSet(obj,"level",0)
+	zd.initSet(obj,"vip",0)
+	zd.initSet(obj,"job",0)
+	zd.initSet(obj,"sex",0)
+	zd.initSet(obj,"chenghao",0)
+	zd.initSet(obj,"headframe",0)
+	zd.initSet(obj,"rid",0)
+	zd.initSet(obj,"apply_time",0)
+	zd.initSet(obj,"headType",0)
+	zd.initSet(obj,"headId",0)
+	zd.initSet(obj,"vipStatus",1)
+	zd.initSet(obj,"shili",0)
+	zd.initSet(obj,"clubid",0)
+	zd.initSet(obj,"clubname","")
+	zd.initSet(obj,"frame","")
+	zd.initSet(obj,"head","")
+	zd.initSet(obj,"chatframe","")
 	return obj
 end
 maker.SCT_redEnvelopeContent=function()
@@ -11618,6 +11957,9 @@ maker.SCT_SC_czhuodong=function()
 	zd.initSet(obj,"robberAttackLeiji",maker.SCT_SC_CrusadeTotal())
 	zd.initSet(obj,"robberAttackLeijiCfg",maker.SCT_SC_CrusadeTotalCfg())
 	zd.initSet(obj,"robberAttackLeitian",maker.SCT_Sxshuodong())
+	zd.initSet(obj,"halloween2021Day",maker.SCT_scombinedSevday())
+	zd.initSet(obj,"halloween2021Leiji",maker.SCT_Sxshuodong())
+	zd.initSet(obj,"halloween2021LeiTian",maker.SCT_Sxshuodong())
 	return obj
 end
 maker.SCT_SC_kuacbhuodong=function()
@@ -22981,6 +23323,9 @@ maker.CST_SC=function()
 	zd.initLiteSet(obj,"robberAttackFight",maker.CST_SC_robberAttackFight())
 	zd.initLiteSet(obj,"robberAttackXuanShang",maker.CST_SC_robberAttackXuanShang())
 	zd.initLiteSet(obj,"throne",maker.CST_SC_throne())
+	zd.initLiteSet(obj,"Bidding",maker.CST_SC_bidding())
+	zd.initLiteSet(obj,"kingdomRewardOrder",maker.CST_SC_kingdomRewardOrder())
+	zd.initLiteSet(obj,"haveFunGiftBag",maker.CST_SC_haveFunGiftBag())
 	return obj
 end
 maker.CST_CS=function()
@@ -23042,6 +23387,7 @@ maker.CST_CS=function()
 	zd.initLiteSet(obj,"huodong2",maker.CST_CS_huodong2())
 	zd.initLiteSet(obj,"qxzb",maker.CST_CS_Qxzb())
 	zd.initLiteSet(obj,"throne",maker.CST_CS_throne())
+	zd.initLiteSet(obj,"bidding",maker.CST_CS_bidding())
 	return obj
 end
 maker.CST_SC_ConditionalTouchGift=function()
@@ -23049,6 +23395,47 @@ maker.CST_SC_ConditionalTouchGift=function()
 	zd.makeLiteTable(obj)
 	zd.initLiteSet(obj,"info",maker.CST_ConditionalTouchGift_info())
 	zd.initLiteSet(obj,"gift_info",maker.CST_ConditionalTouchGift_gift_info())
+	return obj
+end
+maker.CST_CS_bidding=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"info","")
+	zd.initLiteSet(obj,"shopInfo","")
+	zd.initLiteSet(obj,"bShop",maker.CST_CS_bWar_shop())
+	zd.initLiteSet(obj,"mobai","")
+	zd.initLiteSet(obj,"getRank","")
+	zd.initLiteSet(obj,"getTypeRank",maker.CST_bidding_type())
+	zd.initLiteSet(obj,"fight",maker.CST_bidding_id())
+	zd.initLiteSet(obj,"fightInfo","")
+	zd.initLiteSet(obj,"fightList","")
+	zd.initLiteSet(obj,"get_rwd_info","")
+	zd.initLiteSet(obj,"rwd",maker.CST_bidding_rwd_id())
+	return obj
+end
+maker.CST_bidding_rwd_id=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"id",0)
+	return obj
+end
+maker.CST_CS_bWar_shop=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"id",0)
+	zd.initLiteSet(obj,"num",0)
+	return obj
+end
+maker.CST_bidding_type=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"type",0)
+	return obj
+end
+maker.CST_bidding_id=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"id",0)
 	return obj
 end
 maker.CST_CS_throne_hasNum=function()
@@ -23069,8 +23456,8 @@ end
 maker.CST_CS_throne_info=function()
 	local obj={}
 	zd.makeLiteTable(obj)
-	zd.initLiteSet(obj,"exp","0")
-	zd.initLiteSet(obj,"level","0")
+	zd.initLiteSet(obj,"exp",0)
+	zd.initLiteSet(obj,"level",0)
 	zd.initLiteSet(obj,"chengjiu",zd.makeLiteArray(maker.SCT_CS_throne_chengjiu()))
 	zd.initLiteSet(obj,"hasNum",zd.makeLiteArray(maker.SCT_CS_throne_hasNum()))
 	zd.initLiteSet(obj,"cd",maker.CST_CdLabel())
@@ -23082,14 +23469,165 @@ maker.CST_CS_throne_Exp=function()
 	zd.initLiteSet(obj,"exp",0)
 	return obj
 end
-maker.CST_CS_throne=function()
+maker.CST_SC_throne=function()
 	local obj={}
 	zd.makeLiteTable(obj)
 	zd.initLiteSet(obj,"store",maker.CST_CS_throne_info())
 	zd.initLiteSet(obj,"addExp",maker.CST_CS_throne_Exp())
 	return obj
 end
-maker.CST_SC_throne=function()
+maker.CST_SC_myBiddingRank=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"rank",0)
+	return obj
+end
+maker.CST_SC_bidding=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"bid_info",maker.CST_SC_bidInfo())
+	zd.initLiteSet(obj,"fight_info",zd.makeLiteArray(maker.SCT_SC_bidFightInfo()))
+	zd.initLiteSet(obj,"fight",maker.CST_SC_bidFight())
+	zd.initLiteSet(obj,"bidRank",zd.makeLiteArray(maker.SCT_SC_Bid_Rank()))
+	zd.initLiteSet(obj,"typeRank",zd.makeLiteArray(maker.SCT_SC_BidTRank()))
+	zd.initLiteSet(obj,"bidding_list",zd.makeLiteArray(maker.SCT_SC_BidList()))
+	zd.initLiteSet(obj,"news",maker.CST_SC_bidNews())
+	zd.initLiteSet(obj,"myRank",maker.CST_SC_myBiddingRank())
+	zd.initLiteSet(obj,"history",zd.makeLiteArray(maker.SCT_SC_biddingHistory()))
+	zd.initLiteSet(obj,"shop",zd.makeLiteArray(maker.SCT_SC_biddingShop()))
+	return obj
+end
+maker.CST_SC_biddingShop=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"id",0)
+	zd.initLiteSet(obj,"good",maker.CST_ItemInfo())
+	zd.initLiteSet(obj,"need",maker.CST_ItemInfo())
+	zd.initLiteSet(obj,"is_limit",0)
+	zd.initLiteSet(obj,"limit",0)
+	zd.initLiteSet(obj,"buy",0)
+	return obj
+end
+maker.CST_SC_biddingHistory=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"day",0)
+	zd.initLiteSet(obj,"id",0)
+	zd.initLiteSet(obj,"score",0)
+	zd.initLiteSet(obj,"is_get",1)
+	return obj
+end
+maker.CST_SC_myRank=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"rank",0)
+	return obj
+end
+maker.CST_SC_BidList=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"id",0)
+	zd.initLiteSet(obj,"t",0)
+	zd.initLiteSet(obj,"user_info",maker.CST_fUserInfo())
+	zd.initLiteSet(obj,"shili",0)
+	zd.initLiteSet(obj,"money",0)
+	zd.initLiteSet(obj,"user_id",0)
+	return obj
+end
+maker.CST_SC_BidTRank=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"id",0)
+	zd.initLiteSet(obj,"t",0)
+	zd.initLiteSet(obj,"atk",0)
+	zd.initLiteSet(obj,"user_info",maker.CST_fUserInfo())
+	zd.initLiteSet(obj,"money",0)
+	return obj
+end
+maker.CST_SC_Bid_Rank=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"rid",0)
+	zd.initLiteSet(obj,"num",0)
+	zd.initLiteSet(obj,"user_info",maker.CST_fUserInfo())
+	zd.initLiteSet(obj,"type",0)
+	return obj
+end
+maker.CST_SC_bidFight=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"is_win",0)
+	zd.initLiteSet(obj,"challenge",0)
+	zd.initLiteSet(obj,"through",0)
+	zd.initLiteSet(obj,"id",0)
+	zd.initLiteSet(obj,"user_id",0)
+	zd.initLiteSet(obj,"user_info",maker.CST_fUserInfo())
+	zd.initLiteSet(obj,"money",0)
+	zd.initLiteSet(obj,"fight_num",0)
+	zd.initLiteSet(obj,"fightLog",maker.CST_bidding_logs())
+	return obj
+end
+maker.CST_bidding_logs=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"hero_list",zd.makeLiteArray(maker.SCT_biddingFightInfo()))
+	zd.initLiteSet(obj,"fhero_list",zd.makeLiteArray(maker.SCT_biddingFightInfo()))
+	return obj
+end
+maker.CST_biddingFightInfo=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"id",0)
+	zd.initLiteSet(obj,"atk",0)
+	return obj
+end
+maker.CST_SC_bidFightInfo=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"uid",0)
+	zd.initLiteSet(obj,"t_type",0)
+	zd.initLiteSet(obj,"win",0)
+	zd.initLiteSet(obj,"bid",0)
+	zd.initLiteSet(obj,"type",1)
+	zd.initLiteSet(obj,"atk",0)
+	zd.initLiteSet(obj,"time",0)
+	zd.initLiteSet(obj,"name","")
+	zd.initLiteSet(obj,"chenghao",0)
+	zd.initLiteSet(obj,"headType",0)
+	zd.initLiteSet(obj,"headId",0)
+	zd.initLiteSet(obj,"level",0)
+	zd.initLiteSet(obj,"shili",0)
+	zd.initLiteSet(obj,"job",0)
+	zd.initLiteSet(obj,"sex",0)
+	zd.initLiteSet(obj,"vip",0)
+	zd.initLiteSet(obj,"vipStatus",1)
+	return obj
+end
+maker.CST_SC_bidNews=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"id",0)
+	zd.initLiteSet(obj,"bai",0)
+	zd.initLiteSet(obj,"fight",0)
+	zd.initLiteSet(obj,"rwd",0)
+	return obj
+end
+maker.CST_SC_bidInfo=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"id",0)
+	zd.initLiteSet(obj,"mid",0)
+	zd.initLiteSet(obj,"money",0)
+	zd.initLiteSet(obj,"is_rwd",0)
+	zd.initLiteSet(obj,"type",0)
+	zd.initLiteSet(obj,"fight_num",0)
+	zd.initLiteSet(obj,"score",0)
+	zd.initLiteSet(obj,"sid",1)
+	zd.initLiteSet(obj,"stime",0)
+	zd.initLiteSet(obj,"etime",0)
+	return obj
+end
+maker.CST_CS_throne=function()
 	local obj={}
 	zd.makeLiteTable(obj)
 	zd.initLiteSet(obj,"exchange",maker.CST_mysteriousShop_cfg())
@@ -24838,6 +25376,85 @@ maker.CST_robberAttackFightFloorStatus=function()
 	zd.makeLiteTable(obj)
 	zd.initLiteSet(obj,"floor",0)
 	zd.initLiteSet(obj,"status",0)
+	return obj
+end
+maker.CST_SC_haveFunGiftBag=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"info",maker.CST_haveFunGiftBagInfo())
+	zd.initLiteSet(obj,"cfg",maker.CST_haveFunGiftBagCfg())
+	return obj
+end
+maker.CST_haveFunGiftBagInfo=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"rwd",0)
+	zd.initLiteSet(obj,"isRecharge",0)
+	zd.initLiteSet(obj,"getTime",0)
+	return obj
+end
+maker.CST_haveFunGiftBagCfg=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"dc",0)
+	zd.initLiteSet(obj,"cfg",zd.makeLiteArray(maker.SCT_haveFunGiftBagCfgCfg()))
+	return obj
+end
+maker.CST_haveFunGiftBagCfgCfg=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"id",0)
+	zd.initLiteSet(obj,"rwd",zd.makeLiteArray(maker.SCT_haveFunGiftBagCfgCfgRwd()))
+	return obj
+end
+maker.CST_haveFunGiftBagCfgCfgRwd=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"item",maker.CST_ItemInfo())
+	zd.initLiteSet(obj,"tip",0)
+	return obj
+end
+maker.CST_SC_kingdomRewardOrder=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"info",maker.CST_kingdomRewardOrderInfo())
+	zd.initLiteSet(obj,"cfg",maker.CST_kingdomRewardOrderCfg())
+	zd.initLiteSet(obj,"taskRwd",maker.CST_kingdomRewardOrderTaskRwd())
+	return obj
+end
+maker.CST_kingdomRewardOrderInfo=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"isOpenSenior",0)
+	zd.initLiteSet(obj,"generalStatus",zd.makeLiteArray(maker.SCT_XSLRwdStatus()))
+	zd.initLiteSet(obj,"seniorStatus",zd.makeLiteArray(maker.SCT_XSLRwdStatus()))
+	zd.initLiteSet(obj,"shopStatus",zd.makeLiteArray(maker.SCT_wall_shop_num()))
+	zd.initLiteSet(obj,"medal",0)
+	zd.initLiteSet(obj,"hasMedal",0)
+	return obj
+end
+maker.CST_kingdomRewardOrderCfg=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"dc",0)
+	zd.initLiteSet(obj,"showHero",0)
+	zd.initLiteSet(obj,"generalRwd",zd.makeLiteArray(maker.SCT_XSLCfgRwd()))
+	zd.initLiteSet(obj,"seniorRwd",zd.makeLiteArray(maker.SCT_XSLCfgRwd()))
+	zd.initLiteSet(obj,"shop",zd.makeLiteArray(maker.SCT_wall_shop()))
+	return obj
+end
+maker.CST_kingdomRewardOrderTaskRwd=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"dailyTaskRwd",zd.makeLiteArray(maker.SCT_kingdomRewardOrderTaskRwdMsg()))
+	zd.initLiteSet(obj,"weeklyTaskRwd",zd.makeLiteArray(maker.SCT_kingdomRewardOrderTaskRwdMsg()))
+	return obj
+end
+maker.CST_kingdomRewardOrderTaskRwdMsg=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"id",0)
+	zd.initLiteSet(obj,"rwd",zd.makeLiteArray(maker.SCT_ItemInfo()))
 	return obj
 end
 maker.CST_SC_robberAttackForge=function()
@@ -26781,6 +27398,45 @@ maker.CST_CS_huodong2=function()
 	zd.initLiteSet(obj,"hd1385Rwd",maker.CST_paramsId())
 	zd.initLiteSet(obj,"hd1386Info",maker.CST_CxshdInfo())
 	zd.initLiteSet(obj,"hd1386Rwd",maker.CST_paramsId())
+	zd.initLiteSet(obj,"hd1387Info","")
+	zd.initLiteSet(obj,"hd1387Rwd",maker.CST_hd1382Get())
+	zd.initLiteSet(obj,"hd1387ShopBuy",maker.CST_hd608Buy())
+	zd.initLiteSet(obj,"hd1389Info","")
+	zd.initLiteSet(obj,"hd1389Rwd","")
+	zd.initLiteSet(obj,"hd1390Info","NULL")
+	zd.initLiteSet(obj,"hd1390Info2","NULL")
+	zd.initLiteSet(obj,"hd1390Info3",maker.CST_paramsId())
+	zd.initLiteSet(obj,"hd1390Upgrade",maker.CST_paramsStr())
+	zd.initLiteSet(obj,"hd1390Go",maker.CST_paramsGo())
+	zd.initLiteSet(obj,"hd1390Fight",maker.CST_paramsUid())
+	zd.initLiteSet(obj,"hd1390Collect","NULL")
+	zd.initLiteSet(obj,"hd1390Log",maker.CST_Null())
+	zd.initLiteSet(obj,"hd1391Info","")
+	zd.initLiteSet(obj,"hd1391buy",maker.CST_paramsNum())
+	zd.initLiteSet(obj,"hd1391choose",maker.CST_hd1391choose())
+	zd.initLiteSet(obj,"hd1391getRwd",maker.CST_paramsNum())
+	zd.initLiteSet(obj,"hd1391chou",maker.CST_paramsNum())
+	zd.initLiteSet(obj,"hd1392Info",maker.CST_CxshdInfo())
+	zd.initLiteSet(obj,"hd1392Rwd",maker.CST_CxshdRwd())
+	zd.initLiteSet(obj,"hd1392GetBox",maker.CST_Null())
+	zd.initLiteSet(obj,"hd1393Info",maker.CST_CxshdInfo())
+	zd.initLiteSet(obj,"hd1393Rwd",maker.CST_CxshdRwd())
+	zd.initLiteSet(obj,"hd1394Info",maker.CST_CxshdInfo())
+	zd.initLiteSet(obj,"hd1394Rwd",maker.CST_CxshdRwd())
+	zd.initLiteSet(obj,"hd1395Info","")
+	zd.initLiteSet(obj,"hd1395GetRwd",maker.CST_hd1158Rwd())
+	zd.initLiteSet(obj,"hd1396Info","")
+	zd.initLiteSet(obj,"hd1396buy",maker.CST_paramsIdNum())
+	zd.initLiteSet(obj,"hd1397Info","")
+	zd.initLiteSet(obj,"hd1398Info","")
+	zd.initLiteSet(obj,"hd1399Info","")
+	return obj
+end
+maker.CST_hd1391choose=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"key",0)
+	zd.initLiteSet(obj,"id",0)
 	return obj
 end
 maker.CST_hd1382Get=function()
@@ -29331,8 +29987,33 @@ maker.CST_redEnvelopeList=function()
 	zd.initLiteSet(obj,"num",0)
 	zd.initLiteSet(obj,"total",0)
 	zd.initLiteSet(obj,"status",0)
-	zd.initLiteSet(obj,"userInfo",maker.CST_SCfapplyfUserInfo())
+	zd.initLiteSet(obj,"userInfo",maker.CST_SCfapplyfUserInfo1())
 	zd.initLiteSet(obj,"content",zd.makeLiteArray(maker.SCT_redEnvelopeContent()))
+	return obj
+end
+maker.CST_SCfapplyfUserInfo1=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"id",0)
+	zd.initLiteSet(obj,"uid",0)
+	zd.initLiteSet(obj,"name","")
+	zd.initLiteSet(obj,"level",0)
+	zd.initLiteSet(obj,"vip",0)
+	zd.initLiteSet(obj,"job",0)
+	zd.initLiteSet(obj,"sex",0)
+	zd.initLiteSet(obj,"chenghao",0)
+	zd.initLiteSet(obj,"headframe",0)
+	zd.initLiteSet(obj,"rid",0)
+	zd.initLiteSet(obj,"apply_time",0)
+	zd.initLiteSet(obj,"headType",0)
+	zd.initLiteSet(obj,"headId",0)
+	zd.initLiteSet(obj,"vipStatus",1)
+	zd.initLiteSet(obj,"shili",0)
+	zd.initLiteSet(obj,"clubid",0)
+	zd.initLiteSet(obj,"clubname","")
+	zd.initLiteSet(obj,"frame","")
+	zd.initLiteSet(obj,"head","")
+	zd.initLiteSet(obj,"chatframe","")
 	return obj
 end
 maker.CST_redEnvelopeContent=function()
@@ -34269,6 +34950,9 @@ maker.CST_SC_czhuodong=function()
 	zd.initLiteSet(obj,"robberAttackLeiji",maker.CST_SC_CrusadeTotal())
 	zd.initLiteSet(obj,"robberAttackLeijiCfg",maker.CST_SC_CrusadeTotalCfg())
 	zd.initLiteSet(obj,"robberAttackLeitian",maker.CST_Sxshuodong())
+	zd.initLiteSet(obj,"halloween2021Day",maker.CST_scombinedSevday())
+	zd.initLiteSet(obj,"halloween2021Leiji",maker.CST_Sxshuodong())
+	zd.initLiteSet(obj,"halloween2021LeiTian",maker.CST_Sxshuodong())
 	return obj
 end
 maker.CST_SC_kuacbhuodong=function()

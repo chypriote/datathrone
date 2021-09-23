@@ -1,0 +1,90 @@
+
+chengbao_dcbw.png
+size: 1510,1226
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+wgp_bw_00000
+  rotate: false
+  xy: 2, 410
+  size: 375, 406
+  orig: 375, 406
+  offset: 0, 0
+  index: -1
+wgp_bw_00001
+  rotate: false
+  xy: 379, 818
+  size: 375, 406
+  orig: 375, 406
+  offset: 0, 0
+  index: -1
+wgp_bw_00002
+  rotate: false
+  xy: 2, 2
+  size: 375, 406
+  orig: 375, 406
+  offset: 0, 0
+  index: -1
+wgp_bw_00003
+  rotate: false
+  xy: 379, 410
+  size: 375, 406
+  orig: 375, 406
+  offset: 0, 0
+  index: -1
+wgp_bw_00004
+  rotate: false
+  xy: 756, 818
+  size: 375, 406
+  orig: 375, 406
+  offset: 0, 0
+  index: -1
+wgp_bw_00005
+  rotate: false
+  xy: 379, 2
+  size: 375, 406
+  orig: 375, 406
+  offset: 0, 0
+  index: -1
+wgp_bw_00006
+  rotate: false
+  xy: 756, 410
+  size: 375, 406
+  orig: 375, 406
+  offset: 0, 0
+  index: -1
+wgp_bw_00007
+  rotate: false
+  xy: 1133, 818
+  size: 375, 406
+  orig: 375, 406
+  offset: 0, 0
+  index: -1
+wgp_bw_00008
+  rotate: false
+  xy: 756, 2
+  size: 375, 406
+  orig: 375, 406
+  offset: 0, 0
+  index: -1
+wgp_bw_00009
+  rotate: false
+  xy: 1133, 410
+  size: 375, 406
+  orig: 375, 406
+  offset: 0, 0
+  index: -1
+wgp_bw_00010
+  rotate: false
+  xy: 1133, 2
+  size: 375, 406
+  orig: 375, 406
+  offset: 0, 0
+  index: -1
+wgp_bw_00011
+  rotate: false
+  xy: 2, 818
+  size: 375, 406
+  orig: 375, 406
+  offset: 0, 0
+  index: -1

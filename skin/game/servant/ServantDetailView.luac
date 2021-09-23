@@ -1724,6 +1724,7 @@ function __Class:setGhItem(item,v)
     ts[4].t:setString(v.comm..curVal.."%")
     -- UICommon.setMaxWidthForText(ts[4].t,320)
     ts[5].t:setString(v.comm..nextVal.."%")
+    dump(v)
     if v.level < v.maxLevel then
         if next(v.upItem) ~= nil then
             self.prop = self.bagProxy:getThingById(v.upItem[1].id)
@@ -1772,6 +1773,8 @@ function __Class:setGhItem(item,v)
     end
 
     local Armature1 = item.box:getChildByTag(124)
+    -- dump(v.level)
+    -- dump(v.maxLevel)
     if v.level < v.maxLevel then
         if v.up == 1 then
             UITools.getChild(item.box,"btnUpG"):setVisible(true)
@@ -1794,6 +1797,14 @@ function __Class:setGhItem(item,v)
     end
 
     UITools.getChild(item.box,"btnUpG"):addClickEventListener(function(sender)
+        local needMax = v.level + 1
+        if next(v.upItem) ~= nil then
+            needMax = v.upItem[1].count
+        end
+        if needMax > self.prop.count then
+            self.zero:command(GameKey.TIP, lang("rebel.no_enough_item"))
+            return
+        end
         self.zero:show("game.servant.UpLevelView",v.id,v.upItem)
     end)
     if v.maxLevel == 1 then
@@ -1817,6 +1828,22 @@ function __Class:setGhItem(item,v)
     boxs.height = boxs.height+th
     bg:setContentSize(bgs.width,bgs.height)
     item.box:setContentSize(boxs.width,boxs.height)
+
+    local needMax = v.level + 1
+    if next(v.upItem) ~= nil then
+        needMax = v.upItem[1].count
+        self.prop = self.bagProxy:getThingById(v.upItem[1].id)
+        m3:setVisible(needMax <= self.prop.count and v.level < v.maxLevel)
+    else
+        m3:setVisible(false)
+    end
+    -- if self.prop then
+    --     local isShow = needMax <= self.prop.count
+    --     if not needMax then
+    --         isShow = false
+    --     end
+    --     m3:setVisible(isShow)
+    -- end
     return boxs
 end
 

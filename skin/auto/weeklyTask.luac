@@ -739,27 +739,18 @@ local root=
             ["rwd"]={
                 {
                     ["itemid"]=2,
-                    ["kind"]=1
+                    ["kind"]=1,
+                    ["type"]="($e2+10000)*3+300000"
                 },
                 {
                     ["itemid"]=3,
-                    ["kind"]=1
+                    ["kind"]=1,
+                    ["type"]="($e3+5000)*1.5+100000"
                 },
                 {
                     ["itemid"]=4,
-                    ["kind"]=1
-                },
-                {
-                    ["itemid"]=104,
-                    ["kind"]=1
-                },
-                {
-                    ["itemid"]=105,
-                    ["kind"]=1
-                },
-                {
-                    ["itemid"]=108,
-                    ["kind"]=1
+                    ["kind"]=1,
+                    ["type"]="($e4+5000)*1.5+100000"
                 }
             }
         },
@@ -770,27 +761,18 @@ local root=
             ["rwd"]={
                 {
                     ["itemid"]=160,
-                    ["kind"]=1
+                    ["kind"]=1,
+                    ["count"]=15
                 },
                 {
                     ["itemid"]=161,
-                    ["kind"]=1
+                    ["kind"]=1,
+                    ["count"]=15
                 },
                 {
                     ["itemid"]=162,
-                    ["kind"]=1
-                },
-                {
-                    ["itemid"]=82,
-                    ["kind"]=1
-                },
-                {
-                    ["itemid"]=83,
-                    ["kind"]=1
-                },
-                {
-                    ["itemid"]=111,
-                    ["kind"]=1
+                    ["kind"]=1,
+                    ["count"]=15
                 }
             }
         },
@@ -801,35 +783,23 @@ local root=
             ["rwd"]={
                 {
                     ["itemid"]=137,
-                    ["kind"]=1
+                    ["kind"]=1,
+                    ["count"]=4
                 },
                 {
                     ["itemid"]=163,
-                    ["kind"]=1
+                    ["kind"]=1,
+                    ["count"]=7
                 },
                 {
                     ["itemid"]=164,
-                    ["kind"]=1
+                    ["kind"]=1,
+                    ["count"]=7
                 },
                 {
                     ["itemid"]=165,
-                    ["kind"]=1
-                },
-                {
-                    ["itemid"]=82,
-                    ["kind"]=1
-                },
-                {
-                    ["itemid"]=83,
-                    ["kind"]=1
-                },
-                {
-                    ["itemid"]=135,
-                    ["kind"]=1
-                },
-                {
-                    ["itemid"]=102,
-                    ["kind"]=1
+                    ["kind"]=1,
+                    ["count"]=7
                 }
             }
         },
@@ -840,35 +810,23 @@ local root=
             ["rwd"]={
                 {
                     ["itemid"]=137,
-                    ["kind"]=1
+                    ["kind"]=1,
+                    ["count"]=6
                 },
                 {
                     ["itemid"]=166,
-                    ["kind"]=1
+                    ["kind"]=1,
+                    ["count"]=3
                 },
                 {
                     ["itemid"]=167,
-                    ["kind"]=1
+                    ["kind"]=1,
+                    ["count"]=3
                 },
                 {
                     ["itemid"]=168,
-                    ["kind"]=1
-                },
-                {
-                    ["itemid"]=124,
-                    ["kind"]=1
-                },
-                {
-                    ["itemid"]=143,
-                    ["kind"]=1
-                },
-                {
-                    ["itemid"]=144,
-                    ["kind"]=1
-                },
-                {
-                    ["itemid"]=145,
-                    ["kind"]=1
+                    ["kind"]=1,
+                    ["count"]=3
                 }
             }
         },
@@ -879,35 +837,23 @@ local root=
             ["rwd"]={
                 {
                     ["itemid"]=137,
-                    ["kind"]=1
+                    ["kind"]=1,
+                    ["count"]=10
                 },
                 {
                     ["itemid"]=169,
-                    ["kind"]=1
+                    ["kind"]=1,
+                    ["count"]=1
                 },
                 {
                     ["itemid"]=170,
-                    ["kind"]=1
+                    ["kind"]=1,
+                    ["count"]=1
                 },
                 {
                     ["itemid"]=171,
-                    ["kind"]=1
-                },
-                {
-                    ["itemid"]=77,
-                    ["kind"]=1
-                },
-                {
-                    ["itemid"]=110,
-                    ["kind"]=1
-                },
-                {
-                    ["itemid"]=113,
-                    ["kind"]=1
-                },
-                {
-                    ["itemid"]=146,
-                    ["kind"]=1
+                    ["kind"]=1,
+                    ["count"]=1
                 }
             }
         }
