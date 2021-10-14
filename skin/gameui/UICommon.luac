@@ -2504,7 +2504,7 @@ function UICommon.checkScrollGroup(stu,scroll,isThingIcon,isDelayed,max,showCall
     stu:runAction(s)
 end
 
-function UICommon.addCheckScrollGroup(stu,scroll,isThingIcon,isDelayed,max,showCallBack,manualLoad)
+function UICommon.addCheckScrollGroup(stu,scroll,isThingIcon,isDelayed,max,showCallBack,manualLoad,canChange)
     if #scroll:getChildren() == 0 then return end
     if stu.isOpenCheck ~= nil and stu.isOpenCheck == true then
         return;
@@ -2560,6 +2560,12 @@ function UICommon.addCheckScrollGroup(stu,scroll,isThingIcon,isDelayed,max,showC
             if #t == 0 then return end
             if isDelayedBy ~= nil and isDelayedBy == true and max_ == #t and isMax == nil then
                 isMax = true;
+            end
+            if canChange == true then
+                -- scrollView的尺寸、坐标会改变 
+                pos = cc.p(scroll:convertToWorldSpace(scroll:getAnchorPoint()))
+                scrollSize = scroll:getContentSize()
+                rect = cc.rect(pos.x,pos.y,scrollSize.width,scrollSize.height)
             end
             for i,val in pairs(t) do
                 if checkItem == nil then
@@ -8247,4 +8253,250 @@ function UICommon.setCascadeOpacityEnabled( node, is_true )
         end
     end
 end
+
+function UICommon.mScheduleScriptFunc(stu,key,len,callback,overCall)
+    if len <= 0 then
+        if overCall then
+            overCall()
+        end
+        return
+    end
+    local idx = 1
+    local st = 0
+    local isOver = false
+    local perFrame = 1/60
+    UICommon.mOpenScheduleFunc(stu,key,perFrame,function ( ... )
+        if isOver then
+            UICommon.mCloseScheduleFunc(stu,key)
+            if overCall then
+                overCall()
+            end
+            return
+        end
+
+        st = os.clock()
+        for i=idx,len do
+            --到达时限时，余下script不在当前帧运行
+            if(math.abs(os.clock() - st) > perFrame*0.5) then
+                idx = i
+                return
+            end
+            if i == len then
+                idx = len
+                isOver = true
+            end
+            callback(i)
+        end
+    end)
+end
+function UICommon.mOpenScheduleFunc(stu,key,perFrame,callback)
+    stu.mSchedulePool = stu.mSchedulePool or {}
+    stu.mSchedulePool[key] = cc.Director:getInstance():getScheduler():scheduleScriptFunc(function ( ... )
+        callback()
+    end, perFrame, false)
+end
+function UICommon.mCloseScheduleFunc(stu,key)
+    if stu.mSchedulePool == nil then
+        return
+    end
+    if stu.mSchedulePool[key] then
+        cc.Director:getInstance():getScheduler():unscheduleScriptEntry(stu.mSchedulePool[key])
+        stu.mSchedulePool[key] = nil
+    end
+end
+function UICommon.mCloseAllScheduleFunc(stu)
+    if stu.mSchedulePool == nil then
+        return
+    end
+    for k,v in pairs(stu.mSchedulePool) do
+        UICommon.mCloseScheduleFunc(stu,k)
+    end
+end
+function UICommon.setRareAnimalDongHuaTEM(img,id,scale,noSpine)
+    id = id or 0
+    scale = scale or 1
+    local oldNode = img:getChildByName("zhenshou")
+    if oldNode then
+        oldNode:removeSelf()
+    end
+
+    if noSpine then
+        return UICommon.setRareAnimalImageTEM(img,id,scale)
+    end
+
+    local json = "assetsRes/effect/zhenshou/zs"..id..".json"
+    local atlas = "assetsRes/effect/zhenshou/zs"..id..".atlas"
+
+    if not cc.FileUtils:getInstance():isFileExist(json) or not cc.FileUtils:getInstance():isFileExist(atlas) then
+        return UICommon.setRareAnimalImageTEM(img,id,scale)
+    end
+
+    local pos = nil
+    local posPool = {
+        [6001]={x=0,y=-80},
+        [6102]={x=0,y=-50},
+        [6201]={x=30,y=-50},
+        [6202]={x=-30,y=-70},
+        [6204]={x=0,y=-50},
+        [6205]={x=30,y=-30},
+        [6206]={x=20,y=-100},
+        [6207]={x=-10,y=-50},
+        [6208]={x=0,y=-50},
+    }
+    if posPool[id] then
+        pos = posPool[id]
+    end
+
+    local sc = 1
+    local scPool = {
+        [6102]=0.8,
+        [6201]=0.85,
+        [6204]=0.85,
+        [6205]=0.95,
+        [6206]=0.95,
+    }
+    if scPool[id] then
+        sc = scPool[id]
+    end
+    scale = scale * sc
+
+    local function createrSpine(json_,atlas_,scale_)
+        return sp.SkeletonAnimation:create(json_, atlas_, scale_)
+    end
+    local status,actor = pcall(createrSpine,json, atlas, scale)
+    if status == false then
+        Config.CUR_ERROR = "#RareAnimal=====,id:"..id..",viewPool:"..UICommon.newTableToStr(king.viewPool)
+        return UICommon.setRareAnimalImageTEM(img,id,scale)
+    end
+    actor:setName("zhenshou")
+    actor:setAnimation(0, "standby", true)
+    if pos then
+        actor:setPosition(img:getContentSize().width/2 + ((pos.x or 0)  * scale),(pos.y or 0) * scale)
+    else
+        actor:setPosition(img:getContentSize().width/2,0)
+    end
+    img:addChild(actor)
+    return actor
+end
+function UICommon.setRareAnimalImageTEM(img,id,scale)
+    id = id or 0
+    scale = scale or 1
+
+    local curImg = UICommon.getRareAnimalImgUrl(id)
+
+    if not cc.FileUtils:getInstance():isFileExist(curImg) then
+        return
+    end
+
+    local pos = nil
+    local posPool = {
+        [6002]={x=40,y=100},
+        [6101]={x=0,y=80},
+        [6202]={x=0,y=-80},
+    }
+    if posPool[id] then
+        pos = posPool[id]
+    end
+
+    local sc = 1
+    local scPool = {
+        [6102]=0.8,
+        [6201]=0.85,
+        [6202]=0.85,
+    }
+    if scPool[id] then
+        sc = scPool[id]
+    end
+    scale = scale * sc
+
+    local image = ccui.ImageView:create()
+    image:setName("zhenshou")
+    image:setAnchorPoint(0.5, 0)
+    image:loadTexture(curImg)
+    image:setScale(scale)
+    if pos then
+        image:setPosition(img:getContentSize().width/2 + (pos.x  * scale),(-350 + pos.y) * scale)
+    else
+        image:setPosition(img:getContentSize().width/2,-350 * scale)
+    end
+    img:addChild(image)
+    return img
+end
+function UICommon.getRareAnimalImgUrl(id)
+    return "assetsRes/res/zhanma/zsImg/"..(id or 0)..".png"
+end
+
+
+--节点左右侧顺序进入
+function UICommon.NodeLRMoveIn(nodes,during,offsetX,timeSpan,ease,handler)
+    during=during or 0.5;  
+    offsetX=offsetX or 0;
+    timeSpan=timeSpan or 0;
+    ease=ease or -1;
+
+    local num=#nodes;
+    for k,v in pairs(nodes) do
+        local x,y=v:getPosition();
+        local pos=cc.p(x,y);
+        v:setPosition(pos.x+offsetX,pos.y);
+        local action;
+        if timeSpan~=0 then
+            local delay=cc.DelayTime:create(k*timeSpan);
+            local moveTo=cc.MoveTo:create(during,pos);
+            action=cc.Sequence:create(delay,moveTo);
+        else
+            action=cc.MoveTo:create(during,pos);
+        end
+
+        if ease>=0 then
+            if ease==0 then
+                action=cc.EaseBackOut:create(action);
+            else
+                action=cc.EaseOut:create(action,ease);
+            end
+        end
+        if k==num and handler then
+            local func=cc.CallFunc:create(handler);
+            action=cc.Sequence:create(action,func);
+        end
+        v:runAction(action);
+    end
+end
+
+--左右移动
+function UICommon.NodeLRMove(nodes,time,offsetX,timeSpan,ease,handler)
+    time=time or 0.5;
+    offsetX=offsetX or 0;
+    timeSpan=timeSpan or 0;
+    ease=ease or -1;
+
+    local num=#nodes;
+    for k,v in pairs(nodes) do
+        local x,y=v:getPosition();
+        local pos=cc.p(x+offsetX,y);
+        local action;
+        if timeSpan~=0 then
+            local delay=cc.DelayTime:create(k*timeSpan);
+            local moveTo=cc.MoveTo:create(time,pos);
+            action=cc.Sequence:create(delay,moveTo);
+        else
+            action=cc.MoveTo:create(time,pos);
+        end
+
+        if ease>=0 then
+            if ease==0 then
+                action=cc.EaseBackOut:create(action);
+            else
+                action=cc.EaseOut:create(action,ease);
+            end
+        end
+
+        if k==num and handler then
+            local func=cc.CallFunc:create(handler);
+            action=cc.Sequence:create(action,func);
+        end
+        v:runAction(action);
+    end
+end
+
 return UICommon

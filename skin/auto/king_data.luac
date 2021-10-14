@@ -329,10 +329,17 @@ maker.SCT_SC=function()
 	zd.initSet(obj,"robberAttackForge",maker.SCT_SC_robberAttackForge())
 	zd.initSet(obj,"robberAttackFight",maker.SCT_SC_robberAttackFight())
 	zd.initSet(obj,"robberAttackXuanShang",maker.SCT_SC_robberAttackXuanShang())
+	zd.initSet(obj,"beautyFrog",maker.SCT_SC_beautyFrog())
 	zd.initSet(obj,"throne",maker.SCT_SC_throne())
 	zd.initSet(obj,"Bidding",maker.SCT_SC_bidding())
 	zd.initSet(obj,"kingdomRewardOrder",maker.SCT_SC_kingdomRewardOrder())
 	zd.initSet(obj,"haveFunGiftBag",maker.SCT_SC_haveFunGiftBag())
+	zd.initSet(obj,"halloween2021",maker.SCT_SC_halloween2021())
+	zd.initSet(obj,"halloween2021Gift",maker.SCT_SC_CombinedSevXG())
+	zd.initSet(obj,"halloween2021Tasks",maker.SCT_halloween2021Tasks())
+	zd.initSet(obj,"jungleExplore",maker.SCT_SC_jungleExplore())
+	zd.initSet(obj,"jungleExploreGift",maker.SCT_SC_CombinedSevXG())
+	zd.initSet(obj,"visitFunction",maker.SCT_SC_visitFunction())
 	return obj
 end
 maker.SCT_CS=function()
@@ -392,9 +399,11 @@ maker.SCT_CS=function()
 	zd.initSet(obj,"warHorse",maker.SCT_CS_WarHorse())
 	zd.initSet(obj,"kuaCLubBattle",maker.SCT_CS_kuaCLubBattle())
 	zd.initSet(obj,"huodong2",maker.SCT_CS_huodong2())
+	zd.initSet(obj,"huodong3",maker.SCT_CS_huodong3())
 	zd.initSet(obj,"qxzb",maker.SCT_CS_Qxzb())
 	zd.initSet(obj,"throne",maker.SCT_CS_throne())
 	zd.initSet(obj,"bidding",maker.SCT_CS_bidding())
+	zd.initSet(obj,"visit",maker.SCT_CS_visit())
 	return obj
 end
 maker.SCT_SC_ConditionalTouchGift=function()
@@ -402,6 +411,215 @@ maker.SCT_SC_ConditionalTouchGift=function()
 	zd.makeDataTable(obj)
 	zd.initSet(obj,"info",maker.SCT_ConditionalTouchGift_info())
 	zd.initSet(obj,"gift_info",maker.SCT_ConditionalTouchGift_gift_info())
+	return obj
+end
+maker.SCT_SC_jungleExplore=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"info",maker.SCT_jungleExploreInfo())
+	zd.initSet(obj,"cfg",maker.SCT_jungleExploreCfg())
+	zd.initSet(obj,"boss",maker.SCT_jungleExploreBoss())
+	zd.initSet(obj,"beauty",maker.SCT_jungleExploreBeauty())
+	zd.initSet(obj,"mystery",zd.makeDataArray(maker.SCT_ItemInfo()))
+	zd.initSet(obj,"gold_shop",maker.SCT_jungleExploreGoldShop())
+	zd.initSet(obj,"help_info",maker.SCT_jungleExploreHelpInfo())
+	zd.initSet(obj,"help_show",maker.SCT_jungleExplore_help_log())
+	zd.initSet(obj,"shop",maker.SCT_SC_lhjshop())
+	zd.initSet(obj,"news",maker.SCT_SC_jungleExploreNews())
+	zd.initSet(obj,"listClubHelp",zd.makeDataArray(maker.SCT_Scblist()))
+	zd.initSet(obj,"myClubHelp",maker.SCT_Scbrid())
+	zd.initSet(obj,"listUser",zd.makeDataArray(maker.SCT_Scblist()))
+	zd.initSet(obj,"myUser",maker.SCT_Scbrid())
+	zd.initSet(obj,"listClub",zd.makeDataArray(maker.SCT_Scblist()))
+	zd.initSet(obj,"myClub",maker.SCT_Scbrid())
+	zd.initSet(obj,"tasks",zd.makeDataArray(maker.SCT_WTasks(),"id"))
+	zd.initSet(obj,"everyday_tasks",zd.makeDataArray(maker.SCT_WTasks(),"id"))
+	zd.initSet(obj,"wifeList",zd.makeDataArray(maker.SCT_wifeListInfo(),"id"))
+	return obj
+end
+maker.SCT_SC_jungleExploreNews=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"help_log",0)
+	zd.initSet(obj,"friend_log",0)
+	zd.initSet(obj,"club_log",0)
+	return obj
+end
+maker.SCT_jungleExploreHelpInfo=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"friends_data",zd.makeDataArray(maker.SCT_jungleExplore_help_info()))
+	zd.initSet(obj,"club_data",zd.makeDataArray(maker.SCT_jungleExplore_help_info()))
+	zd.initSet(obj,"help_log",zd.makeDataArray(maker.SCT_jungleExplore_help_log()))
+	return obj
+end
+maker.SCT_jungleExplore_help_info=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"uid",0)
+	return obj
+end
+maker.SCT_jungleExplore_help_log=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"type",1)
+	zd.initSet(obj,"uid",0)
+	zd.initSet(obj,"time",0)
+	zd.initSet(obj,"name","")
+	zd.initSet(obj,"chenghao",0)
+	zd.initSet(obj,"headType",0)
+	zd.initSet(obj,"headId",0)
+	zd.initSet(obj,"level",0)
+	zd.initSet(obj,"shili",0)
+	zd.initSet(obj,"job",0)
+	zd.initSet(obj,"sex",0)
+	zd.initSet(obj,"vip",0)
+	zd.initSet(obj,"vipStatus",1)
+	return obj
+end
+maker.SCT_jungleExploreGoldShop=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"id",0)
+	zd.initSet(obj,"rwd",zd.makeDataArray(maker.SCT_SC_jungleExploreGoldShopInfo()))
+	return obj
+end
+maker.SCT_SC_jungleExploreGoldShopInfo=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"id",0)
+	zd.initSet(obj,"need",maker.SCT_ItemInfo())
+	zd.initSet(obj,"item",maker.SCT_ItemInfo())
+	zd.initSet(obj,"limit",0)
+	zd.initSet(obj,"is_limit",0)
+	zd.initSet(obj,"buy",0)
+	return obj
+end
+maker.SCT_jungleExploreBeauty=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"bid",0)
+	zd.initSet(obj,"help_need",maker.SCT_ItemInfo())
+	zd.initSet(obj,"rwd",zd.makeDataArray(maker.SCT_ItemInfo()))
+	return obj
+end
+maker.SCT_jungleExploreBoss=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"id",0)
+	zd.initSet(obj,"star",0)
+	zd.initSet(obj,"win",0)
+	zd.initSet(obj,"hp",0)
+	zd.initSet(obj,"hurt",0)
+	zd.initSet(obj,"damage",0)
+	zd.initSet(obj,"etime",0)
+	return obj
+end
+maker.SCT_jungleExploreCfg=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"cd",0)
+	zd.initSet(obj,"max",0)
+	zd.initSet(obj,"explore_price",maker.SCT_ItemInfo())
+	zd.initSet(obj,"masheng_price",maker.SCT_ItemInfo())
+	zd.initSet(obj,"kandao_price",maker.SCT_ItemInfo())
+	zd.initSet(obj,"show_rwd",zd.makeDataArray(maker.SCT_jungleExploreCfgRwd()))
+	zd.initSet(obj,"beauty_rwd",zd.makeDataArray(maker.SCT_jungleExploreCfgbRwd()))
+	zd.initSet(obj,"buff",zd.makeDataArray(maker.SCT_jungleExploreCfgBuff()))
+	zd.initSet(obj,"helpRank",zd.makeDataArray(maker.SCT_Scbclubhdrwd()))
+	zd.initSet(obj,"Rank",zd.makeDataArray(maker.SCT_Scbhdrwd()))
+	zd.initSet(obj,"clubRank",zd.makeDataArray(maker.SCT_Scbclubhdrwd()))
+	zd.initSet(obj,"taskscfg",zd.makeDataArray(maker.SCT_EquipmentMatching_taskscfg()))
+	zd.initSet(obj,"everyday_taskscfg",zd.makeDataArray(maker.SCT_EquipmentMatching_taskscfg()))
+	zd.initSet(obj,"show_people",maker.SCT_ItemInfo())
+	return obj
+end
+maker.SCT_jungleExploreCfgBuff=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"id",0)
+	zd.initSet(obj,"price",maker.SCT_ItemInfo())
+	zd.initSet(obj,"add",0)
+	return obj
+end
+maker.SCT_jungleExploreCfgbRwd=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"bid",0)
+	zd.initSet(obj,"rwd",zd.makeDataArray(maker.SCT_ItemInfo()))
+	return obj
+end
+maker.SCT_jungleExploreCfgRwd=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"id",0)
+	zd.initSet(obj,"star",0)
+	zd.initSet(obj,"rwd",zd.makeDataArray(maker.SCT_jungleExploreBossCfgRwd()))
+	return obj
+end
+maker.SCT_jungleExploreBossCfgRwd=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"id",0)
+	zd.initSet(obj,"kind",1)
+	zd.initSet(obj,"count",1)
+	zd.initSet(obj,"must_get",0)
+	return obj
+end
+maker.SCT_jungleExploreInfo=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"stime",0)
+	zd.initSet(obj,"exploreNum",0)
+	zd.initSet(obj,"bossNum",0)
+	zd.initSet(obj,"masheng",0)
+	zd.initSet(obj,"f_num",0)
+	zd.initSet(obj,"a_num",0)
+	zd.initSet(obj,"h_num",0)
+	zd.initSet(obj,"shili",0)
+	zd.initSet(obj,"help_list",zd.makeDataArray(maker.SCT_jungleExploreHelpList()))
+	zd.initSet(obj,"type",0)
+	zd.initSet(obj,"add",0)
+	zd.initSet(obj,"score",0)
+	return obj
+end
+maker.SCT_jungleExploreHelpList=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"uid",0)
+	zd.initSet(obj,"status",0)
+	return obj
+end
+maker.SCT_CS_visit=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"intoVisit",maker.SCT_paramsFUid())
+	zd.initSet(obj,"thumbUp",maker.SCT_paramsFUid())
+	zd.initSet(obj,"thumbUpInfo","")
+	zd.initSet(obj,"getThumbUpRwd",maker.SCT_paramsFUidType())
+	zd.initSet(obj,"inviteJoinClubInfo","")
+	zd.initSet(obj,"inviteUserJoin",maker.SCT_paramsFUid())
+	zd.initSet(obj,"agreeIntoClub",maker.SCT_paramsClubId())
+	zd.initSet(obj,"refuseIntoClub",maker.SCT_paramsClubId())
+	return obj
+end
+maker.SCT_paramsClubId=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"clubId",0)
+	return obj
+end
+maker.SCT_paramsFUid=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"fuid",0)
+	return obj
+end
+maker.SCT_paramsFUidType=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"fuid",0)
+	zd.initSet(obj,"type",0)
 	return obj
 end
 maker.SCT_CS_bidding=function()
@@ -483,6 +701,130 @@ maker.SCT_SC_throne=function()
 	zd.initSet(obj,"addExp",maker.SCT_CS_throne_Exp())
 	return obj
 end
+maker.SCT_SC_beautyFrog=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"info",maker.SCT_SC_beautyFrog_info())
+	zd.initSet(obj,"cfg",maker.SCT_CS_beautyFrog_cfg())
+	zd.initSet(obj,"list",zd.makeDataArray(maker.SCT_Scblist()))
+	zd.initSet(obj,"myRid",maker.SCT_Scbrid())
+	zd.initSet(obj,"clubList",zd.makeDataArray(maker.SCT_Scblist()))
+	zd.initSet(obj,"myClub",maker.SCT_Scbrid())
+	zd.initSet(obj,"win",maker.SCT_CS_beautyFrog_win())
+	return obj
+end
+maker.SCT_CS_beautyFrog_win=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"id",0)
+	return obj
+end
+maker.SCT_CS_beautyFrog_cfg=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"completeRwd",maker.SCT_CS_beautyFrog_completeRwd())
+	zd.initSet(obj,"stageTarget",zd.makeDataArray(maker.SCT_easter_phasesRewards()))
+	zd.initSet(obj,"shop",zd.makeDataArray(maker.SCT_egg_wall_shop()))
+	zd.initSet(obj,"generalFork",maker.SCT_CS_beautyFrog_generalFork())
+	zd.initSet(obj,"goldFork",maker.SCT_CS_beautyFrog_generalFork())
+	zd.initSet(obj,"floor",zd.makeDataArray(maker.SCT_CS_beautyFrog_floor()))
+	zd.initSet(obj,"rank",zd.makeDataArray(maker.SCT_Scbhdrwd()))
+	zd.initSet(obj,"club_rank",zd.makeDataArray(maker.SCT_Scbclubhdrwd()))
+	return obj
+end
+maker.SCT_CS_beautyFrog_floor=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"id",0)
+	zd.initSet(obj,"limitScore",0)
+	zd.initSet(obj,"big",0)
+	zd.initSet(obj,"middle",0)
+	zd.initSet(obj,"small",0)
+	return obj
+end
+maker.SCT_CS_beautyFrog_generalFork=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"beili",0)
+	zd.initSet(obj,"price",maker.SCT_ItemInfo())
+	zd.initSet(obj,"hecheng",maker.SCT_ItemInfo())
+	return obj
+end
+maker.SCT_CS_beautyFrog_completeRwd=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"fixedRwd",zd.makeDataArray(maker.SCT_ItemInfo()))
+	zd.initSet(obj,"randRwd",zd.makeDataArray(maker.SCT_ItemInfo()))
+	return obj
+end
+maker.SCT_SC_beautyFrog_info=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"imageId",0)
+	zd.initSet(obj,"imagePart",zd.makeDataArray(maker.SCT_stageStatus_id()))
+	zd.initSet(obj,"completeNum",0)
+	zd.initSet(obj,"stageStatus",zd.makeDataArray(maker.SCT_stageStatus_id()))
+	zd.initSet(obj,"score",0)
+	zd.initSet(obj,"hasScore",0)
+	zd.initSet(obj,"shopNum",zd.makeDataArray(maker.SCT_stageStatus_id()))
+	zd.initSet(obj,"rand_chip",0)
+	zd.initSet(obj,"fixed_chip",0)
+	zd.initSet(obj,"generalFork",0)
+	zd.initSet(obj,"goldFork",0)
+	zd.initSet(obj,"floor",zd.makeDataArray(maker.SCT_stageStatus_id()))
+	zd.initSet(obj,"randKey","")
+	return obj
+end
+maker.SCT_CS_huodong3=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"hd1406Info","NULL")
+	zd.initSet(obj,"hd1406UseRandShip","NULL")
+	zd.initSet(obj,"hd1406UseFixedShip",maker.SCT_hd1406UseFixedShip_cs())
+	zd.initSet(obj,"hd1406GetTargetRwd",maker.SCT_hd1406GetTargetRwd_cs())
+	zd.initSet(obj,"hd1406ShopBuy",maker.SCT_hd1406GetTargetRwd_cs())
+	zd.initSet(obj,"hd1406Merge",maker.SCT_hd1406Merge_cs())
+	zd.initSet(obj,"hd1406Buy",maker.SCT_hd1406Buy_cs())
+	zd.initSet(obj,"hd1406Play",maker.SCT_hd1406Play_cs())
+	zd.initSet(obj,"hd1406Rank","NULL")
+	return obj
+end
+maker.SCT_hd1406UseFixedShip_cs=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"sign","")
+	zd.initSet(obj,"imagePartId",0)
+	return obj
+end
+maker.SCT_hd1406GetTargetRwd_cs=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"id",0)
+	return obj
+end
+maker.SCT_hd1406Merge_cs=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"num",0)
+	return obj
+end
+maker.SCT_hd1406Buy_cs=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"type","")
+	zd.initSet(obj,"num",0)
+	return obj
+end
+maker.SCT_hd1406Play_cs=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"sign","")
+	zd.initSet(obj,"floor",0)
+	zd.initSet(obj,"type","")
+	zd.initSet(obj,"size","")
+	zd.initSet(obj,"flag",0)
+	return obj
+end
 maker.SCT_SC_myBiddingRank=function()
 	local obj={}
 	zd.makeDataTable(obj)
@@ -501,10 +843,26 @@ maker.SCT_SC_bidding=function()
 	zd.initSet(obj,"news",maker.SCT_SC_bidNews())
 	zd.initSet(obj,"myRank",maker.SCT_SC_myBiddingRank())
 	zd.initSet(obj,"history",zd.makeDataArray(maker.SCT_SC_biddingHistory()))
-	zd.initSet(obj,"shop",zd.makeDataArray(maker.SCT_SC_biddingShop()))
+	zd.initSet(obj,"shop",maker.SCT_SC_biddingShop())
+	zd.initSet(obj,"cross",maker.SCT_SC_biddingCross())
+	return obj
+end
+maker.SCT_SC_biddingCross=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"switch",0)
+	zd.initSet(obj,"section","")
 	return obj
 end
 maker.SCT_SC_biddingShop=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"score",0)
+	zd.initSet(obj,"next_week",0)
+	zd.initSet(obj,"shopInfo",zd.makeDataArray(maker.SCT_SC_biddingShopInfo()))
+	return obj
+end
+maker.SCT_SC_biddingShopInfo=function()
 	local obj={}
 	zd.makeDataTable(obj)
 	zd.initSet(obj,"id",0)
@@ -548,7 +906,6 @@ maker.SCT_SC_BidTRank=function()
 	zd.initSet(obj,"t",0)
 	zd.initSet(obj,"atk",0)
 	zd.initSet(obj,"user_info",maker.SCT_fUserInfo())
-	zd.initSet(obj,"money",0)
 	return obj
 end
 maker.SCT_SC_Bid_Rank=function()
@@ -623,15 +980,13 @@ maker.SCT_SC_bidInfo=function()
 	local obj={}
 	zd.makeDataTable(obj)
 	zd.initSet(obj,"id",0)
+	zd.initSet(obj,"guide",0)
 	zd.initSet(obj,"mid",0)
 	zd.initSet(obj,"money",0)
 	zd.initSet(obj,"is_rwd",0)
 	zd.initSet(obj,"type",0)
 	zd.initSet(obj,"fight_num",0)
 	zd.initSet(obj,"score",0)
-	zd.initSet(obj,"sid",1)
-	zd.initSet(obj,"stime",0)
-	zd.initSet(obj,"etime",0)
 	return obj
 end
 maker.SCT_CS_throne=function()
@@ -2383,6 +2738,142 @@ maker.SCT_robberAttackFightFloorStatus=function()
 	zd.makeDataTable(obj)
 	zd.initSet(obj,"floor",0)
 	zd.initSet(obj,"status",0)
+	return obj
+end
+maker.SCT_SC_visitFunction=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"wifeList",zd.makeDataArray(maker.SCT_visitFunctionWifeList()))
+	zd.initSet(obj,"heroList",zd.makeDataArray(maker.SCT_visitFunctionHeroList()))
+	zd.initSet(obj,"userList",maker.SCT_visitFunctionUserList())
+	zd.initSet(obj,"warHorseList",zd.makeDataArray(maker.SCT_visitFunctionWarHorseList()))
+	zd.initSet(obj,"thumbUp",maker.SCT_visitFunctionThumbUp())
+	zd.initSet(obj,"thumbUpCfg",maker.SCT_visitFunctionThumbUpCfg())
+	zd.initSet(obj,"inviteJoinClub",maker.SCT_visitFunctionInviteJoinClub())
+	zd.initSet(obj,"invite_msg",maker.SCT_visitFunctionInviteMsg())
+	return obj
+end
+maker.SCT_visitFunctionInviteJoinClub=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"beInviteList",zd.makeDataArray(maker.SCT_visitFunctionInviteMsg()))
+	zd.initSet(obj,"inviteFeedback",zd.makeDataArray(maker.SCT_visitFunctionInviteJoinClubFeedback()))
+	return obj
+end
+maker.SCT_visitFunctionInviteJoinClubFeedback=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"uid",0)
+	zd.initSet(obj,"time",0)
+	zd.initSet(obj,"type",0)
+	return obj
+end
+maker.SCT_visitFunctionInviteMsg=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"inviteUid",0)
+	zd.initSet(obj,"inviteUserName",0)
+	zd.initSet(obj,"clubInfo",maker.SCT_SClubList())
+	return obj
+end
+maker.SCT_visitFunctionInviteMsgClubInfo=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"id",0)
+	zd.initSet(obj,"name",0)
+	zd.initSet(obj,"level",0)
+	zd.initSet(obj,"outmsg","")
+	zd.initSet(obj,"userShili",0)
+	zd.initSet(obj,"userLevel",0)
+	zd.initSet(obj,"members",0)
+	zd.initSet(obj,"icon",0)
+	return obj
+end
+maker.SCT_visitFunctionThumbUp=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"getRwd",zd.makeDataArray(maker.SCT_visitFunctionThumbUpGetRwd()))
+	zd.initSet(obj,"thumbUpList",zd.makeDataArray(maker.SCT_visitFunctionThumbUpThumbUpList()))
+	zd.initSet(obj,"beThumbUpList",zd.makeDataArray(maker.SCT_visitFunctionBeThumbUpList()))
+	return obj
+end
+maker.SCT_visitFunctionThumbUpCfg=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"rwdCount",0)
+	zd.initSet(obj,"num",0)
+	return obj
+end
+maker.SCT_visitFunctionThumbUpGetRwd=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"id",0)
+	zd.initSet(obj,"status",0)
+	return obj
+end
+maker.SCT_visitFunctionThumbUpThumbUpList=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"uid",0)
+	zd.initSet(obj,"status",0)
+	return obj
+end
+maker.SCT_visitFunctionBeThumbUpList=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"userInfo",maker.SCT_fUserInfo())
+	zd.initSet(obj,"time",0)
+	return obj
+end
+maker.SCT_visitFunctionWifeList=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"id",0)
+	zd.initSet(obj,"weifen",0)
+	zd.initSet(obj,"love",0)
+	zd.initSet(obj,"flower",0)
+	zd.initSet(obj,"skin",0)
+	return obj
+end
+maker.SCT_visitFunctionHeroList=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"id",0)
+	zd.initSet(obj,"level",1)
+	zd.initSet(obj,"class_level",0)
+	zd.initSet(obj,"senior",1)
+	zd.initSet(obj,"exp",0)
+	zd.initSet(obj,"epskill",zd.makeDataArray(maker.SCT_EpSkilInfo(),"id"))
+	zd.initSet(obj,"pkskill",zd.makeDataArray(maker.SCT_SkilInfo(),"id"))
+	zd.initSet(obj,"ghskill",zd.makeDataArray(maker.SCT_SkilInfo(),"id"))
+	zd.initSet(obj,"zzexp",0)
+	zd.initSet(obj,"pkexp",0)
+	zd.initSet(obj,"zz",maker.SCT_fourEps())
+	zd.initSet(obj,"zep",maker.SCT_fourEps())
+	zd.initSet(obj,"hep",maker.SCT_fourEps())
+	zd.initSet(obj,"wep",maker.SCT_fourEps())
+	zd.initSet(obj,"gep",maker.SCT_fourEps())
+	zd.initSet(obj,"eep",maker.SCT_fourEps())
+	zd.initSet(obj,"cep",maker.SCT_fourEps())
+	zd.initSet(obj,"aep",maker.SCT_fourEps())
+	zd.initSet(obj,"skin",0)
+	return obj
+end
+maker.SCT_visitFunctionUserList=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"homeSkin",0)
+	zd.initSet(obj,"userMsg",maker.SCT_fUserInfo())
+	return obj
+end
+maker.SCT_visitFunctionWarHorseList=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"id",0)
+	zd.initSet(obj,"h",0)
+	zd.initSet(obj,"n",0)
+	zd.initSet(obj,"lv",0)
+	zd.initSet(obj,"sl",maker.SCT_SCWarHorseUserListSl())
 	return obj
 end
 maker.SCT_SC_haveFunGiftBag=function()
@@ -4418,10 +4909,12 @@ maker.SCT_CS_huodong2=function()
 	zd.initSet(obj,"hd1390Fight",maker.SCT_paramsUid())
 	zd.initSet(obj,"hd1390Collect","NULL")
 	zd.initSet(obj,"hd1390Log",maker.SCT_Null())
+	zd.initSet(obj,"hd1390GetTasksRwd",maker.SCT_hd1390GetTasksRwd())
+	zd.initSet(obj,"hd1393SelectRwd",maker.SCT_hd1156SelectRwd())
 	zd.initSet(obj,"hd1391Info","")
 	zd.initSet(obj,"hd1391buy",maker.SCT_paramsNum())
 	zd.initSet(obj,"hd1391choose",maker.SCT_hd1391choose())
-	zd.initSet(obj,"hd1391getRwd",maker.SCT_paramsNum())
+	zd.initSet(obj,"hd1391getRwd",maker.SCT_paramsId())
 	zd.initSet(obj,"hd1391chou",maker.SCT_paramsNum())
 	zd.initSet(obj,"hd1392Info",maker.SCT_CxshdInfo())
 	zd.initSet(obj,"hd1392Rwd",maker.SCT_CxshdRwd())
@@ -4437,6 +4930,69 @@ maker.SCT_CS_huodong2=function()
 	zd.initSet(obj,"hd1397Info","")
 	zd.initSet(obj,"hd1398Info","")
 	zd.initSet(obj,"hd1399Info","")
+	zd.initSet(obj,"hd1377Info","")
+	zd.initSet(obj,"hd1377BuyGift",maker.SCT_paramsId())
+	zd.initSet(obj,"hd1400Info",maker.SCT_Null())
+	zd.initSet(obj,"hd1400Explore",maker.SCT_Null())
+	zd.initSet(obj,"hd1400Enjoy",maker.SCT_paramsThreeId())
+	zd.initSet(obj,"hd1400beautyRwd",maker.SCT_CxGetReward())
+	zd.initSet(obj,"hd1400Help",maker.SCT_hd1400Help())
+	zd.initSet(obj,"hd1400Leave",maker.SCT_Null())
+	zd.initSet(obj,"hd1400GetHelpInfo",maker.SCT_hd1400HelpId())
+	zd.initSet(obj,"hd1400BuyItem",maker.SCT_paramshd1400BuyItem())
+	zd.initSet(obj,"hd1400GetTaskRewards",maker.SCT_hd1332GetTaskRewards())
+	zd.initSet(obj,"hd1400Rank",maker.SCT_paramsType())
+	zd.initSet(obj,"hd1401Info","NULL")
+	zd.initSet(obj,"hd1401BuyGift",maker.SCT_hd1114buyGift())
+	zd.initSet(obj,"hd1402Info",maker.SCT_CxshdInfo())
+	zd.initSet(obj,"hd1402Rwd",maker.SCT_CxshdRwd())
+	zd.initSet(obj,"hd1402GetBox",maker.SCT_Null())
+	zd.initSet(obj,"hd1403Info",maker.SCT_CxshdInfo())
+	zd.initSet(obj,"hd1403SelectRwd",maker.SCT_hd1156SelectRwd())
+	zd.initSet(obj,"hd1403Rwd",maker.SCT_CxshdRwd())
+	zd.initSet(obj,"hd1404Info",maker.SCT_CxshdInfo())
+	zd.initSet(obj,"hd1404Rwd",maker.SCT_CxshdRwd())
+	zd.initSet(obj,"hd1405Exchange",maker.SCT_hd1086BoxExchange())
+	return obj
+end
+maker.SCT_paramshd1400BuyItem=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"id",0)
+	zd.initSet(obj,"num",0)
+	return obj
+end
+maker.SCT_hd1400Help=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"type",0)
+	zd.initSet(obj,"fid",0)
+	return obj
+end
+maker.SCT_paramsType=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"type",0)
+	return obj
+end
+maker.SCT_paramsThreeId=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"type",0)
+	zd.initSet(obj,"uid",0)
+	return obj
+end
+maker.SCT_hd1400HelpId=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"id",0)
+	return obj
+end
+maker.SCT_hd1390GetTasksRwd=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"type",0)
+	zd.initSet(obj,"id",0)
 	return obj
 end
 maker.SCT_hd1391choose=function()
@@ -11958,8 +12514,13 @@ maker.SCT_SC_czhuodong=function()
 	zd.initSet(obj,"robberAttackLeijiCfg",maker.SCT_SC_CrusadeTotalCfg())
 	zd.initSet(obj,"robberAttackLeitian",maker.SCT_Sxshuodong())
 	zd.initSet(obj,"halloween2021Day",maker.SCT_scombinedSevday())
-	zd.initSet(obj,"halloween2021Leiji",maker.SCT_Sxshuodong())
+	zd.initSet(obj,"halloween2021Leiji",maker.SCT_SC_CrusadeTotal())
+	zd.initSet(obj,"halloween2021LeijiCfg",maker.SCT_SC_CrusadeTotalCfg())
 	zd.initSet(obj,"halloween2021LeiTian",maker.SCT_Sxshuodong())
+	zd.initSet(obj,"jungleExploreDay",maker.SCT_scombinedSevday())
+	zd.initSet(obj,"jungleExploreLeiji",maker.SCT_SC_CrusadeTotal())
+	zd.initSet(obj,"jungleExploreLeijiCfg",maker.SCT_SC_CrusadeTotalCfg())
+	zd.initSet(obj,"jungleExploreLeiTian",maker.SCT_Sxshuodong())
 	return obj
 end
 maker.SCT_SC_kuacbhuodong=function()
@@ -22997,6 +23558,173 @@ maker.SCT_ljcfgrwd=function()
 	zd.initSet(obj,"items",maker.SCT_haveProps())
 	return obj
 end
+maker.SCT_SC_halloween2021=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"commonRanking",zd.makeDataArray(maker.SCT_Scblist()))
+	zd.initSet(obj,"commonRankingRwd",zd.makeDataArray(maker.SCT_spartaRankRwd()))
+	zd.initSet(obj,"commonRankingMy",maker.SCT_Scblist())
+	zd.initSet(obj,"miNiRanking",zd.makeDataArray(maker.SCT_Scblist()))
+	zd.initSet(obj,"miNiRankingRwd",zd.makeDataArray(maker.SCT_spartaRankRwd()))
+	zd.initSet(obj,"miNiRankingMy",maker.SCT_Scblist())
+	zd.initSet(obj,"curseRanking",zd.makeDataArray(maker.SCT_Scblist()))
+	zd.initSet(obj,"curseRankingRwd",zd.makeDataArray(maker.SCT_spartaRankRwd()))
+	zd.initSet(obj,"curseRankingMy",maker.SCT_Scblist())
+	zd.initSet(obj,"pointsMall",maker.SCT_halloween2021_pointsMall())
+	zd.initSet(obj,"pointsMallCfg",zd.makeDataArray(maker.SCT_halloween2021_pointsMall_cfg()))
+	zd.initSet(obj,"warOrderWeek",maker.SCT_SC_warOrder_week())
+	zd.initSet(obj,"chou",maker.SCT_halloween2021_chou())
+	zd.initSet(obj,"info",maker.SCT_SkinGloryPlunder())
+	zd.initSet(obj,"cfg",maker.SCT_SkinGloryPlunder_cfg_array())
+	zd.initSet(obj,"outer",maker.SCT_SkinGloryPlunder_outer())
+	zd.initSet(obj,"win",maker.SCT_GloryPlunder_win())
+	zd.initSet(obj,"is_win",maker.SCT_is_win())
+	zd.initSet(obj,"log",zd.makeDataArray(maker.SCT_SkinGloryPlunder_log()))
+	zd.initSet(obj,"is_restart",maker.SCT_is_restart())
+	return obj
+end
+maker.SCT_SkinGloryPlunder_cfg_array=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"inner_mine",maker.SCT_GloryPlunder_inner_mine_array())
+	zd.initSet(obj,"start_fight",zd.makeDataArray(maker.SCT_ItemInfo()))
+	zd.initSet(obj,"go",0)
+	zd.initSet(obj,"attack",0)
+	return obj
+end
+maker.SCT_GloryPlunder_inner_mine_array=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"A",zd.makeDataArray(maker.SCT_GloryPlunder_inner_mine_info_1(),"level"))
+	zd.initSet(obj,"B",zd.makeDataArray(maker.SCT_GloryPlunder_inner_mine_info_1(),"level"))
+	zd.initSet(obj,"C",zd.makeDataArray(maker.SCT_GloryPlunder_inner_mine_info_1(),"level"))
+	zd.initSet(obj,"D",zd.makeDataArray(maker.SCT_GloryPlunder_inner_mine_info_1(),"level"))
+	return obj
+end
+maker.SCT_GloryPlunder_inner_mine_info_1=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"level",0)
+	zd.initSet(obj,"rwd",zd.makeDataArray(maker.SCT_ItemInfo()))
+	zd.initSet(obj,"need",zd.makeDataArray(maker.SCT_ItemInfo()))
+	return obj
+end
+maker.SCT_halloween2021_pointsMall_cfg=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"id",0)
+	zd.initSet(obj,"type",0)
+	zd.initSet(obj,"need",maker.SCT_ItemInfo())
+	zd.initSet(obj,"item",maker.SCT_ItemInfo())
+	zd.initSet(obj,"is_limit",0)
+	zd.initSet(obj,"limit",0)
+	return obj
+end
+maker.SCT_halloween2021_pointsMall=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"common",0)
+	zd.initSet(obj,"mini",0)
+	zd.initSet(obj,"curse",0)
+	zd.initSet(obj,"buyStatus",zd.makeDataArray(maker.SCT_idValue()))
+	return obj
+end
+maker.SCT_halloween2021_chou=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"info",maker.SCT_halloween2021_chou_info())
+	zd.initSet(obj,"cfg",maker.SCT_halloween2021_chou_cfg())
+	zd.initSet(obj,"win",zd.makeDataArray(maker.SCT_halloween2021_chou_win()))
+	return obj
+end
+maker.SCT_halloween2021_chou_win=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"id",0)
+	zd.initSet(obj,"rwd",maker.SCT_ItemInfo())
+	return obj
+end
+maker.SCT_halloween2021_chou_info=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"quan",0)
+	zd.initSet(obj,"chouNum",0)
+	zd.initSet(obj,"choose",zd.makeDataArray(maker.SCT_idValue()))
+	zd.initSet(obj,"taskStatus",zd.makeDataArray(0))
+	return obj
+end
+maker.SCT_halloween2021_chou_cfg=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"price",0)
+	zd.initSet(obj,"showHero",0)
+	zd.initSet(obj,"map",zd.makeDataArray(maker.SCT_halloween2021_chou_cfg_map()))
+	zd.initSet(obj,"choosePool",zd.makeDataArray(maker.SCT_halloween2021_chou_cfg_choosePool()))
+	zd.initSet(obj,"task",zd.makeDataArray(maker.SCT_halloween2021_chou_cfg_task()))
+	zd.initSet(obj,"chooseIds",zd.makeDataArray(0))
+	return obj
+end
+maker.SCT_halloween2021_chou_cfg_task=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"id",0)
+	zd.initSet(obj,"target",0)
+	zd.initSet(obj,"rewards",zd.makeDataArray(maker.SCT_ItemInfo()))
+	return obj
+end
+maker.SCT_halloween2021_chou_cfg_map=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"id",0)
+	zd.initSet(obj,"default_item",maker.SCT_ItemInfo())
+	return obj
+end
+maker.SCT_halloween2021_chou_cfg_choosePool=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"id",0)
+	zd.initSet(obj,"item",zd.makeDataArray(maker.SCT_ItemInfo()))
+	return obj
+end
+maker.SCT_halloween2021Tasks=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"info",maker.SCT_halloween2021Tasks_info())
+	zd.initSet(obj,"cfg",maker.SCT_halloween2021Tasks_cfg())
+	return obj
+end
+maker.SCT_halloween2021Tasks_info=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"dayTasks",zd.makeDataArray(maker.SCT_idValue()))
+	zd.initSet(obj,"dayTasksStatus",zd.makeDataArray(maker.SCT_idValue()))
+	zd.initSet(obj,"tasks",zd.makeDataArray(maker.SCT_idValue()))
+	zd.initSet(obj,"tasksStatus",zd.makeDataArray(maker.SCT_idValue()))
+	return obj
+end
+maker.SCT_halloween2021Tasks_cfg=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"showHero",0)
+	zd.initSet(obj,"dayTasks",zd.makeDataArray(maker.SCT_halloween2021Tasks_cfg_info()))
+	zd.initSet(obj,"tasks",zd.makeDataArray(maker.SCT_halloween2021Tasks_cfg_info()))
+	return obj
+end
+maker.SCT_halloween2021Tasks_cfg_info=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"type",0)
+	zd.initSet(obj,"tasks",zd.makeDataArray(maker.SCT_Tasks_cfg()))
+	return obj
+end
+maker.SCT_Tasks_cfg=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"id",0)
+	zd.initSet(obj,"target",0)
+	zd.initSet(obj,"rewards",zd.makeDataArray(maker.SCT_ItemInfo()))
+	return obj
+end
 maker.CST_SC=function()
 	local obj={}
 	zd.makeLiteTable(obj)
@@ -23322,10 +24050,17 @@ maker.CST_SC=function()
 	zd.initLiteSet(obj,"robberAttackForge",maker.CST_SC_robberAttackForge())
 	zd.initLiteSet(obj,"robberAttackFight",maker.CST_SC_robberAttackFight())
 	zd.initLiteSet(obj,"robberAttackXuanShang",maker.CST_SC_robberAttackXuanShang())
+	zd.initLiteSet(obj,"beautyFrog",maker.CST_SC_beautyFrog())
 	zd.initLiteSet(obj,"throne",maker.CST_SC_throne())
 	zd.initLiteSet(obj,"Bidding",maker.CST_SC_bidding())
 	zd.initLiteSet(obj,"kingdomRewardOrder",maker.CST_SC_kingdomRewardOrder())
 	zd.initLiteSet(obj,"haveFunGiftBag",maker.CST_SC_haveFunGiftBag())
+	zd.initLiteSet(obj,"halloween2021",maker.CST_SC_halloween2021())
+	zd.initLiteSet(obj,"halloween2021Gift",maker.CST_SC_CombinedSevXG())
+	zd.initLiteSet(obj,"halloween2021Tasks",maker.CST_halloween2021Tasks())
+	zd.initLiteSet(obj,"jungleExplore",maker.CST_SC_jungleExplore())
+	zd.initLiteSet(obj,"jungleExploreGift",maker.CST_SC_CombinedSevXG())
+	zd.initLiteSet(obj,"visitFunction",maker.CST_SC_visitFunction())
 	return obj
 end
 maker.CST_CS=function()
@@ -23385,9 +24120,11 @@ maker.CST_CS=function()
 	zd.initLiteSet(obj,"warHorse",maker.CST_CS_WarHorse())
 	zd.initLiteSet(obj,"kuaCLubBattle",maker.CST_CS_kuaCLubBattle())
 	zd.initLiteSet(obj,"huodong2",maker.CST_CS_huodong2())
+	zd.initLiteSet(obj,"huodong3",maker.CST_CS_huodong3())
 	zd.initLiteSet(obj,"qxzb",maker.CST_CS_Qxzb())
 	zd.initLiteSet(obj,"throne",maker.CST_CS_throne())
 	zd.initLiteSet(obj,"bidding",maker.CST_CS_bidding())
+	zd.initLiteSet(obj,"visit",maker.CST_CS_visit())
 	return obj
 end
 maker.CST_SC_ConditionalTouchGift=function()
@@ -23395,6 +24132,215 @@ maker.CST_SC_ConditionalTouchGift=function()
 	zd.makeLiteTable(obj)
 	zd.initLiteSet(obj,"info",maker.CST_ConditionalTouchGift_info())
 	zd.initLiteSet(obj,"gift_info",maker.CST_ConditionalTouchGift_gift_info())
+	return obj
+end
+maker.CST_SC_jungleExplore=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"info",maker.CST_jungleExploreInfo())
+	zd.initLiteSet(obj,"cfg",maker.CST_jungleExploreCfg())
+	zd.initLiteSet(obj,"boss",maker.CST_jungleExploreBoss())
+	zd.initLiteSet(obj,"beauty",maker.CST_jungleExploreBeauty())
+	zd.initLiteSet(obj,"mystery",zd.makeLiteArray(maker.SCT_ItemInfo()))
+	zd.initLiteSet(obj,"gold_shop",maker.CST_jungleExploreGoldShop())
+	zd.initLiteSet(obj,"help_info",maker.CST_jungleExploreHelpInfo())
+	zd.initLiteSet(obj,"help_show",maker.CST_jungleExplore_help_log())
+	zd.initLiteSet(obj,"shop",maker.CST_SC_lhjshop())
+	zd.initLiteSet(obj,"news",maker.CST_SC_jungleExploreNews())
+	zd.initLiteSet(obj,"listClubHelp",zd.makeLiteArray(maker.SCT_Scblist()))
+	zd.initLiteSet(obj,"myClubHelp",maker.CST_Scbrid())
+	zd.initLiteSet(obj,"listUser",zd.makeLiteArray(maker.SCT_Scblist()))
+	zd.initLiteSet(obj,"myUser",maker.CST_Scbrid())
+	zd.initLiteSet(obj,"listClub",zd.makeLiteArray(maker.SCT_Scblist()))
+	zd.initLiteSet(obj,"myClub",maker.CST_Scbrid())
+	zd.initLiteSet(obj,"tasks",zd.makeLiteArray(maker.SCT_WTasks()))
+	zd.initLiteSet(obj,"everyday_tasks",zd.makeLiteArray(maker.SCT_WTasks()))
+	zd.initLiteSet(obj,"wifeList",zd.makeLiteArray(maker.SCT_wifeListInfo()))
+	return obj
+end
+maker.CST_SC_jungleExploreNews=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"help_log",0)
+	zd.initLiteSet(obj,"friend_log",0)
+	zd.initLiteSet(obj,"club_log",0)
+	return obj
+end
+maker.CST_jungleExploreHelpInfo=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"friends_data",zd.makeLiteArray(maker.SCT_jungleExplore_help_info()))
+	zd.initLiteSet(obj,"club_data",zd.makeLiteArray(maker.SCT_jungleExplore_help_info()))
+	zd.initLiteSet(obj,"help_log",zd.makeLiteArray(maker.SCT_jungleExplore_help_log()))
+	return obj
+end
+maker.CST_jungleExplore_help_info=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"uid",0)
+	return obj
+end
+maker.CST_jungleExplore_help_log=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"type",1)
+	zd.initLiteSet(obj,"uid",0)
+	zd.initLiteSet(obj,"time",0)
+	zd.initLiteSet(obj,"name","")
+	zd.initLiteSet(obj,"chenghao",0)
+	zd.initLiteSet(obj,"headType",0)
+	zd.initLiteSet(obj,"headId",0)
+	zd.initLiteSet(obj,"level",0)
+	zd.initLiteSet(obj,"shili",0)
+	zd.initLiteSet(obj,"job",0)
+	zd.initLiteSet(obj,"sex",0)
+	zd.initLiteSet(obj,"vip",0)
+	zd.initLiteSet(obj,"vipStatus",1)
+	return obj
+end
+maker.CST_jungleExploreGoldShop=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"id",0)
+	zd.initLiteSet(obj,"rwd",zd.makeLiteArray(maker.SCT_SC_jungleExploreGoldShopInfo()))
+	return obj
+end
+maker.CST_SC_jungleExploreGoldShopInfo=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"id",0)
+	zd.initLiteSet(obj,"need",maker.CST_ItemInfo())
+	zd.initLiteSet(obj,"item",maker.CST_ItemInfo())
+	zd.initLiteSet(obj,"limit",0)
+	zd.initLiteSet(obj,"is_limit",0)
+	zd.initLiteSet(obj,"buy",0)
+	return obj
+end
+maker.CST_jungleExploreBeauty=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"bid",0)
+	zd.initLiteSet(obj,"help_need",maker.CST_ItemInfo())
+	zd.initLiteSet(obj,"rwd",zd.makeLiteArray(maker.SCT_ItemInfo()))
+	return obj
+end
+maker.CST_jungleExploreBoss=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"id",0)
+	zd.initLiteSet(obj,"star",0)
+	zd.initLiteSet(obj,"win",0)
+	zd.initLiteSet(obj,"hp",0)
+	zd.initLiteSet(obj,"hurt",0)
+	zd.initLiteSet(obj,"damage",0)
+	zd.initLiteSet(obj,"etime",0)
+	return obj
+end
+maker.CST_jungleExploreCfg=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"cd",0)
+	zd.initLiteSet(obj,"max",0)
+	zd.initLiteSet(obj,"explore_price",maker.CST_ItemInfo())
+	zd.initLiteSet(obj,"masheng_price",maker.CST_ItemInfo())
+	zd.initLiteSet(obj,"kandao_price",maker.CST_ItemInfo())
+	zd.initLiteSet(obj,"show_rwd",zd.makeLiteArray(maker.SCT_jungleExploreCfgRwd()))
+	zd.initLiteSet(obj,"beauty_rwd",zd.makeLiteArray(maker.SCT_jungleExploreCfgbRwd()))
+	zd.initLiteSet(obj,"buff",zd.makeLiteArray(maker.SCT_jungleExploreCfgBuff()))
+	zd.initLiteSet(obj,"helpRank",zd.makeLiteArray(maker.SCT_Scbclubhdrwd()))
+	zd.initLiteSet(obj,"Rank",zd.makeLiteArray(maker.SCT_Scbhdrwd()))
+	zd.initLiteSet(obj,"clubRank",zd.makeLiteArray(maker.SCT_Scbclubhdrwd()))
+	zd.initLiteSet(obj,"taskscfg",zd.makeLiteArray(maker.SCT_EquipmentMatching_taskscfg()))
+	zd.initLiteSet(obj,"everyday_taskscfg",zd.makeLiteArray(maker.SCT_EquipmentMatching_taskscfg()))
+	zd.initLiteSet(obj,"show_people",maker.CST_ItemInfo())
+	return obj
+end
+maker.CST_jungleExploreCfgBuff=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"id",0)
+	zd.initLiteSet(obj,"price",maker.CST_ItemInfo())
+	zd.initLiteSet(obj,"add",0)
+	return obj
+end
+maker.CST_jungleExploreCfgbRwd=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"bid",0)
+	zd.initLiteSet(obj,"rwd",zd.makeLiteArray(maker.SCT_ItemInfo()))
+	return obj
+end
+maker.CST_jungleExploreCfgRwd=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"id",0)
+	zd.initLiteSet(obj,"star",0)
+	zd.initLiteSet(obj,"rwd",zd.makeLiteArray(maker.SCT_jungleExploreBossCfgRwd()))
+	return obj
+end
+maker.CST_jungleExploreBossCfgRwd=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"id",0)
+	zd.initLiteSet(obj,"kind",1)
+	zd.initLiteSet(obj,"count",1)
+	zd.initLiteSet(obj,"must_get",0)
+	return obj
+end
+maker.CST_jungleExploreInfo=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"stime",0)
+	zd.initLiteSet(obj,"exploreNum",0)
+	zd.initLiteSet(obj,"bossNum",0)
+	zd.initLiteSet(obj,"masheng",0)
+	zd.initLiteSet(obj,"f_num",0)
+	zd.initLiteSet(obj,"a_num",0)
+	zd.initLiteSet(obj,"h_num",0)
+	zd.initLiteSet(obj,"shili",0)
+	zd.initLiteSet(obj,"help_list",zd.makeLiteArray(maker.SCT_jungleExploreHelpList()))
+	zd.initLiteSet(obj,"type",0)
+	zd.initLiteSet(obj,"add",0)
+	zd.initLiteSet(obj,"score",0)
+	return obj
+end
+maker.CST_jungleExploreHelpList=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"uid",0)
+	zd.initLiteSet(obj,"status",0)
+	return obj
+end
+maker.CST_CS_visit=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"intoVisit",maker.CST_paramsFUid())
+	zd.initLiteSet(obj,"thumbUp",maker.CST_paramsFUid())
+	zd.initLiteSet(obj,"thumbUpInfo","")
+	zd.initLiteSet(obj,"getThumbUpRwd",maker.CST_paramsFUidType())
+	zd.initLiteSet(obj,"inviteJoinClubInfo","")
+	zd.initLiteSet(obj,"inviteUserJoin",maker.CST_paramsFUid())
+	zd.initLiteSet(obj,"agreeIntoClub",maker.CST_paramsClubId())
+	zd.initLiteSet(obj,"refuseIntoClub",maker.CST_paramsClubId())
+	return obj
+end
+maker.CST_paramsClubId=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"clubId",0)
+	return obj
+end
+maker.CST_paramsFUid=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"fuid",0)
+	return obj
+end
+maker.CST_paramsFUidType=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"fuid",0)
+	zd.initLiteSet(obj,"type",0)
 	return obj
 end
 maker.CST_CS_bidding=function()
@@ -23476,6 +24422,130 @@ maker.CST_SC_throne=function()
 	zd.initLiteSet(obj,"addExp",maker.CST_CS_throne_Exp())
 	return obj
 end
+maker.CST_SC_beautyFrog=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"info",maker.CST_SC_beautyFrog_info())
+	zd.initLiteSet(obj,"cfg",maker.CST_CS_beautyFrog_cfg())
+	zd.initLiteSet(obj,"list",zd.makeLiteArray(maker.SCT_Scblist()))
+	zd.initLiteSet(obj,"myRid",maker.CST_Scbrid())
+	zd.initLiteSet(obj,"clubList",zd.makeLiteArray(maker.SCT_Scblist()))
+	zd.initLiteSet(obj,"myClub",maker.CST_Scbrid())
+	zd.initLiteSet(obj,"win",maker.CST_CS_beautyFrog_win())
+	return obj
+end
+maker.CST_CS_beautyFrog_win=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"id",0)
+	return obj
+end
+maker.CST_CS_beautyFrog_cfg=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"completeRwd",maker.CST_CS_beautyFrog_completeRwd())
+	zd.initLiteSet(obj,"stageTarget",zd.makeLiteArray(maker.SCT_easter_phasesRewards()))
+	zd.initLiteSet(obj,"shop",zd.makeLiteArray(maker.SCT_egg_wall_shop()))
+	zd.initLiteSet(obj,"generalFork",maker.CST_CS_beautyFrog_generalFork())
+	zd.initLiteSet(obj,"goldFork",maker.CST_CS_beautyFrog_generalFork())
+	zd.initLiteSet(obj,"floor",zd.makeLiteArray(maker.SCT_CS_beautyFrog_floor()))
+	zd.initLiteSet(obj,"rank",zd.makeLiteArray(maker.SCT_Scbhdrwd()))
+	zd.initLiteSet(obj,"club_rank",zd.makeLiteArray(maker.SCT_Scbclubhdrwd()))
+	return obj
+end
+maker.CST_CS_beautyFrog_floor=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"id",0)
+	zd.initLiteSet(obj,"limitScore",0)
+	zd.initLiteSet(obj,"big",0)
+	zd.initLiteSet(obj,"middle",0)
+	zd.initLiteSet(obj,"small",0)
+	return obj
+end
+maker.CST_CS_beautyFrog_generalFork=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"beili",0)
+	zd.initLiteSet(obj,"price",maker.CST_ItemInfo())
+	zd.initLiteSet(obj,"hecheng",maker.CST_ItemInfo())
+	return obj
+end
+maker.CST_CS_beautyFrog_completeRwd=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"fixedRwd",zd.makeLiteArray(maker.SCT_ItemInfo()))
+	zd.initLiteSet(obj,"randRwd",zd.makeLiteArray(maker.SCT_ItemInfo()))
+	return obj
+end
+maker.CST_SC_beautyFrog_info=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"imageId",0)
+	zd.initLiteSet(obj,"imagePart",zd.makeLiteArray(maker.SCT_stageStatus_id()))
+	zd.initLiteSet(obj,"completeNum",0)
+	zd.initLiteSet(obj,"stageStatus",zd.makeLiteArray(maker.SCT_stageStatus_id()))
+	zd.initLiteSet(obj,"score",0)
+	zd.initLiteSet(obj,"hasScore",0)
+	zd.initLiteSet(obj,"shopNum",zd.makeLiteArray(maker.SCT_stageStatus_id()))
+	zd.initLiteSet(obj,"rand_chip",0)
+	zd.initLiteSet(obj,"fixed_chip",0)
+	zd.initLiteSet(obj,"generalFork",0)
+	zd.initLiteSet(obj,"goldFork",0)
+	zd.initLiteSet(obj,"floor",zd.makeLiteArray(maker.SCT_stageStatus_id()))
+	zd.initLiteSet(obj,"randKey","")
+	return obj
+end
+maker.CST_CS_huodong3=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"hd1406Info","NULL")
+	zd.initLiteSet(obj,"hd1406UseRandShip","NULL")
+	zd.initLiteSet(obj,"hd1406UseFixedShip",maker.CST_hd1406UseFixedShip_cs())
+	zd.initLiteSet(obj,"hd1406GetTargetRwd",maker.CST_hd1406GetTargetRwd_cs())
+	zd.initLiteSet(obj,"hd1406ShopBuy",maker.CST_hd1406GetTargetRwd_cs())
+	zd.initLiteSet(obj,"hd1406Merge",maker.CST_hd1406Merge_cs())
+	zd.initLiteSet(obj,"hd1406Buy",maker.CST_hd1406Buy_cs())
+	zd.initLiteSet(obj,"hd1406Play",maker.CST_hd1406Play_cs())
+	zd.initLiteSet(obj,"hd1406Rank","NULL")
+	return obj
+end
+maker.CST_hd1406UseFixedShip_cs=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"sign","")
+	zd.initLiteSet(obj,"imagePartId",0)
+	return obj
+end
+maker.CST_hd1406GetTargetRwd_cs=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"id",0)
+	return obj
+end
+maker.CST_hd1406Merge_cs=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"num",0)
+	return obj
+end
+maker.CST_hd1406Buy_cs=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"type","")
+	zd.initLiteSet(obj,"num",0)
+	return obj
+end
+maker.CST_hd1406Play_cs=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"sign","")
+	zd.initLiteSet(obj,"floor",0)
+	zd.initLiteSet(obj,"type","")
+	zd.initLiteSet(obj,"size","")
+	zd.initLiteSet(obj,"flag",0)
+	return obj
+end
 maker.CST_SC_myBiddingRank=function()
 	local obj={}
 	zd.makeLiteTable(obj)
@@ -23494,10 +24564,26 @@ maker.CST_SC_bidding=function()
 	zd.initLiteSet(obj,"news",maker.CST_SC_bidNews())
 	zd.initLiteSet(obj,"myRank",maker.CST_SC_myBiddingRank())
 	zd.initLiteSet(obj,"history",zd.makeLiteArray(maker.SCT_SC_biddingHistory()))
-	zd.initLiteSet(obj,"shop",zd.makeLiteArray(maker.SCT_SC_biddingShop()))
+	zd.initLiteSet(obj,"shop",maker.CST_SC_biddingShop())
+	zd.initLiteSet(obj,"cross",maker.CST_SC_biddingCross())
+	return obj
+end
+maker.CST_SC_biddingCross=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"switch",0)
+	zd.initLiteSet(obj,"section","")
 	return obj
 end
 maker.CST_SC_biddingShop=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"score",0)
+	zd.initLiteSet(obj,"next_week",0)
+	zd.initLiteSet(obj,"shopInfo",zd.makeLiteArray(maker.SCT_SC_biddingShopInfo()))
+	return obj
+end
+maker.CST_SC_biddingShopInfo=function()
 	local obj={}
 	zd.makeLiteTable(obj)
 	zd.initLiteSet(obj,"id",0)
@@ -23541,7 +24627,6 @@ maker.CST_SC_BidTRank=function()
 	zd.initLiteSet(obj,"t",0)
 	zd.initLiteSet(obj,"atk",0)
 	zd.initLiteSet(obj,"user_info",maker.CST_fUserInfo())
-	zd.initLiteSet(obj,"money",0)
 	return obj
 end
 maker.CST_SC_Bid_Rank=function()
@@ -23616,15 +24701,13 @@ maker.CST_SC_bidInfo=function()
 	local obj={}
 	zd.makeLiteTable(obj)
 	zd.initLiteSet(obj,"id",0)
+	zd.initLiteSet(obj,"guide",0)
 	zd.initLiteSet(obj,"mid",0)
 	zd.initLiteSet(obj,"money",0)
 	zd.initLiteSet(obj,"is_rwd",0)
 	zd.initLiteSet(obj,"type",0)
 	zd.initLiteSet(obj,"fight_num",0)
 	zd.initLiteSet(obj,"score",0)
-	zd.initLiteSet(obj,"sid",1)
-	zd.initLiteSet(obj,"stime",0)
-	zd.initLiteSet(obj,"etime",0)
 	return obj
 end
 maker.CST_CS_throne=function()
@@ -25376,6 +26459,142 @@ maker.CST_robberAttackFightFloorStatus=function()
 	zd.makeLiteTable(obj)
 	zd.initLiteSet(obj,"floor",0)
 	zd.initLiteSet(obj,"status",0)
+	return obj
+end
+maker.CST_SC_visitFunction=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"wifeList",zd.makeLiteArray(maker.SCT_visitFunctionWifeList()))
+	zd.initLiteSet(obj,"heroList",zd.makeLiteArray(maker.SCT_visitFunctionHeroList()))
+	zd.initLiteSet(obj,"userList",maker.CST_visitFunctionUserList())
+	zd.initLiteSet(obj,"warHorseList",zd.makeLiteArray(maker.SCT_visitFunctionWarHorseList()))
+	zd.initLiteSet(obj,"thumbUp",maker.CST_visitFunctionThumbUp())
+	zd.initLiteSet(obj,"thumbUpCfg",maker.CST_visitFunctionThumbUpCfg())
+	zd.initLiteSet(obj,"inviteJoinClub",maker.CST_visitFunctionInviteJoinClub())
+	zd.initLiteSet(obj,"invite_msg",maker.CST_visitFunctionInviteMsg())
+	return obj
+end
+maker.CST_visitFunctionInviteJoinClub=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"beInviteList",zd.makeLiteArray(maker.SCT_visitFunctionInviteMsg()))
+	zd.initLiteSet(obj,"inviteFeedback",zd.makeLiteArray(maker.SCT_visitFunctionInviteJoinClubFeedback()))
+	return obj
+end
+maker.CST_visitFunctionInviteJoinClubFeedback=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"uid",0)
+	zd.initLiteSet(obj,"time",0)
+	zd.initLiteSet(obj,"type",0)
+	return obj
+end
+maker.CST_visitFunctionInviteMsg=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"inviteUid",0)
+	zd.initLiteSet(obj,"inviteUserName",0)
+	zd.initLiteSet(obj,"clubInfo",maker.CST_SClubList())
+	return obj
+end
+maker.CST_visitFunctionInviteMsgClubInfo=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"id",0)
+	zd.initLiteSet(obj,"name",0)
+	zd.initLiteSet(obj,"level",0)
+	zd.initLiteSet(obj,"outmsg","")
+	zd.initLiteSet(obj,"userShili",0)
+	zd.initLiteSet(obj,"userLevel",0)
+	zd.initLiteSet(obj,"members",0)
+	zd.initLiteSet(obj,"icon",0)
+	return obj
+end
+maker.CST_visitFunctionThumbUp=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"getRwd",zd.makeLiteArray(maker.SCT_visitFunctionThumbUpGetRwd()))
+	zd.initLiteSet(obj,"thumbUpList",zd.makeLiteArray(maker.SCT_visitFunctionThumbUpThumbUpList()))
+	zd.initLiteSet(obj,"beThumbUpList",zd.makeLiteArray(maker.SCT_visitFunctionBeThumbUpList()))
+	return obj
+end
+maker.CST_visitFunctionThumbUpCfg=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"rwdCount",0)
+	zd.initLiteSet(obj,"num",0)
+	return obj
+end
+maker.CST_visitFunctionThumbUpGetRwd=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"id",0)
+	zd.initLiteSet(obj,"status",0)
+	return obj
+end
+maker.CST_visitFunctionThumbUpThumbUpList=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"uid",0)
+	zd.initLiteSet(obj,"status",0)
+	return obj
+end
+maker.CST_visitFunctionBeThumbUpList=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"userInfo",maker.CST_fUserInfo())
+	zd.initLiteSet(obj,"time",0)
+	return obj
+end
+maker.CST_visitFunctionWifeList=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"id",0)
+	zd.initLiteSet(obj,"weifen",0)
+	zd.initLiteSet(obj,"love",0)
+	zd.initLiteSet(obj,"flower",0)
+	zd.initLiteSet(obj,"skin",0)
+	return obj
+end
+maker.CST_visitFunctionHeroList=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"id",0)
+	zd.initLiteSet(obj,"level",1)
+	zd.initLiteSet(obj,"class_level",0)
+	zd.initLiteSet(obj,"senior",1)
+	zd.initLiteSet(obj,"exp",0)
+	zd.initLiteSet(obj,"epskill",zd.makeLiteArray(maker.SCT_EpSkilInfo()))
+	zd.initLiteSet(obj,"pkskill",zd.makeLiteArray(maker.SCT_SkilInfo()))
+	zd.initLiteSet(obj,"ghskill",zd.makeLiteArray(maker.SCT_SkilInfo()))
+	zd.initLiteSet(obj,"zzexp",0)
+	zd.initLiteSet(obj,"pkexp",0)
+	zd.initLiteSet(obj,"zz",maker.CST_fourEps())
+	zd.initLiteSet(obj,"zep",maker.CST_fourEps())
+	zd.initLiteSet(obj,"hep",maker.CST_fourEps())
+	zd.initLiteSet(obj,"wep",maker.CST_fourEps())
+	zd.initLiteSet(obj,"gep",maker.CST_fourEps())
+	zd.initLiteSet(obj,"eep",maker.CST_fourEps())
+	zd.initLiteSet(obj,"cep",maker.CST_fourEps())
+	zd.initLiteSet(obj,"aep",maker.CST_fourEps())
+	zd.initLiteSet(obj,"skin",0)
+	return obj
+end
+maker.CST_visitFunctionUserList=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"homeSkin",0)
+	zd.initLiteSet(obj,"userMsg",maker.CST_fUserInfo())
+	return obj
+end
+maker.CST_visitFunctionWarHorseList=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"id",0)
+	zd.initLiteSet(obj,"h",0)
+	zd.initLiteSet(obj,"n",0)
+	zd.initLiteSet(obj,"lv",0)
+	zd.initLiteSet(obj,"sl",maker.CST_SCWarHorseUserListSl())
 	return obj
 end
 maker.CST_SC_haveFunGiftBag=function()
@@ -27411,10 +28630,12 @@ maker.CST_CS_huodong2=function()
 	zd.initLiteSet(obj,"hd1390Fight",maker.CST_paramsUid())
 	zd.initLiteSet(obj,"hd1390Collect","NULL")
 	zd.initLiteSet(obj,"hd1390Log",maker.CST_Null())
+	zd.initLiteSet(obj,"hd1390GetTasksRwd",maker.CST_hd1390GetTasksRwd())
+	zd.initLiteSet(obj,"hd1393SelectRwd",maker.CST_hd1156SelectRwd())
 	zd.initLiteSet(obj,"hd1391Info","")
 	zd.initLiteSet(obj,"hd1391buy",maker.CST_paramsNum())
 	zd.initLiteSet(obj,"hd1391choose",maker.CST_hd1391choose())
-	zd.initLiteSet(obj,"hd1391getRwd",maker.CST_paramsNum())
+	zd.initLiteSet(obj,"hd1391getRwd",maker.CST_paramsId())
 	zd.initLiteSet(obj,"hd1391chou",maker.CST_paramsNum())
 	zd.initLiteSet(obj,"hd1392Info",maker.CST_CxshdInfo())
 	zd.initLiteSet(obj,"hd1392Rwd",maker.CST_CxshdRwd())
@@ -27430,6 +28651,69 @@ maker.CST_CS_huodong2=function()
 	zd.initLiteSet(obj,"hd1397Info","")
 	zd.initLiteSet(obj,"hd1398Info","")
 	zd.initLiteSet(obj,"hd1399Info","")
+	zd.initLiteSet(obj,"hd1377Info","")
+	zd.initLiteSet(obj,"hd1377BuyGift",maker.CST_paramsId())
+	zd.initLiteSet(obj,"hd1400Info",maker.CST_Null())
+	zd.initLiteSet(obj,"hd1400Explore",maker.CST_Null())
+	zd.initLiteSet(obj,"hd1400Enjoy",maker.CST_paramsThreeId())
+	zd.initLiteSet(obj,"hd1400beautyRwd",maker.CST_CxGetReward())
+	zd.initLiteSet(obj,"hd1400Help",maker.CST_hd1400Help())
+	zd.initLiteSet(obj,"hd1400Leave",maker.CST_Null())
+	zd.initLiteSet(obj,"hd1400GetHelpInfo",maker.CST_hd1400HelpId())
+	zd.initLiteSet(obj,"hd1400BuyItem",maker.CST_paramshd1400BuyItem())
+	zd.initLiteSet(obj,"hd1400GetTaskRewards",maker.CST_hd1332GetTaskRewards())
+	zd.initLiteSet(obj,"hd1400Rank",maker.CST_paramsType())
+	zd.initLiteSet(obj,"hd1401Info","NULL")
+	zd.initLiteSet(obj,"hd1401BuyGift",maker.CST_hd1114buyGift())
+	zd.initLiteSet(obj,"hd1402Info",maker.CST_CxshdInfo())
+	zd.initLiteSet(obj,"hd1402Rwd",maker.CST_CxshdRwd())
+	zd.initLiteSet(obj,"hd1402GetBox",maker.CST_Null())
+	zd.initLiteSet(obj,"hd1403Info",maker.CST_CxshdInfo())
+	zd.initLiteSet(obj,"hd1403SelectRwd",maker.CST_hd1156SelectRwd())
+	zd.initLiteSet(obj,"hd1403Rwd",maker.CST_CxshdRwd())
+	zd.initLiteSet(obj,"hd1404Info",maker.CST_CxshdInfo())
+	zd.initLiteSet(obj,"hd1404Rwd",maker.CST_CxshdRwd())
+	zd.initLiteSet(obj,"hd1405Exchange",maker.CST_hd1086BoxExchange())
+	return obj
+end
+maker.CST_paramshd1400BuyItem=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"id",0)
+	zd.initLiteSet(obj,"num",0)
+	return obj
+end
+maker.CST_hd1400Help=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"type",0)
+	zd.initLiteSet(obj,"fid",0)
+	return obj
+end
+maker.CST_paramsType=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"type",0)
+	return obj
+end
+maker.CST_paramsThreeId=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"type",0)
+	zd.initLiteSet(obj,"uid",0)
+	return obj
+end
+maker.CST_hd1400HelpId=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"id",0)
+	return obj
+end
+maker.CST_hd1390GetTasksRwd=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"type",0)
+	zd.initLiteSet(obj,"id",0)
 	return obj
 end
 maker.CST_hd1391choose=function()
@@ -34951,8 +36235,13 @@ maker.CST_SC_czhuodong=function()
 	zd.initLiteSet(obj,"robberAttackLeijiCfg",maker.CST_SC_CrusadeTotalCfg())
 	zd.initLiteSet(obj,"robberAttackLeitian",maker.CST_Sxshuodong())
 	zd.initLiteSet(obj,"halloween2021Day",maker.CST_scombinedSevday())
-	zd.initLiteSet(obj,"halloween2021Leiji",maker.CST_Sxshuodong())
+	zd.initLiteSet(obj,"halloween2021Leiji",maker.CST_SC_CrusadeTotal())
+	zd.initLiteSet(obj,"halloween2021LeijiCfg",maker.CST_SC_CrusadeTotalCfg())
 	zd.initLiteSet(obj,"halloween2021LeiTian",maker.CST_Sxshuodong())
+	zd.initLiteSet(obj,"jungleExploreDay",maker.CST_scombinedSevday())
+	zd.initLiteSet(obj,"jungleExploreLeiji",maker.CST_SC_CrusadeTotal())
+	zd.initLiteSet(obj,"jungleExploreLeijiCfg",maker.CST_SC_CrusadeTotalCfg())
+	zd.initLiteSet(obj,"jungleExploreLeiTian",maker.CST_Sxshuodong())
 	return obj
 end
 maker.CST_SC_kuacbhuodong=function()
@@ -45988,6 +47277,173 @@ maker.CST_ljcfgrwd=function()
 	zd.initLiteSet(obj,"id",0)
 	zd.initLiteSet(obj,"tip",0)
 	zd.initLiteSet(obj,"items",maker.CST_haveProps())
+	return obj
+end
+maker.CST_SC_halloween2021=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"commonRanking",zd.makeLiteArray(maker.SCT_Scblist()))
+	zd.initLiteSet(obj,"commonRankingRwd",zd.makeLiteArray(maker.SCT_spartaRankRwd()))
+	zd.initLiteSet(obj,"commonRankingMy",maker.CST_Scblist())
+	zd.initLiteSet(obj,"miNiRanking",zd.makeLiteArray(maker.SCT_Scblist()))
+	zd.initLiteSet(obj,"miNiRankingRwd",zd.makeLiteArray(maker.SCT_spartaRankRwd()))
+	zd.initLiteSet(obj,"miNiRankingMy",maker.CST_Scblist())
+	zd.initLiteSet(obj,"curseRanking",zd.makeLiteArray(maker.SCT_Scblist()))
+	zd.initLiteSet(obj,"curseRankingRwd",zd.makeLiteArray(maker.SCT_spartaRankRwd()))
+	zd.initLiteSet(obj,"curseRankingMy",maker.CST_Scblist())
+	zd.initLiteSet(obj,"pointsMall",maker.CST_halloween2021_pointsMall())
+	zd.initLiteSet(obj,"pointsMallCfg",zd.makeLiteArray(maker.SCT_halloween2021_pointsMall_cfg()))
+	zd.initLiteSet(obj,"warOrderWeek",maker.CST_SC_warOrder_week())
+	zd.initLiteSet(obj,"chou",maker.CST_halloween2021_chou())
+	zd.initLiteSet(obj,"info",maker.CST_SkinGloryPlunder())
+	zd.initLiteSet(obj,"cfg",maker.CST_SkinGloryPlunder_cfg_array())
+	zd.initLiteSet(obj,"outer",maker.CST_SkinGloryPlunder_outer())
+	zd.initLiteSet(obj,"win",maker.CST_GloryPlunder_win())
+	zd.initLiteSet(obj,"is_win",maker.CST_is_win())
+	zd.initLiteSet(obj,"log",zd.makeLiteArray(maker.SCT_SkinGloryPlunder_log()))
+	zd.initLiteSet(obj,"is_restart",maker.CST_is_restart())
+	return obj
+end
+maker.CST_SkinGloryPlunder_cfg_array=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"inner_mine",maker.CST_GloryPlunder_inner_mine_array())
+	zd.initLiteSet(obj,"start_fight",zd.makeLiteArray(maker.SCT_ItemInfo()))
+	zd.initLiteSet(obj,"go",0)
+	zd.initLiteSet(obj,"attack",0)
+	return obj
+end
+maker.CST_GloryPlunder_inner_mine_array=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"A",zd.makeLiteArray(maker.SCT_GloryPlunder_inner_mine_info_1()))
+	zd.initLiteSet(obj,"B",zd.makeLiteArray(maker.SCT_GloryPlunder_inner_mine_info_1()))
+	zd.initLiteSet(obj,"C",zd.makeLiteArray(maker.SCT_GloryPlunder_inner_mine_info_1()))
+	zd.initLiteSet(obj,"D",zd.makeLiteArray(maker.SCT_GloryPlunder_inner_mine_info_1()))
+	return obj
+end
+maker.CST_GloryPlunder_inner_mine_info_1=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"level",0)
+	zd.initLiteSet(obj,"rwd",zd.makeLiteArray(maker.SCT_ItemInfo()))
+	zd.initLiteSet(obj,"need",zd.makeLiteArray(maker.SCT_ItemInfo()))
+	return obj
+end
+maker.CST_halloween2021_pointsMall_cfg=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"id",0)
+	zd.initLiteSet(obj,"type",0)
+	zd.initLiteSet(obj,"need",maker.CST_ItemInfo())
+	zd.initLiteSet(obj,"item",maker.CST_ItemInfo())
+	zd.initLiteSet(obj,"is_limit",0)
+	zd.initLiteSet(obj,"limit",0)
+	return obj
+end
+maker.CST_halloween2021_pointsMall=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"common",0)
+	zd.initLiteSet(obj,"mini",0)
+	zd.initLiteSet(obj,"curse",0)
+	zd.initLiteSet(obj,"buyStatus",zd.makeLiteArray(maker.SCT_idValue()))
+	return obj
+end
+maker.CST_halloween2021_chou=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"info",maker.CST_halloween2021_chou_info())
+	zd.initLiteSet(obj,"cfg",maker.CST_halloween2021_chou_cfg())
+	zd.initLiteSet(obj,"win",zd.makeLiteArray(maker.SCT_halloween2021_chou_win()))
+	return obj
+end
+maker.CST_halloween2021_chou_win=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"id",0)
+	zd.initLiteSet(obj,"rwd",maker.CST_ItemInfo())
+	return obj
+end
+maker.CST_halloween2021_chou_info=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"quan",0)
+	zd.initLiteSet(obj,"chouNum",0)
+	zd.initLiteSet(obj,"choose",zd.makeLiteArray(maker.SCT_idValue()))
+	zd.initLiteSet(obj,"taskStatus",zd.makeLiteArray(0))
+	return obj
+end
+maker.CST_halloween2021_chou_cfg=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"price",0)
+	zd.initLiteSet(obj,"showHero",0)
+	zd.initLiteSet(obj,"map",zd.makeLiteArray(maker.SCT_halloween2021_chou_cfg_map()))
+	zd.initLiteSet(obj,"choosePool",zd.makeLiteArray(maker.SCT_halloween2021_chou_cfg_choosePool()))
+	zd.initLiteSet(obj,"task",zd.makeLiteArray(maker.SCT_halloween2021_chou_cfg_task()))
+	zd.initLiteSet(obj,"chooseIds",zd.makeLiteArray(0))
+	return obj
+end
+maker.CST_halloween2021_chou_cfg_task=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"id",0)
+	zd.initLiteSet(obj,"target",0)
+	zd.initLiteSet(obj,"rewards",zd.makeLiteArray(maker.SCT_ItemInfo()))
+	return obj
+end
+maker.CST_halloween2021_chou_cfg_map=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"id",0)
+	zd.initLiteSet(obj,"default_item",maker.CST_ItemInfo())
+	return obj
+end
+maker.CST_halloween2021_chou_cfg_choosePool=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"id",0)
+	zd.initLiteSet(obj,"item",zd.makeLiteArray(maker.SCT_ItemInfo()))
+	return obj
+end
+maker.CST_halloween2021Tasks=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"info",maker.CST_halloween2021Tasks_info())
+	zd.initLiteSet(obj,"cfg",maker.CST_halloween2021Tasks_cfg())
+	return obj
+end
+maker.CST_halloween2021Tasks_info=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"dayTasks",zd.makeLiteArray(maker.SCT_idValue()))
+	zd.initLiteSet(obj,"dayTasksStatus",zd.makeLiteArray(maker.SCT_idValue()))
+	zd.initLiteSet(obj,"tasks",zd.makeLiteArray(maker.SCT_idValue()))
+	zd.initLiteSet(obj,"tasksStatus",zd.makeLiteArray(maker.SCT_idValue()))
+	return obj
+end
+maker.CST_halloween2021Tasks_cfg=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"showHero",0)
+	zd.initLiteSet(obj,"dayTasks",zd.makeLiteArray(maker.SCT_halloween2021Tasks_cfg_info()))
+	zd.initLiteSet(obj,"tasks",zd.makeLiteArray(maker.SCT_halloween2021Tasks_cfg_info()))
+	return obj
+end
+maker.CST_halloween2021Tasks_cfg_info=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"type",0)
+	zd.initLiteSet(obj,"tasks",zd.makeLiteArray(maker.SCT_Tasks_cfg()))
+	return obj
+end
+maker.CST_Tasks_cfg=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"id",0)
+	zd.initLiteSet(obj,"target",0)
+	zd.initLiteSet(obj,"rewards",zd.makeLiteArray(maker.SCT_ItemInfo()))
 	return obj
 end
 king.sc={}
