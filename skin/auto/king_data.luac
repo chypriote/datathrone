@@ -601,6 +601,8 @@ maker.SCT_CS_visit=function()
 	zd.initSet(obj,"inviteUserJoin",maker.SCT_paramsFUid())
 	zd.initSet(obj,"agreeIntoClub",maker.SCT_paramsClubId())
 	zd.initSet(obj,"refuseIntoClub",maker.SCT_paramsClubId())
+	zd.initSet(obj,"findUserJoinClub",maker.SCT_paramsFUid())
+	zd.initSet(obj,"showInviteMsg","")
 	return obj
 end
 maker.SCT_paramsClubId=function()
@@ -740,6 +742,7 @@ maker.SCT_CS_beautyFrog_floor=function()
 	zd.initSet(obj,"big",0)
 	zd.initSet(obj,"middle",0)
 	zd.initSet(obj,"small",0)
+	zd.initSet(obj,"stone",0)
 	return obj
 end
 maker.SCT_CS_beautyFrog_generalFork=function()
@@ -2750,7 +2753,16 @@ maker.SCT_SC_visitFunction=function()
 	zd.initSet(obj,"thumbUp",maker.SCT_visitFunctionThumbUp())
 	zd.initSet(obj,"thumbUpCfg",maker.SCT_visitFunctionThumbUpCfg())
 	zd.initSet(obj,"inviteJoinClub",maker.SCT_visitFunctionInviteJoinClub())
-	zd.initSet(obj,"invite_msg",maker.SCT_visitFunctionInviteMsg())
+	zd.initSet(obj,"invite_msg",zd.makeDataArray(maker.SCT_visitFunctionInviteMsg()))
+	zd.initSet(obj,"inviteJoinClubFindInfo",maker.SCT_visitFunctionIinviteJoinClubFindInfo())
+	return obj
+end
+maker.SCT_visitFunctionIinviteJoinClubFindInfo=function()
+	local obj={}
+	zd.makeDataTable(obj)
+	zd.initSet(obj,"userMsg",maker.SCT_fUserInfo())
+	zd.initSet(obj,"can_invite",0)
+	zd.initSet(obj,"clubName","")
 	return obj
 end
 maker.SCT_visitFunctionInviteJoinClub=function()
@@ -2771,8 +2783,8 @@ end
 maker.SCT_visitFunctionInviteMsg=function()
 	local obj={}
 	zd.makeDataTable(obj)
-	zd.initSet(obj,"inviteUid",0)
-	zd.initSet(obj,"inviteUserName",0)
+	zd.initSet(obj,"userMsg",maker.SCT_fUserInfo())
+	zd.initSet(obj,"inviteTime",0)
 	zd.initSet(obj,"clubInfo",maker.SCT_SClubList())
 	return obj
 end
@@ -24322,6 +24334,8 @@ maker.CST_CS_visit=function()
 	zd.initLiteSet(obj,"inviteUserJoin",maker.CST_paramsFUid())
 	zd.initLiteSet(obj,"agreeIntoClub",maker.CST_paramsClubId())
 	zd.initLiteSet(obj,"refuseIntoClub",maker.CST_paramsClubId())
+	zd.initLiteSet(obj,"findUserJoinClub",maker.CST_paramsFUid())
+	zd.initLiteSet(obj,"showInviteMsg","")
 	return obj
 end
 maker.CST_paramsClubId=function()
@@ -24461,6 +24475,7 @@ maker.CST_CS_beautyFrog_floor=function()
 	zd.initLiteSet(obj,"big",0)
 	zd.initLiteSet(obj,"middle",0)
 	zd.initLiteSet(obj,"small",0)
+	zd.initLiteSet(obj,"stone",0)
 	return obj
 end
 maker.CST_CS_beautyFrog_generalFork=function()
@@ -26471,7 +26486,16 @@ maker.CST_SC_visitFunction=function()
 	zd.initLiteSet(obj,"thumbUp",maker.CST_visitFunctionThumbUp())
 	zd.initLiteSet(obj,"thumbUpCfg",maker.CST_visitFunctionThumbUpCfg())
 	zd.initLiteSet(obj,"inviteJoinClub",maker.CST_visitFunctionInviteJoinClub())
-	zd.initLiteSet(obj,"invite_msg",maker.CST_visitFunctionInviteMsg())
+	zd.initLiteSet(obj,"invite_msg",zd.makeLiteArray(maker.SCT_visitFunctionInviteMsg()))
+	zd.initLiteSet(obj,"inviteJoinClubFindInfo",maker.CST_visitFunctionIinviteJoinClubFindInfo())
+	return obj
+end
+maker.CST_visitFunctionIinviteJoinClubFindInfo=function()
+	local obj={}
+	zd.makeLiteTable(obj)
+	zd.initLiteSet(obj,"userMsg",maker.CST_fUserInfo())
+	zd.initLiteSet(obj,"can_invite",0)
+	zd.initLiteSet(obj,"clubName","")
 	return obj
 end
 maker.CST_visitFunctionInviteJoinClub=function()
@@ -26492,8 +26516,8 @@ end
 maker.CST_visitFunctionInviteMsg=function()
 	local obj={}
 	zd.makeLiteTable(obj)
-	zd.initLiteSet(obj,"inviteUid",0)
-	zd.initLiteSet(obj,"inviteUserName",0)
+	zd.initLiteSet(obj,"userMsg",maker.CST_fUserInfo())
+	zd.initLiteSet(obj,"inviteTime",0)
 	zd.initLiteSet(obj,"clubInfo",maker.CST_SClubList())
 	return obj
 end
