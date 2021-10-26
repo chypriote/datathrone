@@ -33,7 +33,7 @@ async function unpack(dir) {
 	await Promise.all(promises)
 }
 
-unpack('.')
+unpack('new')
 	.then(() => {
 		console.log('Finished')
 		process.exit()
