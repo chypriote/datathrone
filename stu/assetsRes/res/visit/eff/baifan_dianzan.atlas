@@ -1,0 +1,180 @@
+
+baifan_dianzan.png
+size: 1930,1930
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/baifan_dianzan_00000
+  rotate: false
+  xy: 2, 966
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+images/baifan_dianzan_00001
+  rotate: false
+  xy: 484, 1448
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+images/baifan_dianzan_00002
+  rotate: false
+  xy: 2, 484
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+images/baifan_dianzan_00003
+  rotate: false
+  xy: 484, 966
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+images/baifan_dianzan_00004
+  rotate: false
+  xy: 966, 1448
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+images/baifan_dianzan_00005
+  rotate: false
+  xy: 2, 2
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+images/baifan_dianzan_00006
+  rotate: false
+  xy: 484, 484
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+images/baifan_dianzan_00007
+  rotate: false
+  xy: 966, 966
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+images/baifan_dianzan_00008
+  rotate: false
+  xy: 1448, 1448
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+images/baifan_dianzan_00009
+  rotate: false
+  xy: 484, 2
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+images/baifan_dianzan_00010
+  rotate: false
+  xy: 966, 484
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+images/baifan_dianzan_00011
+  rotate: false
+  xy: 1448, 966
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+images/baifan_dianzan_00012
+  rotate: false
+  xy: 966, 2
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+images/baifan_dianzan_00013
+  rotate: false
+  xy: 1448, 484
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+images/baifan_dianzan_00014
+  rotate: false
+  xy: 1448, 2
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+images/baifan_dianzan_00023
+  rotate: false
+  xy: 2, 1448
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+
+baifan_dianzan2.png
+size: 1930,966
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/baifan_dianzan_00015
+  rotate: false
+  xy: 2, 484
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+images/baifan_dianzan_00016
+  rotate: false
+  xy: 2, 2
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+images/baifan_dianzan_00017
+  rotate: false
+  xy: 484, 484
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+images/baifan_dianzan_00018
+  rotate: false
+  xy: 484, 2
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+images/baifan_dianzan_00019
+  rotate: false
+  xy: 966, 484
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+images/baifan_dianzan_00020
+  rotate: false
+  xy: 966, 2
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+images/baifan_dianzan_00021
+  rotate: false
+  xy: 1448, 484
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+images/baifan_dianzan_00022
+  rotate: false
+  xy: 1448, 2
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1

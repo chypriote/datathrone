@@ -153,7 +153,8 @@ function __Class:using(servantProxy,playerProxy,markProxy,governmentProxy,equipP
         self:hideWidget()
         self:hideSelf() -- 该界面关闭会停止音效，为防止佳人音效中断，故放到前面 
         self.zero:command("game.wife.WifeCommand.wifeInfo",servantVo.wid)
-        self.zero:command("game.wife.WifeCommand.skill",servantVo.id)   
+        self.zero:command("game.wife.WifeCommand.skill",servantVo.id)  
+        self.servantProxy:update("closeServant2View") 
     end
     self.stu:getChild("box9","gotoWifeBtn"):addClickEventListener(onGotoWifeBtn)
 
@@ -183,7 +184,17 @@ function __Class:using(servantProxy,playerProxy,markProxy,governmentProxy,equipP
         self:hideWidget()
         self:hideSelf()
         self.servantVo = nil
-        self.zero:show("game.servant.ServantView",nil,nil,self.detailId)
+        local servantSwitch = self.gobalSwitchProxy:getSwitch("HeroStyleVer") -- 开关控制版本， 1是最开始的版本， 2是后来的修改版本， 以此类推
+        local isInOpenServer = self.activityProxy:getCommonArea("HeroStyleServer")  -- 是否在开放的区服内
+        if servantSwitch == 1 then
+            self.zero:show("game.servant.ServantView",nil,nil,self.detailId)
+        elseif servantSwitch == 2 and isInOpenServer then
+            self.zero:show("game.servant.Servant2View",nil,nil,self.detailId)
+            self.servantProxy:update("showStu")
+            self.servantProxy:update("updateHeroBoxNoLoad")
+        else
+            self.zero:show("game.servant.ServantView",nil,nil,self.detailId)
+        end
         self:command("ServantCommand.refreshServant")
     end
     stu:addEvent("close",closeHd)
@@ -1516,6 +1527,7 @@ function __Class:upJrSkill(heroData)
             self:hideWidget()
             self:hideSelf()
             self.zero:hide("game.servant.ServantView")
+            self.zero:hide("game.servant.Servant2View")
             self.zero:command("showHomePage",1)
             self.zero:show("game.wife.WifeListView",2,noWifeId)
         end 
@@ -1625,18 +1637,31 @@ function __Class:setPkItem(item,v)
     end
     UICommon.setMaxWidthForText(UITools.getChild(item.box,"txt_name"),500)
     if v.level < v.maxLevel then
+        UITools.getChild(item.box,"txt_upNeed1"):setPosition(cc.p(695,96.72))
+
+        local txt_lv = UITools.getChild(item.box,"txt_lv")
+        local txt_upNeed1 = UITools.getChild(item.box,"txt_upNeed1")
+        txt_lv:setPositionX(txt_upNeed1:getPositionX() - txt_upNeed1:getContentSize().width - 20)
+        
         UITools.getChild(item.box,"btnUpG"):setVisible(true)
         UITools.getChild(item.box,"txt_max"):setVisible(false)
+        self.isMax = false
     else
+        local txtmMaxX = UITools.getChild(item.box,"txt_max"):getPositionX()
+        local txtmMaxY = UITools.getChild(item.box,"txt_max"):getPositionY()
+        UITools.getChild(item.box,"txt_upNeed1"):setPosition(cc.p(txtmMaxX,txtmMaxY))
+
+        UITools.getChild(item.box,"txt_lv"):setPositionX(txtmMaxX)
+
         UITools.getChild(item.box,"txt_upState1"):setVisible(false)
-        UITools.getChild(item.box,"txt_upNeed1"):setPositionY(UITools.getChild(item.box,"txt_upNeed1"):getPositionY())
         UITools.getChild(item.box,"txt_upNeed1"):setString("MAX")
         UITools.getChild(item.box,"btnUpG"):setVisible(false)
-        UITools.getChild(item.box,"txt_max"):setVisible(true)
+        UITools.getChild(item.box,"txt_max"):setVisible(false)
+        self.isMax = true
     end
     if v.exp>self.servantVo.pkexp then
         UITools.getChild(item.box,"btnUpG"):setVisible(false)
-        UITools.getChild(item.box,"txt_max"):setVisible(true)
+        UITools.getChild(item.box,"txt_max"):setVisible(not self.isMax)
         UITools.getChild(item.box,"txt_max"):setString(lang("Insufficient.EXP"))
     end
     UITools.getChild(item.box,"btnUpG"):addClickEventListener(function(sender)
@@ -1659,9 +1684,6 @@ function __Class:setPkItem(item,v)
     local ut_size = ut:getContentSize()
     ut:setPositionX(curX + ut_size.width*ut:getAnchorPoint().x)
 
-    local txt_lv = UITools.getChild(item.box,"txt_lv")
-    local txt_upNeed1 = UITools.getChild(item.box,"txt_upNeed1")
-    txt_lv:setPositionX(txt_upNeed1:getPositionX() - txt_upNeed1:getContentSize().width - (txt_lv:getContentSize().width / 2) - 20)
 end
 
 function __Class:upGhSkill(vo)

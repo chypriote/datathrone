@@ -6153,7 +6153,7 @@ function UICommon.formatStrForChat(str,color)
   local epath="assetsRes/res/friends/emotion/%s.png";
   local ediv="<img src=%s scale=1.0 />";
   local replaceChar={};
-  for w in string.gfind(str, "%b[]") do --搜索[xxx]迭代；
+  for w in string.gmatch(str, "%b[]") do --搜索[xxx]迭代；
       local result = string.sub(w, 2, string.len(w)-1)
       local imgPath=string.format(epath,result);
       local isExist=cc.FileUtils:getInstance():isFileExist(imgPath)
@@ -6175,7 +6175,7 @@ function UICommon.txts2html(arr)
         local epath="assetsRes/res/friends/emotion/%s.png";
         local ediv="<img src=%s scale=1.0 />";
         local replaceChar={};
-        for w in string.gfind(str, "%b[]") do --搜索[xxx]迭代；
+        for w in string.gmatch(str, "%b[]") do --搜索[xxx]迭代；
             local result = string.sub(w, 2, string.len(w)-1)
             local imgPath=string.format(epath,result);
             local isExist=cc.FileUtils:getInstance():isFileExist(imgPath)
@@ -7463,31 +7463,25 @@ function UICommon.NewsetServantIcon(img,vo,dressVO,isRound)
   local servantProxy=king:getProxy('game.servant.ServantProxy')
   local heroid=vo.heroid or vo.id;
   local roleIconPath
-  if isRound == true then
-    roleIconPath=UICommon.getServantHalfIconUrl2(heroid)--圆形头框
-  else
-    roleIconPath=UICommon.getServantFullIconUrl(heroid)
-    scaleTag = 0.38
-    local pos = UICommon.setServantPosition(heroid)
-      if pos then
-        img:setPosition(pos.x,pos.y)
-      else
-        img:setPosition(88,-40)
-      end
-  end
+  local pos
   local currentDressVO=dressVO~=nil and dressVO or servantProxy:getCurrentDressedSkin(heroid)
   if currentDressVO~=nil and currentDressVO.id~=nil and currentDressVO.id~=0 then
+    -- 有皮肤 
     if isRound == true then
       roleIconPath=UICommon.getServantheadDressImgUrl2(currentDressVO.id)--圆形头框
     else
       roleIconPath=UICommon.getServantfullDressImgUrl(currentDressVO.id)
-      scaleTag = 0.38
-      local pos = UICommon.setServantSkinPosition(currentDressVO.id)
-      if pos then
-        img:setPosition(pos.x,pos.y)
-      else
-        img:setPosition(88,-40)
-      end
+      scaleTag = UICommon.setServantSkinScale(currentDressVO.id)
+      pos = UICommon.setServantSkinPosition(currentDressVO.id)
+    end
+  else
+    -- 无皮肤 
+    if isRound == true then
+      roleIconPath=UICommon.getServantHalfIconUrl2(heroid)--圆形头框
+    else
+      roleIconPath=UICommon.getServantFullIconUrl(heroid)
+      scaleTag = UICommon.setServantScale(heroid)
+      pos = UICommon.setServantPosition(heroid)
     end
   end
   if img==nil then
@@ -7499,6 +7493,7 @@ function UICommon.NewsetServantIcon(img,vo,dressVO,isRound)
   else
       UICommon.loadExternalTextureNormal(img,roleIconPath);
   end
+  img:setPosition(pos.x,pos.y)
   img:setScale(scaleTag)
   
 end
@@ -7518,25 +7513,51 @@ function UICommon.setServantPosition(id)
         [90] = {x = 108,y = -40},[91] = {x = 98,y = -45},[92] = {x = 95,y = -40},[94] = {x = 108,y = -40},[95] = {x = 58,y = -40},[96] = {x = 108,y = -40},[98] = {x = 108,y = -40},[100] = {x = 105,y = -40},[101] = {x = 105,y = -45},
         [202] = {x = 88,y = -50},[203] = {x = 98,y = -40},[205] = {x = 100,y = -40},[206] = {x = 100,y = -40},[208] = {x = 38,y = -45},[209] = {x = 98,y = -43},[210] = {x = 108,y = -40},[211] = {x = 108,y = -40},
         [307] = {x = 102,y = -40},[306] = {x = 68,y = -40},[305] = {x = 98,y = -40},[302] = {x = 108,y = -40},[301] = {x = 98,y = -40},[304] = {x = 98,y = -40},[303] = {x = 98,y = -40},[213] = {x = 125,y = -40},[319] = {x = 100,y = -40},
-        }
-    local pos = posList[id]
-    if pos then
-        return pos
+        [326] = {x = 115,y = -40}, 
+    }
+    local pos = {x = 88,y = -40}
+    if posList[id] then
+        pos = posList[id]
     end
+    return pos
 end
 
---设置卡牌门客位置
+--设置卡牌门客比例
+function UICommon.setServantScale(id)
+    local scaleList = {
+
+    }
+    local scale = 0.38
+    if scaleList[id] then
+        scale = scaleList[id]
+    end
+    return scale
+end
+
+--设置卡牌门客（皮肤）位置
 function UICommon.setServantSkinPosition(id)
     local posList = {
         [16033] = {x = 94,y = -40}, [16034] = {x = 72,y = -40}, [16037] = {x = 110,y = -50},[50] = {x = 88,y = -35},[90] = {x = 65,y = -40},
-        [100306] = {x = 115,y = -45},[100305] = {x = 98,y = -40},[100304] = {x = 78,y = -40},[100319] = {x = 110,y = -45},[100051] = {x = 105,y = -40},
-        }
-    local pos = posList[id]
-    if pos then
-        return pos
+        [100306] = {x = 115,y = -45},[100305] = {x = 98,y = -40},[100304] = {x = 78,y = -40},[100319] = {x = 110,y = -45},[100051] = {x = 105,y = -40},[100326] = {x = 170,y = -105},
+    }
+    local pos = {x = 88,y = -40}
+    if posList[id] then
+        pos = posList[id]
     end
+    return pos
 end
 
+--设置卡牌门客（皮肤）比例
+function UICommon.setServantSkinScale(id)
+    local scaleList = {
+        [100326] = 0.6
+    }
+    local scale = 0.38
+    if scaleList[id] then
+        scale = scaleList[id]
+    end
+    return scale
+end
 
 function UICommon.setServantBackgroundImg(img,vo,dressVO)
   if vo==nil then
@@ -8254,6 +8275,78 @@ function UICommon.setCascadeOpacityEnabled( node, is_true )
     end
 end
 
+--节点左右侧顺序进入
+function UICommon.NodeLRMoveIn(nodes,during,offsetX,timeSpan,ease,handler)
+    during=during or 0.5;  
+    offsetX=offsetX or 0;
+    timeSpan=timeSpan or 0;
+    ease=ease or -1;
+
+    local num=#nodes;
+    for k,v in pairs(nodes) do
+        local x,y=v:getPosition();
+        local pos=cc.p(x,y);
+        v:setPosition(pos.x+offsetX,pos.y);
+        local action;
+        if timeSpan~=0 then
+            local delay=cc.DelayTime:create(k*timeSpan);
+            local moveTo=cc.MoveTo:create(during,pos);
+            action=cc.Sequence:create(delay,moveTo);
+        else
+            action=cc.MoveTo:create(during,pos);
+        end
+
+        if ease>=0 then
+            if ease==0 then
+                action=cc.EaseBackOut:create(action);
+            else
+                action=cc.EaseOut:create(action,ease);
+            end
+        end
+        if k==num and handler then
+            local func=cc.CallFunc:create(handler);
+            action=cc.Sequence:create(action,func);
+        end
+        v:runAction(action);
+    end
+end
+
+--左右移动
+function UICommon.NodeLRMove(nodes,time,offsetX,timeSpan,ease,handler)
+    time=time or 0.5;
+    offsetX=offsetX or 0;
+    timeSpan=timeSpan or 0;
+    ease=ease or -1;
+
+    local num=#nodes;
+    for k,v in pairs(nodes) do
+        local x,y=v:getPosition();
+        local pos=cc.p(x+offsetX,y);
+        local action;
+        if timeSpan~=0 then
+            local delay=cc.DelayTime:create(k*timeSpan);
+            local moveTo=cc.MoveTo:create(time,pos);
+            action=cc.Sequence:create(delay,moveTo);
+        else
+            action=cc.MoveTo:create(time,pos);
+        end
+
+        if ease>=0 then
+            if ease==0 then
+                action=cc.EaseBackOut:create(action);
+            else
+                action=cc.EaseOut:create(action,ease);
+            end
+        end
+
+        if k==num and handler then
+            local func=cc.CallFunc:create(handler);
+            action=cc.Sequence:create(action,func);
+        end
+        v:runAction(action);
+    end
+end
+
 function UICommon.mScheduleScriptFunc(stu,key,len,callback,overCall)
     if len <= 0 then
         if overCall then
@@ -8424,79 +8517,6 @@ function UICommon.setRareAnimalImageTEM(img,id,scale)
 end
 function UICommon.getRareAnimalImgUrl(id)
     return "assetsRes/res/zhanma/zsImg/"..(id or 0)..".png"
-end
-
-
---节点左右侧顺序进入
-function UICommon.NodeLRMoveIn(nodes,during,offsetX,timeSpan,ease,handler)
-    during=during or 0.5;  
-    offsetX=offsetX or 0;
-    timeSpan=timeSpan or 0;
-    ease=ease or -1;
-
-    local num=#nodes;
-    for k,v in pairs(nodes) do
-        local x,y=v:getPosition();
-        local pos=cc.p(x,y);
-        v:setPosition(pos.x+offsetX,pos.y);
-        local action;
-        if timeSpan~=0 then
-            local delay=cc.DelayTime:create(k*timeSpan);
-            local moveTo=cc.MoveTo:create(during,pos);
-            action=cc.Sequence:create(delay,moveTo);
-        else
-            action=cc.MoveTo:create(during,pos);
-        end
-
-        if ease>=0 then
-            if ease==0 then
-                action=cc.EaseBackOut:create(action);
-            else
-                action=cc.EaseOut:create(action,ease);
-            end
-        end
-        if k==num and handler then
-            local func=cc.CallFunc:create(handler);
-            action=cc.Sequence:create(action,func);
-        end
-        v:runAction(action);
-    end
-end
-
---左右移动
-function UICommon.NodeLRMove(nodes,time,offsetX,timeSpan,ease,handler)
-    time=time or 0.5;
-    offsetX=offsetX or 0;
-    timeSpan=timeSpan or 0;
-    ease=ease or -1;
-
-    local num=#nodes;
-    for k,v in pairs(nodes) do
-        local x,y=v:getPosition();
-        local pos=cc.p(x+offsetX,y);
-        local action;
-        if timeSpan~=0 then
-            local delay=cc.DelayTime:create(k*timeSpan);
-            local moveTo=cc.MoveTo:create(time,pos);
-            action=cc.Sequence:create(delay,moveTo);
-        else
-            action=cc.MoveTo:create(time,pos);
-        end
-
-        if ease>=0 then
-            if ease==0 then
-                action=cc.EaseBackOut:create(action);
-            else
-                action=cc.EaseOut:create(action,ease);
-            end
-        end
-
-        if k==num and handler then
-            local func=cc.CallFunc:create(handler);
-            action=cc.Sequence:create(action,func);
-        end
-        v:runAction(action);
-    end
 end
 
 return UICommon

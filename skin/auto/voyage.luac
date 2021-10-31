@@ -1335,7 +1335,7 @@ local root=
         {
             ["name"]="军队战斗",
             ["count"]=3,
-            ["json"]={{
+            ["json"]={
                 ["fail"]={{
                     ["kind"]=1,
                     ["count"]=1,
@@ -1355,7 +1355,7 @@ local root=
                         ["id"]=91
                     }
                 }
-            }},
+            },
             ["_id"]=1,
             ["key"]="b"
         },
