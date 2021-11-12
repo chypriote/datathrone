@@ -20,6 +20,22 @@ local root=
                 {
                     ["count"]=500000,
                     ["id"]=2
+                },
+                {
+                    ["count"]=1,
+                    ["id"]=61
+                },
+                {
+                    ["count"]=1,
+                    ["id"]=62
+                },
+                {
+                    ["count"]=1,
+                    ["id"]=63
+                },
+                {
+                    ["count"]=1,
+                    ["id"]=64
                 }
             }
         },
@@ -90,7 +106,7 @@ local root=
         },
         {
             ["msg"]="mainTask_msg_12_1",
-            ["set"]={3},
+            ["set"]={1},
             ["name"]="mainTask_typeName_12",
             ["_id"]=3,
             ["id"]=4,
@@ -111,12 +127,12 @@ local root=
             }
         },
         {
-            ["msg"]="mainTask_msg_13_1",
+            ["msg"]="mainTask_msg_2_1",
             ["set"]={1},
-            ["name"]="mainTask_typeName_13",
+            ["name"]="mainTask_typeName_2",
             ["_id"]=4,
             ["id"]=5,
-            ["type"]=13,
+            ["type"]=2,
             ["jumpTo"]={
                 ["val"]="game.shiye.ShiyeView",
                 ["type"]="view"
@@ -154,10 +170,16 @@ local root=
                 ["val"]="game.huaan.HuaanView",
                 ["type"]="view"
             },
-            ["rwd"]={{
-                ["count"]=100000,
-                ["id"]=2
-            }}
+            ["rwd"]={
+                {
+                    ["count"]=500000,
+                    ["id"]=2
+                },
+                {
+                    ["count"]=500000,
+                    ["id"]=4
+                }
+            }
         },
         {
             ["msg"]="mainTask_msg_5_1",
@@ -209,15 +231,19 @@ local root=
                     ["id"]=51
                 },
                 {
-                    ["count"]=50000,
+                    ["count"]=1000000,
                     ["id"]=2
+                },
+                {
+                    ["count"]=500000,
+                    ["id"]=4
                 }
             }
         },
         {
             ["msg"]="mainTask_msg_5_2",
             ["set"]={
-                3,
+                2,
                 20
             },
             ["name"]="mainTask_typeName_5",
@@ -349,7 +375,7 @@ local root=
                     ["id"]=51
                 },
                 {
-                    ["count"]=50000,
+                    ["count"]=500000,
                     ["id"]=2
                 }
             }
@@ -402,7 +428,7 @@ local root=
         },
         {
             ["msg"]="mainTask_msg_8_1",
-            ["set"]={5000},
+            ["set"]={4000},
             ["name"]="mainTask_typeName_8",
             ["_id"]=16,
             ["id"]=17,

@@ -42,6 +42,8 @@ function __Class:using(servantProxy,playerProxy,markProxy,governmentProxy,equipP
     self.warHorseProxy=self.zero:getProxy("game.warHorse.WarHorseProxy")
     self.equipExProxy = self.zero:getProxy("game.equipEx.EquipExProxy")
     self.mainTaskProxy = self.zero:getProxy("game.mainTask.MainTaskProxy")
+    self.homeProxy=self.zero:getProxy("game.home.HomeProxy")
+    self:bindProxy(self.homeProxy)
     self:bindProxy(self.warHorseProxy)
     self:bindProxy(self.equipExProxy)
     
@@ -514,6 +516,15 @@ function __Class:initGuide(id)
     end
     self.zero:command("game.guide.GuideCommand.showGuide",id,true)
 end
+-- 每次引导开始以及引导结束会调用
+-- isEnd，false为每次引导的开始，true为引导结束
+function __Class:showBtnAct(homeProxy, isEnd)
+    if self.guideProxy.shuoming == 204 and isEnd == true then 
+        --引导204结束的时候显示升级按钮的手指提示 
+        self.guideProxy.isGuiding = false
+        self:upHandNode()
+    end
+end
 -- 设置门客骨骼动画（同个骨骼动画不再重新设置）
 function __Class:setMenKeDongHuaTEM(img, vo)
     local skinId = 0
@@ -638,6 +649,10 @@ function __Class:used()
     self:closeMSchedule()
     self.limitGiftBtnEnter = nil
     self.servantVo = nil
+    -- 首次升级门客的新手引导结束后默认勾选“连升十级” 
+    if self.playerProxy.guideInfo.gnew == 7 then
+        self.lvUpState = true
+    end
     cc.UserDefault:getInstance():setBoolForKey(self.tenLvUpKey,self.lvUpState)
 end
 
